@@ -1,0 +1,79 @@
+:root{
+  --paper:#f6f1e7; --paper-2:#efe8da; --ink:#1e1a15; --ink-2:#5a5148; --ink-3:#8c8177; --rule:#d9d0c1; --accent:#8a3b1c;
+  --serif:"Literata","Georgia","Times New Roman",serif;
+  color-scheme:light dark;
+}
+@media (prefers-color-scheme:dark){
+  :root{ --paper:#17150f; --paper-2:#1f1c15; --ink:#e9e2d4; --ink-2:#b5ab9b; --ink-3:#7d7466; --rule:#332e25; --accent:#d78a5e; }
+}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--serif);font-size:1.075rem;line-height:1.6;
+     -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-variant-numeric:oldstyle-nums;
+     padding:0 max(16px,env(safe-area-inset-left)) env(safe-area-inset-bottom) max(16px,env(safe-area-inset-right));}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--accent)}
+main{max-width:38rem;margin:0 auto;padding-block:1.5rem 4rem}
+h1,h2{font-weight:500;letter-spacing:-.005em}
+
+/* header */
+.top{max-width:38rem;margin:0 auto;display:flex;justify-content:space-between;align-items:baseline;gap:1rem;
+     padding:.9rem 0 .6rem;border-bottom:1px solid var(--rule);font-size:.8rem;color:var(--ink-2)}
+.top .home{font-style:italic}
+.langs{display:flex;gap:.15rem}
+.langs a{padding:.15rem .5rem;border-radius:999px;font-size:.72rem;letter-spacing:.08em;color:var(--ink-3)}
+.langs a.on{color:var(--paper);background:var(--ink)}
+.langs a:not(.on):hover{background:var(--paper-2);color:var(--ink)}
+
+/* cover */
+.cover{text-align:center;min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding-block:3rem}
+.epigraph{font-style:italic;font-size:1.6rem;line-height:1.3;margin:0 0 3.5rem}
+.epigraph span{display:block}
+.epigraph cite{display:block;font-style:normal;font-size:.85rem;color:var(--ink-2);margin-top:.9rem;letter-spacing:.05em}
+.booktitle{font-size:2.6rem;line-height:1.1;margin:.2rem 0 .6rem}
+.author{color:var(--ink-2);font-size:1rem;margin:0;letter-spacing:.04em}
+.choose{list-style:none;padding:0;margin:3rem auto 0;display:grid;gap:.5rem;max-width:22rem}
+.choose a{display:flex;flex-direction:column;padding:.8rem 1rem;border:1px solid var(--rule);border-radius:.5rem;background:var(--paper-2)}
+.choose a:hover{border-color:var(--accent)}
+.choose .t{font-size:1.05rem}
+.choose .n{font-size:.75rem;color:var(--ink-3);letter-spacing:.08em;text-transform:uppercase;margin-top:.15rem}
+
+/* title page + contents */
+.titlepage{text-align:center}
+.titlepage .booktitle{font-size:2.2rem;margin-top:3rem}
+.titlepage .sub{font-style:italic;color:var(--ink-2);margin:0}
+.titlepage .about{text-align:left;font-size:.95rem;color:var(--ink-2);margin:2.5rem auto 1.5rem;max-width:32rem}
+.btn{display:inline-block;padding:.55rem 1.3rem;border:1px solid var(--ink);border-radius:999px;font-size:.95rem}
+.btn:hover{background:var(--ink);color:var(--paper)}
+.contents-h{font-size:1.1rem;letter-spacing:.12em;text-transform:uppercase;font-weight:400;margin:3.5rem 0 1rem;color:var(--ink-2)}
+.contents{list-style:none;padding:0;margin:0 auto;text-align:left;max-width:30rem}
+.contents .sec{font-style:italic;color:var(--ink-2);margin:1.6rem 0 .4rem;padding-bottom:.25rem;border-bottom:1px solid var(--rule)}
+.contents li a{display:flex;gap:.7rem;padding:.22rem 0;line-height:1.4}
+.contents .num{flex:0 0 2ch;text-align:right;color:var(--ink-3);font-size:.85em;padding-top:.15em}
+.orig-dot{color:var(--accent);font-size:.8em}
+.colophon{margin-top:4rem;font-size:.8rem;color:var(--ink-3)}
+
+/* poem page */
+.page{padding-top:1.2rem}
+.running{display:flex;justify-content:space-between;font-size:.75rem;color:var(--ink-3);letter-spacing:.06em;margin:0 0 2.2rem}
+.poem h1{font-size:1.55rem;line-height:1.25;margin:0 0 .15rem}
+.poem .mark{font-size:.78rem;color:var(--ink-3);margin:0 0 1.6rem;letter-spacing:.03em}
+.poem .mark b{font-weight:500;color:var(--accent)}
+.stanza{margin:0 0 1.1em}
+.stanza .l{display:block;padding-left:calc(var(--in,0ch) + 1.4em);text-indent:-1.4em;white-space:pre-wrap;overflow-wrap:anywhere}
+.stanza .note{display:block;font-style:italic;font-size:.88em;color:var(--ink-2);margin-top:.6em}
+.spread{display:grid;gap:2.5rem}
+.spread.side{grid-template-columns:1fr}
+@media (min-width:64rem){
+  .spread.side{grid-template-columns:1fr 1fr;max-width:70rem;margin-left:calc(50% - 35rem)}
+  .spread.side .poem{padding-right:1rem}
+}
+.spread.side .original{display:block}
+.original{border-top:1px solid var(--rule);padding-top:1.5rem}
+@media (min-width:64rem){.original{border-top:0;padding-top:0;border-left:1px solid var(--rule);padding-left:2.5rem}}
+.pager{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin-top:3.5rem;padding-top:1rem;border-top:1px solid var(--rule);font-size:.9rem;color:var(--ink-2)}
+.pager .side{font:inherit;font-size:.78rem;color:var(--ink-3);background:none;border:1px solid var(--rule);border-radius:999px;padding:.3rem .8rem;cursor:pointer}
+.pager .side:hover{color:var(--ink);border-color:var(--ink-2)}
+.pager .side[aria-pressed="true"]{background:var(--paper-2);color:var(--ink)}
+@media (max-width:30rem){body{font-size:1.02rem}.poem h1{font-size:1.35rem}.booktitle{font-size:2.1rem}.epigraph{font-size:1.35rem}.pager .side{padding:.25rem .6rem}}
+@media print{.top,.pager,.running{display:none}body{background:#fff;color:#000}}

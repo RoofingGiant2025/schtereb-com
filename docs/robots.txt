@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://schtereb.com/sitemap.xml

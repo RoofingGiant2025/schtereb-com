@@ -1,0 +1,2255 @@
+# Traducciones al español
+
+## 1. Obra blanca
+
+                             Soy un peregrino ...
+
+Pero no se trata de que peregrino sea aquel
+que vaga por los países
+                                     de toda la Tierra,
+sino que peregrino soy yo, que soy extraño
+de Alma, de Mente y de Razón
+                                         mías.
+                             Soy un peregrino…
+
+## 2. Sueño real
+
+Llegó la hora de dormir,
+cuando la luna salió en el cielo.
+Cuando miré por la ventana
+y mi mirada se detuvo en ti.
+
+Todo era como un sueño:
+tú, yo — los dos juntos.
+Pero no dormí aquella noche
+cuando vi tus ojos.
+
+Tus ojos encantadores,
+como acianos en la bruma gris.
+En ningún otro lugar de la Tierra
+se encuentran ojos así.
+
+Tus labios, tan hermosos,
+me parecieron perlas en el sueño.
+Y esas perlas me susurraban
+palabras quietas de tierno amor.
+
+Tu cabello cayó hasta el suelo,
+el resplandor de la luna lo iluminó.
+Y de pronto quise…
+ver tu cuerpo sin el cristal.
+
+Abrí rápido la ventana,
+pero tú ya no estabas.
+Se fueron las ilusiones y los sueños,
+solo el viento sopla aquí y allá…
+
+## 3. El encuentro
+
+Cuando nos encontramos por primera vez
+vi tus ojos inofensivos.
+Tu mirada me atravesó de parte a parte,
+y en ese instante todo comenzó,
+y entonces ya tuve que
+pensar en ti en serio.
+No sé por qué, pero quería
+encontrarme contigo otra vez,
+conocer esas fuerzas misteriosas
+que tanto me atraían hacia ti.
+Donde no estuve, en todas partes,
+te me aparecías como un capricho.
+Y en sueños venías a mí,
+y en sueños me decías
+que querías estar conmigo siempre,
+siempre y en todas partes amarme…
+Al despertar, estaba loco,
+pero sabía que era solo un juego
+que, como una estrofa,
+debe encontrarse un final.
+
+## 4. * * *
+
+El reflejo del sol
+                         en mi copa,
+el reflejo del sol
+                         en tu alma.
+Oh Dios, cómo amo
+                              esos ojos,
+quiero llegar allí
+                             aunque sea un instante,
+quiero entrar en ese espacio,
+            allí hay dulzura y pasión,
+en esa felicidad casual,
+                         quiero entrar en ese infierno.
+
+## 5. La vi a Usted…
+
+No me creí a mí mismo
+cuando mi ojo la vio
+                                     a Usted…
+Quedé encantado.
+
+Al principio la recordaba poco,
+pero pasaron los días y me enamoré de Usted
+                                   en una hora hermosa…
+No pronto lo admití.
+
+Esperé mucho; supliqué
+a los dioses que me dieran no un diamante,
+                                                 sino a Usted…
+Pero por qué esperaba, no lo entendía.
+
+Deliraba con Usted por la mañana,
+y de noche en sueños más de una vez
+                                la vi a Usted…
+Comprendí que ya no puedo vivir así.
+
+Quizá hasta muera
+cuando sepa que a Usted,
+                aunque no sea ahora,
+ya no la veré más.
+
+Con esperanza vivo
+para encontrarla a Usted
+                    aunque sea una vez más,
+pero vivir así ya no puedo.
+
+## 6. El deseo del alma
+
+No puedo vivir desde aquel tiempo
+en que te encontré,
+cuando las miradas de nuestros ojos
+las unió un único way*.
+
+Estás en mis pensamientos,
+estás en mis sueños.
+¿Y cómo renunciar a ti
+si logré enamorarme?
+
+En mi alma pasea
+la alegría de sentimientos sinceros,
+pero mi razón no sabe
+qué era lo que quería hasta ahora.
+
+Quizá hubiera querido
+que mi alma fuera pura.
+Lo quise, pero no ocurrió:
+el alma se cubrió de amor.
+
+Todo se volvió agradable de golpe
+y ya no quise irme a Kansas.
+Quería estar siempre contigo,
+no separarme ni en el pensamiento.
+
+¡Todo! lo que yo quería,
+¡todo! lo que el alma deseaba,
+en tu imagen se encarnó,
+y tú me llevaste a tu alma.
+
+Eso es lo que yo quería,
+eso es lo que el alma deseaba,
+cuando te encontré,
+cuando el alma amaba.
+
+   * way – (inglés) camino
+
+## 7. * * *
+
+Probablemente esto se llama AMOR,
+o quizá sea una muestra de deseo.
+Deseo de verte siempre,
+de no dejarte ir a ninguna parte.
+
+Deseo de tocar tus manos,
+de abrazarnos tiernamente,
+de atrapar las miradas de tus ojos,
+todo lo que se me ocurra… hacerlo todo.
+
+Cuando no estás cerca
+no puedo pensar en nada.
+Solo sé que la llave de la felicidad
+en ti podré encontrarla.
+
+Y cuando estás a mi lado
+quiero detener el tiempo,
+para que este sentimiento desconocido
+se quede para siempre en nosotros.
+
+Cuando veo que te pierdo,
+¿qué decirte? — no lo sé,
+salvo — perdona — digo en voz baja,
+— por todo lo malo — y espero respuesta.
+
+Espero…, ni yo sé qué,
+y en mis cavilaciones vago,
+y no sé… qué hacer
+para que tú pudieras amarme.
+
+## 8. Mi sueño
+
+Las noches son claras de luna,
+quiero pasarlas contigo,
+pero no sé cómo
+tengo el honor de acercarme a ti.
+
+Sueño contigo de día
+y de noche pienso en
+lo que quisiera decirte;
+y sé que ya no puedo contener
+la ternura de mi alma hacia ti,
+la mejor muchacha del mundo.
+
+Eres una muchacha esbelta,
+una belleza de piernas largas,
+ojitos de un azul tierno,
+cabello rizado y rubio.
+
+¿O quizá no eres rubia en absoluto?
+¿Quizá eres negra como la noche,
+belleza de piernas largas,
+y los ojos, como ceniza del fuego?
+
+Cuando me mires
+cerraré los ojos,
+temo que la chispa de tus ojos
+me atraviese con la flecha del amor.
+
+¿O quizá debería abrir los ojos?
+Mirarte con ternura…
+Quién sabe, quizá vea
+lo que nunca he visto.
+
+¿Y si esto resulta amargo?
+Aunque a veces es dulce.
+No, mejor no abrir los ojos
+y no saber lo que será…
+
+## 9. Sueño mío
+
+¡Oh! cómo sueño
+con encontrarte de nuevo
+y quedarme contigo ya para siempre,
+muchachita mía adorada.
+
+De noche no quiero dormir,
+te recuerdo en mi mente,
+tu cabello dorado, tus ojos tiernos…
+Sí, Tú eres mi sueño.
+
+Aunque estés lejos de mí,
+el camino hacia ti lo recorreré con facilidad.
+Todo, todo lo dejaré para
+verte de nuevo.
+
+Cómo quisiera
+que toda la gente de la Tierra
+desapareciera por un breve tiempo,
+que quedáramos solo Yo
+                    y Tú — Diosa mía.
+
+Que alrededor olieran las flores,
+y en las flores estuviéramos nosotros,
+que brillara clara la luna…
+¡Oh! Cómo sueño.
+
+## 10. Romantic ballad
+
+En una noche de verano con luna
+paseaba contigo.
+Y recuerdo tu mirada tierna
+y los ojos que me miran.
+
+El viento ya había amainado,
+estábamos solos los dos — en libertad.
+Solo se oía el rumor del río
+junto al cual nos sentamos.
+
+Nos divertíamos el uno al otro,
+contábamos las estrellas del cielo.
+Y soñábamos, soñábamos largo rato,
+¿y qué pasó? — no lo entendíamos.
+
+De pronto nos desnudamos del todo,
+nos miramos a los ojos.
+Por el cuerpo pasó una ola,
+una ola de pasión — sueño mío.
+
+Nos abrazamos con ternura
+y nos besamos despacio.
+Te apretaste fuerte contra mí
+y te encontraste con la esencia del hombre.
+
+La arena cubrió tu pecho,
+la luna iluminaba tu cabello.
+Yo te susurraba algo
+y entraba dentro de tu cuerpo.
+
+Nuestros cuerpos se abrazaban,
+nos bañábamos en aliento cálido.
+Yo miraba tus ojos
+y en ellos leía: "Más… Oh sí…"
+
+Qué bien estábamos,
+como si estuviéramos en el Paraíso.
+Tú — mi Eva, yo — tu Adán,
+nos rendimos el uno al otro.
+
+Y llegó de pronto el instante
+en que el rumor del río calló.
+Tú y yo subimos a la cumbre,
+la cumbre del amor físico.
+
+Luego entramos en el agua
+y lavamos los pecados nuevos…
+En la arena pasamos la noche;
+al despertar por la mañana, éramos felices.
+
+(Y ahora recuerdo
+aquella larga noche y sé
+que la primera noche de mi vida
+fue incluso muy buena.)
+
+## 11. Hubo un tiempo
+
+Hubo un tiempo, recordé,
+tiempo de alegría y de pena,
+en que el aire para mí
+no hacía falta. Pues en vano.
+
+Recuerdo que no quería vivir,
+no quería, pero vivía.
+Amarme a mí mismo no supe.
+Por otros mundos penaba.
+
+Sí, me habría matado,
+despacio, o quizá rápido,
+si no me hubiera enamorado de ti
+y no hubiera sentido el calor de mujer.
+
+Contigo estuve bien.
+¡Pero el amor me hastió,
+me hastió el calor de mujer,
+quise ver sangre.
+
+Al instante, sintiendo el deseo,
+salí al techo de un edificio alto,
+me arrojé abajo, pero no caí — ¡!
+Desperté. Era un sueño — al fin lo entendí.
+
+Te abracé, te besé,
+aunque dormías, te dije:
+«Nunca me mataré — no,
+aunque tuviera noventa años».
+
+## 12. Tristeza alegre
+
+Era oscura la tarde,
+soplaba de lejos un viento frío.
+Salí de casa y fui
+adonde nadie sabía.
+
+Durante horas anduve por las calles,
+sin nadie, completamente solo.
+Me sentía muy mal:
+pensaba solo en ti.
+
+Pero de pronto vi a lo lejos
+el resplandor de tu imagen.
+Pronto nos encontramos
+y… los dos nos detuvimos.
+
+Tú me mirabas,
+la chispa de tu mirada, tierna,
+acariciaba mis ojos,
+y de ellos corría una lágrima de amor.
+
+Con los brazos te abracé tiernamente,
+aparté el cabello de tu rostro
+y con palabras brillantes susurré:
+«He caído en el lago de tu amor».
+
+Tú no dijiste palabra alguna,
+simplemente me besaste.
+Seguramente me amabas,
+pues largo sostuviste el beso.
+
+Y entonces, cuando por primera vez
+toqué tus labios con los míos,
+me sentí
+como nacido de nuevo en el Mundo.
+
+Estaba como alegre,
+tristeza, desesperación, todo pasó.
+Y las nubes se fueron del cielo
+y apareció la luz de la luna.
+
+## 13. Recuerdo
+
+Recuerdo que una vez
+hacía frío,
+el aire frío
+abrazaba mi rostro.
+
+El viento frío penetraba
+en todo el cuerpo humano,
+y la escarcha corría por el cuerpo
+cada vez más invernal y más rápida.
+
+Los ojos en todos los rostros
+se helaron sin calor.
+Y de algún modo todo estaba mal,
+¿pero por qué?, nadie lo sabía.
+
+Todo el día fue gris,
+apagado y brumoso.
+En el cielo las nubes se estancaron,
+en un montón firme se sostenían.
+
+Se volvieron negros los árboles,
+pronto llegó la tarde.
+En algún lugar, alguien (la aldea de alguien)
+se compró un sueño.
+
+Con la llegada de la tarde
+se oían cada vez más gratos
+los sonidos del tierno silencio,
+todos se habían ido a algún lugar…
+
+Me era grato
+cuando llegaba la noche.
+La nieve blanca reflejaba
+la luz de la luna, y centelleaba.
+
+En el instante de esa belleza
+no estaba solo,
+conmigo estabas tú —
+mi tierno talismán.
+
+Por todas partes solo nosotros…
+caminábamos bajo la luz de la luna.
+Y mirábamos al cielo,
+admirando la belleza de una estrella.
+
+Pensábamos en todo
+y a la vez en nada.
+Olvidábamos todo lo malo,
+escuchábamos el silencio en paz.
+
+El Mundo parecía hermoso,
+inabarcable para nuestra mente.
+Y tú junto a mí, a mi lado,
+acariciabas mis ojos con la mirada.
+
+Yo te abrazaba con ternura
+y en ese mismo instante entendía
+que soy feliz
+cuando estoy a tu lado.
+
+A ti te asombraba
+la naturaleza de la noche clara.
+A mí me calentaba
+el calor de tu mano.
+
+Así pasamos la noche
+entre la belleza natural.
+Recibimos la salida del sol
+pero no cansamos los ojos.
+
+Y mirábamos hacia donde
+la chispa del primer rayo
+se alzó sobre la tierra
+y nos iluminó con el día.
+
+Solo entonces nos separamos
+por un breve tiempo.
+Nos despedimos con un beso,
+pero por la tarde nos encontramos de nuevo.
+
+## 14. Añoranza del alma
+
+No te veo a menudo…
+No siento tu aliento…
+Y las miradas de tus ojos… ¿Dónde está todo?
+¿Espero? ¡Amo..! ¡Suplico..!
+
+El amor quema el alma,
+                             el alma se consume…
+¡Aunque ahora ardiente y cálida
+                                  está mi alma!
+No grito, pido,
+                            porque no hay palabras.
+¡Pero mi alma está viva..!
+                        Aunque — no es libre…
+
+Es cálida, es ardiente,
+¡así es Ella — Mi Alma!
+
+## 15. Ángel inocente
+
+¡Di! Ángel inocente, tú,
+¿quieres? dejarlo todo e irte,
+conmigo… volar a los sueños,
+desde una belleza donde hasta el diablo enmudece.
+
+¡Di! Y volaremos
+a un mundo de sueños hermosos,
+y en ese mundo encontraremos
+nuestro futuro en la mirada de las esperanzas.
+
+¡Di!… ¿o quizá no quieres
+volar conmigo al mundo de la belleza?
+Pues quédate aquí y siempre serás
+como todo alrededor — ¡sucio!
+
+Y yo me iré, volaré a mis sueños,
+y descansaré… de la realidad del ser,
+aunque a ti, Ángel inocente,
+                          allí no te encontraré,
+no me entristeceré, y de todos modos
+                          en sueños pasaré la vida.
+
+## 16. Felicitación
+
+Te regalo en primavera
+estas flores blancas como la nieve,
+para que tú, como estas flores tiernas,
+seas siempre mi amada.
+
+Para que no llores, no te entristezcas,
+solo tomes para ti todo lo hermoso,
+y devuelvas solo bien,
+para que crezcas como esa flor.
+
+Cuando galope al alba
+en un caballo blanco o negro,
+no me detengas,
+solo agita tu manita.
+
+Las flores que te regalé,
+para que nadie nunca las quite,
+ponlas en un libro gigante
+y guárdalas allí mucho tiempo.
+
+Cuando abras ese libro
+verás las flores… (de tomillo),
+entonces acuérdate de mí,
+y no me recuerdes con mala palabra.
+
+## 17. Amo
+
+Muchacha, te amo,
+esto te lo diré
+cuando de noche por teléfono
+te llame a casa.
+
+Cuando te encuentre
+te regalaré una estrella del cielo,
+y bajo la luz de la luna susurraré otra vez:
+"A ti sola, a ti amo".
+
+Eres mi estrella solitaria,
+yo soy tu luna a tu lado.
+Y tanto quiero tiernamente
+abrazarte. Todo es encantador…
+
+Esto duraría mucho,
+y todos, en todas partes, lo aceptarían.
+Pero no hay nada en el Mundo
+que con el tiempo no pase.
+
+Pasa el claro resplandor del sol,
+pasa la enemistad y la desesperación,
+pasa el tiempo para el amor,
+y los rayos del sol ya no se encuentran.
+
+Pero si el sol brilla
+muy fuerte, y lanza sus rayitos,
+brillará aún mucho tiempo
+y quitará del cielo las nubes malvadas.
+
+## 18. Amé
+
+Muchacha, te amé,
+y a casa te llamé más de una vez,
+más de una vez me vi contigo,
+pero nunca llegué a besarte.
+
+Te amé, te llamé,
+en tu cumpleaños te regalé flores,
+soñé contigo y en todas partes te recordé,
+pero he aquí que llegó el final del amor.
+
+Se fue el amor — se marchitaron las rosas,
+en el cielo retumbaron las tormentas,
+nos separamos tú y yo — lo entiendo,
+pero el primer encuentro a veces lo recuerdo.
+
+Quería estar contigo siempre,
+pero tú no me entendiste.
+Pues bien, así es nuestro destino,
+aunque amargo, así es.
+
+Sí, todo pasó, todo cambió,
+dolió el corazón y se calmó.
+Por ti ya no me entristezco
+y ya no quiero amarte más.
+
+## 19. * * *
+
+Si no me amas,
+entonces háblame del amor.
+¿Es del color de los cielos fríos,
+o roja y caliente como la sangre?
+
+Si no ves el amor,
+entonces muéstrame dónde encontrarlo.
+¿Allí donde el sol y los paisajes maravillosos,
+o quizá allí donde estás sola tú?
+
+Cuando veas el amor, dímelo,
+vendré y también miraré;
+si es dulce y sincero,
+le sonreiré en respuesta.
+
+## 20. Pequeño delirio
+
+Todo este verano salió bien —
+con las chicas un descanso agradable,
+                                 diversiones de hombres,
+la alegría de sentirse libre; ¡¿Y qué?!
+Si el tiempo de la alegría corrió
+                                        tan rápido.
+Y de nuevo llegó esa hora
+en que habría que estudiar,
+pero una vez más
+por la ciencia no sentimos
+                                    amor,
+y no tú sola, no yo solo,
+sí, sí, todos nosotros.
+Y no vale la pena ocultarlo,
+mejor no conocerse a sí mismo.
+No conocer, no ser conocido,
+pero estar desnudo de alma.
+Y… Oh, qué digo, no,
+¡no y otra vez — no! Todo esto es delirio.
+Y tú eres un pequeño delirio, y — tú,
+…Ah, basta, basta de hacer versos.
+
+## 21. La excursión
+
+Vamos de excursión con el jefe,
+delante va A. Liusak.
+Llevamos mochilas pesadas,
+y nuestras cabezas vacías.
+
+Pasa el tiempo, seguimos andando,
+aunque no podemos andar.
+Y llevamos las mochilas pesadas,
+aunque no hay fuerzas para llevarlas.
+
+Pasa el tiempo… ¡Oh, llegamos!
+Al fin la respuesta a "¿Cuándo?"
+Las esterillas, eso es tal cosa…, sacamos,
+y rápido, muy rápido, nos sentamos.
+
+Del camino descansamos un poco
+y hablamos de nada en absoluto.
+Alguien cosió las medias de alguien
+y enseguida nos pusimos a trabajar.
+
+Los chavales fueron a fumar,
+porque la tontería les disparó en la cabeza.
+Y los chicos cortaban leña
+y ayudaban al cocinero.
+
+Y el cocinero, claro, fue y será,
+seguramente, Tolik L&V;
+tiene platos y tales manjares
+que, quieras o no, a menudo vomitas.
+
+Nos zampamos algo
+sin saber qué es.
+Quizá sea una sopa espesita,
+o quizá unas patatas aguadas.
+
+Da igual, ya nos lo zampamos,
+que sea papilla de leche,
+u otra creación de Antón,
+de todos modos irá a la mierda.
+
+De noche a veces dormimos,
+y a veces bebemos vodka.
+O quizá pegamos a los pequeños,
+¿los que cortaban leña? — sí, esos.
+
+Por la mañana abrimos los ojos,
+sacamos el pesado trasero del saco,
+y de pronto notamos la belleza:
+la encantadora hermosura de los Cárpatos.
+
+Y así la excursión ya pasa,
+Liusak nos arrastra a casa.
+Hay un pensamiento en la cabeza —
+de todos modos, la papilla estuvo genial.
+
+Todos lamentamos
+que el tren ya vaya a casa.
+Atrás dejamos las montañas,
+en un mar de lágrimas nos ahogamos.
+
+No importa, pasará el tiempo,
+y de nuevo dirá Antón:
+"Mañana vamos de excursión,
+no olviden los cigarrillos y el almuerzo".
+
+## 22. Sábado borracho
+
+Una vez nos juntamos los tres,
+afuera ya estaba oscuro.
+Al tercer piso llegamos
+y sacamos el alcohol en botellas.
+
+Los vasitos los trajo Andriy,
+le dijo a Valera: "Ve a lavarlos".
+Valera rápido los lavó
+y vodka en ellos sirvió.
+
+El primero nos lo bebimos de golpe
+y con agua lo bajamos con fuerza.
+Pasó el tiempo… Todo lo servimos,
+y mucho se nos nublaron los sesos.
+
+Entonces quisimos encender un cigarrillo,
+Andriy no nos dejó hacerlo,
+pero le servimos otro,
+y sin su permiso encendimos.
+
+Somos drogadictos muy borrachos,
+recogimos todas las colillas,
+lavamos y apilamos los vasitos,
+y nos largamos adonde nos llevaran los ojos.
+
+Por la ciudad anduvimos mucho
+y dijimos todo lo que era orgulloso.
+Bebimos cerveza "Koryfei";
+y todos corrieron a alguna parte.
+
+No nos tocó correr mucho,
+a la disco tuvimos que ir.
+Para que el vodka no apestara en la boca,
+el chicle no nos vino mal.
+
+En la disco todos lo dan todo,
+pero luego ya no se acuerdan.
+Solo por la mañana la garganta raspa fuerte
+y la boca quema como fuego.
+
+No importa, todo esto lo sobrevivimos,
+pero toda la semana recordamos
+que pronto vendrá otra vez el sábado,
+y nosotros tenemos el nuestro — el trabajo.
+
+## 23. Nada
+
+Tú sola en la cama yacías,
+mientras tras la ventana en el cielo la luna brillaba,
+y nosotros los chavales te mirábamos
+como sombras heladas de los que murieron.
+
+Mirábamos, buscábamos pensamientos, soñábamos…
+¿O quizá no éramos nosotros los que estábamos sobre ti?
+¿O quizá no eras tú la que yacía en la cama?
+Con mirada desde lo alto recordando a una boa.
+
+Sí, no somos nosotros… No somos sombras,
+y a ti entonces los chavales no te miraban.
+Porque tú no tanto a una boa,
+sino a una lombriz recordabas.
+
+Sí, eso fue alguna vez, pero ahora
+te miro y te admiro…
+Me asombra cómo, en la hora transcurrida,
+de lombriz te volviste princesa —
+                                    la princesa Lewis.
+
+¿Y de dónde te salió
+un nombre tan extraño para todos?
+¿O quizá no eres tú? ¿Y yo — no soy yo?
+¿Entonces dónde estamos? ¿Si esto no es la Tierra?
+
+## 24. Delirio de un drogadicto
+
+No se puede olvidar aquella tarde cálida,
+cuando grande era el deseo de encontrarse,
+cuando en el profundo secreto de los cielos
+brillaban las estrellas de maravillas.
+
+Toda la ciudad hallaba la calma,
+nadie reñía ya con su mujer.
+Se apagaban en las ventanas las luces claras,
+y las luciérnagas se habían ido a alguna parte.
+
+Cariñosa abrazó nuestros cuerpos
+con su luz desde el cielo la luna.
+Silencio… El silencio lo rompió una mosca,
+la que te picó en la oreja.
+
+Te enfureciste como una gata
+caída de una ventana alta.
+Las garras, puestas delante de ti,
+huiste rápido, seguramente a casa.
+
+Se me acercó la hermanita melancolía,
+me despejó rápido ella.
+No me gustaba quedarme solo,
+por eso tras de ti salí corriendo…
+
+## 25. Zorra
+
+El verano respiró otoño;
+todo lo que hubo entre tú y yo
+quieta y tiernamente ya pasó,
+el sabio sol tras la montaña
+con brillo sucio se asomó.
+
+Todo empezó en primavera,
+    cuando se derritieron las nieves.
+Todo lo frío pasó de largo
+     y cantaron los gallos.
+
+Te encontré así,
+     como una rosa de los baldíos.
+Y de ti apestaba tanto —
+      yo, de la brigada de borrachos.
+
+Te pregunté, cabra,
+¿cómo te emborrachaste y por qué?
+And entonces tú me say:
+If you want to be okey,
+Drink a vodka every day.
+
+Luego te acostaste a descansar,
+dormiste muchísimo tiempo,
+y solo despertaste
+cuando te traje una cervecita.
+
+Feliz te curaste la resaca,
+de pronto me miraste
+y preguntaste
+dónde me habías conocido.
+
+No te dije la verdad,
+simplemente te compadecí,
+no quería que fueras
+como una verdadera cabra.
+
+Intentabas recordar algo
+y querías preguntar algo otra vez.
+Pero nada recordaste,
+solo agitaste el hocico.
+
+Me hartaste amargamente
+y me pudriste el alma.
+De ti hasta me daban arcadas,
+y el cuerpo por la boca vomitaba fuerte.
+
+Te eché lejos,
+dije: "vuela, cigüeña".
+Te acaricié con una palabra
+y no te vi más ni te conocí.
+
+## 26. Canto en un funeral
+
+Sobre el río hay niebla
+y en el cielo nubes,
+fumé un poquito de hierba
+y te agoté.
+
+Me quedé un rato de pie,
+me sequé las lágrimas del rostro
+y te arranqué una flor,
+pero de pronto se la llevó el viento.
+
+Te arranqué otra,
+pero ya no lloraba,
+y te la puse en el pecho,
+bueno, y… un poquito "lloré a gritos".
+
+Y luego te tomé,
+te arrojé tiernamente al río,
+— vete flotando, sueño mío,
+tú ahora me…
+
+Y yo me senté un poco,
+recogí mis pensamientos
+y una cancioncita canté,
+escucha tú, "Vasya":
+
+"Cáñamo, desde la tarde hasta la mañana,
+hace agradables los sueños,
+y tú, ya no digas nada,
+…, …, …, …, …, calla,
+y no me grites detrás.
+Cáñamo…
+Cargaré otra cazoleta,
+pues el cáñamo no es nuestro enemigo.
+Cáñamo…
+No me entristezco, aunque te fuiste flotando,
+tengo cáñamo,
+y el cáñamo es nuestra fuerza…"
+
+## 27. Instante bendito
+
+Bendito también aquel instante
+en que me sacié de sangre,
+la roja tuya, y libraré
+a mi propia persona del mal sentimiento,
+del deseo de no conocer el dolor.
+
+Bendita también aquella copa
+de la que me saciaré de tu sangre,
+como aquella serpiente enfurecida
+que a la copa de sangre se arrastró
+con el deseo de consolarse — Ja-Ja.
+
+Sí, sorberé tu sangre,
+la saborearé, miraré a los ojos a Jehová,
+y no me inmutaré; me quedaré
+tal como hasta ahora fui sin sangre —
+severo en la oscuridad, con ojos
+llenos de rabia.
+
+No siempre seré así,
+pero primero, que el Gran Perún,
+desde su reino de relámpagos, envíe
+una flecha de trueno y una reverencia profunda
+a mí — su majestuoso Padre.
+
+## 28. ¡No esnifes laca!
+
+Algo cambió, algo no va bien,
+por alguna razón ya no quiero esnifar laca.
+En cambio siento el sabor extraño
+de la llegada de la primavera y del calor.
+
+Ya me siento a gusto, estoy alegre,
+el Mundo entero me parece amable.
+En el espejo de la tristeza ya no veo
+a nadie, ni siquiera a mí mismo.
+
+A mi alrededor un mundo de belleza,
+de naturaleza, alegría y simple pureza.
+De pronto… los árboles florecieron y brotó
+en las aceras, incluso, hierba verde.
+
+…Pero eso no es hierba, es la cosecha de trigo,
+y hay mucha gente aquí, y un nuevo
+juego de ordenador, y ponen una película,
+y por alguna razón miro por una ventana.
+
+A mi alrededor, de pronto, ya no hay nadie,
+y afuera — un invierno frío y feroz.
+Algo cambió, algo no va bien,
+a-a-ah, ya no esnifaré más laca.
+
+## 29. Voluntad propia
+
+Me gusta ser inteligente,
+entender a todos e incluso saber,
+reírme de todos con risa lunar,
+pero sin aparentarlo.
+
+Me gusta…, pero me gustaría más
+si encontrara a gente tan inteligente más a menudo,
+para a veces hablar en serio
+                                        de la verdad del universo, y coronar un pensamiento.
+
+## 30. Reflexión
+
+Mi razón se ha desanimado,
+¿pero qué hacer?
+Si mi alma no conoce el cuerpo,
+¿qué hacer?..
+
+Aquí estoy sentado, y no sé por qué
+mi razón se ha cansado;
+Dios lo ve, quizá porque
+cada persona ya la ha agotado.
+
+## 31. No quiero…
+
+No quiero que la vida diga: «Vete»,
+dejándome atrás en el pensamiento.
+Y exprimiendo del alma toda contemplación,
+dejando solo un recuerdo,
+entregándome al destino como alimento.
+
+¡¡¡No quiero que la vida diga: «Vete»!!!
+No quiero… Yo mismo… me iré…
+
+## 32. * * *
+
+Lleno está mi razón de un sentimiento maligno,
+no puedo vencerlo con mi ser…
+Quiero vivir, prosperar y crecer,
+no como un cactus en el desierto, sino como flores en el campo.
+
+## 33. Tristeza
+
+Sentimientos pesados como piedra
+llenan mi ser presente.
+Mi antigua razón está encadenada
+con los grilletes de la sociedad, y ya olvidada.
+
+No quiero vivir esa vida
+que ya vivo, esa llama
+que se apaga con el tiempo y no arde,
+que no se enciende hacia la eternidad,
+                                      sino que se consume.
+
+Al alma le daré libertad pura,
+y al cuerpo lo libraré del dolor humano.
+Sentiré de nuevo el espacio y la libertad,
+y no volveré a pisar agua sucia.
+
+Me devolveré a mí mismo
+y con la razón subiré hasta los cielos.
+Los pesados grilletes terrenales arrojaré
+y con la mirada hacia el futuro navegaré.
+
+## 34. ¡¡¡Oh Dios!!!
+
+Mudez de palabras, llegó esa hora
+en que los pensamientos soplan como el viento.
+Y todos ellos son — nadie — para nosotros,
+todos esos que olvidan rápido.
+
+No hay en mí ni alegría ni lástima,
+los sentimientos voluminosos son planos como el vidrio.
+Y sin embargo, sin freno aún te suplico,
+mi sufrimiento y mi arrepentimiento son ardientes.
+
+De mis sueños no te arrojaré,
+no podré. Y falta ese deseo.
+Iré lejos al espacio — hasta los cielos,
+guardando en el corazón el arrepentimiento.
+
+Triste. Por alguna razón siempre es así,
+hay un sendero, hay solo un camino…
+No veo salida de la oscuridad.
+Encuéntrame, porque soy un alma perdida.
+
+## 35. Sed
+
+Por alguna razón me es tan difícil actuar,
+como a un niño pequeño e indefenso.
+Por desgracia, a esas jóvenes miradas verdes
+las sorprendió el otoño… — hasta los pensamientos están sin fuerza.
+
+Ramas resecas y hojas marchitas,
+"Él" secó mi interior.
+Abandonado el hermoso jardín de felicidad
+con hierba verde alta y maligna.
+
+Aun así la única verdad es el alma,
+aunque seca, como la razón, está viva.
+Necesita ayuda como la vida;
+tú eres el manantial, curativa será tu agua.
+
+Riega con generosidad, y más generosa se hará el alma,
+se marchitarán las malas hierbas y florecerán los jardines.
+Llegará por los siglos de los siglos la primavera
+y pondrá en los brotes frutos hermosos.
+
+Y cosechar solo a ti te toca,
+solo para ti el jardín y el fruto.
+No hay nadie más bondadoso que tú en toda la Tierra,
+y creo que la bondad dejará huella.
+
+## 36. Destino perdido
+
+Mi destino salió de mí
+y se fue a pasear a alguna parte,
+a huir de mí
+por arenas, desiertos, por barrancos,
+por pantanos y bosques.
+
+Cerré los ojos, vi la oscuridad,
+y en la oscuridad veía caminos
+que me permitían encontrar mi Destino,
+mi Destino perdido por la sociedad.
+Huyó como huye el agua por el río.
+
+Por los caminos de la oscuridad corría el miedo,
+con el miedo corría mi alma,
+buscaba el Destino, pero no lo encontró…
+Atrás volvió al cuerpo,
+pero el cuerpo sin Destino no quería vivir.
+
+No quería vivir, pero vivía,
+y de la nada creaba un pensamiento.
+El Arte de la Vida notó el trabajo
+y amó a ese cuerpo que no quería vivir,
+por su Cumpleaños le regaló al cuerpo un Destino.
+
+El cuerpo, teniendo Destino, se alegró con orgullo,
+pero de todos modos en la Tierra no quería vivir.
+A otra dimensión pasó —
+a una sociedad sin influencia sobre la persona,
+donde lo principal siguió siendo el soñar.
+
+## 37. YO CREO
+
+Dame fuerzas, oh Ángel mío,
+ya no puedo andar
+por este largo camino de la vida:
+aunque todavía soy muy joven.
+
+Sí, todavía soy muy joven,
+pero me fortaleceré en el pensamiento
+y mi protesta al Mundo enviaré,
+porque la vida ajena la considera un juego.
+
+Cruel y muy severo es nuestro Mundo,
+pero si puedo, lo corregiré,
+y quizá hasta lo ame,
+como los sonidos tiernos de antiguas liras.
+
+Dame fuerzas, oh Ángel mío.
+Creo que el Mundo será distinto,
+al menos encantador, y quizá hasta tierno.
+Contigo lo lograré a cualquier precio.
+
+Dame fuerzas, o desapareceré,
+dejaré este Mundo, me iré a otro,
+un Mundo de comprensión, un Mundo sin palabras — mudo.
+No quiero, pero me iré, si no me das
+                                                                                         lo que pido.
+
+## 38. * * *
+
+Atormentada está mi razón hasta el delirio
+por las cuestiones cotidianas de la vida.
+Por alguna razón es tan difícil quitar esas manchas
+que puse aún antes del arrepentimiento.
+
+El deseo de vivir, de sonreír y de alegrarse
+desaparece de golpe en ese momento
+en que no sabes cómo ni dónde poner
+el elemento negativo adquirido por el alma.
+
+Las constantes cavilaciones sobre los errores
+no llevarán a un ser ideal.
+El destino está bordado con hilos impuros:
+"No te conviertas al menos tú en su hijo".
+
+Estoy en tristeza, en vísperas de la pena y del dolor,
+de eso son mis pensamientos de hoy.
+Pero al alma la alegran esas, aún fallidas,
+líneas escritas en papel blanco.
+
+## 39. hombre u Hombre
+
+Si eres un hombre y no tienes
+ni razón, ni siquiera inteligencia,
+entonces eres un hombre — parecido a un asno.
+
+Si eres un hombre que posee inteligencia,
+y la razón te llega con dificultad,
+entonces eres un hombre — considérate un león.
+
+Si a la razón y a la inteligencia acariciaste
+sin importar que no leíste libros,
+entonces eres un Hombre, para la gente — un IDEAL.
+
+## 40. * * *
+
+Hay gente distinta en este Mundo:
+hay gente más estrecha, hay gente más ancha,
+pero no del grosor del cuerpo dependen
+su inteligencia y su deseo de pensar.
+
+## 41. Quisiera…
+
+Estoy loco por ti,
+estúpida patria mía.
+Me halaga tu juego
+con toda la multitud humana.
+
+Eres la única que tengo,
+estúpida patria mía.
+Pero cómo quisiera
+que fueras sabia.
+
+Que la vida se volviera hermosa,
+que en todas partes sonara música,
+que en los rostros quedara la alegría,
+que el alma abrazara al Mundo.
+
+Claro que quisiera
+hacer algo en la Tierra
+para que el mal desapareciera para siempre,
+quisiera… ¡Oh sí!
+
+## 42. Ustedes — la sociedad
+
+¡¿Quieren obligarme a quejarme de la vida?!
+¡No lo haré Yo, no lo haré!
+Me levantaré, de la debilidad me levantaré,
+y entonces no me maldigan por la espalda.
+
+Son capaces de pisotear todo lo que crece,
+de no dejarlo alzarse, de no dejarlo…
+De adormecer el deseo, la fuerza y el espíritu,
+la voluntad y el honor adormecer, adormecer, adormecer.
+
+Son capaces de arrancar los ojos
+a todos los que aún ven.
+De quitar el alma y rellenar el cuerpo de estopa,
+¡¿y llamar a ese espantajo — vidente?!
+
+¿Quieren obligarme a quejarme?
+No lo haré Yo, no lo haré.
+Incluso cuando no haya adónde ir,
+me alzaré, de la debilidad me levantaré.
+
+Todos… Qué pena, todos como todos,
+como piedra, como arena, como arcilla,
+no hay corazón, no hay alma,
+como una sociedad, y no como una persona.
+
+## 43. EL ÉXITO NO ES PECADO
+
+Sin duda, el Mundo es hermoso
+en su grandeza, y claro,
+aunque no para todos,
+pero a alguien de él
+el destino le tiene deparado
+UN GRAN ÉXITO,
+y eso no es en absoluto PECADO.
+
+## 44. Tinieblas
+
+Grande es el Hombre y grande
+su río del alma;
+sí, así es, pero no siempre,
+pues hay un hombre que
+no tiene ni conciencia ni vergüenza,
+ni siquiera la palabra "Bondad",
+y su vida es como la de un gato negro…
+y para él alrededor todo son tinieblas…
+
+## 45. Llora un poco
+
+Cuando te sientes mal
+y no quieres vivir,
+si quieres, claro,
+puedes llorar un poco.
+
+¿Quieres llorar? — llora,
+¿y vivir? — vive.
+¿No ves el bien? — mira,
+y toma la felicidad de la vida.
+
+Te sientes mal — entristécete,
+llora con el alma y con la lágrima,
+con la lágrima calma la pena,
+calma la desdicha del dolor.
+
+## 46. Añoranza
+
+Añoranza… sin orilla sin fin… añoranza…
+Añoranza del sol y de los cielos.
+Añoranza que en silencio grita en el pecho,
+dejando la alegría atrás.
+
+Añoranza de los días despreocupados de la infancia,
+de los sueños brillantes y multicolores,
+de los charcos por los que corrí
+sin conocer la incomodidad.
+
+La añoranza como un jinete embridó
+mis pensamientos y les dio
+un matiz de sentido gris,
+recordándome que ya no soy un niño.
+
+## 47. Definición
+
+Cuando creas
+que el mal vendrá a ti,
+por supuesto vendrá
+y te traerá desdicha.
+
+Cuando sin dudas
+creas solo en el bien,
+entonces por supuesto será
+agradable vivir en el mundo.
+
+Cuando dudes,
+sin saber qué desear,
+no habrá adónde escapar
+cuando vengan a llevarte.
+
+Te llevarán o bien adonde
+siempre es hermoso y claro,
+donde la bondad es continua alrededor
+y la persona es libre de la mentira,
+
+o adonde hay oscuridad por todas partes
+y en el fango vaga la gente.
+Donde el miedo estuvo y estará, siempre,
+y de allí no desaparecerá a ningún lado.
+
+## 48. Es triste cuando…
+
+Los pájaros vuelan a tierras cálidas,
+se llevan consigo la alegría
+de las tardes cálidas de verano
+y la belleza de las arboledas intactas.
+
+Vuelan adonde calienta
+el tibio solecito, y sueña
+el verano con encontrar al invierno
+para jugar con el sol sobre el hielo.
+
+Allí el verano es cálido, hasta ardiente,
+y agua de manantial corre
+en ríos incontables, aunque las lluvias
+no caen ni siquiera de noche.
+
+No estarán allí mucho tiempo;
+con el primer aliento de la primavera
+a la tierra natal volarán
+para alegrarnos con su canto.
+
+Y de nuevo la naturaleza revivirá,
+la tierra se cubrirá de hierba,
+los árboles se envolverán en hojas
+y los animales despertarán del sueño.
+
+Así pasará la fresca primavera,
+y el cálido verano pasará fugaz,
+y el otoño rápido volverá,
+y de nuevo hará frío.
+
+Los pájaros volarán a tierras cálidas
+y se llevarán la alegría
+de las tardes cálidas de verano
+y la belleza de las arboledas intactas.
+
+## 49. Sin Estado
+
+Los jardines de primavera florecieron
+con flor brillante junto a la casa,
+y a casa ya nos habría llamado la madre,
+y rápido, rápido habríamos corrido.
+
+Habríamos corrido… ¿Pero adónde?
+No tenemos esa casa,
+no tenemos en la casa a la madre,
+pues huérfanos en el mundo somos.
+
+No solo nosotros no tenemos Madre,
+el pueblo no tiene Estado propio.
+El tío no tiene dónde dormir,
+aunque mucha gloria para el Estado
+                      él ganó.
+
+Por desgracia, no para su propio Estado
+ganó él mucha de esa gloria.
+Pero la ganó… Mas ahora
+de frío y de hambre ya murió.
+
+¿Para qué queremos un Estado ajeno?
+¿Para qué quieren los huérfanos una madre ajena?
+¡No hace falta! Todos quieren su propio bien,
+y tendremos también un Estado,
+                  y orgullo, y gloria!
+
+¿Pero cuándo, dentro de cuántos años?
+Si los jardines de primavera ya perdieron
+su flor brillante y se volvieron
+árboles negros, como nosotros — esclavos ajenos.
+
+¡Sábelo! Los jardines en primavera florecerán de nuevo
+y traerán alegría sincera
+por mucho tiempo solo cuando al menos tú
+no traiciones a tu Estado natal.
+
+## 50. * * *
+
+        ¡Oh Sí!       ¡Oh No!
+De nuevo veo el mismo delirio,
+y no entiendo — ¿qué es esto?
+¿Un sueño largo y extraño, o nada
+en comparación con el sueño anhelado?
+Mi sueño olvidado.
+
+Pasarán los años, seguiré sin entender,
+simplemente no recordaré nada.
+Todo, todo lo que fue — lo olvidaré,
+y escondiendo en la vida a la Orgullosa Advenediza,
+mi razón se la daré a mi pueblo
+y con ello encenderé una vela que no se consume.
+
+## 51. Sobre el desvarío
+
+Noche agradable, tiempo de primavera;
+salí al patio y maté a un mosquito
+que acababa de llegar y se posó
+en mi mano, y quiso sangre.
+
+Pero sangre no logró beber,
+supe matarlo rápido.
+No sintió ni dolor ni miedo,
+pues lo maté del primer golpe.
+
+Entonces llegó volando una abeja grande;
+me asombró cómo ella
+de noche no dormía, sino que solo volaba,
+y su aguijón hacia mí dirigía.
+
+Un martillo pesado a la abeja grande
+lancé con carrera y le di en la ceja.
+Ya no voló más la abeja grande;
+por desgracia, no encontré mi martillo.
+
+Entonces llegó galopando un caballo negro,
+no pequeño ni sucio.
+Un caballo no es mosquito ni abeja —
+¡¡¡Ah!!! Me quedé con ese caballo.
+
+Galopo en el caballo hacia los campos al borde de la aldea
+y no veo en absoluto aquella toalla bordada
+que la madre bordaba de noche sin dormir
+y me daba para la felicidad, para el destino.
+
+Galopo en el caballo por alguna aldea,
+y esta aldea está en pleno duelo
+por aquella mujer Kateryna
+que nos parió un hijo no planeado.
+
+No quiero estar de duelo en la aldea,
+sigo galopando hacia el mundo en el caballo,
+pero veo al padre-tío sentado en el campo,
+una kobza en las manos y un gorro en la cabeza.
+
+Padre-tío, ¿por qué está triste?
+Y él me responde
+que no hay felicidad en Ucrania,
+y la Libertad y el Destino solo en sueños.
+
+No, padre-tío, es usted el que está en un sueño,
+y el Destino y la Libertad ya están en Ucrania…
+…Él sonrió, se alegró y desapareció;
+de pronto… apareció aquella toalla de mamá.
+
+## 52. Quería el pajarito…
+
+Estaba el pajarito junto a la ventana,
+quiso y voló el pajarito hacia el sol.
+Voló un día, voló dos,
+seguramente el pajarito no sabía
+que el sol está lejos. Y volaba…
+Sudó mucho, y luego se quemó.
+Mejor que el pajarito no hubiera querido…
+Voló el pajarito hacia el sol
+y no llegó;
+seguramente, junto a la ventana,
+comió poca papilla.
+
+## 53. ¿Signo de interrogación?
+
+¿Para qué tomar en las manos un cigarrillo?
+¿Para qué inhalar el humo pesado?
+Mejor comer un caramelo sin sabor,
+o irse de vacaciones sin dinero
+                     a la, para alguien, lejana
+                                Crimea junto al mar.
+                       Aunque, quizá,
+               para alguien el cigarrillo —
+            es más sabroso que el caramelo,
+              a ese lo tumbará en la mierda.
+              Claro, puede ser
+              que fumes el cigarrillo
+                      para descubrir lo desconocido…
+                      Pero no fumes mucho,
+                       detente Y…
+                            come un caramelo.
+
+                Y cuando
+                ya te hayas puesto
+                a dieta,
+                entonces ya
+                no fumes
+                ni un cigarrillo.
+
+## 54. Alconauta
+
+Ay, pálido, pálido hombre,
+¿por qué brillas de palidez,
+por qué te fuiste al siglo del alcohol?
+Responde… Pero callas.
+
+Ay, pálido, pobre hombre,
+¿por qué brillas de pobreza?
+Como en el lecho de ríos hondos y secos
+yaces en el fondo como un adoquín.
+
+Ay, pálido, dañino hombre,
+sin fuerzas para mirarte.
+Te ves peor que los lisiados enfermos;
+qué lástima… ¡Qué lástima de ti!
+
+## 55. El ave y las aves
+
+Mañana: soleada, de primavera,
+me sacó a pasear,
+me dio un aroma fragante:
+me alegré y me senté en un banco.
+
+Alcé los ojos hacia arriba,
+con la mirada navegué al cielo,
+y allí giran las aves,
+no necesitan nada más.
+
+Por segunda vez alcé los ojos,
+y sobre las aves naturales
+otra ave volaba,
+la que creamos nosotros.
+
+Alcé los ojos de nuevo:
+no noté allí aves,
+solo la inmensidad transparente
+a la que volé en pensamientos.
+
+## 56. Amo amar
+
+Amo la mañana cálida de primavera,
+amo recibir el amanecer,
+amo mirar hacia allí
+donde el sol sube hacia lo alto.
+
+Donde un rayo de luz atraviesa
+la cortina tensa del no-ser;
+con el tiempo la oscuridad pasa
+y llega una vida nueva.
+
+Amo sentir la libertad,
+el deseo, la alegría, la belleza y la hermosura.
+Amo seguir siendo yo mismo,
+no temer a la luz de la oscuridad.
+
+Amo amar y desear,
+amo sentir el amor;
+claro que amo,
+¿pero por qué?.. No lo sé…
+
+## 57. Muy de mañana
+
+Mar celeste, quisiera
+                             ahogarme en ti,
+entrar en tus profundidades
+que muy de mañana, al alba,
+me atraían a la búsqueda.
+
+Veo la lejanía, hermosa y encantadora,
+                                          y vivo como ninguna otra cosa.
+Se divisa el borde de un ser desconocido…
+Allí sale el sol; a mi alma
+la tomaron cautiva los sentimientos.
+
+## 58. O.Rich
+
+Sueño. Veo mil racimos de uvas.
+Ante mí un jardín de primavera florecido,
+tras el jardín un campo, en el campo lino,
+sobre el campo un ave que nadie nota.
+
+Noche. Yo y la Tierra cara a cara.
+La luz de la luna se derramó por todas partes:
+clara y nítidamente veo O.Rich —
+en el cielo nació mi nombre.
+
+Instante. El ave que nadie nota vuela.
+Lo sé… con los ojos del ave paso sobre la Tierra…
+Soy el ave… Vuelo… Y la Tierra grita:
+"¡Vuelve..!" No oigo… A lo lejos me voy volando.
+
+Mundo. Un lejano vuelo de ave.
+Veo el espacio — libertad sin límites,
+sin cielo ni Tierra, — un jardín, — el fruto del manzano…
+¿Realidad? ¿Sabor o recompensa de la vida?
+
+Sabor. Despierto, — ¿por qué así?
+¡Quiero quedarme en el sueño!
+No, alrededor es invierno, tierra negra… Fuck!
+Pero un solo sueño — volver al sueño para siempre…
+
+## 59. * * *
+
+De nuevo Tu cabello en mis labios,
+de nuevo Tus manos en mis manos.
+Los sentimientos llenan el corazón,
+                                        y el deseo el cuerpo;
+nos unió el aliento incontenible del amor.
+
+Al ritmo de la pasión laten los corazones,
+dos almas como una sola alma.
+La Tierra es pequeña: Yo — uno y Tú — una,
+este es nuestro fantástico juego de amor.
+
+La noche oscura abrazó nuestros cuerpos,
+para nosotros en el cielo arde nuestra estrella.
+Siempre estoy Contigo y Tú — mía,
+mi Hermosa Lady, mi Sentimiento.
+
+Tu tierno roce, tu aliento cálido
+me envolvieron en las redes del amor.
+Estaba cerca; de pronto aquí no estoy,
+por Tu mejilla rodó una lágrima caliente.
+
+No quiero que llores más,
+por eso volveré, cruzaré fugaz otros mundos.
+Hasta nuestra estrella, a la eternidad Te llevaré en brazos…
+Y de nuevo Tu cabello en mis labios.
+
+## 60. Contraste
+
+Redes de pensamientos, como telaraña,
+en ellas las miradas desde dentro se entrelazaron.
+De la rabia allí se escondió un niño,
+tiene miedo, reza tú por él.
+
+Beatitud y pureza, la inocencia del alma —
+esa es la fuente que percibe la belleza.
+Suciedad y oscuridad, desconocidas hasta ahora, aún ajenas,
+se vuelven familiares con el paso del tiempo.
+
+La soledad como la mayor alegría de la vida,
+como el confín adonde huyes de la sociedad,
+para descifrar el misterio de los sentimientos
+que juegan en el corazón como héroes de un reino.
+
+La inmensidad que está llena de amor,
+en la que no hay lugar para el vacío,
+como una herida inundada de sangre caliente,
+y el dolor de la herida — la sal que hay en la lágrima.
+
+El sufrimiento, solo como medio de existencia,
+en ese mundo, en ese juego ardiente
+al que una vez llamamos amor,
+y al que luego le dimos todos los sueños.
+
+## 61. Para ti, gatita
+
+¿Para qué dio Dios la alegría de sentir el amor,
+para qué los pensamientos desbordan la razón,
+por qué es tan ardiente y tan temprano,
+para qué toqué tu mano?
+
+¿Para qué se encendió ese fuego en el alma
+si es eterno y ya no se apagará?
+A menos que arda el alma, y el viento en el campo
+esparza las cenizas de un niño que es infeliz.
+
+Mi alma es mi niño enamorado;
+¿para qué estás viva, ardiente — muere!
+¿Para qué sin la amada esos sentimientos, la vida?
+¿Para qué el dolor, para qué esos últimos errores?
+
+¿Para qué el cuerpo, los roces tiernos y las caricias?
+¿Para qué los ojos, si no es para verte?
+¿Para qué las lágrimas de esos ojos, las súplicas,
+si nunca podré perdonarme?
+
+¿Para qué esas palabras mías vacías y tontas,
+para qué, sin Ti, Gatita, mi vida,
+para qué el espacio y la libertad, el dinero y la fama?
+¿Para qué yo..?, si tú no estás, ¿para qué yo..?
+
+## 62. Madame
+
+Madame, la deseo
+en todos los sentidos;
+es Usted tan dulce que no puedo
+hacerle una propuesta.
+
+Soy suyo, aunque Usted no es mía;
+sea… Sí, aun así quiero
+que la estrella del amor se alce,
+pero modestamente callaré.
+
+Me da placer
+estar cerca de Usted,
+escuchar juntos el canto de los pájaros,
+el rumor de los árboles y el bajo de la cascada.
+
+Me gusta su sonrisa —
+pura, sin mezcla de servidumbre;
+la absorbo dulce y vacilante,
+sin dejar la más mínima parte.
+
+Sus ojos… juegan con encanto,
+en ellos hay verdad, profundidad de vida,
+calma y alegría — todo lo que atrae
+y seduce, como el brillo de un rubí.
+
+Y su cabello, y sus labios… y los rasgos
+de su rostro encantador
+son para mí el reflejo de un sueño,
+como el espacio para un polluelo.
+
+Es Usted tan hermosa…, tan luminosa…,
+que no me permitiré ofrecerle
+mi mano y mi corazón para el amor,
+aunque en sufrimientos tenga que vivir.
+
+## 63. No te pases…
+
+Sé para mí una musa
+que suena como música
+en notas suaves, tiernas,
+contiguas.
+
+Sé para mí una flor
+que es primavera eterna;
+un aroma embriagador y fragante,
+sé para mí una fiesta.
+
+Sé para mí un juego
+que cautiva,
+fluye como un torrente de emociones,
+solo no seas un shock.
+
+Sé para mí una niñera,
+un juguete y un entretenimiento,
+léeme la revista "Maliatko",
+porque todavía soy un niñito.
+
+Sé para mí dulce,
+una sonrisa sincera,
+pero ante todo conmigo
+sé siempre tú misma.
+
+## 64. Recuerda
+
+Oh felicidad mía, dime si recuerdas
+los primeros roces y las caricias ardientes…
+¿No has olvidado el camino que recorres,
+no has borrado ya los colores del amor?
+
+Oh sol mío, píntame calor,
+cielo azul, espacio y libertad,
+pinta el momento que pasó a la eternidad,
+píntanos de rojo entre la gente gris.
+
+Estrella clara, entre noches oscuras y vacías,
+brilla y no te apagues, sabe y recuerda
+que tu luz es la vida de mis ojos;
+dame siempre la posibilidad de ver.
+
+Oh sentimiento mío, la infinitud es tu límite;
+ve, corre, pero no olvides que tienes alas —
+vuela. Sé todo, y aquello que no existe…
+Tu movimiento inspira una alegría sincera.
+
+Oh destino mío, dime si recuerdas
+que soy solo tuyo y solo para ti.
+¡¡¡Dime!!! ¿Ya no me conoces?..
+Entonces escucha cómo canta el silencio…
+
+## 65. ¿Es tarde?
+
+¿Por qué me amas
+ahora, cuando yo ya…?
+Y cuando te conquistaba,
+preguntabas: "¿Dónde?"
+
+"¿Dónde está el amor? — muéstramelo,
+no lo veo,
+ese amor. ¡A-já! cuéntame…
+— Todo son sue-e-eños".
+
+Me culpabas
+de no amarte.
+Y más de una vez volví a casa
+diciéndole a los cielos:
+
+"Te amo profundamente,
+¡te amo! ¿Por qué
+no confías — no lo sé
+por qué?.. Y de nuevo callo…"
+
+Pero ahora no callaré,
+¡no quiero, no quiero, no quiero!
+Aunque no te olvidaré,
+pero… ya… no quiero…
+                No quiero… No quiero…
+
+¿Qué hacer ahora, cuando
+tú me amas?
+¿Cómo ayudarte a ti y a mí,
+cuando yo ya… no…?
+
+## 66. No te cuelgues de mí
+
+No cuentes conmigo
+como con una propiedad que puedes obtener,
+sino cuenta conmigo
+como con un amigo que puede apoyar
+en los minutos de alegría y de tristeza.
+
+No me exijas
+estar obligado contigo en algo,
+no me exijas
+convertirme en tu cautivo o prisionero
+que pierde su propia opinión.
+
+No me exijas
+hacer lo que quieres por diversión,
+no me exijas,
+si quieres verdad y más respeto,
+no como orgullo, sino como amor.
+
+No hagas por mí
+nada que en realidad no quieras hacer,
+no vivas por mí
+si por ti misma no aprendiste a vivir
+y a entender los momentos maravillosos.
+
+No cuentes conmigo,
+no me exijas,
+no hagas por mí,
+si me quieres.
+
+## 67. ¿Y tú adónde?
+
+El río de los sucesos cotidianos corría,
+me llevaba consigo
+a través de los años de la juventud inestimable;
+¡Yo soy el Actor! ¡Él es solo el escenario!
+
+No siempre lo recordaba;
+cambiaba la decoración del escenario,
+cambiaba mi papel de actor…
+¿Pero dónde estoy Yo?
+
+Pasaban volando calles, casas,
+rostros-máscaras, ciudades ajenas,
+la madre, el padre, la hermana de alguien…
+¿Pero dónde estoy Yo?
+
+El eco congelado de voces ajenas,
+los sonidos de la gente como ladridos de perros.
+¿Una nueva obra? ¿Un nuevo drama?
+¿De nuevo él es α, de nuevo tú eres γ?
+
+¿Y luego todo desde el principio, otra vez?
+¿Él será 3, tú serás 5?
+Qué juego tan divertido…
+¿Pero dónde estoy Yo?
+
+¡"Pálida falsedad y malvada lisonja,
+no hay Bien, la existencia es venganza;
+¿dónde… estás… tú, HÉROE Principal?"!
+¿No será ese ya mi papel? …
+
+Y todos se apresuran, y todos llaman,
+y todos van hacia allá, empujan…
+Pero — no, no, no;
+¡NO — esa es mi respuesta!
+
+Salido del sendero público,
+no fui adonde iban todos,
+pues la paz moral no se alcanza
+mientras el tono del pensar es brillante.
+
+## 68. Cuestión de eternidad
+
+Tarde otoñal, no fría, tardía;
+el crepúsculo se recostó en los hombros de la ciudad,
+llevándose consigo al Reino del Sueño
+el ajetreo cotidiano del día.
+
+Hoy es noche, y mañana mañana —
+esto es un laberinto cerrado con candado,
+un acertijo que no se resuelve,
+un código que no se descifra.
+
+Esto es la vida, sí… esto es la vida,
+el enigma de la eternidad y del ser,
+del deseo, la alegría y la pena,
+y el axioma de las dos caras de la medalla.
+
+Vida, dime, Vida,
+¿cómo vivir para que el sentimiento de felicidad
+al menos alguna vez en la vida se sienta,
+para vivir, y no solo estúpidamente existir?
+
+Vida, dime, Vida,
+¿para qué todos los arrepentimientos futuros?
+Dime, ¿vivo, estoy vivo,
+me desarrollo y crezco, o simplemente soy…?
+
+Si mis pensamientos están vivos,
+cuando muera quedarán los versos:
+poesía y prosa — esto es para Ustedes — …
+mi familia y mi pandilla.
+
+## 69. No hay juez
+
+¿Qué necesitas, chico, qué?
+¿Pides dinero, juntas monedas?
+¿Y para qué, para qué lo quieres?
+Dices que te mueres.
+
+¿Comprarás pancito para tu hermano?
+Que yace en algún sótano,
+pinchado sin retorno;
+tocado hasta el final en el "acordeón".
+
+¿O mejor tomarás pegamento
+y una bolsita de polietileno?
+Para ti y para los amigos,
+¿y en el trabajo habrá un cambio?
+
+Si tú… no lo hubieras hecho así,
+quizá habrías empezado a entender
+quién es tu amigo y quién tu enemigo,
+dónde levantar y dónde tirar.
+
+No escucharás al viejo,
+no hay tiempo para charlas.
+No da dinero — huyes
+en busca del camino a la letrina.
+
+¡Eh! ¡Chico, detente!
+Toma el pan que es mi desayuno,
+perdona que no sea con salchichón,
+perdona, toma también manzanas…
+
+¡Eh..! detente…, chico,
+¡no huyas! No,
+no tengo dinero…
+Pero… él no necesita pan.
+
+No escuchó al viejo,
+no hay tiempo para charlas.
+No dio dinero — huyó
+en busca del camino a la letrina.
+
+## 70. El chico grande
+
+El chico que mira por la ventana
+tan penetrante, y tan hondo,
+ve verdades detrás de ella,
+cubiertas por el miedo social.
+
+Mira, absorbiendo con los ojos
+todo lo que quedó del Paraíso,
+separando el Bien del Mal,
+penetrante, hondo y en silencio.
+
+La boca cerrada, los labios mudos,
+pero solloza el alma del chico,
+gime, duele, lastima y grita,
+pero por ahora el chico calla.
+
+El corazón se aprieta en el pecho,
+el día claro ya quedó atrás,
+la noche por delante… Oscuridad
+que atrae hacia sí al pequeño.
+
+Para él es buena
+porque en ella hay silencio;
+puede quedarse solo,
+no temer a los amigos tontos.
+
+Y cada vez más la hondura de la noche
+ahoga en sí al pequeño.
+Con astucia llama: "Ven… —
+todas las delicias están por delante…"
+
+¡Pero no te apresures, pequeño, espera!
+Recuerda lo que te pasó,
+cómo estabas sentado y mirabas por la ventana
+tan penetrante y tan hondo.
+
+Viste cómo, tras la ventana,
+allá abajo, en la ciudad nocturna,
+yace una persona, y el cuerpo no respira…
+Sobre esto alguien alguna vez escribirá.
+
+Sobre esto alguien ya escribió,
+y allí entonces una persona moría,
+y tú mirabas hacia allí por la ventana
+y de impotencia enmudeciste.
+
+Viste cómo pasan de largo
+mujeres y hombres, con lujuria:
+esta es la verdad de la "gente adulta",
+esta es la experiencia de los amigos tontos.
+
+Viste cómo la ambulancia
+se lleva el cuerpo muerto a la noche…
+El corazón estalló en tu pecho,
+por la mejilla rodó una lágrima caliente…
+
+¡Llora, pequeño, llora, llora!
+Las lágrimas son hoy tu médico.
+¡Eres más fuerte, pequeño, brama!
+¿Acaso un fuerte lloraría como tú?
+
+¡Suelta la lengua, que grite!
+Que no enmudezca y no calle.
+No contuviste el fuego — sollozaste,
+fuerte, fuerte en la noche gritaste…
+
+…Y de nuevo alrededor silencio… vacío…
+Nadie oyó al pequeño…
+Eres fuerte, chico, eres un alma —
+esta es la primera verdad de tu vida.
+
+## 71. * * *
+
+Quiero aferrarme a la vida,
+a ese momento en que soy joven,
+a esos hermosos sentimientos del corazón,
+a ese estado ardiente del alma.
+
+Quiero aferrarme a la vida
+para no perder los años de juventud,
+para guardar en mí a ese niño
+que realiza el vuelo de la fantasía.
+
+Quiero aferrarme a la vida
+para detener el fluir del tiempo,
+para traer la felicidad al ser;
+¿o este deseo es un sueño-humo no cumplido?
+
+Aun así quiero aferrarme a la vida,
+porque no hay desilusión, aún estoy vivo.
+Aunque amargo será de todos modos el arrepentimiento,
+aun así quiero, mientras soy joven.
+
+## 72. Secreto
+
+Hay que trabajar
+pase lo que pase,
+y este trabajo
+te lo traerá todo.
+
+Hay que trabajar sobre uno mismo,
+sobre lo interior y lo exterior,
+sobre el cuerpo y sobre el alma,
+para seguir teniendo éxito.
+
+Pues no tiene éxito aquel
+que, al alcanzar el éxito,
+seguía siendo pecador,
+y la fama — su diversión.
+
+Sino aquel que trabaja
+          pase lo que pase,
+y este trabajo
+          se lo trae todo.
+
+## 73. Me quedaré solo
+
+Me quedaré solo,
+seré como el viento,
+aunque tenga
+que responder con la muerte.
+
+Y nada tiene importancia,
+ni el ayer ni el mañana.
+Ni la sociedad ni la renuncia,
+cuando mueres de repente.
+
+Solo un alma
+que ligera del cuerpo
+al espacio se fue,
+dejando todo lo que tenía.
+
+Que se fundan en uno,
+como la gota y el océano.
+Y ya nadie
+provocará al engaño.
+
+## 74. Para defender
+
+No puedo dormir,
+debo saber
+quién soy, dónde estoy y para qué,
+dónde está la madre querida, dónde la casa,
+dónde el ser sin pecado.
+
+Para llegar a la casa,
+a la madre querida,
+del pozo sin fondo
+beber, sacar
+el agua curativa.
+
+Para que, saciando la sed,
+siempre muestre valentía,
+verdad, libertad y honor,
+ante aquel que lleva
+en sí la muerte sangrienta.
+
+## 75. ENTIENDE
+
+La vida es un juego,
+pero si es un juego
+donde no hay escudo ni espada,
+entonces para mí
+¡no vale la pena!
+
+Lo principal en la vida
+no es dar muerte a otros
+ni quitar la vida,
+sino el vacío del alma de otros…
+llenar con lo perfecto,
+y… sanar…
+
+¿Pero con qué ayudar entonces,
+cuando se va lejos
+el deseo de vivir,
+y se vuelve imposible
+perdonarse a uno mismo?
+
+¡No perezcas, reza!
+Busca y encontrarás —
+los caminos que llevan
+allí donde entenderás
+que no todos mienten,
+y… hallarás el sentido de la vida.
+
+## 76. ¿Quién?
+
+Como la gaviota vuela sobre el mar,
+como el viento susurra en las hojas de los árboles,
+como se alzan las montañas pintorescas,
+como el león sobre las fieras.
+
+Como grato-ligero y hermoso,
+como penetrante y que todo lo contiene,
+como poderoso y feliz,
+como el más alto cuando es bajo.
+
+Como el sol tras una lluvia prolongada,
+como la lluvia tras la sequía,
+como un camino en un bosque oscuro,
+como manos para el manco.
+
+Como el espacio, aquel que es infinitud,
+como un mar en el que no hay fondo,
+como el ideal, como la perfección,
+como Aquel para Quien soy para siempre.
+
+## 77. Elige la luz
+
+"¿Acaso la vida es hermosa?" —
+dirá una persona.
+Y contra sí misma, en vano,
+responderá — «No».
+
+Sin duda, vivir en tinieblas
+no es belleza,
+pues la vida sin Dios
+es tiniebla continua.
+
+Dios es la palabra,
+la palabra es luz;
+quien entiende la palabra
+no responderá — «No».
+
+No te escondas, no huyas,
+acepta la palabra de Dios
+y no perezcas;
+ella en todo ayudará.
+
+Y la vida… la vida es hermosa,
+no hay nada más hermoso,
+pero al elegir la muerte — en vano
+apagas la luz brillante.
+
+## 78. * * *
+
+Amo vivir,
+amo la vida,
+amo los hermosos
+sentimientos del corazón.
+
+Amo crear,
+amo al Creador:
+al Espíritu Santo, a Dios Padre
+y a Su Hijo — Jesucristo.
+
+Amo amar,
+amo el Amor.
+Acepto la sangre
+derramada por Dios por mí.
+
+Amo vivir
+en el deleite de conocer
+la Verdad y la Esencia,
+y no el bien y el mal.
+
+Amo vivir —
+y elijo la vida.
+Para no morir —
+no elijas el mal.
+
+## 79. ¿Y por qué tú…?
+
+¿Sabes…? amo a Dios,
+por eso la desilusión y la angustia
+para mí no son reales, sino vacías,
+como la realidad que hay en un sueño.
+
+Como un espejismo, lejos en lo hondo
+se apagaron los sueños de alguien en el silencio,
+pero no los míos, porque soy para Él;
+con esa verdad está tendido mi camino.
+
+Sabes…, amo a ese Dios
+que da felicidad, alegría y vida,
+sentimientos gratos, y es amor,
+porque perdona una y otra vez.
+
+De nuevo me levanta de rodillas,
+como a un niño pequeño me enseña razón.
+Por eso lo amo sin límites;
+sin Él no quiero vivir por mi cuenta.
+
+Y tantas palabras distintas,
+quizá no entendiste nada,
+¿pero sabes…? amo a Dios,
+y solo una cosa tiene sentido — el amor a Él.
+
+## 80. A todos los poetas
+
+Poetas, cuéntennos por favor,
+si no les es difícil,
+cómo llegar a ser poeta.
+
+Cómo en forma poética,
+para Ustedes simple y habitual,
+describir sus pensamientos.
+
+Cómo la belleza encantadora y la hermosura,
+el deseo, la alegría y la libertad
+transmitir en verso.
+
+Cómo la discordia de la vida
+echar fuera del alma
+y no dejarla acercarse más.
+
+Cuéntennos de la inmensidad transparente;
+de cómo en pensamientos volaban
+a lo alto, al cielo junto con las aves.
+
+Cuéntennos sin soberbia
+a todos nosotros, queridos poetas —
+bueno, aunque sea una copla cada uno.
