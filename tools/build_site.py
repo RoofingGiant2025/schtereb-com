@@ -259,6 +259,8 @@ def build():
     write(os.path.join(SITE, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(os.path.join(SITE, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://schtereb.com/sitemap.xml\n")
     write(os.path.join(SITE, ".htaccess"), """AddDefaultCharset UTF-8
+AddType audio/mp4 .m4a
+AddType application/json .json
 DirectoryIndex index.html
 Options -Indexes
 RewriteEngine On
@@ -271,6 +273,9 @@ RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   <FilesMatch "\\.(css|js|jpg|svg|json)$">
     Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+  <FilesMatch "\\.m4a$">
+    Header set Cache-Control "public, max-age=604800"
   </FilesMatch>
   <FilesMatch "\\.html$">
     Header set Cache-Control "public, max-age=300"
