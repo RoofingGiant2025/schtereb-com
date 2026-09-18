@@ -1,16 +1,16 @@
 {
- "pages": 424,
+ "pages": 522,
  "trim_in": [
   6,
   9
  ],
- "spine_in": 1.015,
+ "spine_in": 1.2357,
  "paperback": {
-  "spine_in": 1.015
+  "spine_in": 1.2357
  },
  "hardcover": {
   "binding": "linen wrap + dust jacket",
-  "spine_in": 1.25,
+  "spine_in": 1.438,
   "board_in": [
    6.25,
    9.25

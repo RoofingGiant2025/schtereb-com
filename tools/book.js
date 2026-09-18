@@ -110,9 +110,10 @@
     var ot = p.texts[p.orig].title; if (ot === "* * *") ot = firstLines(p, p.orig, 1)[0] || "";
     return '<figure class="ms codex" data-n="' + p.n + '" style="--rot:' + tiltOf(p.n, 0.9) + 'deg">' +
       '<span class="cx-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width=".8"/><path d="M20 3v5M20 32v5M3 20h5M32 20h5" stroke="currentColor" stroke-width=".8"/><circle cx="20" cy="20" r="1.2" fill="currentColor"/></svg><b>' + p.roman + "</b></span>" + mirrorHTML(ot, "ms-mirror") +
-      '<button type="button" class="ms-sheet" aria-label="' + esc(ui.zoom) + '"><span class="cx-main"><img class="cx-ink" src="' + BASE + c.main.src + '?v=' + VER + '" alt="' + alt + '" width="' + c.main.w + '" height="' + c.main.h + '" decoding="async"></span>' + det + more + "</button>" +
+      '<button type="button" class="ms-sheet" aria-label="' + esc(ui.zoom) + '"><img class="cx-ink cx-main" src="' + BASE + c.main.src + '?v=' + VER + '" alt="' + alt + '" width="' + c.main.w + '" height="' + c.main.h + '" decoding="async">' + det + more + "</button>" +
       '<figcaption><span class="r">' + p.roman + '</span><span class="c">' + esc(cap) + (note ? '<br>' + esc(note) : "") + "</span></figcaption></figure>";
   }
+  var byN = null;   /* n → poem (songs and poems are not one contiguous run) */
   function poem(n) { if (!byN) { byN = {}; state.data.poems.forEach(function (q) { byN[q.n] = q; }); } return byN[n]; }
   function pageIndex(t, id, c) { for (var i = 0; i < state.pages.length; i++) { var q = state.pages[i]; if (q.t === t && (id === undefined || q.id === id) && (c === undefined || q.c === c)) return i; } return -1; }
   function firstPageOf(pages, n, c) {

@@ -21,6 +21,8 @@ RedirectPermanent /en/71-i-want-to-grab-hold-of-life-to-hold.html https://schter
 RedirectPermanent /en/78-i-love-to-live-i-love.html https://schtereb.com/en/78-i-love-to-live.html
 RedirectPermanent /ru/19-kol-ty-menya-ne-lyubish-chto-zh.html https://schtereb.com/ru/19-esli-ty-ne-lyubish-menya.html
 RedirectPermanent /ru/49-bez-gosudarstva.html https://schtereb.com/ru/49-bez-derzhavy.html
+RedirectPermanent /uk/4-vidobrazhennya-sontsya.html https://schtereb.com/uk/4-vidblisk-sontsya.html
+RedirectPermanent /es/38-atormentada-esta-mi-razon-hasta-el-delirio.html https://schtereb.com/es/38-atormentada-hasta-el-delirio-esta-mi-razon.html
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set Strict-Transport-Security "max-age=31536000"

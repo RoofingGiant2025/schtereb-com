@@ -209,6 +209,38 @@ def find_detail(mask, box):
     return (int(max(0, x0 + cx0 - pad)), int(max(0, y0 + gy0 - pad)), int(min(mask.shape[1], x0 + cx1 + pad)), int(min(mask.shape[0], y0 + gy1 + pad)))
 
 
+def rotate_white(arr, deg):
+    """Rotate an image on white by a few degrees (the tilt is baked in: a CSS transform would break the multiply blend)."""
+    h, w = arr.shape[:2]
+    M = cv2.getRotationMatrix2D((w / 2, h / 2), deg, 1.0)
+    cos, sin = abs(M[0, 0]), abs(M[0, 1])
+    nw, nh = int(h * sin + w * cos), int(h * cos + w * sin)
+    M[0, 2] += nw / 2 - w / 2; M[1, 2] += nh / 2 - h / 2
+    return cv2.warpAffine(arr, M, (nw, nh), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_CONSTANT, borderValue=(255, 255, 255))
+
+
+def lay_detail(main, det, seed):
+    """The signature scrap over the torn foot of the main cut, bottom-right, on a white halo that hides the lines beneath."""
+    mh, mw = main.shape[:2]; dh, dw = det.shape[:2]
+    rng = np.random.default_rng(seed)
+    det = rotate_white(det, float(rng.uniform(2.0, 5.0)) * (1 if rng.random() < 0.7 else -1))
+    dh, dw = det.shape[:2]
+    halo = int(0.05 * mw)
+    canvas = np.full((mh + dh // 2 + halo, mw + halo, 3), 255, np.uint8)
+    canvas[:mh, :mw] = main
+    x0 = mw + halo - dw - int(0.02 * mw); y0 = canvas.shape[0] - dh - int(0.01 * mh)
+    x0 = max(0, x0); y0 = max(0, y0)
+    # feathered white halo
+    mask = np.zeros(canvas.shape[:2], np.float32)
+    cv2.ellipse(mask, (x0 + dw // 2, y0 + dh // 2), (dw // 2 + halo, dh // 2 + halo), 0, 0, 360, 1.0, -1)
+    mask = cv2.GaussianBlur(mask, (0, 0), halo * 0.55)[..., None]
+    canvas = (canvas * (1 - mask) + 255 * mask).astype(np.uint8)
+    # multiply the scrap in (its own white is transparent)
+    region = canvas[y0:y0 + dh, x0:x0 + dw].astype(np.float32)
+    canvas[y0:y0 + dh, x0:x0 + dw] = (region * det.astype(np.float32) / 255.0).astype(np.uint8)
+    return canvas
+
+
 def save(arr, path, maxdim):
     im = Image.fromarray(arr); im.thumbnail((maxdim, maxdim), Image.LANCZOS)
     im.save(path, "JPEG", quality=82, optimize=True, progressive=True)
@@ -268,27 +300,33 @@ def process_poem(n, entry, debug):
     cy0, cy1 = cfg.get("cut", [0, min(1.0, cfg.get("max_aspect", 1.05) * bw / max(bh, 1))])
     my0, my1 = int(y0 + cy0 * bh), int(y0 + cy1 * bh)
     out = {}
-    main = first.cut(x0, my0, x1, my1, seed=int(n) * 10)
-    mw, mh = save(main, os.path.join(OUT, name + ".jpg"), MAIN_PX)
-    out["main"] = {"src": rel(os.path.join(OUT, name + ".jpg")), "w": mw, "h": mh}
     lname, last, lcfg = sheets[-1]
     det = lcfg.get("detail", "auto"); dbox = None
     if det == "auto": dbox = find_detail(last.mask, last.box)
     elif det:
         lx0, ly0, lx1, ly1 = last.box
         dbox = (int(lx0 + det[0] * (lx1 - lx0)), int(ly0 + det[1] * (ly1 - ly0)), int(lx0 + det[2] * (lx1 - lx0)), int(ly0 + det[3] * (ly1 - ly0)))
-    partial = cy1 < 0.999 or len(sheets) > 1
-    if dbox is None and partial:            # no signature cluster found: the foot of the last sheet
-        lx0, ly0, lx1, ly1 = last.box; dbox = (lx0, int(ly1 - 0.2 * (ly1 - ly0)), lx1, ly1)
-    if dbox and (partial or det != "auto"):
-        d = last.cut(*dbox, seed=int(n) * 10 + 7, feather_frac=0.07, amp_frac=0.045)
-        dw, dh = save(d, os.path.join(OUT, name + "-d.jpg"), DETAIL_PX)
-        out["detail"] = {"src": rel(os.path.join(OUT, name + "-d.jpg")), "w": dw, "h": dh, "page": len(sheets)}
+    lbw = last.box[2] - last.box[0]
+    if dbox and det == "auto" and (dbox[2] - dbox[0]) > 0.62 * lbw: dbox = None      # a full line of verse, not a signature
+    if dbox is None and "cut" not in cfg: cy0, cy1 = 0.0, 1.0                            # nothing to carry the ending: show the whole sheet
+    my0, my1 = int(y0 + cy0 * bh), int(y0 + cy1 * bh)
+    rng = np.random.default_rng(int(n) * 10)
+    main = rotate_white(first.cut(x0, my0, x1, my1, seed=int(n) * 10), float(rng.uniform(-0.9, 0.9)))
+    if dbox is not None and (cy1 < 0.999 or len(sheets) > 1 or det != "auto"):
+        dx0, dy0, dx1, dy1 = dbox
+        d = last.cut(dx0, dy0, dx1, dy1, seed=int(n) * 10 + 7, feather_frac=0.07, amp_frac=0.045)
+        # the scrap: about half the width of the main cut, magnified up to 1.35x
+        target = min(0.55 * main.shape[1], 1.35 * (dx1 - dx0) * main.shape[1] / max(x1 - x0, 1))
+        sc = target / d.shape[1]; d = cv2.resize(d, (int(d.shape[1] * sc), int(d.shape[0] * sc)), interpolation=cv2.INTER_AREA)
+        main = lay_detail(main, d, int(n) * 10 + 3)
+        out["detail"] = {"page": len(sheets)}
+    mw, mh = save(main, os.path.join(OUT, name + ".jpg"), MAIN_PX)
+    out["main"] = {"src": rel(os.path.join(OUT, name + ".jpg")), "w": mw, "h": mh}
     out["cut"] = [round(cy0, 3), round(cy1, 3)]
     if debug:
         debug_view(first, "p" + name, [(first.box, (0, 120, 255)), ((x0, my0, x1, my1), (0, 170, 0))] + ([(dbox, (220, 0, 0))] if len(sheets) == 1 else []))
         if len(sheets) > 1: debug_view(last, "p" + lname, [(last.box, (0, 120, 255)), (dbox, (220, 0, 0))])
-    print(f"poem {n}: main {mw}x{mh} cut {out['cut']}" + (f", detail {out['detail']['w']}x{out['detail']['h']}" if "detail" in out else ""))
+    print(f"poem {n}: main {mw}x{mh} cut {out['cut']}" + (" + detail" if "detail" in out else ""))
     return out
 
 
@@ -298,6 +336,7 @@ def process_art(key, entry, debug):
     cfg = entry.get("codex", {})
     sh = Sheet(src, cfg, True)
     img = sh.cut(*sh.box, seed=sum(map(ord, key)))
+    img = rotate_white(img, float(np.random.default_rng(sum(map(ord, key))).uniform(-1.4, 1.4)))
     w, h = save(img, os.path.join(OUT, key + ".jpg"), ART_PX)
     if debug: debug_view(sh, "art-" + key, [(sh.box, (0, 120, 255))])
     print(f"art {key}: {w}x{h}")

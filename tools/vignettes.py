@@ -20,16 +20,19 @@ from PIL import Image
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from manuscripts import load, order, save, warp, MAN, OUT_ART, OUT_MS, DEBUG, LEAF, ZOOM, ROOT
 
-def clear_ink(rgb, inside, valid):
+def clear_ink(rgb, inside, valid, dv=20, ds=36):
     """Keep the real paper (stains and all) around the drawing but lift the stray ink off it — text of the letter,
-    marks of neighbouring doodles — by inpainting every dark or saturated stroke outside the quad."""
+    marks of neighbouring doodles — by inpainting every stroke darker or more saturated than the paper around it."""
     hsv = cv2.cvtColor(rgb, cv2.COLOR_RGB2HSV)
     out_px = (inside < 0.5) & (valid > 0.5)
     if out_px.sum() < 500: return rgb
-    v0 = np.median(hsv[..., 2][out_px]); s0 = np.median(hsv[..., 1][out_px])
-    ink = ((hsv[..., 2] < v0 - 32) | (hsv[..., 1] > s0 + 45)) & (inside < 0.5)
-    ink = cv2.dilate(ink.astype(np.uint8) * 255, np.ones((7, 7), np.uint8))
-    return cv2.inpaint(rgb, ink, 6, cv2.INPAINT_TELEA)
+    k = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (41, 41))
+    local_v = cv2.GaussianBlur(cv2.dilate(hsv[..., 2], k), (0, 0), 12).astype(np.int16)     # the paper under each stroke
+    local_s = cv2.GaussianBlur(cv2.erode(hsv[..., 1], k), (0, 0), 12).astype(np.int16)
+    near = cv2.dilate((inside > 0.5).astype(np.uint8), np.ones((17, 17), np.uint8)) > 0   # the frame line itself straddles the quad
+    ink = ((local_v - hsv[..., 2] > dv) | (hsv[..., 1] - local_s > ds)) & ~near
+    ink = cv2.dilate(ink.astype(np.uint8) * 255, np.ones((9, 9), np.uint8))
+    return cv2.inpaint(rgb, ink, 9, cv2.INPAINT_TELEA)
 
 def grade_v(rgb, keep=0.3, gamma=1.0):
     """manuscripts.grade with a dial on how much of the photographed paper cast survives (0 = cream, 1 = as shot)."""
@@ -85,14 +88,24 @@ def process(entry, out_base, dbg_name=None, man=None):
         A = np.array([[s, 0, off[0] - s * mn[0]], [0, s, off[1] - s * mn[1]]], np.float32)
         base = cv2.warpAffine(sheet, A, (CW, CH), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE)
         ins = (mask[..., 0] > 0.5) & (valid > 0.5)
-        def paper_tone(im):
-            px = im[ins].reshape(-1, 3).astype(np.float32); lum = px.mean(1)
-            return np.median(px[lum > np.percentile(lum, 70)], axis=0)
-        out = np.clip(out.astype(np.float32) * (paper_tone(base) / np.maximum(paper_tone(out), 1)), 0, 255).astype(np.uint8)
-        out = (out * mask + base * (1 - mask)).astype(np.uint8)
+        # exposure / white balance differ between the two photos: match the paper just inside the quad (close-up)
+        # to the paper just outside it (sheet) — the same paper on both sides of the drawn line
+        m8 = (mask[..., 0] > 0.5).astype(np.uint8)
+        rw = max(int(0.03 * bw), 12)
+        ring_in = (cv2.erode(m8, np.ones((rw // 3, rw // 3), np.uint8)) - cv2.erode(m8, np.ones((rw, rw), np.uint8))) > 0
+        ring_out = (cv2.dilate(m8, np.ones((rw, rw), np.uint8)) - cv2.dilate(m8, np.ones((rw // 3, rw // 3), np.uint8))) > 0
+        def paper_tone(im, sel, lo, hi):
+            px = im[sel].reshape(-1, 3).astype(np.float32); lum = px.mean(1)
+            return np.median(px[(lum > np.percentile(lum, lo)) & (lum < np.percentile(lum, hi))], axis=0)
+        gain = paper_tone(base, ring_out & (valid > 0), 40, 92) / np.maximum(paper_tone(out, ring_in & (valid > 0), 60, 94), 1)
+        out = np.clip(out.astype(np.float32) * gain, 0, 255).astype(np.uint8)
+        # the close-up reaches a little beyond the line and fades into the sheet where the photo still covers
+        soft = cv2.GaussianBlur(cv2.dilate(m8 * 255, np.ones((rw, rw), np.uint8)), (0, 0), rw / 3).astype(np.float32) / 255
+        soft = np.maximum(mask[..., 0], soft * cv2.erode(valid, np.ones((rw, rw), np.uint8)))[..., None]
+        out = (out * soft + base * (1 - soft)).astype(np.uint8)
         valid = np.ones((CH, CW), np.float32)
     if entry.get("mat"):
-        out = clear_ink(out, mask[..., 0], valid)
+        out = clear_ink(clear_ink(out, mask[..., 0], valid), mask[..., 0], valid, dv=11, ds=60)   # twice: the 2nd pass takes the ghosts
     lvl = entry.get("level", 0)
     if lvl:
         R = cv2.getRotationMatrix2D((CW / 2, CH / 2), -lvl, 1.0)          # "level" is clockwise; cv2 turns counter-clockwise for +angle

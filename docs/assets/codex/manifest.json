@@ -3,82 +3,55 @@
   "1": {
    "main": {
     "src": "assets/codex/1.jpg",
-    "w": 1440,
-    "h": 1500
-   },
-   "detail": {
-    "src": "assets/codex/1-d.jpg",
-    "w": 900,
-    "h": 278,
-    "page": 1
+    "w": 1500,
+    "h": 871
    },
    "cut": [
-    0,
-    0.892
+    0.58,
+    1.0
    ]
   },
   "6": {
    "main": {
     "src": "assets/codex/6.jpg",
-    "w": 1440,
+    "w": 1356,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/6-d.jpg",
-    "w": 900,
-    "h": 347,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.93
+    0.0,
+    1.0
    ]
   },
   "9": {
    "main": {
     "src": "assets/codex/9.jpg",
-    "w": 1439,
+    "w": 1236,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/9-d.jpg",
-    "w": 900,
-    "h": 366,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.83
+    0.0,
+    1.0
    ]
   },
   "10": {
    "main": {
     "src": "assets/codex/10.jpg",
-    "w": 1440,
+    "w": 1106,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/10-d.jpg",
-    "w": 900,
-    "h": 314,
-    "page": 2
-   },
    "cut": [
-    0,
-    0.719
+    0.0,
+    1.0
    ]
   },
   "11": {
+   "detail": {
+    "page": 1
+   },
    "main": {
     "src": "assets/codex/11.jpg",
-    "w": 1440,
+    "w": 1290,
     "h": 1500
-   },
-   "detail": {
-    "src": "assets/codex/11-d.jpg",
-    "w": 812,
-    "h": 357,
-    "page": 1
    },
    "cut": [
     0,
@@ -88,229 +61,154 @@
   "16": {
    "main": {
     "src": "assets/codex/16.jpg",
-    "w": 1440,
+    "w": 1059,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/16-d.jpg",
-    "w": 900,
-    "h": 301,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.684
+    0.0,
+    1.0
    ]
   },
   "23": {
    "main": {
     "src": "assets/codex/23.jpg",
-    "w": 1440,
+    "w": 1231,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/23-d.jpg",
-    "w": 900,
-    "h": 419,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.822
+    0.0,
+    1.0
    ]
   },
   "25": {
    "main": {
     "src": "assets/codex/25.jpg",
-    "w": 1440,
+    "w": 1176,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/25-d.jpg",
-    "w": 900,
-    "h": 378,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.779
+    0.0,
+    1.0
    ]
   },
   "26": {
    "main": {
     "src": "assets/codex/26.jpg",
-    "w": 1440,
+    "w": 1200,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/26-d.jpg",
-    "w": 900,
-    "h": 378,
-    "page": 2
-   },
    "cut": [
-    0,
-    0.796
+    0.0,
+    1.0
    ]
   },
   "28": {
    "main": {
     "src": "assets/codex/28.jpg",
-    "w": 1440,
+    "w": 1231,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/28-d.jpg",
-    "w": 900,
-    "h": 368,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.822
+    0.0,
+    1.0
    ]
   },
   "37": {
    "main": {
     "src": "assets/codex/37.jpg",
-    "w": 1439,
+    "w": 1314,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/37-d.jpg",
-    "w": 900,
-    "h": 353,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.894
+    0.0,
+    1.0
    ]
   },
   "41": {
    "main": {
     "src": "assets/codex/41.jpg",
-    "w": 1440,
+    "w": 1216,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/41-d.jpg",
-    "w": 900,
-    "h": 369,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.815
+    0.0,
+    1.0
    ]
   },
   "45": {
    "main": {
     "src": "assets/codex/45.jpg",
-    "w": 1440,
+    "w": 1369,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/45-d.jpg",
-    "w": 900,
-    "h": 345,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.942
+    0.0,
+    1.0
    ]
   },
   "48": {
    "main": {
     "src": "assets/codex/48.jpg",
     "w": 1500,
-    "h": 1364
+    "h": 1366
    },
    "cut": [
-    0,
+    0.0,
     1.0
    ]
   },
   "49": {
    "main": {
     "src": "assets/codex/49.jpg",
-    "w": 1439,
+    "w": 1274,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/49-d.jpg",
-    "w": 900,
-    "h": 254,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.861
+    0.0,
+    1.0
    ]
   },
   "51": {
    "main": {
     "src": "assets/codex/51.jpg",
-    "w": 1440,
+    "w": 1164,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/51-d.jpg",
-    "w": 900,
-    "h": 487,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.771
+    0.0,
+    1.0
    ]
   },
   "59": {
    "main": {
     "src": "assets/codex/59.jpg",
-    "w": 1440,
+    "w": 1279,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/59-d.jpg",
-    "w": 900,
-    "h": 359,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.865
+    0.0,
+    1.0
    ]
   },
   "61": {
    "main": {
     "src": "assets/codex/61.jpg",
-    "w": 1440,
+    "w": 1195,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/61-d.jpg",
-    "w": 900,
-    "h": 329,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.795
+    0.0,
+    1.0
    ]
   },
   "63": {
+   "detail": {
+    "page": 1
+   },
    "main": {
     "src": "assets/codex/63.jpg",
-    "w": 1440,
+    "w": 1288,
     "h": 1500
-   },
-   "detail": {
-    "src": "assets/codex/63-d.jpg",
-    "w": 900,
-    "h": 397,
-    "page": 1
    },
    "cut": [
     0,
@@ -320,99 +218,66 @@
   "65": {
    "main": {
     "src": "assets/codex/65.jpg",
-    "w": 1440,
+    "w": 1078,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/65-d.jpg",
-    "w": 900,
-    "h": 426,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.701
+    0.0,
+    1.0
    ]
   },
   "66": {
    "main": {
     "src": "assets/codex/66.jpg",
-    "w": 1439,
+    "w": 1159,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/66-d.jpg",
-    "w": 900,
-    "h": 381,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.766
+    0.0,
+    1.0
    ]
   },
   "67": {
    "main": {
     "src": "assets/codex/67.jpg",
-    "w": 1440,
+    "w": 1134,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/67-d.jpg",
-    "w": 900,
-    "h": 415,
-    "page": 2
-   },
    "cut": [
-    0,
-    0.743
+    0.0,
+    1.0
    ]
   },
   "70": {
    "main": {
     "src": "assets/codex/70.jpg",
-    "w": 1440,
+    "w": 1203,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/70-d.jpg",
-    "w": 900,
-    "h": 371,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.802
+    0.0,
+    1.0
    ]
   },
   "72": {
    "main": {
     "src": "assets/codex/72.jpg",
-    "w": 1439,
+    "w": 1306,
     "h": 1500
    },
-   "detail": {
-    "src": "assets/codex/72-d.jpg",
-    "w": 900,
-    "h": 353,
-    "page": 1
-   },
    "cut": [
-    0,
-    0.887
+    0.0,
+    1.0
    ]
   },
   "76": {
+   "detail": {
+    "page": 1
+   },
    "main": {
     "src": "assets/codex/76.jpg",
-    "w": 1440,
+    "w": 1260,
     "h": 1500
-   },
-   "detail": {
-    "src": "assets/codex/76-d.jpg",
-    "w": 900,
-    "h": 450,
-    "page": 1
    },
    "cut": [
     0,
@@ -420,16 +285,13 @@
    ]
   },
   "78": {
+   "detail": {
+    "page": 1
+   },
    "main": {
     "src": "assets/codex/78.jpg",
-    "w": 1439,
+    "w": 1240,
     "h": 1500
-   },
-   "detail": {
-    "src": "assets/codex/78-d.jpg",
-    "w": 756,
-    "h": 456,
-    "page": 1
    },
    "cut": [
     0,
@@ -437,16 +299,13 @@
    ]
   },
   "80": {
+   "detail": {
+    "page": 1
+   },
    "main": {
     "src": "assets/codex/80.jpg",
-    "w": 1440,
+    "w": 1281,
     "h": 1500
-   },
-   "detail": {
-    "src": "assets/codex/80-d.jpg",
-    "w": 830,
-    "h": 368,
-    "page": 1
    },
    "cut": [
     0,
@@ -458,7 +317,7 @@
   "frontispiece": {
    "src": "assets/codex/frontispiece.jpg",
    "w": 1500,
-   "h": 1313
+   "h": 1316
   },
   "endpaper": {
    "src": "assets/codex/endpaper.jpg",
@@ -468,31 +327,31 @@
   "part-before": {
    "src": "assets/codex/part-before.jpg",
    "w": 1500,
-   "h": 1050
+   "h": 1063
   },
   "sec-1": {
    "src": "assets/codex/sec-1.jpg",
-   "w": 1013,
+   "w": 1020,
    "h": 1500
   },
   "sec-2": {
    "src": "assets/codex/sec-2.jpg",
-   "w": 1152,
+   "w": 1154,
    "h": 1500
   },
   "sec-3": {
    "src": "assets/codex/sec-3.jpg",
-   "w": 1173,
+   "w": 1184,
    "h": 1500
   },
   "part-after": {
    "src": "assets/codex/part-after.jpg",
-   "w": 1269,
+   "w": 1270,
    "h": 1500
   },
   "colophon": {
    "src": "assets/codex/colophon.jpg",
-   "w": 952,
+   "w": 960,
    "h": 1500
   }
  }

@@ -38,6 +38,12 @@
     "ru": "Первые строки — на том же листе, что и конец «Без Держави».",
     "en": "The opening lines share the sheet with the end of “Without a State”.",
     "es": "Las primeras líneas comparten la hoja con el final de «Sin Estado»."
+   },
+   "codex": {
+    "cut": [
+     0.58,
+     1.0
+    ]
    }
   },
   "6": {

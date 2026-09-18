@@ -386,23 +386,21 @@ body.lb-open{overflow:hidden}
    Studies (.cx-study) are sanguine line drawings; .mirror is mirror script, the way Leonardo annotated his sheets. */
 :root{--sang:#8f3f2a;--sepia:#5b4231}
 .cx-ink{display:block;mix-blend-mode:multiply;max-width:100%;max-height:100%;width:auto;height:auto}
-.leaf.plate::after,.leaf.study::after,.leaf.codex-plate::after{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;mix-blend-mode:multiply;
+.leaf.plate::before,.leaf.study::before,.leaf.codex-plate::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:6;mix-blend-mode:multiply;
   background:
     radial-gradient(circle at 17% 74%,rgb(150 105 55/.14) 0,rgb(150 105 55/0) 3.2%),
     radial-gradient(circle at 81% 21%,rgb(150 105 55/.12) 0,rgb(150 105 55/0) 2.4%),
     radial-gradient(circle at 63% 88%,rgb(150 105 55/.10) 0,rgb(150 105 55/0) 2%),
     radial-gradient(circle at 28% 12%,rgb(150 105 55/.08) 0,rgb(150 105 55/0) 4%),
-    radial-gradient(ellipse at 50% 42%,rgb(255 250 240/0) 52%,rgb(135 100 55/.16) 100%),
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='g' color-interpolation-filters='sRGB'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' seed='11' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feColorMatrix values='.5 0 0 0 .5 0 .5 0 0 .5 0 0 .5 0 .5 0 0 0 0 1'/></filter><rect width='240' height='240' filter='url(%23g)'/></svg>");
-  background-size:auto,auto,auto,auto,auto,240px 240px;opacity:.9}
-.leaf.plate .leaf-body,.leaf.study .leaf-body,.leaf.codex-plate .leaf-body,.leaf.plate .leaf-foot,.leaf.study .leaf-foot,.leaf.codex-plate .leaf-foot{position:relative;z-index:1}
+    radial-gradient(ellipse at 50% 42%,rgb(255 250 240/0) 58%,rgb(135 100 55/.09) 100%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='g' color-interpolation-filters='sRGB'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' seed='11' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feColorMatrix values='.06 0 0 0 .94 0 .06 0 0 .94 0 0 .06 0 .94 0 0 0 0 1'/></filter><rect width='240' height='240' filter='url(%23g)'/></svg>");
+  background-size:auto,auto,auto,auto,auto,240px 240px}
 /* the manuscript leaf */
 .ms.codex{position:relative}
 .ms.codex .ms-sheet{padding:0;transform:rotate(var(--rot,0deg));overflow:visible}
 .ms.codex .ms-sheet img,.ms.codex .ms-sheet:hover img{box-shadow:none;transform:none;transition:opacity var(--fast) var(--ease)}
-.ms.codex .ms-sheet:hover .cx-main img{opacity:.86}
-.ms.codex .cx-main{display:flex;align-items:center;justify-content:center;max-height:100%;min-height:0;width:100%;height:100%}
-.ms.codex .cx-detail{position:absolute;right:-2%;bottom:-1%;width:46%;transform:rotate(var(--drot,3deg));padding:5% 4%;
+.ms.codex .ms-sheet:hover .cx-main{opacity:.86}
+.ms.codex .cx-detail{position:absolute;right:-3%;bottom:-3%;width:42%;transform:rotate(var(--drot,3deg));padding:5% 4%;
   background:radial-gradient(ellipse at 50% 50%,var(--paper) 50%,rgb(244 234 214/.9) 64%,rgb(244 234 214/0) 80%)}
 .ms.codex .cx-detail img{width:100%;height:auto;max-height:none}
 .ms.codex .ms-more{right:auto;left:.35rem;bottom:.35rem}
