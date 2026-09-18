@@ -200,7 +200,10 @@ def build():
             first = next((x for x in t["text"].split("\n") if x.strip()), "")
             base = t["title"] if t["title"] != "* * *" else first
             p["slug"][l] = f'{p["n"]}-{slug(base)}'
-            t["chunks"] = [apply(stanzas(t["text"]), g) for g in groups]
+            tst = stanzas(t["text"])
+            t["chunks"] = [apply(tst, g) for g in groups]
+            for extra in tst[len(orig_st):]:          # e.g. a translator's note stanza with no counterpart in the original
+                t["chunks"][-1] += [""] + extra
             del t["text"]
     D["ui"] = UI
     blob = json.dumps(D, ensure_ascii=False, separators=(",", ":"))

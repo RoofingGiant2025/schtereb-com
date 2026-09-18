@@ -78,30 +78,18 @@ and find its close, as verses tend.
 
 ## * * *
 
-I love to live — I do,
-I love this life — and true,
-I love the beautiful, the whole,
-the feelings in the heart — the soul.
-
-I love to create — to make,
-I love the Creator — for His sake:
-the Holy Spirit, God the Father — Three,
-and His Son — Jesus Christ — to be.
-
-I love to love — I love,
-I love Love — from above.
-I accept the blood that's shed —
-by God for me — the red.
-
-I love to live — to live
-in the delight of knowing — and to give,
-of Truth and Essence — the true thing,
-and not of good and evil — nothing.
-
-I love to live — and so
-I choose life — I choose to grow.
-So as not to die — not fall —
-do not choose evil. That is all.
+The image of the sun
+                         in my glass,
+the image of the sun
+                         in your soul.
+O God, how I love
+                              those eyes;
+I want to get there,
+                             just for a breath,
+into that space
+            of sweetness and fire,
+into that chance-found happiness —
+                         I want into that hell.
 
 ## I Saw You…
 
@@ -176,30 +164,35 @@ when my soul loved — and loves today.
 
 ## * * *
 
-I love to live — I do,
-I love this life — and true,
-I love the beautiful, the whole,
-the feelings in the heart — the soul.
+Perhaps the name of this is LOVE,
+or just desire, shown enough —
+desire to see you every day,
+to never let you slip away.
 
-I love to create — to make,
-I love the Creator — for His sake:
-the Holy Spirit, God the Father — Three,
-and His Son — Jesus Christ — to be.
+Desire to touch your hands, and hold,
+to fold you gently, fold on fold,
+to catch the glances of your eyes,
+to do whatever fancy tries.
 
-I love to love — I love,
-I love Love — from above.
-I accept the blood that's shed —
-by God for me — the red.
+When you are gone, when you're not near,
+no thought of mine will linger here.
+I only know: the key to bliss
+is you — and I will find it, this.
 
-I love to live — to live
-in the delight of knowing — and to give,
-of Truth and Essence — the true thing,
-and not of good and evil — nothing.
+And when you're here, beside me, close,
+I want to stop the clock that goes,
+so that this feeling, new and strange,
+would stay in us and never change.
 
-I love to live — and so
-I choose life — I choose to grow.
-So as not to die — not fall —
-do not choose evil. That is all.
+And when I see I'm losing you,
+what can I say? I have no clue —
+except "forgive me," said so low,
+"for all the bad" — and wait. And so
+
+I wait… for what, I couldn't tell,
+and wander in my thoughts as well,
+and do not know… what I should do
+so you could love me — even you.
 
 ## My Dream
 
@@ -612,30 +605,20 @@ and do not want to love you — nay.
 
 ## * * *
 
-I love to live — I do,
-I love this life — and true,
-I love the beautiful, the whole,
-the feelings in the heart — the soul.
+If you don't love me — then, instead,
+tell me of love, what can be said.
+Is it the colour of cold skies,
+or red and hot as blood that flies?
 
-I love to create — to make,
-I love the Creator — for His sake:
-the Holy Spirit, God the Father — Three,
-and His Son — Jesus Christ — to be.
+If you can't see love — then, instead,
+show me where I should find it, led.
+Is it where sun and landscapes lie,
+or where you sit alone, and sigh?
 
-I love to love — I love,
-I love Love — from above.
-I accept the blood that's shed —
-by God for me — the red.
-
-I love to live — to live
-in the delight of knowing — and to give,
-of Truth and Essence — the true thing,
-and not of good and evil — nothing.
-
-I love to live — and so
-I choose life — I choose to grow.
-So as not to die — not fall —
-do not choose evil. That is all.
+And when you see love — say a word,
+and I will come, and look, and gird;
+and if it's gentle, and sincere,
+I'll smile back at it, right here.
 
 ## Little Delirium
 
