@@ -35,7 +35,9 @@ CYR_RU = re.compile(r"[ыэъёЫЭЪЁ]")
 
 def detect_lang(text):
     uk, ru = len(CYR_UK.findall(text)), len(CYR_RU.findall(text))
-    # every Ukrainian poem uses і/ї/є; a poem with none of them is Russian
+    # every Ukrainian poem uses і/ї/є; a poem with none of them is Russian; no Cyrillic at all = English
+    if uk == 0 and ru == 0 and not re.search(r"[а-яА-Я]", text):
+        return "en"
     return "uk" if uk > 0 else "ru"
 
 LANG_NAME = {"uk": "Ukrainian", "ru": "Russian", "en": "English", "es": "Spanish"}

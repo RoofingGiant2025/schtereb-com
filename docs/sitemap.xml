@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://schtereb.com/</loc></url>
 <url><loc>https://schtereb.com/uk/</loc></url>
-<url><loc>https://schtereb.com/ru/</loc></url>
-<url><loc>https://schtereb.com/en/</loc></url>
-<url><loc>https://schtereb.com/es/</loc></url>
 <url><loc>https://schtereb.com/uk/1-biliy-tvir.html</loc></url>
 <url><loc>https://schtereb.com/uk/2-realniy-son.html</loc></url>
 <url><loc>https://schtereb.com/uk/3-zustrich.html</loc></url>
@@ -85,6 +82,9 @@
 <url><loc>https://schtereb.com/uk/78-ya-lyublyu-zhiti.html</loc></url>
 <url><loc>https://schtereb.com/uk/79-a-chomu-ti.html</loc></url>
 <url><loc>https://schtereb.com/uk/80-vsim-poetam.html</loc></url>
+<url><loc>https://schtereb.com/uk/81-yaskrave-svitlo.html</loc></url>
+<url><loc>https://schtereb.com/uk/82-leti-miy-meteliku.html</loc></url>
+<url><loc>https://schtereb.com/ru/</loc></url>
 <url><loc>https://schtereb.com/ru/1-beloe-proizvedenie.html</loc></url>
 <url><loc>https://schtereb.com/ru/2-realnyy-son.html</loc></url>
 <url><loc>https://schtereb.com/ru/3-vstrecha.html</loc></url>
@@ -165,6 +165,9 @@
 <url><loc>https://schtereb.com/ru/78-ya-lyublyu-zhit.html</loc></url>
 <url><loc>https://schtereb.com/ru/79-a-pochemu-ty.html</loc></url>
 <url><loc>https://schtereb.com/ru/80-vsem-poetam.html</loc></url>
+<url><loc>https://schtereb.com/ru/81-yarkiy-svet.html</loc></url>
+<url><loc>https://schtereb.com/ru/82-leti-moya-babochka.html</loc></url>
+<url><loc>https://schtereb.com/en/</loc></url>
 <url><loc>https://schtereb.com/en/1-white-piece.html</loc></url>
 <url><loc>https://schtereb.com/en/2-a-real-dream.html</loc></url>
 <url><loc>https://schtereb.com/en/3-the-meeting.html</loc></url>
@@ -245,6 +248,9 @@
 <url><loc>https://schtereb.com/en/78-i-love-to-live.html</loc></url>
 <url><loc>https://schtereb.com/en/79-and-why-do-you.html</loc></url>
 <url><loc>https://schtereb.com/en/80-to-all-poets.html</loc></url>
+<url><loc>https://schtereb.com/en/81-bright-light.html</loc></url>
+<url><loc>https://schtereb.com/en/82-fly-my-butterfly.html</loc></url>
+<url><loc>https://schtereb.com/es/</loc></url>
 <url><loc>https://schtereb.com/es/1-obra-blanca.html</loc></url>
 <url><loc>https://schtereb.com/es/2-sueno-real.html</loc></url>
 <url><loc>https://schtereb.com/es/3-el-encuentro.html</loc></url>
@@ -325,4 +331,6 @@
 <url><loc>https://schtereb.com/es/78-amo-vivir.html</loc></url>
 <url><loc>https://schtereb.com/es/79-y-por-que-tu.html</loc></url>
 <url><loc>https://schtereb.com/es/80-a-todos-los-poetas.html</loc></url>
+<url><loc>https://schtereb.com/es/81-luz-brillante.html</loc></url>
+<url><loc>https://schtereb.com/es/82-vuela-mi-mariposa.html</loc></url>
 </urlset>

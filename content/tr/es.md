@@ -2253,3 +2253,82 @@ a lo alto, al cielo junto con las aves.
 Cuéntennos sin soberbia
 a todos nosotros, queridos poetas —
 bueno, aunque sea una copla cada uno.
+
+## 81. Luz brillante
+
+A unos les digo «buenos días»,
+mi aliento antes que el sol.
+La sensación, no tan vacía,
+antes de que empiece el día en su albor.
+
+A otros les digo «buenas noches»,
+cuando la luz empieza a irse.
+Escuchemos el silencio, sin reproches,
+donde la memoria ha de fundirse.
+
+A alguien le digo «adiós» —
+sin drama, sin herir a nadie.
+Solo una visión, silenciosa voz,
+que en mi corazón se quede y no acabe.
+
+Para unos soy el comienzo.
+Para otros soy el final.
+Una quietud con forma de saber intenso,
+tan cerca que no se puede alcanzar.
+
+A unos les digo «buenos días».
+A otros les digo «buenas noches».
+A alguien le digo «adiós»,
+y aparezco luz brillante, sin reproches.
+
+A alguien le digo las tres —
+buenos días, noche, adiós.
+La sombra del recuerdo, tal vez,
+la luz que no niega ni Dios.
+
+Con unos me quedo para siempre.
+A otros nunca llegué.
+Pero algo en ellos cambia, de repente,
+aunque nadie recuerde quién fui, ni por qué.
+
+## 82. Vuela, mi mariposa
+
+Caminando junto al mar,
+decides volar.
+Eres tan libre,
+estás en tu soñar.
+
+Sí, tú puedes volar
+como una mariposa,
+halagada al aletear,
+siempre tímida y hermosa.
+
+¿Puedes ver las estrellas?
+Sí, claro que puedes.
+Están en tus ojos,
+tus ojos llenos de ellas.
+
+Mira hacia los cielos,
+al reino de la luz.
+¿Ves estrellas maravillosas?
+Una de ellas eres tú.
+
+Abre más los ojos,
+yo voy más adentro,
+al arte que deslumbra,
+más hondo, hasta tu centro.
+
+Puedo ver la belleza
+que vive en tu corazón.
+Es una mariposa…
+La mariposa es amor.
+
+Antes vagaba
+por el mundo entero,
+ahora habita en tu pecho:
+es tu amor verdadero.
+
+Tu amor es verdad,
+tus sueños, sin freno.
+El amor verdadero eres tú,
+que la mente nunca ha detenido.

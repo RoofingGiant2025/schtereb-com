@@ -23,7 +23,16 @@ SECTIONS = {
                        "en": "Love as Drama", "es": "El amor como drama"},
     "Любов як істина": {"uk": "Любов як істина", "ru": "Любовь как истина",
                         "en": "Love as Truth", "es": "El amor como verdad"},
+    "Після": {"uk": "Після", "ru": "После", "en": "After", "es": "Después"},
 }
+N_BEFORE = 80
+
+def roman(n):
+    out = ""
+    for v, r in [(50, "L"), (40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]:
+        while n >= v:
+            out += r; n -= v
+    return out
 
 def parse_numbered(path):
     out = {}
@@ -48,7 +57,7 @@ def main():
     originals = parse(os.path.join(ROOT, "content", "originals.md"))
     en = parse(os.path.join(ROOT, "content", "en.md"))
     tr = {l: parse_numbered(os.path.join(ROOT, "content", "tr", f"{l}.md")) for l in ("uk", "ru", "es")}
-    assert len(originals) == len(en) == 80
+    assert len(originals) == len(en) == 82, (len(originals), len(en))
     poems = []
     for i, (o, e) in enumerate(zip(originals, en), start=1):
         texts = {o["lang"]: {"title": o["title"], "body": o["body"]},
@@ -59,7 +68,9 @@ def main():
                 continue
             assert i in tr[l], f"missing {l} translation for poem {i} ({o['title']})"
             texts[l] = tr[l][i]
-        poems.append({"n": i, "section": o["section"], "orig": o["lang"], "texts": texts})
+        poems.append({"n": i, "section": o["section"], "orig": o["lang"], "texts": texts,
+                      "roman": roman(i) if i <= N_BEFORE else roman(i - N_BEFORE),
+                      "part": "before" if i <= N_BEFORE else "after"})
     # per-language markdown files (same format as en.md)
     for l in ("uk", "ru", "es"):
         lines = [f"# {TITLE[l]}", f"### Oleg Shtereb", ""]
@@ -75,11 +86,13 @@ def main():
     data = {"title": TITLE, "author": {"uk": "Олег Штереб", "ru": "Олег Штереб", "en": "Oleg Shtereb", "es": "Oleg Shtereb"},
             "epigraph": "Art Knows No Languages",
             "sections": [{"key": k, **v} for k, v in SECTIONS.items()],
-            "poems": [{"n": p["n"], "section": p["section"], "orig": p["orig"],
+            "parts": {"before": {"uk": "До", "ru": "До", "en": "Before", "es": "Antes"},
+                      "after": {"uk": "Після", "ru": "После", "en": "After", "es": "Después"}},
+            "poems": [{"n": p["n"], "roman": p["roman"], "part": p["part"], "section": p["section"], "orig": p["orig"],
                        "texts": {l: {"title": t["title"], "text": "\n".join(t["body"])} for l, t in p["texts"].items()}}
                       for p in poems]}
     json.dump(data, open(os.path.join(ROOT, "docs", "data", "poems.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("ok: 80 poems x 4 languages; wrote content/uk.md ru.md es.md and site/data/poems.json")
+    print("ok: 82 poems x 4 languages; wrote content/uk.md ru.md es.md and site/data/poems.json")
 
 if __name__ == "__main__":
     main()

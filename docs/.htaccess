@@ -1,14 +1,18 @@
 AddDefaultCharset UTF-8
 DirectoryIndex index.html
 Options -Indexes
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.schtereb\.com$ [NC]
+RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
-  <FilesMatch "\.(css|js|svg|json)$">
-    Header set Cache-Control "public, max-age=86400"
+  <FilesMatch "\.(css|js|jpg|svg|json)$">
+    Header set Cache-Control "public, max-age=3600"
   </FilesMatch>
   <FilesMatch "\.html$">
-    Header set Cache-Control "public, max-age=600"
+    Header set Cache-Control "public, max-age=300"
   </FilesMatch>
 </IfModule>
-ErrorDocument 404 /index.html
