@@ -265,5 +265,5 @@
     spreadMode.addEventListener("change", draw);
     window.addEventListener("popstate", function () { location.reload(); });
   }
-  fetch(BASE + "data/poems.json", { cache: "force-cache" }).then(function (r) { return r.json(); }).then(init).catch(function (err) { console.error("book: " + err.message); });
+  fetch(BASE + "data/poems.json?v=" + (root.dataset.v || "0")).then(function (r) { return r.json(); }).then(init).catch(function (err) { console.error("book: " + err.message); });
 })();

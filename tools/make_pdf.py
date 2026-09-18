@@ -161,8 +161,9 @@ TITLE = {"uk": "Ноти життя: до і після", "ru": "Ноты жиз
          "en": "Notes of Life: Before and After", "es": "Notas de la vida: antes y después"}
 SECTION_T = {"Любов як захоплення": {"ru": "Любовь как увлечение", "en": "Love as Infatuation", "es": "El amor como fascinación"},
              "Любов як драма": {"ru": "Любовь как драма", "en": "Love as Drama", "es": "El amor como drama"},
-             "Любов як істина": {"ru": "Любовь как истина", "en": "Love as Truth", "es": "El amor como verdad"}}
-ORIG_LINE = {"uk": "Оригінал · українська", "ru": "Оригинал · русский"}
+             "Любов як істина": {"ru": "Любовь как истина", "en": "Love as Truth", "es": "El amor como verdad"},
+             "Після": {"ru": "После", "en": "After", "es": "Después"}}
+ORIG_LINE = {"uk": "Оригінал · українська", "ru": "Оригинал · русский", "en": "Original · English"}
 TR_LINE = {"uk": "Переклад українською", "ru": "Перевод на русский", "en": "English translation", "es": "Traducción al español"}
 
 def label(p):
@@ -175,7 +176,7 @@ def build(out_path, texts):
     """texts: dict lang -> list of 80 parsed poems; texts['orig'] = originals (with sections)."""
     originals = texts["orig"]
     for l in LANG_ORDER:
-        assert len(texts[l]) == 80, (l, len(texts[l]))
+        assert len(texts[l]) == 82, (l, len(texts[l]))
     doc = Book(out_path, title="Ноти життя: до і після — Notes of Life: Before and After", author="Oleg Shtereb",
                subject="First collection, four languages: Ukrainian, Russian, English, Spanish")
     st = []
@@ -196,6 +197,7 @@ def build(out_path, texts):
     st.append(Paragraph("Notas de la vida: antes y después", S["subtitle"]))
     st.append(Spacer(1, 26))
     st.append(Paragraph("Перша збірка · First collection", S["subtitle"]))
+    st.append(Paragraph("Вірші I–LXXX · Після I–II", S["subtitle"]))
     st.append(Spacer(1, 2.0 * inch))
     st.append(Paragraph("schtereb.com", S["colophon"]))
     st.append(PageBreak())
@@ -229,7 +231,7 @@ def build(out_path, texts):
     st.append(PageBreak())
 
     cur_section = None
-    for i in range(80):
+    for i in range(len(originals)):
         o = originals[i]
         if o["section"] != cur_section:
             cur_section = o["section"]

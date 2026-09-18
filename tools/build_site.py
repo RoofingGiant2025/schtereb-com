@@ -6,7 +6,7 @@ Pages (every one is the same book shell; the JS opens it at the right leaf):
   /<lang>/                  open at the epigraph
   /<lang>/<n>-<slug>.html   open at that poem (server-rendered spread for crawlers / no-JS)
 """
-import os, json, re, html, shutil
+import os, json, re, html, shutil, hashlib
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "docs")
 DATA = os.path.join(SITE, "data", "poems.json")
@@ -108,7 +108,7 @@ def leaf(body, side, folio, lang, D):
     return f'<div class="leaf"><div class="leaf-body">{body}</div><footer class="leaf-foot">{foot}</footer></div>'
 
 def shell(D, lang, *, open_, left, right, title, desc, n=None, canonical="", alternates=None):
-    ui = UI[lang]
+    ui = UI[lang]; ver = D.get("_ver", "0")
     langs = "".join(f'<a href="/{l}/{(alternates or {}).get(l, "")}" data-lang="{l}" class="{"on" if l == lang else ""}" hreflang="{l}" lang="{l}" title="{LNAME[l]}">{LSHORT[l]}</a>' for l in LANGS)
     alts = "".join(f'<link rel="alternate" hreflang="{l}" href="https://schtereb.com/{l}/{(alternates or {}).get(l, "")}">' for l in LANGS) if alternates is not None else ""
     return f'''<!doctype html>
@@ -123,11 +123,11 @@ def shell(D, lang, *, open_, left, right, title, desc, n=None, canonical="", alt
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:image" content="https://schtereb.com/assets/img/og.jpg"><meta property="og:type" content="book">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/book.css">
+<link rel="stylesheet" href="/assets/book.css?v={ver}">
 <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
 </head>
 <body>
-<main class="room" id="book-root" data-lang="{lang}" data-open="{"1" if open_ else "0"}" data-base="/"{f' data-n="{n}"' if n else ""}>
+<main class="room" id="book-root" data-lang="{lang}" data-open="{"1" if open_ else "0"}" data-base="/" data-v="{ver}"{f' data-n="{n}"' if n else ""}>
   <header class="chrome">
     <a class="wordmark" href="/">Штереб</a>
     <nav class="langs" id="langs" aria-label="Language">{langs}</nav>
@@ -168,7 +168,7 @@ def shell(D, lang, *, open_, left, right, title, desc, n=None, canonical="", alt
   </div>
   <div class="overlay" id="overlay" hidden><div class="sheet" id="sheet" role="dialog" aria-label="{esc(ui["contents"])}"></div></div>
 </main>
-<script src="/assets/book.js" defer></script>
+<script src="/assets/book.js?v={ver}" defer></script>
 </body>
 </html>
 '''
@@ -192,7 +192,9 @@ def build():
             t["chunks"] = [apply(stanzas(t["text"]), g) for g in groups]
             del t["text"]
     D["ui"] = UI
-    json.dump(D, open(DATA, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    blob = json.dumps(D, ensure_ascii=False, separators=(",", ":"))
+    D["_ver"] = hashlib.sha1((blob + open(os.path.join(ROOT, "tools", "book.js")).read() + open(os.path.join(ROOT, "tools", "book.css")).read()).encode()).hexdigest()[:10]
+    open(DATA, "w", encoding="utf-8").write(blob)
     poems = D["poems"]
     def write(path, s):
         os.makedirs(os.path.dirname(path), exist_ok=True)
