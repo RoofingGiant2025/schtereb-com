@@ -87,7 +87,8 @@
   }
   function verse(lines, drop) {
     return '<div class="verse">' + stanzasOf(lines).map(function (st, i) {
-      var cls = "stanza" + (drop && i === 0 && /^\p{L}/u.test(st[0].trim()) ? " drop" : "");
+      var f0 = st[0].trim().charAt(0); var isLetter = f0 && f0.toLowerCase() !== f0.toUpperCase();
+      var cls = "stanza" + (drop && i === 0 && isLetter ? " drop" : "");
       return '<p class="' + cls + '">' + st.map(function (l) {
         var m = /^\*(.+)\*$/.exec(l.trim());
         return m ? '<span class="note">' + esc(m[1]) + '</span>' : '<span class="l">' + esc(l) + '</span>';
@@ -174,12 +175,28 @@
     var last = pages.length - 1;
     el.prevL.hidden = !(state.open && state.page > 0); el.prevR.hidden = !(state.open && state.page > 0); el.nextR.hidden = !(state.open && ri < last);
     el.folio.textContent = spread ? (state.page + 1) + "–" + (state.page + 2) : String(state.page + 1);
+    markOverflow();
     el.bottom.hidden = !state.open;
     el.stage.className = "stage " + (state.open ? "open" : "closed");
     el.cover.dataset.open = state.open ? "true" : "false";
     document.documentElement.lang = state.lang;
     syncURL();
     try { localStorage.setItem("book.lang", state.lang); localStorage.setItem("book.page." + state.lang, String(state.page)); } catch (e) { }
+  }
+  function markOverflow() {
+    Array.prototype.forEach.call(document.querySelectorAll("#book .leaf"), function (leaf) {
+      var b = leaf.querySelector(".leaf-body"); if (!b) return;
+      leaf.classList.toggle("more", b.scrollHeight > b.clientHeight + 4 && b.scrollTop + b.clientHeight < b.scrollHeight - 4);
+      b.onscroll = function () { leaf.classList.toggle("more", b.scrollTop + b.clientHeight < b.scrollHeight - 4); };
+    });
+  }
+  function relabelChrome() {
+    var ui = state.data.ui[state.lang];
+    var t = el.toc.querySelector("span"); if (t) t.textContent = ui.contents;
+    var o = document.querySelector(".order-link"); if (o) { o.textContent = ui.order; o.href = BASE + state.lang + "/order.html"; }
+    el.sheet.setAttribute("aria-label", ui.contents);
+    var cov = el.coverBtn; if (cov) { cov.setAttribute("aria-label", ui.open); var q = function (sel, v) { var n = cov.querySelector(sel); if (n) n.textContent = v; };
+      q(".k", ui.first); q("h1", ui.main); q(".s", ui.sub); q(".a", state.data.author[state.lang]); q(".open", ui.open); }
   }
   function currentPoem() {
     var spread = spreadMode.matches, idx = [state.page].concat(spread ? [state.page + 1] : []);
@@ -213,7 +230,7 @@
     state.lang = lang; state.pages = buildPages(state.data, lang);
     if (cp) state.page = firstPageOf(state.pages, cp.n, cp.c || 0); else state.page = Math.min(oldPage, state.pages.length - 1);
     Array.prototype.forEach.call(el.langs.querySelectorAll("a"), function (a) { a.classList.toggle("on", a.dataset.lang === lang); });
-    buildSheet(); draw();
+    relabelChrome(); buildSheet(); draw();
   }
   function openBook() { if (state.open) return; state.open = true; state.page = 0; draw(); }
   function buildSheet() {
@@ -311,6 +328,7 @@
       turn(dx < 0 ? 1 : -1, step());
     }, { passive: true });
     spreadMode.addEventListener("change", draw);
+    window.addEventListener("resize", markOverflow);
     window.addEventListener("popstate", function () { location.reload(); });
   }
   fetch(BASE + "data/poems.json?v=" + (root.dataset.v || "0")).then(function (r) { return r.json(); }).then(init).catch(function (err) { console.error("book: " + err.message); });

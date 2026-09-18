@@ -131,11 +131,11 @@ def shell(D, lang, *, open_, left, right, title, desc, n=None, canonical="", alt
 <meta name="description" content="{esc(desc)}">
 <meta name="theme-color" content="#0b0a09">
 <link rel="canonical" href="https://schtereb.com{canonical}">{alts}
-<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:image" content="https://schtereb.com/assets/img/og.jpg"><meta property="og:type" content="book">
+<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}"><meta property="og:image" content="https://schtereb.com/assets/img/og.jpg"><meta property="og:type" content="book"><meta property="og:url" content="https://schtereb.com{canonical}"><meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/assets/book.css?v={ver}">
-<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml"><link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 </head>
 <body>
 <main class="room" id="book-root" data-lang="{lang}" data-open="{"1" if open_ else "0"}" data-base="/" data-v="{ver}"{f' data-n="{n}"' if n else ""}>
@@ -262,6 +262,7 @@ def build():
     write(os.path.join(SITE, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(os.path.join(SITE, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://schtereb.com/sitemap.xml\n")
     write(os.path.join(SITE, ".htaccess"), """AddDefaultCharset UTF-8
+ErrorDocument 404 /404.html
 AddType audio/mp4 .m4a
 AddType application/json .json
 DirectoryIndex index.html
@@ -271,8 +272,13 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\\.schtereb\\.com$ [NC]
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
+# former URLs of the untitled poems (slugs were corrected 2026-09-18)
+RedirectPermanent /en/4-i-love-to-live-i-do.html https://schtereb.com/en/4-the-image-of-the-sun.html
+RedirectPermanent /en/7-i-love-to-live-i-do.html https://schtereb.com/en/7-perhaps-the-name-of-this-is-love.html
+RedirectPermanent /en/19-i-love-to-live-i-do.html https://schtereb.com/en/19-if-you-don-t-love-me-then-instead.html
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
+  Header set Strict-Transport-Security "max-age=31536000"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   <FilesMatch "\\.(css|js|jpg|svg|json)$">
     Header set Cache-Control "public, max-age=3600"
@@ -285,6 +291,25 @@ RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
   </FilesMatch>
 </IfModule>
 """)
+    # custom 404 (served for any missing path)
+    nf = shell(D, "uk", open_=False, left="", right="", title="404 — Ноти життя: до і після", desc="Сторінку не знайдено · Page not found", canonical="/404.html")
+    nf = nf[:nf.index('<main class="room"')] + '''<main class="room order-room"><header class="chrome"><a class="wordmark" href="/">Штереб</a></header>
+<section class="order" style="grid-template-columns:1fr;text-align:center;max-width:36rem"><div class="order-text">
+<p class="kick" style="color:var(--fg-muted)">404</p><h1>Такої сторінки немає</h1>
+<p class="order-desc" style="margin:0 auto">No such page · Нет такой страницы · No existe esta página</p>
+<p class="order-back" style="margin-top:2rem"><a href="/uk/">Українська</a> · <a href="/ru/">Русский</a> · <a href="/en/">English</a> · <a href="/es/">Español</a></p>
+</div></section></main>\n</body>\n</html>\n'''
+    write(os.path.join(SITE, "404.html"), nf)
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+        for size, name in ((180, "apple-touch-icon.png"), (32, "favicon.ico")):
+            im = Image.new("RGB", (size, size), "#f4ead6"); dr = ImageDraw.Draw(im)
+            f = ImageFont.truetype("/System/Library/Fonts/Supplemental/Georgia.ttf", int(size * 0.66))
+            w, h = dr.textbbox((0, 0), "Ш", font=f)[2:]
+            dr.text(((size - w) / 2, (size - h) / 2 - size * 0.08), "Ш", font=f, fill="#6e2c2c")
+            im.save(os.path.join(SITE, name), format="PNG" if name.endswith("png") else "ICO", sizes=[(32, 32)] if name.endswith("ico") else None)
+    except Exception as e:
+        print("icons skipped:", e)
     for lang in LANGS:  # drop stale v1 pages
         keep = {p["slug"][lang] + ".html" for p in poems} | {"index.html", "order.html"}
         d = os.path.join(SITE, lang)

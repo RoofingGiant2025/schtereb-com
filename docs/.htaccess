@@ -1,4 +1,5 @@
 AddDefaultCharset UTF-8
+ErrorDocument 404 /404.html
 AddType audio/mp4 .m4a
 AddType application/json .json
 DirectoryIndex index.html
@@ -8,8 +9,13 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.schtereb\.com$ [NC]
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
+# former URLs of the untitled poems (slugs were corrected 2026-09-18)
+RedirectPermanent /en/4-i-love-to-live-i-do.html https://schtereb.com/en/4-the-image-of-the-sun.html
+RedirectPermanent /en/7-i-love-to-live-i-do.html https://schtereb.com/en/7-perhaps-the-name-of-this-is-love.html
+RedirectPermanent /en/19-i-love-to-live-i-do.html https://schtereb.com/en/19-if-you-don-t-love-me-then-instead.html
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
+  Header set Strict-Transport-Security "max-age=31536000"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
   <FilesMatch "\.(css|js|jpg|svg|json)$">
     Header set Cache-Control "public, max-age=3600"
