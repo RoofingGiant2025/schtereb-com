@@ -1,0 +1,211 @@
+{
+ "apple_id": 1874192583,
+ "title": "Heaven’s Sea",
+ "released": "2026-01-16",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Heaven’s Sea.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 14.0,
+   "text": "Heaven see, I long to drown in you"
+  },
+  {
+   "start": 17.0,
+   "end": 21.0,
+   "text": "Heaven see, I called your name"
+  },
+  {
+   "start": 21.0,
+   "end": 25.0,
+   "text": "A whispered fire, a quiet flame"
+  },
+  {
+   "start": 25.0,
+   "end": 30.0,
+   "text": "Step by step into the deep"
+  },
+  {
+   "start": 30.0,
+   "end": 34.0,
+   "text": "Where morning light would steal my sleep"
+  },
+  {
+   "start": 34.0,
+   "end": 38.0,
+   "text": "You pulled me close"
+  },
+  {
+   "start": 38.0,
+   "end": 44.0,
+   "text": "Through silver skies"
+  },
+  {
+   "start": 44.0,
+   "end": 51.0,
+   "text": "And I, I realized"
+  },
+  {
+   "start": 51.0,
+   "end": 59.82,
+   "text": "I see the edge, so bright, so near"
+  },
+  {
+   "start": 59.82,
+   "end": 68.44,
+   "text": "Not fear, just clear"
+  },
+  {
+   "start": 68.44,
+   "end": 77.76,
+   "text": "A shore of truth, a burning sky"
+  },
+  {
+   "start": 77.76,
+   "end": 86.92,
+   "text": "I'll breathe you in and close my eyes"
+  },
+  {
+   "start": 86.92,
+   "end": 92.52,
+   "text": "Drown me in your morning light"
+  },
+  {
+   "start": 92.52,
+   "end": 96.86,
+   "text": "Let me fall into the fire"
+  },
+  {
+   "start": 96.86,
+   "end": 101.34,
+   "text": "Take my soul, take all I hide"
+  },
+  {
+   "start": 101.34,
+   "end": 105.38,
+   "text": "Pull me through the great unknown"
+  },
+  {
+   "start": 105.38,
+   "end": 113.38,
+   "text": "I'm alive, I'm alive, I'm alive"
+  },
+  {
+   "start": 113.38,
+   "end": 120.38,
+   "text": "Beyond the veil of night I see"
+  },
+  {
+   "start": 120.38,
+   "end": 123.38,
+   "text": "A world untouched"
+  },
+  {
+   "start": 123.38,
+   "end": 130.38,
+   "text": "Where I can't get me"
+  },
+  {
+   "start": 130.38,
+   "end": 137.02,
+   "text": "And when the sun begins to rise"
+  },
+  {
+   "start": 137.02,
+   "end": 141.44,
+   "text": "I give myself no need to try"
+  },
+  {
+   "start": 141.44,
+   "end": 146.12,
+   "text": "No fear, no shame"
+  },
+  {
+   "start": 146.12,
+   "end": 152.64,
+   "text": "Just sky, just flame"
+  },
+  {
+   "start": 152.64,
+   "end": 159.12,
+   "text": "But drown me in your morning light"
+  },
+  {
+   "start": 159.12,
+   "end": 163.5,
+   "text": "Let me fall into the fire"
+  },
+  {
+   "start": 163.5,
+   "end": 168.0,
+   "text": "Take my soul, take all I hide"
+  },
+  {
+   "start": 168.0,
+   "end": 171.18,
+   "text": "Pull me through the ground"
+  },
+  {
+   "start": 171.18,
+   "end": 177.26,
+   "text": "I'm alive, I'm alive"
+  },
+  {
+   "start": 177.26,
+   "end": 179.26,
+   "text": "I'm alive"
+  },
+  {
+   "start": 179.26,
+   "end": 184.02,
+   "text": "Heaven and sea"
+  },
+  {
+   "start": 184.02,
+   "end": 188.26,
+   "text": "I'm alive"
+  },
+  {
+   "start": 188.26,
+   "end": 192.92,
+   "text": "In you"
+  }
+ ],
+ "lines": [
+  "Heaven see, I long to drown in you",
+  "",
+  "Heaven see, I called your name",
+  "A whispered fire, a quiet flame",
+  "Step by step into the deep",
+  "Where morning light would steal my sleep",
+  "You pulled me close",
+  "Through silver skies",
+  "And I, I realized",
+  "I see the edge, so bright, so near",
+  "Not fear, just clear",
+  "A shore of truth, a burning sky",
+  "I'll breathe you in and close my eyes",
+  "Drown me in your morning light",
+  "Let me fall into the fire",
+  "Take my soul, take all I hide",
+  "Pull me through the great unknown",
+  "I'm alive, I'm alive, I'm alive",
+  "Beyond the veil of night I see",
+  "A world untouched",
+  "Where I can't get me",
+  "And when the sun begins to rise",
+  "I give myself no need to try",
+  "No fear, no shame",
+  "Just sky, just flame",
+  "But drown me in your morning light",
+  "Let me fall into the fire",
+  "Take my soul, take all I hide",
+  "Pull me through the ground",
+  "I'm alive, I'm alive",
+  "I'm alive",
+  "Heaven and sea",
+  "I'm alive",
+  "In you"
+ ]
+}

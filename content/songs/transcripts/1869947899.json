@@ -1,0 +1,223 @@
+{
+ "apple_id": 1869947899,
+ "title": "Fly My Butterfly",
+ "released": "2026-01-17",
+ "source_file": "/Users/olegshtereb/Music/Music/Media.localized/Music/Dr. O/Love Notes/Fly My Butterfly.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.0,
+   "text": "Walking by the ocean"
+  },
+  {
+   "start": 5.0,
+   "end": 11.0,
+   "text": "You decide to fly"
+  },
+  {
+   "start": 11.0,
+   "end": 17.0,
+   "text": "You are so free"
+  },
+  {
+   "start": 17.0,
+   "end": 23.0,
+   "text": "You are in your dreams"
+  },
+  {
+   "start": 23.0,
+   "end": 29.0,
+   "text": "Yes, you can fly"
+  },
+  {
+   "start": 29.0,
+   "end": 33.0,
+   "text": "Like a butterfly"
+  },
+  {
+   "start": 35.0,
+   "end": 38.0,
+   "text": "Flatter to flutter"
+  },
+  {
+   "start": 39.0,
+   "end": 43.0,
+   "text": "Always seem so shy"
+  },
+  {
+   "start": 44.0,
+   "end": 49.0,
+   "text": "Can you see the stars?"
+  },
+  {
+   "start": 49.0,
+   "end": 54.0,
+   "text": "Yes, you surely can"
+  },
+  {
+   "start": 54.0,
+   "end": 59.52,
+   "text": "They are in your eyes"
+  },
+  {
+   "start": 59.52,
+   "end": 62.1,
+   "text": "Your eyes are full of them"
+  },
+  {
+   "start": 62.1,
+   "end": 66.2,
+   "text": "Look into the skies"
+  },
+  {
+   "start": 66.2,
+   "end": 73.06,
+   "text": "Into the bright realm"
+  },
+  {
+   "start": 73.06,
+   "end": 77.2,
+   "text": "See marvelous stars"
+  },
+  {
+   "start": 77.2,
+   "end": 82.42,
+   "text": "You are one of them"
+  },
+  {
+   "start": 82.42,
+   "end": 86.08,
+   "text": "Open your eyes wider"
+  },
+  {
+   "start": 86.08,
+   "end": 91.44,
+   "text": "I am going deeper"
+  },
+  {
+   "start": 91.44,
+   "end": 97.22,
+   "text": "Into stunning art"
+  },
+  {
+   "start": 97.22,
+   "end": 100.76,
+   "text": "Deeper in your heart"
+  },
+  {
+   "start": 100.76,
+   "end": 108.06,
+   "text": "I can see the beauty"
+  },
+  {
+   "start": 108.06,
+   "end": 112.32,
+   "text": "It lives in your heart"
+  },
+  {
+   "start": 112.32,
+   "end": 116.6,
+   "text": "It's a butterfly"
+  },
+  {
+   "start": 116.6,
+   "end": 122.1,
+   "text": "The butterfly is love"
+  },
+  {
+   "start": 122.1,
+   "end": 130.56,
+   "text": "Once wandering around, around the world"
+  },
+  {
+   "start": 130.56,
+   "end": 133.9,
+   "text": "Now dwells in your heart"
+  },
+  {
+   "start": 133.9,
+   "end": 137.46,
+   "text": "It's your love"
+  },
+  {
+   "start": 137.46,
+   "end": 141.72,
+   "text": "Your love is true"
+  },
+  {
+   "start": 141.72,
+   "end": 149.52,
+   "text": "Your dreams are wilder"
+  },
+  {
+   "start": 149.52,
+   "end": 153.34,
+   "text": "True love is you"
+  },
+  {
+   "start": 153.34,
+   "end": 157.62,
+   "text": "Never stopped by mine"
+  },
+  {
+   "start": 157.62,
+   "end": 173.34,
+   "text": "Fly, my butterfly"
+  },
+  {
+   "start": 173.34,
+   "end": 187.6,
+   "text": "Fly, my butterfly"
+  },
+  {
+   "start": 187.6,
+   "end": 217.58,
+   "text": "No love"
+  },
+  {
+   "start": 217.58,
+   "end": 247.56,
+   "text": "I'm sorry."
+  }
+ ],
+ "lines": [
+  "Walking by the ocean",
+  "You decide to fly",
+  "You are so free",
+  "You are in your dreams",
+  "Yes, you can fly",
+  "Like a butterfly",
+  "",
+  "Flatter to flutter",
+  "Always seem so shy",
+  "Can you see the stars?",
+  "Yes, you surely can",
+  "They are in your eyes",
+  "Your eyes are full of them",
+  "Look into the skies",
+  "Into the bright realm",
+  "See marvelous stars",
+  "You are one of them",
+  "Open your eyes wider",
+  "I am going deeper",
+  "Into stunning art",
+  "Deeper in your heart",
+  "I can see the beauty",
+  "It lives in your heart",
+  "It's a butterfly",
+  "The butterfly is love",
+  "Once wandering around, around the world",
+  "Now dwells in your heart",
+  "It's your love",
+  "Your love is true",
+  "Your dreams are wilder",
+  "True love is you",
+  "Never stopped by mine",
+  "Fly, my butterfly",
+  "Fly, my butterfly",
+  "No love",
+  "I'm sorry."
+ ]
+}

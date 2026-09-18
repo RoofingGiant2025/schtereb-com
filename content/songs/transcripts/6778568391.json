@@ -1,0 +1,193 @@
+{
+ "apple_id": 6778568391,
+ "title": "Iron Bubu",
+ "released": "2026-06-09",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Iron_bubu.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 26.0,
+   "text": "Analyze the incoming signal Potential in the chaotic noise"
+  },
+  {
+   "start": 26.0,
+   "end": 31.0,
+   "text": "Zero one protocol in high resolution"
+  },
+  {
+   "start": 31.0,
+   "end": 35.0,
+   "text": "Decoding the silence, the ultimate choice"
+  },
+  {
+   "start": 35.0,
+   "end": 39.0,
+   "text": "Convert the hostility into raw data"
+  },
+  {
+   "start": 39.0,
+   "end": 43.0,
+   "text": "Control the architecture"
+  },
+  {
+   "start": 43.0,
+   "end": 47.0,
+   "text": "With iron conviction, the logic is perfect"
+  },
+  {
+   "start": 47.0,
+   "end": 49.0,
+   "text": "The structure is pure"
+  },
+  {
+   "start": 49.0,
+   "end": 57.84,
+   "text": "All, all, break, silver, and take"
+  },
+  {
+   "start": 57.84,
+   "end": 65.34,
+   "text": "Systemic collapse is the price of the gains"
+  },
+  {
+   "start": 65.34,
+   "end": 70.26,
+   "text": "I am the ghost in the wiring, I am the iron design"
+  },
+  {
+   "start": 70.26,
+   "end": 71.88,
+   "text": "Silver, and take"
+  },
+  {
+   "start": 71.88,
+   "end": 78.8,
+   "text": "Silver, and take"
+  },
+  {
+   "start": 78.8,
+   "end": 87.8,
+   "text": "Analyze the incoming signal Potential in the chaotic noise"
+  },
+  {
+   "start": 87.8,
+   "end": 94.8,
+   "text": "Every oscillation is grist for the mill Sharpened by friction and force of the will"
+  },
+  {
+   "start": 94.8,
+   "end": 102.8,
+   "text": "Convert the hostility into raw data Control the architecture"
+  },
+  {
+   "start": 102.8,
+   "end": 106.88,
+   "text": "The signal is clean and the circuit is hot"
+  },
+  {
+   "start": 106.88,
+   "end": 109.92,
+   "text": "Take everything that the entropy brought"
+  },
+  {
+   "start": 109.92,
+   "end": 112.16,
+   "text": "Total system integration"
+  },
+  {
+   "start": 112.16,
+   "end": 122.32,
+   "text": "The only song you have never heard"
+  },
+  {
+   "start": 122.32,
+   "end": 126.02,
+   "text": "Is the one you never created"
+  },
+  {
+   "start": 126.02,
+   "end": 131.06,
+   "text": "Accessing the archive, the code is the art"
+  },
+  {
+   "start": 131.06,
+   "end": 133.36,
+   "text": "The system is the heart"
+  },
+  {
+   "start": 133.36,
+   "end": 135.84,
+   "text": "Sovereign day"
+  },
+  {
+   "start": 135.84,
+   "end": 145.92,
+   "text": "Sovereign day"
+  },
+  {
+   "start": 145.92,
+   "end": 150.8,
+   "text": "Sovereign day"
+  },
+  {
+   "start": 150.8,
+   "end": 156.0,
+   "text": "Sequence complete"
+  },
+  {
+   "start": 156.0,
+   "end": 160.1,
+   "text": "Zero deviation"
+  },
+  {
+   "start": 161.06,
+   "end": 167.2,
+   "text": "Reboating the reality."
+  },
+  {
+   "start": 169.2,
+   "end": 170.6,
+   "text": "Signal terminated."
+  },
+  {
+   "start": 170.6,
+   "end": 176.04,
+   "text": "Structural integrity complete."
+  }
+ ],
+ "lines": [
+  "Analyze the incoming signal Potential in the chaotic noise",
+  "Zero one protocol in high resolution",
+  "Decoding the silence, the ultimate choice",
+  "Convert the hostility into raw data",
+  "Control the architecture",
+  "With iron conviction, the logic is perfect",
+  "The structure is pure",
+  "All, all, break, silver, and take",
+  "Systemic collapse is the price of the gains",
+  "I am the ghost in the wiring, I am the iron design",
+  "Silver, and take",
+  "Silver, and take",
+  "Analyze the incoming signal Potential in the chaotic noise",
+  "Every oscillation is grist for the mill Sharpened by friction and force of the will",
+  "Convert the hostility into raw data Control the architecture",
+  "The signal is clean and the circuit is hot",
+  "Take everything that the entropy brought",
+  "Total system integration",
+  "The only song you have never heard",
+  "Is the one you never created",
+  "Accessing the archive, the code is the art",
+  "The system is the heart",
+  "Sovereign day",
+  "Sovereign day",
+  "Sovereign day",
+  "Sequence complete",
+  "Zero deviation",
+  "Reboating the reality.",
+  "",
+  "Signal terminated.",
+  "Structural integrity complete."
+ ]
+}

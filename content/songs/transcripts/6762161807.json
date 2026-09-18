@@ -1,0 +1,198 @@
+{
+ "apple_id": 6762161807,
+ "title": "Neon Tongues Collide",
+ "released": "2026-04-13",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/neon-tongues-collide.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.84,
+   "text": "Yo, yo, yo, yo, here it is, Dr. O"
+  },
+  {
+   "start": 2.84,
+   "end": 14.06,
+   "text": "I am nice, loving, caring, courageous, being of light"
+  },
+  {
+   "start": 14.06,
+   "end": 16.96,
+   "text": "I am nice, I won't lie, I am love"
+  },
+  {
+   "start": 16.96,
+   "end": 21.14,
+   "text": "Every piece of me is the universe and galaxy"
+  },
+  {
+   "start": 21.14,
+   "end": 25.14,
+   "text": "I am here and now, enjoying fresh air and love"
+  },
+  {
+   "start": 25.14,
+   "end": 28.54,
+   "text": "Not in my head, contemplating the past"
+  },
+  {
+   "start": 28.54,
+   "end": 31.0,
+   "text": "But in my heart and every little cell"
+  },
+  {
+   "start": 31.0,
+   "end": 33.32,
+   "text": "I am, I am, I am love"
+  },
+  {
+   "start": 33.32,
+   "end": 36.94,
+   "text": "I am, I am, I cannot even die"
+  },
+  {
+   "start": 36.94,
+   "end": 38.78,
+   "text": "That's how I am alive"
+  },
+  {
+   "start": 38.78,
+   "end": 42.66,
+   "text": "Surrounded by trees and blue sky"
+  },
+  {
+   "start": 42.66,
+   "end": 44.64,
+   "text": "Radiating peace and love"
+  },
+  {
+   "start": 44.64,
+   "end": 46.48,
+   "text": "Never stop, just fly"
+  },
+  {
+   "start": 46.48,
+   "end": 48.3,
+   "text": "Never stop, just fly"
+  },
+  {
+   "start": 48.3,
+   "end": 50.14,
+   "text": "Never stop, never, never"
+  },
+  {
+   "start": 50.14,
+   "end": 54.16,
+   "text": "I am nice, loving, caring, courageous being of life"
+  },
+  {
+   "start": 54.16,
+   "end": 57.78,
+   "text": "Contributing freedom, power and joy"
+  },
+  {
+   "start": 57.78,
+   "end": 60.04,
+   "text": "So abundant passion and connection"
+  },
+  {
+   "start": 60.04,
+   "end": 61.46,
+   "text": "With two of the world"
+  },
+  {
+   "start": 61.46,
+   "end": 62.4,
+   "text": "Come join"
+  },
+  {
+   "start": 62.4,
+   "end": 65.62,
+   "text": "Come join"
+  },
+  {
+   "start": 65.62,
+   "end": 73.3,
+   "text": "I cannot be inside"
+  },
+  {
+   "start": 73.3,
+   "end": 75.18,
+   "text": "That's how I am alive"
+  },
+  {
+   "start": 75.18,
+   "end": 76.92,
+   "text": "I am nice"
+  },
+  {
+   "start": 76.92,
+   "end": 79.0,
+   "text": "I am alive"
+  },
+  {
+   "start": 79.0,
+   "end": 80.08,
+   "text": "Come join"
+  },
+  {
+   "start": 80.08,
+   "end": 95.14,
+   "text": "Come, come, join"
+  },
+  {
+   "start": 95.14,
+   "end": 98.82,
+   "text": "Come, come, join"
+  },
+  {
+   "start": 98.82,
+   "end": 102.46,
+   "text": "Come, come, join"
+  },
+  {
+   "start": 102.46,
+   "end": 106.06,
+   "text": "Come, come, join"
+  },
+  {
+   "start": 106.06,
+   "end": 136.04,
+   "text": "I'm out."
+  }
+ ],
+ "lines": [
+  "Yo, yo, yo, yo, here it is, Dr. O",
+  "I am nice, loving, caring, courageous, being of light",
+  "I am nice, I won't lie, I am love",
+  "Every piece of me is the universe and galaxy",
+  "I am here and now, enjoying fresh air and love",
+  "Not in my head, contemplating the past",
+  "But in my heart and every little cell",
+  "I am, I am, I am love",
+  "I am, I am, I cannot even die",
+  "That's how I am alive",
+  "Surrounded by trees and blue sky",
+  "Radiating peace and love",
+  "Never stop, just fly",
+  "Never stop, just fly",
+  "Never stop, never, never",
+  "I am nice, loving, caring, courageous being of life",
+  "Contributing freedom, power and joy",
+  "So abundant passion and connection",
+  "With two of the world",
+  "Come join",
+  "Come join",
+  "I cannot be inside",
+  "That's how I am alive",
+  "I am nice",
+  "I am alive",
+  "Come join",
+  "Come, come, join",
+  "Come, come, join",
+  "Come, come, join",
+  "Come, come, join",
+  "I'm out."
+ ]
+}

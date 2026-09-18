@@ -1,0 +1,151 @@
+{
+ "apple_id": 6789197373,
+ "title": "Oleg Speaks",
+ "released": "2026-07-08",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Dr_O_Oleg_Speaks_Final_Master_24bit.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 29.98,
+   "text": "I make music all the time, so we we."
+  },
+  {
+   "start": 29.98,
+   "end": 31.22,
+   "text": "Dr. O comes from here."
+  },
+  {
+   "start": 31.78,
+   "end": 33.74,
+   "text": "This is one of the songs that Ole wrote."
+  },
+  {
+   "start": 34.34,
+   "end": 35.86,
+   "text": "It's really a beautiful song."
+  },
+  {
+   "start": 35.96,
+   "end": 36.92,
+   "text": "Wait till you hear the melody."
+  },
+  {
+   "start": 37.34,
+   "end": 37.92,
+   "text": "You got it."
+  },
+  {
+   "start": 38.08,
+   "end": 39.1,
+   "text": "I know I got it."
+  },
+  {
+   "start": 39.26,
+   "end": 40.54,
+   "text": "You try to hear my playlist."
+  },
+  {
+   "start": 40.7,
+   "end": 41.2,
+   "text": "I got it."
+  },
+  {
+   "start": 41.32,
+   "end": 41.86,
+   "text": "You got it."
+  },
+  {
+   "start": 42.04,
+   "end": 42.58,
+   "text": "I got it."
+  },
+  {
+   "start": 42.7,
+   "end": 43.26,
+   "text": "You got it."
+  },
+  {
+   "start": 43.36,
+   "end": 45.12,
+   "text": "Hey, Billy, catchin' the act."
+  },
+  {
+   "start": 45.72,
+   "end": 48.12,
+   "text": "Don't say, uh, let you know we got it."
+  },
+  {
+   "start": 48.12,
+   "end": 50.12,
+   "text": "Ha ha ha ha ha ha!"
+  },
+  {
+   "start": 59.98,
+   "end": 64.82,
+   "text": "Oleg sometimes says words that nobody understands"
+  },
+  {
+   "start": 64.82,
+   "end": 67.3,
+   "text": "Oleg speaks in languages that nobody understands"
+  },
+  {
+   "start": 67.3,
+   "end": 68.78,
+   "text": "Freaking Oleg"
+  },
+  {
+   "start": 68.78,
+   "end": 70.24,
+   "text": "Here we go, here we go"
+  },
+  {
+   "start": 70.24,
+   "end": 71.64,
+   "text": "Careful, careful, careful, careful"
+  },
+  {
+   "start": 71.64,
+   "end": 73.08,
+   "text": "Because I can react, you know"
+  },
+  {
+   "start": 73.08,
+   "end": 74.78,
+   "text": "Careful, careful, careful, careful"
+  },
+  {
+   "start": 74.78,
+   "end": 75.42,
+   "text": "You careful"
+  }
+ ],
+ "lines": [
+  "I make music all the time, so we we.",
+  "Dr. O comes from here.",
+  "This is one of the songs that Ole wrote.",
+  "It's really a beautiful song.",
+  "Wait till you hear the melody.",
+  "You got it.",
+  "I know I got it.",
+  "You try to hear my playlist.",
+  "I got it.",
+  "You got it.",
+  "I got it.",
+  "You got it.",
+  "Hey, Billy, catchin' the act.",
+  "Don't say, uh, let you know we got it.",
+  "Ha ha ha ha ha ha!",
+  "",
+  "Oleg sometimes says words that nobody understands",
+  "Oleg speaks in languages that nobody understands",
+  "Freaking Oleg",
+  "Here we go, here we go",
+  "Careful, careful, careful, careful",
+  "Because I can react, you know",
+  "Careful, careful, careful, careful",
+  "You careful"
+ ]
+}

@@ -9,10 +9,18 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.schtereb\.com$ [NC]
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
-# former URLs of the untitled poems (slugs were corrected 2026-09-18)
-RedirectPermanent /en/4-i-love-to-live-i-do.html https://schtereb.com/en/4-the-image-of-the-sun.html
+# former poem URLs (content/old-slugs.json; a slug follows the title / first line, so a retranslation can move a page)
+RedirectPermanent /en/4-i-love-to-live-i-do.html https://schtereb.com/en/4-the-reflection-of-the-sun.html
+RedirectPermanent /en/4-the-image-of-the-sun.html https://schtereb.com/en/4-the-reflection-of-the-sun.html
 RedirectPermanent /en/7-i-love-to-live-i-do.html https://schtereb.com/en/7-perhaps-the-name-of-this-is-love.html
-RedirectPermanent /en/19-i-love-to-live-i-do.html https://schtereb.com/en/19-if-you-don-t-love-me-then-instead.html
+RedirectPermanent /en/19-i-love-to-live-i-do.html https://schtereb.com/en/19-if-you-don-t-love-me.html
+RedirectPermanent /en/19-if-you-don-t-love-me-then-instead.html https://schtereb.com/en/19-if-you-don-t-love-me.html
+RedirectPermanent /en/32-my-reason-s-filled-with-a-spiteful-evil-sting.html https://schtereb.com/en/32-my-reason-is-filled-with-a-spiteful-feeling.html
+RedirectPermanent /en/38-my-reason-s-tortured-to-distraction-day-on-day.html https://schtereb.com/en/38-my-reason-s-tortured-to-distraction.html
+RedirectPermanent /en/71-i-want-to-grab-hold-of-life-to-hold.html https://schtereb.com/en/71-i-want-to-grab-hold-of-life.html
+RedirectPermanent /en/78-i-love-to-live-i-love.html https://schtereb.com/en/78-i-love-to-live.html
+RedirectPermanent /ru/19-kol-ty-menya-ne-lyubish-chto-zh.html https://schtereb.com/ru/19-esli-ty-ne-lyubish-menya.html
+RedirectPermanent /ru/49-bez-gosudarstva.html https://schtereb.com/ru/49-bez-derzhavy.html
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
   Header set Strict-Transport-Security "max-age=31536000"

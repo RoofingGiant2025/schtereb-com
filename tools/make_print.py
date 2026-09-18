@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Print-ready interior for Lulu (US Trade 6x9, perfect bound): mirrored margins, even page count, fonts embedded."""
+"""Print-ready interior for Lulu (US Trade 6x9, hardcover): mirrored margins with the gutter Lulu asks for at 400+ pages,
+edition page + dedication, rectos where a book expects them, even page count, fonts embedded. Writes print/spec.json."""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import make_pdf as M
@@ -9,13 +10,14 @@ class _Canvas(Canvas):
         k['initialFontName'] = k.get('initialFontName') or 'Georgia'   # page preamble uses embedded Georgia, not Helvetica
         super().__init__(*a, **k)
 M.CANVAS_MAKER = _Canvas
+M.PRINT_EDITION = True
 from reportlab import rl_config
 rl_config.canvas_basefontname = 'Georgia'   # showPage() resets the canvas font to this; keep it an embedded face
 from reportlab.lib.pagesizes import inch
 from reportlab.platypus import PageTemplate, Frame
 from reportlab.lib import colors
 
-INNER, OUTER, TOP, BOT = 0.875 * inch, 0.625 * inch, 0.8 * inch, 0.8 * inch
+INNER, OUTER, TOP, BOT = 1.0 * inch, 0.625 * inch, 0.8 * inch, 0.8 * inch   # Lulu: 400–600 pp → ≥1 in total inside margin
 
 class PrintBook(M.Book):
     """Odd pages (recto): inner margin on the left. Even pages (verso): inner margin on the right."""
@@ -71,11 +73,28 @@ def main():
         w.add_page(pg)
     if n % 2:  # perfect binding wants an even count: add a final blank
         w.add_blank_page(width=M.PAGE[0], height=M.PAGE[1]); n += 1
-    w.add_metadata({"/Title": "Ноти життя: до і після", "/Author": "Oleg Shtereb"})
+    w.add_metadata({"/Title": "Ноти життя: до і після", "/Author": "Oleg Schtereb"})
     w.write(open(out, "wb"))
-    spine = n / 444 + 0.06
-    print(f"{out}: {n} pages; Lulu perfect-bound spine = {spine:.4f} in ({spine*25.4:.2f} mm)")
-    open(os.path.join(M.ROOT, "print", "spec.json"), "w").write(f'{{"pages": {n}, "spine_in": {spine:.4f}, "trim_in": [6, 9]}}\n')
+    import json
+    spine_pb = round(n / 444 + 0.06, 4)                      # perfect bound: Lulu formula
+    spine_hc = hardcover_spine(n)                            # case/linen wrap: Lulu table
+    spec = {"pages": n, "trim_in": [6, 9], "spine_in": spine_pb, "paperback": {"spine_in": spine_pb},
+            "hardcover": {"binding": "linen wrap + dust jacket", "spine_in": spine_hc, "board_in": [6.25, 9.25],
+                          "pod_package_id": "0600X0900.BW.STD.LW.060UC444.M??",   # ?? = linen colour + foil colour codes chosen on Lulu
+                          "jacket": {"sheet_in": [21.0, 9.75], "bleed_in": 0.25, "flap_in": 3.25, "fold_tolerance_in": 0.125,
+                                     "flap_live_in": [2.25, 8.25], "cover_live_in": [5.125, 8.25], "safety_in": 0.5,
+                                     "barcode_in": [3.625, 1.25]}}}
+    print(f"{out}: {n} pages; paperback spine {spine_pb} in; hardcover spine {spine_hc} in (jacket sheet 21 × 9.75 in)")
+    json.dump(spec, open(os.path.join(M.ROOT, "print", "spec.json"), "w"), indent=1, ensure_ascii=False)
+
+def hardcover_spine(pages):
+    """Lulu hardcover spine width (in) by page count — the guide's table, 444 ppi paper."""
+    table = [(84, .25), (140, .5), (168, .625), (194, .688), (222, .75), (250, .813), (278, .875), (306, .938), (334, 1.0),
+             (360, 1.063), (388, 1.125), (416, 1.188), (444, 1.25), (472, 1.313), (500, 1.375), (528, 1.438), (556, 1.5),
+             (582, 1.563), (610, 1.625), (638, 1.688), (666, 1.75), (694, 1.813), (722, 1.875), (750, 1.938), (778, 2.0), (799, 2.063), (800, 2.125)]
+    for hi, w in table:
+        if pages <= hi: return w
+    raise ValueError("over 800 pages")
 
 if __name__ == "__main__":
     main()

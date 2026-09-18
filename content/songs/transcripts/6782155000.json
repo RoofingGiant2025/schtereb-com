@@ -1,0 +1,61 @@
+{
+ "apple_id": 6782155000,
+ "title": "Sexy Like Jesus",
+ "released": "2026-06-19",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/sexy-like-jesus.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.96,
+   "text": "Yeah, let's go babies choose choose"
+  },
+  {
+   "start": 12.64,
+   "end": 14.96,
+   "text": "Baby babies babies to choose"
+  },
+  {
+   "start": 16.0,
+   "end": 22.56,
+   "text": "Got that structural sovereignty built my brand new philosophy got the algorithm unlock future shock round the clock"
+  },
+  {
+   "start": 22.56,
+   "end": 24.56,
+   "text": "Can you hear me?"
+  },
+  {
+   "start": 24.56,
+   "end": 27.5,
+   "text": "Sexy like Jesus, yeah I know you see this"
+  },
+  {
+   "start": 27.5,
+   "end": 30.68,
+   "text": "Sexy like Jesus, a digital genesis"
+  },
+  {
+   "start": 30.68,
+   "end": 35.22,
+   "text": "Sexy like, sexy like, sexy like Jesus"
+  },
+  {
+   "start": 35.22,
+   "end": 37.14,
+   "text": "The future needs this"
+  }
+ ],
+ "lines": [
+  "Yeah, let's go babies choose choose",
+  "",
+  "Baby babies babies to choose",
+  "Got that structural sovereignty built my brand new philosophy got the algorithm unlock future shock round the clock",
+  "Can you hear me?",
+  "Sexy like Jesus, yeah I know you see this",
+  "Sexy like Jesus, a digital genesis",
+  "Sexy like, sexy like, sexy like Jesus",
+  "The future needs this"
+ ]
+}

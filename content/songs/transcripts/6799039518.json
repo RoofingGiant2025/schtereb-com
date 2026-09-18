@@ -1,0 +1,308 @@
+{
+ "apple_id": 6799039518,
+ "title": "Bbong",
+ "released": "2026-08-07",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Bbong .mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 10.0,
+   "text": "Music"
+  },
+  {
+   "start": 10.0,
+   "end": 13.0,
+   "text": "Beat bong, hit it slow, let the smoke roll low"
+  },
+  {
+   "start": 13.0,
+   "end": 16.0,
+   "text": "Clouds in the dome, where the thoughts go"
+  },
+  {
+   "start": 16.0,
+   "end": 19.0,
+   "text": "Breathe in deep, feel the chest expand"
+  },
+  {
+   "start": 19.0,
+   "end": 21.0,
+   "text": "World gets quiet like it understands"
+  },
+  {
+   "start": 21.0,
+   "end": 24.0,
+   "text": "Beat bong, beat bong, let it ring, let it hum"
+  },
+  {
+   "start": 24.0,
+   "end": 27.0,
+   "text": "One pull, two pull, then the room goes numb"
+  },
+  {
+   "start": 27.0,
+   "end": 34.52,
+   "text": "B-bomb, B-bomb, gravity's gone Floating like a ghost till the dawn"
+  },
+  {
+   "start": 34.52,
+   "end": 43.76,
+   "text": "Eyes half closed, ceiling starts to bend Time's just a joke, no beginning, no end"
+  },
+  {
+   "start": 43.76,
+   "end": 54.48,
+   "text": "Couch is the throne, blankets the crown B-bomb, B-bomb, king of the town"
+  },
+  {
+   "start": 54.48,
+   "end": 59.42,
+   "text": "Beep bong, beep bong, let it ring, let it hum"
+  },
+  {
+   "start": 59.42,
+   "end": 62.14,
+   "text": "One pull, two pull, then the room goes numb"
+  },
+  {
+   "start": 62.14,
+   "end": 65.92,
+   "text": "Beep bong, beep bong, gravity's gone"
+  },
+  {
+   "start": 65.92,
+   "end": 69.96,
+   "text": "Floating like a ghost till the dawn"
+  },
+  {
+   "start": 69.96,
+   "end": 72.98,
+   "text": "Heartbeat slow, vinyl crack in the air"
+  },
+  {
+   "start": 72.98,
+   "end": 75.74,
+   "text": "Mind slips out, then it's suddenly there"
+  },
+  {
+   "start": 75.74,
+   "end": 78.44,
+   "text": "Between the hits, there's a silent zone"
+  },
+  {
+   "start": 78.44,
+   "end": 81.2,
+   "text": "Just me and the echo of the ba-bong tone"
+  },
+  {
+   "start": 81.2,
+   "end": 84.14,
+   "text": "Gone, you mouth it back slow like molasses"
+  },
+  {
+   "start": 84.14,
+   "end": 86.68,
+   "text": "Tasting the letters like they're dipped in acid"
+  },
+  {
+   "start": 86.68,
+   "end": 89.52,
+   "text": "She nods the needle, skips, crackle in the groove"
+  },
+  {
+   "start": 89.52,
+   "end": 92.24,
+   "text": "One word stuck like it's trying to move"
+  },
+  {
+   "start": 92.24,
+   "end": 94.96,
+   "text": "Echo, it echoes, the room tilts hard"
+  },
+  {
+   "start": 94.96,
+   "end": 97.72,
+   "text": "Gravity spins, starts stealing new cards"
+  },
+  {
+   "start": 97.72,
+   "end": 100.28,
+   "text": "You're falling up now, no rules apply"
+  },
+  {
+   "start": 100.28,
+   "end": 103.4,
+   "text": "Be-bong, ba-bong, like you're getting high in the sky"
+  },
+  {
+   "start": 103.4,
+   "end": 105.68,
+   "text": "Dragging her with your wrists locked tight"
+  },
+  {
+   "start": 105.68,
+   "end": 108.48,
+   "text": "Up through the ceiling, into the night"
+  },
+  {
+   "start": 108.48,
+   "end": 111.14,
+   "text": "Records still skipping, no need to rewind"
+  },
+  {
+   "start": 111.14,
+   "end": 113.96,
+   "text": "She laughs like she knows you left time behind"
+  },
+  {
+   "start": 113.96,
+   "end": 118.96,
+   "text": "Neither of you ask what time it is"
+  },
+  {
+   "start": 118.96,
+   "end": 123.96,
+   "text": "Cause time don't matter when you're living like this"
+  },
+  {
+   "start": 143.96,
+   "end": 173.94,
+   "text": "I'm going to go back to my house."
+  },
+  {
+   "start": 173.94,
+   "end": 176.76,
+   "text": "Couch is the throne, blankets the crown"
+  },
+  {
+   "start": 176.76,
+   "end": 179.54,
+   "text": "Be-bong, be-bong, king of the town"
+  },
+  {
+   "start": 190.54,
+   "end": 193.02,
+   "text": "Heart beats low, if I'm a crack in the air"
+  },
+  {
+   "start": 193.02,
+   "end": 195.74,
+   "text": "Mind slips out, then it's suddenly there"
+  },
+  {
+   "start": 195.74,
+   "end": 198.44,
+   "text": "Between the hits, there's a silent zone"
+  },
+  {
+   "start": 198.44,
+   "end": 201.22,
+   "text": "Just me and the echo of the ba-bong tone"
+  },
+  {
+   "start": 201.22,
+   "end": 202.02,
+   "text": "Gone"
+  },
+  {
+   "start": 202.02,
+   "end": 207.2,
+   "text": "You mouth it back slow like molasses, tasting the letters like they're dipped in acid."
+  },
+  {
+   "start": 207.92,
+   "end": 210.18,
+   "text": "She nods a needle, skips, crackle in the groove."
+  },
+  {
+   "start": 210.5,
+   "end": 212.94,
+   "text": "One word stuck like it's trying to move."
+  },
+  {
+   "start": 213.46,
+   "end": 216.6,
+   "text": "Echo echoes, the room tilts hard."
+  },
+  {
+   "start": 217.86,
+   "end": 221.62,
+   "text": "Gravity spins, spins, starts dealing new cards."
+  },
+  {
+   "start": 223.16,
+   "end": 226.48,
+   "text": "You're falling up now, no rules apply."
+  },
+  {
+   "start": 226.48,
+   "end": 232.04,
+   "text": "E-bom-bom-bom like you're getting high on the sky"
+  },
+  {
+   "start": 232.04,
+   "end": 236.78,
+   "text": "Dragging her with your wrist locked tight"
+  },
+  {
+   "start": 236.78,
+   "end": 239.98,
+   "text": "Oh"
+  }
+ ],
+ "lines": [
+  "Music",
+  "Beat bong, hit it slow, let the smoke roll low",
+  "Clouds in the dome, where the thoughts go",
+  "Breathe in deep, feel the chest expand",
+  "World gets quiet like it understands",
+  "Beat bong, beat bong, let it ring, let it hum",
+  "One pull, two pull, then the room goes numb",
+  "B-bomb, B-bomb, gravity's gone Floating like a ghost till the dawn",
+  "Eyes half closed, ceiling starts to bend Time's just a joke, no beginning, no end",
+  "Couch is the throne, blankets the crown B-bomb, B-bomb, king of the town",
+  "Beep bong, beep bong, let it ring, let it hum",
+  "One pull, two pull, then the room goes numb",
+  "Beep bong, beep bong, gravity's gone",
+  "Floating like a ghost till the dawn",
+  "Heartbeat slow, vinyl crack in the air",
+  "Mind slips out, then it's suddenly there",
+  "Between the hits, there's a silent zone",
+  "Just me and the echo of the ba-bong tone",
+  "Gone, you mouth it back slow like molasses",
+  "Tasting the letters like they're dipped in acid",
+  "She nods the needle, skips, crackle in the groove",
+  "One word stuck like it's trying to move",
+  "Echo, it echoes, the room tilts hard",
+  "Gravity spins, starts stealing new cards",
+  "You're falling up now, no rules apply",
+  "Be-bong, ba-bong, like you're getting high in the sky",
+  "Dragging her with your wrists locked tight",
+  "Up through the ceiling, into the night",
+  "Records still skipping, no need to rewind",
+  "She laughs like she knows you left time behind",
+  "Neither of you ask what time it is",
+  "Cause time don't matter when you're living like this",
+  "",
+  "I'm going to go back to my house.",
+  "Couch is the throne, blankets the crown",
+  "Be-bong, be-bong, king of the town",
+  "",
+  "Heart beats low, if I'm a crack in the air",
+  "Mind slips out, then it's suddenly there",
+  "Between the hits, there's a silent zone",
+  "Just me and the echo of the ba-bong tone",
+  "Gone",
+  "You mouth it back slow like molasses, tasting the letters like they're dipped in acid.",
+  "She nods a needle, skips, crackle in the groove.",
+  "One word stuck like it's trying to move.",
+  "Echo echoes, the room tilts hard.",
+  "Gravity spins, spins, starts dealing new cards.",
+  "You're falling up now, no rules apply.",
+  "E-bom-bom-bom like you're getting high on the sky",
+  "Dragging her with your wrist locked tight",
+  "Oh"
+ ]
+}

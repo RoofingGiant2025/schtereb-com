@@ -1,0 +1,288 @@
+{
+ "apple_id": 6769870616,
+ "title": "Red Wine Dripping",
+ "released": "2026-05-15",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/LANDR-red-wine-dripping-(remastered)-Balanced-Medium.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 8.0,
+   "text": "Yeah, right here, right now"
+  },
+  {
+   "start": 8.0,
+   "end": 12.16,
+   "text": "808 in the dark, city light still"
+  },
+  {
+   "start": 12.16,
+   "end": 21.92,
+   "text": "I want you"
+  },
+  {
+   "start": 21.92,
+   "end": 26.7,
+   "text": "I want you to make a song for me"
+  },
+  {
+   "start": 26.7,
+   "end": 31.76,
+   "text": "I don't know why this ring in my head"
+  },
+  {
+   "start": 31.76,
+   "end": 33.24,
+   "text": "But when you think about a woman"
+  },
+  {
+   "start": 33.24,
+   "end": 37.46,
+   "text": "Sometimes all we want is sex and food"
+  },
+  {
+   "start": 37.46,
+   "end": 40.42,
+   "text": "That's all I want from you"
+  },
+  {
+   "start": 40.42,
+   "end": 42.22,
+   "text": "Black beach hitting through the wall"
+  },
+  {
+   "start": 42.22,
+   "end": 44.56,
+   "text": "Your shadow dancing in the hall"
+  },
+  {
+   "start": 44.56,
+   "end": 46.94,
+   "text": "Red wine dripping from your lips"
+  },
+  {
+   "start": 46.94,
+   "end": 49.68,
+   "text": "Slow motion, fingertips"
+  },
+  {
+   "start": 49.68,
+   "end": 52.14,
+   "text": "Late night body language"
+  },
+  {
+   "start": 52.14,
+   "end": 54.72,
+   "text": "No need to explain it"
+  },
+  {
+   "start": 54.72,
+   "end": 57.02,
+   "text": "You know exactly what it is"
+  },
+  {
+   "start": 57.02,
+   "end": 59.56,
+   "text": "Just the second that we came in"
+  },
+  {
+   "start": 59.56,
+   "end": 61.58,
+   "text": "No more talking crazy"
+  },
+  {
+   "start": 61.58,
+   "end": 63.88,
+   "text": "No more wasting time"
+  },
+  {
+   "start": 63.88,
+   "end": 66.34,
+   "text": "Tonight the city's fading"
+  },
+  {
+   "start": 66.34,
+   "end": 68.28,
+   "text": "And your body's next to mine"
+  },
+  {
+   "start": 68.28,
+   "end": 69.82,
+   "text": "Don't give me your attitude"
+  },
+  {
+   "start": 69.82,
+   "end": 74.28,
+   "text": "Give me your pussy right here, right now"
+  },
+  {
+   "start": 74.28,
+   "end": 79.76,
+   "text": "Don't give me excuses, baby"
+  },
+  {
+   "start": 79.76,
+   "end": 83.72,
+   "text": "Just hold me somehow"
+  },
+  {
+   "start": 84.72,
+   "end": 92.04,
+   "text": "Sex and food, power, mood, heartbeats shaking up the room"
+  },
+  {
+   "start": 92.04,
+   "end": 93.9,
+   "text": "Don't kill the vibe tonight"
+  },
+  {
+   "start": 93.9,
+   "end": 97.96,
+   "text": "Right here, right now"
+  },
+  {
+   "start": 97.96,
+   "end": 101.82,
+   "text": "High heels by the doorway, take out on the bed"
+  },
+  {
+   "start": 101.82,
+   "end": 107.04,
+   "text": "You laughing, pull me closer, messing with my head"
+  },
+  {
+   "start": 107.04,
+   "end": 111.82,
+   "text": "Faceline in the background, hands around your waist"
+  },
+  {
+   "start": 111.82,
+   "end": 116.64,
+   "text": "Every little second makes me lose my place"
+  },
+  {
+   "start": 116.64,
+   "end": 120.72,
+   "text": "You say you want honesty, but baby, here's the truth"
+  },
+  {
+   "start": 120.72,
+   "end": 125.38,
+   "text": "The whole damn world disappears a second I touch you"
+  },
+  {
+   "start": 125.38,
+   "end": 127.72,
+   "text": "Right here, right now"
+  },
+  {
+   "start": 127.72,
+   "end": 130.12,
+   "text": "No tomorrow, no slowdown"
+  },
+  {
+   "start": 130.12,
+   "end": 132.46,
+   "text": "Body heat, red light glow"
+  },
+  {
+   "start": 132.46,
+   "end": 134.76,
+   "text": "Move with me, lose control"
+  },
+  {
+   "start": 134.76,
+   "end": 136.38,
+   "text": "Don't give me your attitude"
+  },
+  {
+   "start": 136.38,
+   "end": 140.8,
+   "text": "Give me your pussy right here, right now"
+  },
+  {
+   "start": 141.82,
+   "end": 151.14,
+   "text": "Don't start a fight tonight Just turn the music loud"
+  },
+  {
+   "start": 151.14,
+   "end": 158.58,
+   "text": "Sex and food, that's the mood Living fast with nothing to prove"
+  },
+  {
+   "start": 158.58,
+   "end": 164.6,
+   "text": "No overthinking anymore Right here, right now"
+  },
+  {
+   "start": 164.6,
+   "end": 168.44,
+   "text": "City lights, city rain"
+  },
+  {
+   "start": 168.44,
+   "end": 173.7,
+   "text": "808 inside my brain"
+  },
+  {
+   "start": 173.7,
+   "end": 178.86,
+   "text": "Right here, right now"
+  },
+  {
+   "start": 178.86,
+   "end": 183.6,
+   "text": "Right here, right now"
+  }
+ ],
+ "lines": [
+  "Yeah, right here, right now",
+  "808 in the dark, city light still",
+  "I want you",
+  "I want you to make a song for me",
+  "I don't know why this ring in my head",
+  "But when you think about a woman",
+  "Sometimes all we want is sex and food",
+  "That's all I want from you",
+  "Black beach hitting through the wall",
+  "Your shadow dancing in the hall",
+  "Red wine dripping from your lips",
+  "Slow motion, fingertips",
+  "Late night body language",
+  "No need to explain it",
+  "You know exactly what it is",
+  "Just the second that we came in",
+  "No more talking crazy",
+  "No more wasting time",
+  "Tonight the city's fading",
+  "And your body's next to mine",
+  "Don't give me your attitude",
+  "Give me your pussy right here, right now",
+  "Don't give me excuses, baby",
+  "Just hold me somehow",
+  "Sex and food, power, mood, heartbeats shaking up the room",
+  "Don't kill the vibe tonight",
+  "Right here, right now",
+  "High heels by the doorway, take out on the bed",
+  "You laughing, pull me closer, messing with my head",
+  "Faceline in the background, hands around your waist",
+  "Every little second makes me lose my place",
+  "You say you want honesty, but baby, here's the truth",
+  "The whole damn world disappears a second I touch you",
+  "Right here, right now",
+  "No tomorrow, no slowdown",
+  "Body heat, red light glow",
+  "Move with me, lose control",
+  "Don't give me your attitude",
+  "Give me your pussy right here, right now",
+  "Don't start a fight tonight Just turn the music loud",
+  "Sex and food, that's the mood Living fast with nothing to prove",
+  "No overthinking anymore Right here, right now",
+  "City lights, city rain",
+  "808 inside my brain",
+  "Right here, right now",
+  "Right here, right now"
+ ]
+}

@@ -1,14 +1,14 @@
 # Notas de la vida: antes y después
-### Oleg Shtereb
+### Oleg Schtereb
 
 ## Obra blanca
 
                              Soy un peregrino ...
 
-Pero no se trata de que peregrino sea aquel
+Pero no es que peregrino sea aquel
 que vaga por los países
                                      de toda la Tierra,
-sino que peregrino soy yo, que soy extraño
+sino que peregrino soy yo, que peregrino soy
 de Alma, de Mente y de Razón
                                          mías.
                              Soy un peregrino…
@@ -20,57 +20,57 @@ de Alma, de Mente y de Razón
 ## Sueño real
 
 Llegó la hora de dormir,
-salió la luna al cielo claro.
-Miré un instante hacia el cristal
-y mi mirada se quedó en tu lado.
+cuando en el cielo la luna asomó.
+Cuando miré por la ventana,
+en ti mi mirada se posó.
 
 Todo era como un sueño:
-tú y yo — los dos, juntos, callados.
-Pero yo no dormí esa noche
-después de ver tus ojos claros.
+tú y yo — los dos, juntos.
+Pero yo entonces no dormí
+al ver esos ojos tuyos.
 
-Tus ojos, ojos que embrujan,
-acianos en la niebla gris.
-No hay en toda la Tierra
-otros ojos como los de ti.
+Tus ojos encantadores,
+como acianos en la bruma gris.
+En ningún otro lugar de la Tierra
+se hallan ojos así.
 
-Tus labios, labios tan hermosos,
+Y tus labios tan hermosos
 perlas me parecieron en el sueño;
 y esas perlas me susurraban
 palabras quietas de amor tierno.
 
-Tu pelo cayó hasta el suelo,
-la luna lo dejó encendido.
-Y de pronto quise verte…
-sin el cristal, tu cuerpo, el mío.
+Tu cabello cayó hasta el suelo;
+la luz de la luna lo encendió.
+Y de pronto sentí el deseo…
+de ver sin cristal tu cuerpo.
 
 Abrí rápido la ventana,
-pero ya no estabas allí.
-Se fueron sueños e ilusiones;
-solo el viento sopla, aquí y allí…
+pero tú ya no estabas.
+Se esfumaron ilusiones y sueños;
+solo el viento sopla aquí y allá…
 
 ## El encuentro
 
-Cuando nos encontramos por primera vez
+Cuando nos vimos por primera vez,
 vi tus ojos inofensivos.
-Tu mirada me atravesó de parte a parte,
-y en ese instante todo comenzó,
-y entonces ya tuve que
-pensar en ti en serio.
+Tu mirada me atravesó,
+y en ese instante todo empezó,
+y entonces ya tuve
+que pensar en ti en serio.
 No sé por qué, pero quería
-encontrarme contigo otra vez,
+verte una vez más,
 conocer esas fuerzas misteriosas
 que tanto me atraían hacia ti.
-Donde no estuve, en todas partes,
+Dondequiera que estuviera,
 te me aparecías como un capricho.
 Y en sueños venías a mí,
 y en sueños me decías
 que querías estar conmigo siempre,
 siempre y en todas partes amarme…
-Al despertar, estaba loco,
+Al despertar, estaba fuera de mí,
 pero sabía que era solo un juego
 que, como una estrofa,
-debe encontrarse un final.
+debe hallar su final.
 
 ## * * *
 
@@ -92,12 +92,12 @@ en esa felicidad casual,
 No me creí a mí mismo
 cuando mi ojo la vio
                                      a Usted…
-Quedé encantado.
+Quedé hechizado.
 
 Al principio la recordaba poco,
 pero pasaron los días y me enamoré de Usted
                                    en una hora hermosa…
-No pronto lo admití.
+No lo admití pronto.
 
 Esperé mucho; supliqué
 a los dioses que me dieran no un diamante,
@@ -105,43 +105,43 @@ a los dioses que me dieran no un diamante,
 Pero por qué esperaba, no lo entendía.
 
 Deliraba con Usted por la mañana,
-y de noche en sueños más de una vez
+y de noche, en sueños, más de una vez
                                 la vi a Usted…
 Comprendí que ya no puedo vivir así.
 
-Quizá hasta muera
+Quizá hasta me muera
 cuando sepa que a Usted,
                 aunque no sea ahora,
 ya no la veré más.
 
-Con esperanza vivo
-para encontrarla a Usted
+Vivo con la esperanza
+de encontrarla a Usted
                     aunque sea una vez más,
 pero vivir así ya no puedo.
 
 ## El deseo del alma
 
-No puedo vivir desde aquel tiempo
+No puedo vivir desde el tiempo
 en que te encontré,
-cuando las miradas de nuestros ojos
-las unió un único way*.
+cuando la mirada de nuestros ojos
+la unió un único way*.
 
 Estás en mis pensamientos,
-estás en mis sueños.
-¿Y cómo renunciar a ti
-si logré enamorarme?
+estás también en mis sueños.
+¿Y cómo renunciar a ti,
+si llegué a enamorarme?
 
-En mi alma pasea
+Por mi alma pasea
 la alegría de sentimientos sinceros,
 pero mi razón no sabe
-qué era lo que quería hasta ahora.
+qué es lo que hasta ahora quería.
 
 Quizá hubiera querido
 que mi alma fuera pura.
-Lo quise, pero no ocurrió:
+Lo quise, pero no fue así:
 el alma se cubrió de amor.
 
-Todo se volvió agradable de golpe
+Todo se volvió grato de golpe
 y ya no quise irme a Kansas.
 Quería estar siempre contigo,
 no separarme ni en el pensamiento.
@@ -149,7 +149,7 @@ no separarme ni en el pensamiento.
 ¡Todo! lo que yo quería,
 ¡todo! lo que el alma deseaba,
 en tu imagen se encarnó,
-y tú me llevaste a tu alma.
+y tú al alma me llevaste.
 
 Eso es lo que yo quería,
 eso es lo que el alma deseaba,
@@ -161,50 +161,50 @@ cuando el alma amaba.
 ## * * *
 
 Quizá esto se llama AMOR,
-o quizá es solo el deseo:
-deseo de verte siempre,
-de no dejarte ir, de que te tengo.
+o quizá es señal de un deseo.
+Deseo de verte siempre,
+de no dejarte ir a ningún lado.
 
 Deseo de tocar tus manos,
-de abrazarte con ternura,
-de atrapar tus miradas,
-de hacerlo todo… sin cordura.
+de abrazarnos con ternura,
+de atrapar las miradas de tus ojos,
+de hacer… todo lo que se me antoje.
 
-Cuando no estás a mi lado
+Cuando no estás a mi lado,
 no puedo pensar en nada.
-Solo sé que en ti hallaré
-la llave de la dicha buscada.
+Solo sé que la llave de la dicha
+en ti podré encontrarla.
 
-Y cuando estás junto a mí
+Y cuando estás junto a mí,
 quiero detener el tiempo,
 para que este sentir desconocido
-se quede en nosotros, eterno.
+se quede en nosotros para siempre.
 
 Cuando veo que te pierdo,
 ¿qué decirte? — no lo sé;
-solo «perdona», digo bajo,
-«por todo lo malo» — y espero. Y qué.
+solo «perdona», digo en voz baja,
+«por todo lo malo» — y espero respuesta.
 
-Espero… ni yo sé qué espero,
+Espero…, ni yo sé qué,
 y vago entre mis pensamientos,
-y no sé… qué hacer, qué hacer,
-para que tú pudieras quererme un momento.
+y no sé… qué debo hacer
+para que tú pudieras quererme.
 
 ## Mi sueño
 
-Las noches son claras de luna,
+Las noches son claras de luna;
 quiero pasarlas contigo,
 pero no sé cómo
 tengo el honor de acercarme a ti.
 
 Sueño contigo de día
-y de noche pienso en
-lo que quisiera decirte;
+y de noche pienso
+en lo que quisiera decirte;
 y sé que ya no puedo contener
-la ternura de mi alma hacia ti,
+la ternura de mi alma por ti,
 la mejor muchacha del mundo.
 
-Eres una muchacha esbelta,
+Muchacha, eres esbelta,
 una belleza de piernas largas,
 ojitos de un azul tierno,
 cabello rizado y rubio.
@@ -214,8 +214,8 @@ cabello rizado y rubio.
 belleza de piernas largas,
 y los ojos, como ceniza del fuego?
 
-Cuando me mires
-cerraré los ojos,
+Cuando me mires,
+cerraré los ojos:
 temo que la chispa de tus ojos
 me atraviese con la flecha del amor.
 
@@ -224,15 +224,15 @@ Mirarte con ternura…
 Quién sabe, quizá vea
 lo que nunca he visto.
 
-¿Y si esto resulta amargo?
-Aunque a veces es dulce.
+¿Y si resulta amargo?
+Aunque a veces resulta dulce.
 No, mejor no abrir los ojos
-y no saber lo que será…
+y no saber lo que vendrá…
 
 ## Sueño mío
 
 ¡Oh! cómo sueño
-con encontrarte de nuevo
+con encontrarte de nuevo, a Ti,
 y quedarme contigo ya para siempre,
 muchachita mía adorada.
 
@@ -242,9 +242,9 @@ tu cabello dorado, tus ojos tiernos…
 Sí, Tú eres mi sueño.
 
 Aunque estés lejos de mí,
-el camino hacia ti lo recorreré con facilidad.
-Todo, todo lo dejaré para
-verte de nuevo.
+el camino hasta ti lo andaré sin esfuerzo.
+Todo, todo lo dejaré
+para verte de nuevo.
 
 Cómo quisiera
 que toda la gente de la Tierra
@@ -253,23 +253,23 @@ que quedáramos solo Yo
                     y Tú — Diosa mía.
 
 Que alrededor olieran las flores,
-y en las flores estuviéramos nosotros,
+y entre las flores estuviéramos nosotros,
 que brillara clara la luna…
 ¡Oh! Cómo sueño.
 
 ## Romantic ballad
 
-En una noche de verano con luna
+En una noche de verano, con luna,
 paseaba contigo.
 Y recuerdo tu mirada tierna
 y los ojos que me miran.
 
-El viento ya había amainado,
-estábamos solos los dos — en libertad.
+El viento ya había amainado bastante;
+estábamos solos los dos — a nuestro aire.
 Solo se oía el rumor del río
 junto al cual nos sentamos.
 
-Nos divertíamos el uno al otro,
+Nos hacíamos reír el uno al otro,
 contábamos las estrellas del cielo.
 Y soñábamos, soñábamos largo rato,
 ¿y qué pasó? — no lo entendíamos.
@@ -290,9 +290,9 @@ Yo te susurraba algo
 y entraba dentro de tu cuerpo.
 
 Nuestros cuerpos se abrazaban,
-nos bañábamos en aliento cálido.
+nos bañábamos en un aliento cálido.
 Yo miraba tus ojos
-y en ellos leía: "Más… Oh sí…"
+y en ellos leía: «Más… Oh, sí…»
 
 Qué bien estábamos,
 como si estuviéramos en el Paraíso.
@@ -310,13 +310,13 @@ En la arena pasamos la noche;
 al despertar por la mañana, éramos felices.
 
 (Y ahora recuerdo
-aquella larga noche y sé
+aquella larga noche, y sé
 que la primera noche de mi vida
-fue incluso muy buena.)
+fue, de verdad, muy buena.)
 
 ## Hubo un tiempo
 
-Hubo un tiempo, recordé,
+Hubo un tiempo, lo recordé,
 tiempo de alegría y de pena,
 en que el aire para mí
 no hacía falta. Pues en vano.
@@ -329,22 +329,22 @@ Por otros mundos penaba.
 Sí, me habría matado,
 despacio, o quizá rápido,
 si no me hubiera enamorado de ti
-y no hubiera sentido el calor de mujer.
+y no hubiera sentido el calor de una mujer.
 
 Contigo estuve bien.
-¡Pero el amor me hastió,
+! Pero el amor me hastió,
 me hastió el calor de mujer,
 quise ver sangre.
 
 Al instante, sintiendo el deseo,
 salí al techo de un edificio alto,
-me arrojé abajo, pero no caí — ¡!
+me arrojé al vacío, pero no caí — !
 Desperté. Era un sueño — al fin lo entendí.
 
 Te abracé, te besé,
-aunque dormías, te dije:
+y aunque dormías, te dije:
 «Nunca me mataré — no,
-aunque tuviera noventa años».
+ni aunque tuviera noventa años».
 
 ## Tristeza alegre
 
@@ -391,13 +391,13 @@ y apareció la luz de la luna.
 ## Recuerdo
 
 Recuerdo que una vez
-hacía frío,
+hacía frío;
 el aire frío
 abrazaba mi rostro.
 
 El viento frío penetraba
 en todo el cuerpo humano,
-y la escarcha corría por el cuerpo
+y la escarcha corría por el cuerpo,
 cada vez más invernal y más rápida.
 
 Los ojos en todos los rostros
@@ -417,7 +417,7 @@ se compró un sueño.
 
 Con la llegada de la tarde
 se oían cada vez más gratos
-los sonidos del tierno silencio,
+los sonidos del tierno silencio;
 todos se habían ido a algún lugar…
 
 Me era grato
@@ -426,7 +426,7 @@ La nieve blanca reflejaba
 la luz de la luna, y centelleaba.
 
 En el instante de esa belleza
-no estaba solo,
+no estaba solo;
 conmigo estabas tú —
 mi tierno talismán.
 
@@ -457,7 +457,7 @@ el calor de tu mano.
 
 Así pasamos la noche
 entre la belleza natural.
-Recibimos la salida del sol
+Recibimos el amanecer,
 pero no cansamos los ojos.
 
 Y mirábamos hacia donde
@@ -548,29 +548,29 @@ cuando de noche, por teléfono,
 a tu casa te llame.
 
 Cuando te encuentre,
-del cielo una estrella te daré,
-y bajo la luna susurraré otra vez:
-«A ti sola, a ti te amo, ¿lo sabes?»
+del cielo una estrella te regalaré,
+y bajo la luz de la luna susurraré otra vez:
+«A ti sola, a ti te amo».
 
 Tú eres mi estrella solitaria,
 yo soy tu luna, a tu lado.
 Y cuánto quiero, con ternura,
-abrazarte. Todo es encantado…
+abrazarte. Todo es encantador…
 
 Esto duraría mucho,
-y todos, en todas partes, lo aceptarían.
+y todos, en todas partes, se resignarían.
 Pero no hay nada en el Mundo
-que con el tiempo no pase un día.
+que con el tiempo no pase.
 
 Pasa el claro brillo del sol,
-pasa el odio, la desesperación,
+pasa la enemistad, la desesperación,
 pasa el tiempo del amor,
-y ya no se encuentran los rayos del sol.
+y ya no se hallan los rayos del sol.
 
 Pero si el sol brilla
-muy fuerte, y lanza sus rayos,
+muy fuerte, y lanza sus rayitos,
 brillará todavía mucho tiempo
-y barrerá del cielo los nubarrones malos.
+y barrerá del cielo las nubes malignas.
 
 ## Amé
 
@@ -602,19 +602,19 @@ y ya no quiero amarte más.
 ## * * *
 
 Si tú no me amas,
-háblame entonces del amor.
+entonces háblame del amor.
 ¿Es del color de los cielos fríos,
-o roja y caliente como la sangre, con ardor?
+o roja y caliente como la sangre?
 
 Si tú no ves el amor,
-muéstrame entonces dónde hallarlo.
-¿Allí donde el sol y los paisajes,
-o allí donde estás sola, esperándolo?
+entonces muéstrame dónde hallarlo.
+¿Allí donde hay sol y paisajes hermosos,
+o quizá allí donde estás sola?
 
-Cuando veas el amor, dímelo,
-vendré y también lo miraré;
-si es dulce y sincero,
-le sonreiré, y le responderé.
+Cuando veas el amor, dímelo;
+vendré y también lo miraré,
+y si es tierno y sincero,
+en respuesta le sonreiré.
 
 ## Pequeño delirio
 
@@ -645,7 +645,7 @@ Y tú eres un pequeño delirio, y — tú,
 Vamos de excursión con el jefe,
 delante va A. Liusak.
 Llevamos mochilas pesadas,
-y nuestras cabezas vacías.
+y las cabezas vacías.
 
 Pasa el tiempo, seguimos andando,
 aunque no podemos andar.
@@ -653,8 +653,8 @@ Y llevamos las mochilas pesadas,
 aunque no hay fuerzas para llevarlas.
 
 Pasa el tiempo… ¡Oh, llegamos!
-Al fin la respuesta a "¿Cuándo?"
-Las esterillas, eso es tal cosa…, sacamos,
+Al fin la respuesta a «¿Cuándo?».
+Las esterillas — eso, cómo se dice… — sacamos,
 y rápido, muy rápido, nos sentamos.
 
 Del camino descansamos un poco
@@ -663,7 +663,7 @@ Alguien cosió las medias de alguien
 y enseguida nos pusimos a trabajar.
 
 Los chavales fueron a fumar,
-porque la tontería les disparó en la cabeza.
+porque les dio la tontera.
 Y los chicos cortaban leña
 y ayudaban al cocinero.
 
@@ -677,9 +677,9 @@ sin saber qué es.
 Quizá sea una sopa espesita,
 o quizá unas patatas aguadas.
 
-Da igual, ya nos lo zampamos,
+Da igual, nos lo zampamos ya;
 que sea papilla de leche,
-u otra creación de Antón,
+u otra creación de Antone,
 de todos modos irá a la mierda.
 
 De noche a veces dormimos,
@@ -694,7 +694,7 @@ la encantadora hermosura de los Cárpatos.
 
 Y así la excursión ya pasa,
 Liusak nos arrastra a casa.
-Hay un pensamiento en la cabeza —
+Hay un pensamiento en la cabeza:
 de todos modos, la papilla estuvo genial.
 
 Todos lamentamos
@@ -703,9 +703,9 @@ Atrás dejamos las montañas,
 en un mar de lágrimas nos ahogamos.
 
 No importa, pasará el tiempo,
-y de nuevo dirá Antón:
-"Mañana vamos de excursión,
-no olviden los cigarrillos y el almuerzo".
+y de nuevo dirá Antone:
+«Mañana vamos de excursión,
+no olviden los cigarrillos y el almuerzo».
 
 ## Sábado borracho
 
@@ -1020,7 +1020,7 @@ y no volveré a pisar agua sucia.
 Me devolveré a mí mismo
 y con la razón subiré hasta los cielos.
 Los pesados grilletes terrenales arrojaré
-y con la mirada hacia el futuro navegaré.
+y con la mirada hacia el futuro volaré.
 
 ## ¡¡¡Oh Dios!!!
 
@@ -1093,8 +1093,8 @@ pero el cuerpo sin Destino no quería vivir.
 
 No quería vivir, pero vivía,
 y de la nada creaba un pensamiento.
-El Arte de la Vida notó el trabajo
-y amó a ese cuerpo que no quería vivir,
+La Vida notó la obra de arte
+y amó a ese cuerpo que no quería vivir;
 por su Cumpleaños le regaló al cuerpo un Destino.
 
 El cuerpo, teniendo Destino, se alegró con orgullo,
@@ -1184,7 +1184,7 @@ con toda la multitud humana.
 Eres la única que tengo,
 estúpida patria mía.
 Pero cómo quisiera
-que fueras sabia.
+que fueras inteligente.
 
 Que la vida se volviera hermosa,
 que en todas partes sonara música,
@@ -1249,17 +1249,17 @@ y para él alrededor todo son tinieblas…
 Cuando te sientas mal
 y no quieras vivir,
 si quieres, claro está,
-puedes ponerte a llorar, así.
+puedes llorar.
 
 ¿Quieres llorar? — pues llora;
 ¿y vivir? — pues vive.
 ¿No ves el bien? — pues mira,
-y toma la dicha de la vida que se sirve.
+y toma la dicha de la vida.
 
-Te sientes mal — entristécete,
+Te sientes mal — pues entristécete,
 llora con el alma y con la lágrima;
 con la lágrima calma la pena,
-calma la desdicha del dolor, y su ánima.
+calma la desdicha del dolor.
 
 ## Añoranza
 
@@ -1280,30 +1280,30 @@ recordándome que ya no soy un niño.
 
 ## Definición
 
-Cuando creas de verdad
-que el mal vendrá a buscarte,
-vendrá, por supuesto, el mal,
-y traerá desdicha a tu parte.
+Cuando creas
+que el mal vendrá a ti,
+vendrá, por supuesto,
+y te traerá desdicha.
 
-Cuando sin dudar creas
-solamente en el bien,
+Cuando sin dudas
+creas solamente en el bien,
 entonces, claro, será
-agradable vivir. Amén.
+agradable vivir en el mundo.
 
-Cuando dudes, sin saber
-qué desear para ti,
-no habrá adónde correr
-cuando vengan por ti.
+Cuando dudes,
+sin saber qué desear para ti,
+no habrá adónde escapar
+cuando vengan a llevarte.
 
 Te llevarán o bien allá
 donde siempre es bello y hay luz,
-donde la bondad no tiene grietas
-y nadie miente, ni tú,
+donde la bondad lo llena todo
+y la persona es libre de mentira,
 
-o allá donde es todo tiniebla
+o allá donde todo es tiniebla
 y la gente vaga en el barro,
-donde el miedo estuvo y estará,
-y de allí no se irá, ni raro.
+donde el miedo estuvo y estará siempre,
+y de allí no se irá a ninguna parte.
 
 ## Es triste cuando…
 
@@ -1538,17 +1538,17 @@ donde el sol se levanta.
 Donde un rayo de luz atraviesa
 la cortina tensa del no ser;
 con el tiempo la tiniebla pasa
-y una vida nueva empieza a nacer.
+y una vida nueva empieza.
 
 Amo sentir la libertad,
 el deseo, la alegría, la hermosura.
 Amo seguir siendo yo,
-no temer a la luz de la noche oscura.
+no temer a la luz de la oscuridad.
 
 Amo amar y desear,
 amo sentir el amor;
 claro que amo,
-¿pero por qué?.. No lo sé, no.
+¿pero por qué?.. No lo sé…
 
 ## Muy de mañana
 
@@ -2141,24 +2141,24 @@ y… hallarás el sentido de la vida.
 ## ¿Quién?
 
 Como la gaviota vuela sobre el mar,
-como el viento susurra en las hojas,
-como se alzan las montañas al mirar,
-como el león entre las fieras, sin congojas.
+como el viento susurra en las hojas de los árboles,
+como se alzan las montañas pintorescas,
+como el león sobre las fieras.
 
 Como lo grato-ligero y lo hermoso,
-como lo penetrante que todo lo contiene,
+como lo penetrante y que todo lo abarca,
 como lo poderoso y lo dichoso,
-como lo más alto — cuando abajo viene.
+como lo más alto, cuando es humilde.
 
-Como el sol tras la lluvia larga,
+Como el sol tras una lluvia larga,
 como la lluvia tras la sequía,
-como un camino en la selva amarga,
-como manos para el manco, que las ansía.
+como un camino en el bosque oscuro,
+como manos para el que no las tiene.
 
-Como el espacio, que es lo infinito,
+Como el espacio, aquel que es infinitud,
 como un mar que no tiene fondo,
-como el ideal, como lo perfecto, lo bendito,
-como Aquel para Quien soy — y para siempre, y hondo.
+como el ideal, como la perfección,
+como Aquel para Quien soy para siempre.
 
 ## Elige la luz
 
@@ -2192,27 +2192,27 @@ apagas la luz brillante.
 Amo vivir,
 amo la vida,
 amo los bellos
-sentires del corazón, su herida.
+sentimientos del corazón.
 
 Amo crear,
 amo al Creador:
-al Espíritu Santo, a Dios Padre,
-y a Su Hijo — Jesucristo, mi Señor.
+al Espíritu Santo, a Dios Padre
+y a Su Hijo — Jesucristo.
 
 Amo amar,
 amo el Amor.
 Acepto la sangre
-que Dios vertió por mí, con dolor.
+que Dios derramó por mí.
 
 Amo vivir
 en el deleite de conocer
 la Verdad y la Esencia,
-y no el bien y el mal, ni su poder.
+y no el bien y el mal.
 
 Amo vivir —
 y elijo la vida.
 Para no morir —
-no elijas el mal. Es la salida.
+no elijas el mal.
 
 ## ¿Y por qué tú…?
 
@@ -2275,77 +2275,77 @@ bueno, aunque sea una copla cada uno.
 
 A unos les digo «buenos días»,
 mi aliento antes que el sol.
-La sensación, nada vacía,
-antes de que el día alce su voz.
+La sensación, no tan aburrida,
+antes de que empiece el día.
 
 A otros les digo «buenas noches»,
-cuando la luz empieza a irse.
-Escuchemos el silencio, sin reproches,
-donde la memoria viene a fundirse.
+cuando la luz empieza a apagarse.
+Escuchemos el silencio
+donde se hace la memoria.
 
 A alguien le digo «adiós» —
-sin drama, sin herir a nadie.
-Solo una visión, callada voz,
-que en mi corazón se queda y no cae.
+sin drama, sin que nadie quede herido.
+Solo una visión en el silencio
+que perdura en mi corazón.
 
 Para unos soy el comienzo.
 Para otros soy el final.
-Una quietud con forma de saber intenso,
-tan cercana que no se deja alcanzar.
+Una quietud con forma de saber,
+demasiado cercana para comprenderla.
 
 A unos les digo «buenos días».
 A otros les digo «buenas noches».
 A alguien le digo «adiós»,
-y aparezco luz brillante, sin reproches.
+y aparezco como una luz brillante.
 
 A alguien le digo las tres —
-buenos días, noche, adiós.
-La sombra del recuerdo, tal vez,
-la luz que nadie niega, ni en su voz.
+buenos días, buenas noches, adiós.
+La sombra del recuerdo,
+la luz que no podemos negar.
 
 Con unos me quedo para siempre.
 A otros nunca llegué.
-Pero algo en ellos cambia, de repente,
-aunque nadie recuerde quién fui.
+Pero algo en ellos cambia,
+aunque nadie recuerde mi nombre.
 
 ## Vuela, mi mariposa
 
-Caminando junto al mar,
+Caminando junto al océano,
 decides volar.
 Eres tan libre,
 estás en tus sueños.
 
 Sí, tú puedes volar
 como una mariposa,
-halagada al aletear,
-siempre tímida, hermosa.
+halagada de aletear,
+que siempre parece tan tímida.
 
 ¿Puedes ver las estrellas?
 Sí, claro que puedes.
 Están en tus ojos,
-tus ojos llenos de ellas.
+tus ojos están llenos de ellas.
 
 Mira hacia los cielos,
-al reino de la luz.
-¿Ves estrellas maravillosas?
-Una de ellas eres tú.
+hacia el reino luminoso,
+¿ves estrellas maravillosas?
+Tú eres una de ellas.
 
 Abre más los ojos,
 yo voy más adentro,
-al arte que deslumbra,
-más hondo, a tu centro.
+en un arte deslumbrante,
+más hondo en tu corazón.
 
-Puedo ver la belleza
-que vive en tu corazón.
+Puedo ver la belleza,
+vive en tu corazón.
 Es una mariposa…
 La mariposa es amor.
 
 Antes vagaba
-por el mundo entero,
-ahora habita en tu pecho:
-es tu amor verdadero.
+por todo el mundo,
+ahora habita en tu corazón:
+es tu amor.
 
-Tu amor es verdad,
-tus sueños, sin freno.
+Tu amor es verdadero,
+tus sueños son salvajes.
 El amor verdadero eres tú,
-que la mente nunca ha detenido.
+que la mente jamás detuvo.

@@ -1,0 +1,219 @@
+{
+ "apple_id": 1874690996,
+ "title": "Footsteps",
+ "released": "2026-02-04",
+ "source_file": "/Users/olegshtereb/Music/Music/Media.localized/Music/Dr. O/The Line We Cross/Footsteps.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.16,
+   "text": "Can you hear them?"
+  },
+  {
+   "start": 3.44,
+   "end": 7.0,
+   "text": "These aren't just steps, they're a sentence."
+  },
+  {
+   "start": 9.0,
+   "end": 9.6,
+   "text": "Scare."
+  },
+  {
+   "start": 11.14,
+   "end": 12.76,
+   "text": "What time is it?"
+  },
+  {
+   "start": 13.92,
+   "end": 15.86,
+   "text": "What's left to believe?"
+  },
+  {
+   "start": 17.1,
+   "end": 18.72,
+   "text": "And who are you now?"
+  },
+  {
+   "start": 19.58,
+   "end": 21.6,
+   "text": "A burden you can't relieve."
+  },
+  {
+   "start": 22.44,
+   "end": 28.0,
+   "text": "For mom and dad, for the ones long gone, for those who suffered when the world was wrong."
+  },
+  {
+   "start": 28.0,
+   "end": 34.04,
+   "text": "Wrong, loose words, fake lines You want me but not this time"
+  },
+  {
+   "start": 34.04,
+   "end": 39.62,
+   "text": "You're not my sky, not my light, not my sea You're not the one who could carry me"
+  },
+  {
+   "start": 39.62,
+   "end": 48.86,
+   "text": "I see someone's tracks in the dust I walk that path paved with trust"
+  },
+  {
+   "start": 48.86,
+   "end": 54.56,
+   "text": "Don't follow the trail I made"
+  },
+  {
+   "start": 54.56,
+   "end": 60.44,
+   "text": "It's a road that cuts, it doesn't fade"
+  },
+  {
+   "start": 60.44,
+   "end": 65.28,
+   "text": "Pain and fear, no sleep till dawn"
+  },
+  {
+   "start": 65.28,
+   "end": 68.1,
+   "text": "Tears in your eyes, the soul is gone"
+  },
+  {
+   "start": 68.1,
+   "end": 70.96,
+   "text": "One thought keeps banging in your head"
+  },
+  {
+   "start": 70.96,
+   "end": 72.98,
+   "text": "Why'd you follow where I bled?"
+  },
+  {
+   "start": 73.94,
+   "end": 76.52,
+   "text": "Dark are the nights, darker the days"
+  },
+  {
+   "start": 76.52,
+   "end": 79.18,
+   "text": "You don't want life just drift and decay"
+  },
+  {
+   "start": 79.18,
+   "end": 82.0,
+   "text": "You lost your purpose long before"
+  },
+  {
+   "start": 82.0,
+   "end": 84.84,
+   "text": "Truth is you never knew what for"
+  },
+  {
+   "start": 84.84,
+   "end": 87.62,
+   "text": "The pain won't leave till it eats your core"
+  },
+  {
+   "start": 87.62,
+   "end": 90.64,
+   "text": "There's no way back, just one door"
+  },
+  {
+   "start": 90.64,
+   "end": 93.22,
+   "text": "If you walk it, you're bound to break"
+  },
+  {
+   "start": 93.22,
+   "end": 96.08,
+   "text": "If you walk it, it's your last mistake"
+  },
+  {
+   "start": 96.08,
+   "end": 99.58,
+   "text": "And no one will remember your name"
+  },
+  {
+   "start": 99.58,
+   "end": 105.52,
+   "text": "No one will wish you stayed in the game"
+  },
+  {
+   "start": 105.52,
+   "end": 111.52,
+   "text": "No dream, no gold in your head"
+  },
+  {
+   "start": 111.52,
+   "end": 116.52,
+   "text": "Only silence for the things you said"
+  },
+  {
+   "start": 116.52,
+   "end": 122.52,
+   "text": "Never chase someone else's tracks"
+  },
+  {
+   "start": 122.52,
+   "end": 128.52,
+   "text": "Walk your path, no need to look back"
+  },
+  {
+   "start": 128.52,
+   "end": 131.52,
+   "text": "Walk your path"
+  },
+  {
+   "start": 135.52,
+   "end": 137.52,
+   "text": "Your dream"
+  },
+  {
+   "start": 165.52,
+   "end": 195.5,
+   "text": "I'm sorry."
+  }
+ ],
+ "lines": [
+  "Can you hear them?",
+  "These aren't just steps, they're a sentence.",
+  "",
+  "Scare.",
+  "What time is it?",
+  "What's left to believe?",
+  "And who are you now?",
+  "A burden you can't relieve.",
+  "For mom and dad, for the ones long gone, for those who suffered when the world was wrong.",
+  "Wrong, loose words, fake lines You want me but not this time",
+  "You're not my sky, not my light, not my sea You're not the one who could carry me",
+  "I see someone's tracks in the dust I walk that path paved with trust",
+  "Don't follow the trail I made",
+  "It's a road that cuts, it doesn't fade",
+  "Pain and fear, no sleep till dawn",
+  "Tears in your eyes, the soul is gone",
+  "One thought keeps banging in your head",
+  "Why'd you follow where I bled?",
+  "Dark are the nights, darker the days",
+  "You don't want life just drift and decay",
+  "You lost your purpose long before",
+  "Truth is you never knew what for",
+  "The pain won't leave till it eats your core",
+  "There's no way back, just one door",
+  "If you walk it, you're bound to break",
+  "If you walk it, it's your last mistake",
+  "And no one will remember your name",
+  "No one will wish you stayed in the game",
+  "No dream, no gold in your head",
+  "Only silence for the things you said",
+  "Never chase someone else's tracks",
+  "Walk your path, no need to look back",
+  "Walk your path",
+  "",
+  "Your dream",
+  "",
+  "I'm sorry."
+ ]
+}

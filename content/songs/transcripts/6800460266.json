@@ -1,0 +1,350 @@
+{
+ "apple_id": 6800460266,
+ "title": "This Is Mine",
+ "released": "2026-08-11",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/This_Is_Mine_MASTERED_FINAL.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 16.6,
+   "text": "I cannot just sit and breathe I must rise within what's real"
+  },
+  {
+   "start": 16.6,
+   "end": 28.5,
+   "text": "What if I didn't have to fight all the time But survival is my life"
+  },
+  {
+   "start": 28.5,
+   "end": 32.88,
+   "text": "This part of me isn't new"
+  },
+  {
+   "start": 32.88,
+   "end": 35.92,
+   "text": "It's been buried under rules"
+  },
+  {
+   "start": 35.92,
+   "end": 39.08,
+   "text": "But it was never gone"
+  },
+  {
+   "start": 39.08,
+   "end": 40.92,
+   "text": "I will say"
+  },
+  {
+   "start": 40.92,
+   "end": 45.64,
+   "text": "I was born to live"
+  },
+  {
+   "start": 45.64,
+   "end": 47.04,
+   "text": "Free"
+  },
+  {
+   "start": 47.04,
+   "end": 51.14,
+   "text": "To be real"
+  },
+  {
+   "start": 51.14,
+   "end": 53.48,
+   "text": "This is mine"
+  },
+  {
+   "start": 53.48,
+   "end": 56.58,
+   "text": "This is me"
+  },
+  {
+   "start": 56.58,
+   "end": 63.06,
+   "text": "It's enough, no one else I need to be"
+  },
+  {
+   "start": 63.06,
+   "end": 70.66,
+   "text": "This is my show, no need for loud applause"
+  },
+  {
+   "start": 70.66,
+   "end": 76.58,
+   "text": "Just an awakened soul, not living someone else's role"
+  },
+  {
+   "start": 76.58,
+   "end": 80.22,
+   "text": "I'm writing my own cause"
+  },
+  {
+   "start": 80.22,
+   "end": 85.42,
+   "text": "Do I owe the world a mask?"
+  },
+  {
+   "start": 85.76,
+   "end": 89.14,
+   "text": "Or the chance to live myself?"
+  },
+  {
+   "start": 90.94,
+   "end": 96.42,
+   "text": "The intersection, road to fight, road to give in"
+  },
+  {
+   "start": 96.42,
+   "end": 101.42,
+   "text": "Choose, choose"
+  },
+  {
+   "start": 101.42,
+   "end": 107.46,
+   "text": "I've walked the edge, held my breath"
+  },
+  {
+   "start": 107.46,
+   "end": 112.46,
+   "text": "Now I exhale, I say yeah"
+  },
+  {
+   "start": 112.46,
+   "end": 118.46,
+   "text": "This is mine, this is me"
+  },
+  {
+   "start": 118.46,
+   "end": 124.46,
+   "text": "It's enough, no one else I need to be"
+  },
+  {
+   "start": 124.46,
+   "end": 131.54,
+   "text": "Here at night, I'm right on time"
+  },
+  {
+   "start": 131.54,
+   "end": 136.46,
+   "text": "The life that's truly mine"
+  },
+  {
+   "start": 136.46,
+   "end": 142.52,
+   "text": "Is waiting a little later but now"
+  },
+  {
+   "start": 142.52,
+   "end": 144.84,
+   "text": "As soon as I say"
+  },
+  {
+   "start": 144.84,
+   "end": 147.42,
+   "text": "This is mine"
+  },
+  {
+   "start": 147.42,
+   "end": 150.2,
+   "text": "This is me"
+  },
+  {
+   "start": 150.2,
+   "end": 152.8,
+   "text": "It's enough"
+  },
+  {
+   "start": 152.8,
+   "end": 156.9,
+   "text": "No one else I need to be"
+  },
+  {
+   "start": 156.9,
+   "end": 161.9,
+   "text": "Here and now"
+  },
+  {
+   "start": 161.9,
+   "end": 164.9,
+   "text": "Here"
+  },
+  {
+   "start": 164.9,
+   "end": 194.88,
+   "text": "I'm not a good one"
+  },
+  {
+   "start": 194.9,
+   "end": 198.28,
+   "text": "No need for loud applause"
+  },
+  {
+   "start": 198.28,
+   "end": 200.74,
+   "text": "Just an awakened soul"
+  },
+  {
+   "start": 200.74,
+   "end": 204.24,
+   "text": "Not living someone else's role"
+  },
+  {
+   "start": 204.24,
+   "end": 207.8,
+   "text": "I'm writing my own cause"
+  },
+  {
+   "start": 207.8,
+   "end": 212.36,
+   "text": "Do I owe the world a mask"
+  },
+  {
+   "start": 212.36,
+   "end": 215.34,
+   "text": "Or the chance to live myself"
+  },
+  {
+   "start": 215.34,
+   "end": 218.3,
+   "text": "Just an awakened soul"
+  },
+  {
+   "start": 218.3,
+   "end": 220.7,
+   "text": "Not living someone else's role"
+  },
+  {
+   "start": 220.7,
+   "end": 223.32,
+   "text": "I'm writing my own cause"
+  },
+  {
+   "start": 223.32,
+   "end": 228.18,
+   "text": "Do I owe the world a mask?"
+  },
+  {
+   "start": 229.26,
+   "end": 232.84,
+   "text": "Or the chance to live myself?"
+  },
+  {
+   "start": 234.9,
+   "end": 240.44,
+   "text": "The intersection, road to fight, road to give in"
+  },
+  {
+   "start": 240.44,
+   "end": 242.34,
+   "text": "Choose"
+  },
+  {
+   "start": 242.34,
+   "end": 245.74,
+   "text": "Choose"
+  },
+  {
+   "start": 245.74,
+   "end": 248.7,
+   "text": "I've walked the edge"
+  },
+  {
+   "start": 248.7,
+   "end": 251.5,
+   "text": "Held my breath"
+  },
+  {
+   "start": 251.5,
+   "end": 256.32,
+   "text": "Now I exhale, I say yes"
+  },
+  {
+   "start": 256.32,
+   "end": 262.48,
+   "text": "This is mine, this is me"
+  },
+  {
+   "start": 262.48,
+   "end": 267.94,
+   "text": "It's enough, no one else I need to be"
+  },
+  {
+   "start": 267.94,
+   "end": 273.52,
+   "text": "Here and now, here"
+  },
+  {
+   "start": 273.52,
+   "end": 279.92,
+   "text": "Still breathing, still becoming"
+  },
+  {
+   "start": 279.92,
+   "end": 284.08,
+   "text": "This is mine"
+  }
+ ],
+ "lines": [
+  "I cannot just sit and breathe I must rise within what's real",
+  "What if I didn't have to fight all the time But survival is my life",
+  "This part of me isn't new",
+  "It's been buried under rules",
+  "But it was never gone",
+  "I will say",
+  "I was born to live",
+  "Free",
+  "To be real",
+  "This is mine",
+  "This is me",
+  "It's enough, no one else I need to be",
+  "This is my show, no need for loud applause",
+  "Just an awakened soul, not living someone else's role",
+  "I'm writing my own cause",
+  "Do I owe the world a mask?",
+  "Or the chance to live myself?",
+  "",
+  "The intersection, road to fight, road to give in",
+  "Choose, choose",
+  "I've walked the edge, held my breath",
+  "Now I exhale, I say yeah",
+  "This is mine, this is me",
+  "It's enough, no one else I need to be",
+  "Here at night, I'm right on time",
+  "The life that's truly mine",
+  "Is waiting a little later but now",
+  "As soon as I say",
+  "This is mine",
+  "This is me",
+  "It's enough",
+  "No one else I need to be",
+  "Here and now",
+  "Here",
+  "I'm not a good one",
+  "No need for loud applause",
+  "Just an awakened soul",
+  "Not living someone else's role",
+  "I'm writing my own cause",
+  "Do I owe the world a mask",
+  "Or the chance to live myself",
+  "Just an awakened soul",
+  "Not living someone else's role",
+  "I'm writing my own cause",
+  "Do I owe the world a mask?",
+  "Or the chance to live myself?",
+  "",
+  "The intersection, road to fight, road to give in",
+  "Choose",
+  "Choose",
+  "I've walked the edge",
+  "Held my breath",
+  "Now I exhale, I say yes",
+  "This is mine, this is me",
+  "It's enough, no one else I need to be",
+  "Here and now, here",
+  "Still breathing, still becoming",
+  "This is mine"
+ ]
+}

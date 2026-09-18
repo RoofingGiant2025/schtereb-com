@@ -1,0 +1,259 @@
+{
+ "apple_id": 1892725788,
+ "title": "Echo Fragment",
+ "released": "2026-04-11",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Echo Fragment landr.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 17.0,
+   "text": "Long ago, but not so far"
+  },
+  {
+   "start": 17.0,
+   "end": 22.0,
+   "text": "I decided to write who we are"
+  },
+  {
+   "start": 22.0,
+   "end": 28.0,
+   "text": "Now it's bigger than I planned"
+  },
+  {
+   "start": 28.0,
+   "end": 32.9,
+   "text": "Slipping slowly from my hands"
+  },
+  {
+   "start": 32.9,
+   "end": 35.06,
+   "text": "Beautiful"
+  },
+  {
+   "start": 35.06,
+   "end": 40.82,
+   "text": "But a mess"
+  },
+  {
+   "start": 40.82,
+   "end": 43.96,
+   "text": "Slowly from my hands"
+  },
+  {
+   "start": 43.96,
+   "end": 49.16,
+   "text": "I let it go again"
+  },
+  {
+   "start": 49.16,
+   "end": 55.02,
+   "text": "I don't know where it ends"
+  },
+  {
+   "start": 55.02,
+   "end": 59.92,
+   "text": "But I feel it slipping"
+  },
+  {
+   "start": 59.92,
+   "end": 68.04,
+   "text": "Slowly from my hands, falling through again"
+  },
+  {
+   "start": 68.04,
+   "end": 73.74,
+   "text": "I try to hold it, but it never stays"
+  },
+  {
+   "start": 73.74,
+   "end": 78.96,
+   "text": "In between the silence, something starts to break"
+  },
+  {
+   "start": 78.96,
+   "end": 84.16,
+   "text": "Every time I reach it, it just fades away"
+  },
+  {
+   "start": 84.16,
+   "end": 90.86,
+   "text": "And I'm calling out your name, but it never sounds the same"
+  },
+  {
+   "start": 90.86,
+   "end": 96.4,
+   "text": "Like a shadow in the rain, gone before it came"
+  },
+  {
+   "start": 96.4,
+   "end": 101.82,
+   "text": "Slowly from my hands, slipping into air"
+  },
+  {
+   "start": 101.82,
+   "end": 107.26,
+   "text": "I don't understand why it's never there"
+  },
+  {
+   "start": 107.26,
+   "end": 112.34,
+   "text": "Slowly from my hands, every piece of you"
+  },
+  {
+   "start": 112.34,
+   "end": 120.72,
+   "text": "I try to make it last, but it's falling through"
+  },
+  {
+   "start": 120.72,
+   "end": 131.4,
+   "text": "There was something in your eyes I could never hold"
+  },
+  {
+   "start": 131.4,
+   "end": 136.34,
+   "text": "Like a story half told, turning into smoke"
+  },
+  {
+   "start": 136.86,
+   "end": 142.06,
+   "text": "Every moment passing like it wasn't real"
+  },
+  {
+   "start": 142.06,
+   "end": 147.66,
+   "text": "I was trying to feel it, now there's nothing left to feel"
+  },
+  {
+   "start": 147.66,
+   "end": 154.28,
+   "text": "And I'm reaching through the dark, trying to restart"
+  },
+  {
+   "start": 154.28,
+   "end": 159.78,
+   "text": "But you're drifting far, further than before"
+  },
+  {
+   "start": 159.78,
+   "end": 165.34,
+   "text": "Slowly from my hands, slipping into air"
+  },
+  {
+   "start": 165.34,
+   "end": 170.76,
+   "text": "I don't understand why it's never there"
+  },
+  {
+   "start": 170.76,
+   "end": 184.76,
+   "text": "Slowly from my hands and every piece of you I try to make it last but it's falling through"
+  },
+  {
+   "start": 184.76,
+   "end": 197.88,
+   "text": "If I held you tighter, would you still be gone?"
+  },
+  {
+   "start": 197.88,
+   "end": 205.88,
+   "text": "Was it ever mine or was I just holding on?"
+  },
+  {
+   "start": 206.68,
+   "end": 210.88,
+   "text": "Slowly from my hands, fading into light"
+  },
+  {
+   "start": 210.88,
+   "end": 216.98,
+   "text": "I don't understand why I couldn't fight"
+  },
+  {
+   "start": 216.98,
+   "end": 222.14,
+   "text": "Slowly from my hands, everything we knew"
+  },
+  {
+   "start": 222.14,
+   "end": 230.28,
+   "text": "I tried to make it last, but it slipped right through"
+  },
+  {
+   "start": 230.28,
+   "end": 239.88,
+   "text": "Slowly from my hands, I let it go again"
+  },
+  {
+   "start": 239.88,
+   "end": 247.88,
+   "text": "Softly in the dark, I trace the shape you left"
+  },
+  {
+   "start": 247.88,
+   "end": 257.88,
+   "text": "Shadows on my hands, only echoes of your breath"
+  },
+  {
+   "start": 257.88,
+   "end": 270.88,
+   "text": "Slowly from my hands, drifting out of you"
+  },
+  {
+   "start": 270.88,
+   "end": 281.88,
+   "text": "I learn to let it go, as I loosen over you"
+  },
+  {
+   "start": 287.88,
+   "end": 317.86,
+   "text": "Thank you."
+  }
+ ],
+ "lines": [
+  "Long ago, but not so far",
+  "I decided to write who we are",
+  "Now it's bigger than I planned",
+  "Slipping slowly from my hands",
+  "Beautiful",
+  "But a mess",
+  "Slowly from my hands",
+  "I let it go again",
+  "I don't know where it ends",
+  "But I feel it slipping",
+  "Slowly from my hands, falling through again",
+  "I try to hold it, but it never stays",
+  "In between the silence, something starts to break",
+  "Every time I reach it, it just fades away",
+  "And I'm calling out your name, but it never sounds the same",
+  "Like a shadow in the rain, gone before it came",
+  "Slowly from my hands, slipping into air",
+  "I don't understand why it's never there",
+  "Slowly from my hands, every piece of you",
+  "I try to make it last, but it's falling through",
+  "There was something in your eyes I could never hold",
+  "Like a story half told, turning into smoke",
+  "Every moment passing like it wasn't real",
+  "I was trying to feel it, now there's nothing left to feel",
+  "And I'm reaching through the dark, trying to restart",
+  "But you're drifting far, further than before",
+  "Slowly from my hands, slipping into air",
+  "I don't understand why it's never there",
+  "Slowly from my hands and every piece of you I try to make it last but it's falling through",
+  "If I held you tighter, would you still be gone?",
+  "Was it ever mine or was I just holding on?",
+  "Slowly from my hands, fading into light",
+  "I don't understand why I couldn't fight",
+  "Slowly from my hands, everything we knew",
+  "I tried to make it last, but it slipped right through",
+  "Slowly from my hands, I let it go again",
+  "Softly in the dark, I trace the shape you left",
+  "Shadows on my hands, only echoes of your breath",
+  "Slowly from my hands, drifting out of you",
+  "I learn to let it go, as I loosen over you",
+  "",
+  "Thank you."
+ ]
+}

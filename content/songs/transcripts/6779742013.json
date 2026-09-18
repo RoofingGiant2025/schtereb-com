@@ -1,0 +1,96 @@
+{
+ "apple_id": 6779742013,
+ "title": "Uno Perdido",
+ "released": "2026-06-12",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/uno-perdido.mp3",
+ "language": "es",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.88,
+   "text": "Uno, uno, uno, uno, uno, uno"
+  },
+  {
+   "start": 5.88,
+   "end": 8.66,
+   "text": "Uno, uno, uno, uno"
+  },
+  {
+   "start": 8.66,
+   "end": 11.68,
+   "text": "Uno te beijo que te vaco, me nete te vaco"
+  },
+  {
+   "start": 11.68,
+   "end": 14.14,
+   "text": "Peque tu me imita un continente a piu te te vaco"
+  },
+  {
+   "start": 14.14,
+   "end": 15.4,
+   "text": "Con un giudio de un mare"
+  },
+  {
+   "start": 15.4,
+   "end": 19.3,
+   "text": "Uno, uno, uno"
+  },
+  {
+   "start": 19.3,
+   "end": 22.2,
+   "text": "Uno de foco, poco, poco, poco"
+  },
+  {
+   "start": 22.2,
+   "end": 24.0,
+   "text": "Uno, uno, uno"
+  },
+  {
+   "start": 24.0,
+   "end": 27.22,
+   "text": "Te beijo que te vaco, poco, poco, poco"
+  },
+  {
+   "start": 27.22,
+   "end": 29.04,
+   "text": "Uno, uno, uno"
+  },
+  {
+   "start": 29.04,
+   "end": 29.98,
+   "text": "Uno, uno"
+  },
+  {
+   "start": 29.98,
+   "end": 59.96,
+   "text": "Uno, uno, uno, uno, uno"
+  },
+  {
+   "start": 59.98,
+   "end": 62.64,
+   "text": "Uno, uno, uno, uno, uno"
+  },
+  {
+   "start": 62.64,
+   "end": 74.28,
+   "text": "Uno, uno, uno, uno, uno, uno"
+  }
+ ],
+ "lines": [
+  "Uno, uno, uno, uno, uno, uno",
+  "Uno, uno, uno, uno",
+  "Uno te beijo que te vaco, me nete te vaco",
+  "Peque tu me imita un continente a piu te te vaco",
+  "Con un giudio de un mare",
+  "Uno, uno, uno",
+  "Uno de foco, poco, poco, poco",
+  "Uno, uno, uno",
+  "Te beijo que te vaco, poco, poco, poco",
+  "Uno, uno, uno",
+  "Uno, uno",
+  "Uno, uno, uno, uno, uno",
+  "Uno, uno, uno, uno, uno",
+  "Uno, uno, uno, uno, uno, uno"
+ ]
+}

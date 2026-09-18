@@ -1,0 +1,268 @@
+{
+ "apple_id": 6777168638,
+ "title": "Don’t Follow Me",
+ "released": "2026-06-05",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Don’t Follow Me.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 3.5,
+   "text": "Hello"
+  },
+  {
+   "start": 30.0,
+   "end": 32.96,
+   "text": "Half the world asleep by noon"
+  },
+  {
+   "start": 32.96,
+   "end": 36.06,
+   "text": "Too hot you do, I go you do"
+  },
+  {
+   "start": 36.06,
+   "end": 39.68,
+   "text": "I lost myself inside the blue tube"
+  },
+  {
+   "start": 39.68,
+   "end": 43.18,
+   "text": "She said, why doctor, I laughed too hard"
+  },
+  {
+   "start": 43.18,
+   "end": 46.84,
+   "text": "Said I built my name from broken parts"
+  },
+  {
+   "start": 46.84,
+   "end": 49.96,
+   "text": "Four master's degrees and a cracked up soul"
+  },
+  {
+   "start": 49.96,
+   "end": 53.3,
+   "text": "So I crowned myself before I got old"
+  },
+  {
+   "start": 53.3,
+   "end": 56.7,
+   "text": "Everybody wants a clean damn line"
+  },
+  {
+   "start": 56.7,
+   "end": 59.86,
+   "text": "But my whole life glitching and reattending"
+  },
+  {
+   "start": 59.86,
+   "end": 62.88,
+   "text": "Who's rapping now, me or the machine?"
+  },
+  {
+   "start": 63.4,
+   "end": 67.08,
+   "text": "Are these my thoughts or a digital dream?"
+  },
+  {
+   "start": 68.1,
+   "end": 70.02,
+   "text": "Don't follow me"
+  },
+  {
+   "start": 70.02,
+   "end": 73.36,
+   "text": "I'm already gone"
+  },
+  {
+   "start": 73.36,
+   "end": 76.5,
+   "text": "Somewhere between"
+  },
+  {
+   "start": 76.5,
+   "end": 80.0,
+   "text": "A text and a song"
+  },
+  {
+   "start": 80.0,
+   "end": 83.42,
+   "text": "Don't follow me"
+  },
+  {
+   "start": 83.42,
+   "end": 86.62,
+   "text": "I don't know the way"
+  },
+  {
+   "start": 86.62,
+   "end": 93.38,
+   "text": "I just turned pain into things people play"
+  },
+  {
+   "start": 93.38,
+   "end": 98.82,
+   "text": "She said I need to focus love somewhere else"
+  },
+  {
+   "start": 98.82,
+   "end": 101.94,
+   "text": "And suddenly the room felt bad for itself"
+  },
+  {
+   "start": 101.94,
+   "end": 105.22,
+   "text": "Video paused in a black square frame"
+  },
+  {
+   "start": 105.22,
+   "end": 108.6,
+   "text": "Like even the screen forgot my name"
+  },
+  {
+   "start": 108.6,
+   "end": 111.98,
+   "text": "Neighbors crazy, city insane"
+  },
+  {
+   "start": 111.98,
+   "end": 115.42,
+   "text": "Everybody talking, nobody changed"
+  },
+  {
+   "start": 115.42,
+   "end": 118.52,
+   "text": "I don't hate them, they just confuse"
+  },
+  {
+   "start": 118.52,
+   "end": 122.62,
+   "text": "Everybody's screaming, different shades of you"
+  },
+  {
+   "start": 122.62,
+   "end": 129.42,
+   "text": "Different shades of you"
+  },
+  {
+   "start": 129.42,
+   "end": 137.52,
+   "text": "Hello, Frisco police"
+  },
+  {
+   "start": 137.52,
+   "end": 140.74,
+   "text": "No, I'm not running"
+  },
+  {
+   "start": 140.74,
+   "end": 143.84,
+   "text": "I'm just too away"
+  },
+  {
+   "start": 145.42,
+   "end": 151.42,
+   "text": "At four in the morning, no Jesus on here"
+  },
+  {
+   "start": 151.42,
+   "end": 157.42,
+   "text": "No saints online, just humans collapsing"
+  },
+  {
+   "start": 157.42,
+   "end": 160.42,
+   "text": "One text at a time"
+  },
+  {
+   "start": 160.42,
+   "end": 166.42,
+   "text": "Don't follow me, just press play slow"
+  },
+  {
+   "start": 166.42,
+   "end": 172.42,
+   "text": "If you hear yourself, then maybe you'll know"
+  },
+  {
+   "start": 172.42,
+   "end": 178.44,
+   "text": "Don't follow me, there's nothing to prove"
+  },
+  {
+   "start": 178.44,
+   "end": 185.38,
+   "text": "Just one weird man, turning chaos to glue"
+  },
+  {
+   "start": 185.38,
+   "end": 189.88,
+   "text": "Do I claw?"
+  },
+  {
+   "start": 194.46,
+   "end": 196.74,
+   "text": "Do I go?"
+  },
+  {
+   "start": 198.74,
+   "end": 200.76,
+   "text": "Or you do?"
+  },
+  {
+   "start": 202.42,
+   "end": 232.4,
+   "text": "Thank you."
+  }
+ ],
+ "lines": [
+  "Hello",
+  "",
+  "Half the world asleep by noon",
+  "Too hot you do, I go you do",
+  "I lost myself inside the blue tube",
+  "She said, why doctor, I laughed too hard",
+  "Said I built my name from broken parts",
+  "Four master's degrees and a cracked up soul",
+  "So I crowned myself before I got old",
+  "Everybody wants a clean damn line",
+  "But my whole life glitching and reattending",
+  "Who's rapping now, me or the machine?",
+  "Are these my thoughts or a digital dream?",
+  "Don't follow me",
+  "I'm already gone",
+  "Somewhere between",
+  "A text and a song",
+  "Don't follow me",
+  "I don't know the way",
+  "I just turned pain into things people play",
+  "She said I need to focus love somewhere else",
+  "And suddenly the room felt bad for itself",
+  "Video paused in a black square frame",
+  "Like even the screen forgot my name",
+  "Neighbors crazy, city insane",
+  "Everybody talking, nobody changed",
+  "I don't hate them, they just confuse",
+  "Everybody's screaming, different shades of you",
+  "Different shades of you",
+  "Hello, Frisco police",
+  "No, I'm not running",
+  "I'm just too away",
+  "At four in the morning, no Jesus on here",
+  "No saints online, just humans collapsing",
+  "One text at a time",
+  "Don't follow me, just press play slow",
+  "If you hear yourself, then maybe you'll know",
+  "Don't follow me, there's nothing to prove",
+  "Just one weird man, turning chaos to glue",
+  "Do I claw?",
+  "",
+  "Do I go?",
+  "",
+  "Or you do?",
+  "",
+  "Thank you."
+ ]
+}

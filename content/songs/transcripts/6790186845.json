@@ -1,0 +1,308 @@
+{
+ "apple_id": 6790186845,
+ "title": "NUMÉRO UN",
+ "released": "2026-07-12",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Numéro Un.mp3",
+ "language": "fr",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 8.7,
+   "text": "Numéro 1"
+  },
+  {
+   "start": 8.7,
+   "end": 12.32,
+   "text": "Dr. O"
+  },
+  {
+   "start": 12.32,
+   "end": 32.58,
+   "text": "Tu gardes une liste de noms collés près de la porte"
+  },
+  {
+   "start": 32.58,
+   "end": 37.94,
+   "text": "J'ai vu le mien écrit là"
+  },
+  {
+   "start": 37.94,
+   "end": 41.12,
+   "text": "Comme une chance qu'on m'apporte"
+  },
+  {
+   "start": 41.12,
+   "end": 48.6,
+   "text": "J'apporte un beau désordre, tu ramènes les sourires"
+  },
+  {
+   "start": 48.6,
+   "end": 56.2,
+   "text": "Et quand tes amis arrivent, tu sais encore me choisir"
+  },
+  {
+   "start": 56.2,
+   "end": 62.66,
+   "text": "Je connais les règles, je connais le jeu"
+  },
+  {
+   "start": 62.66,
+   "end": 66.36,
+   "text": "Mais quand tu dis mon nom, ça me touche un peu"
+  },
+  {
+   "start": 66.36,
+   "end": 70.2,
+   "text": "J'ai pas besoin d'une couronne, ni d'entendre la foule"
+  },
+  {
+   "start": 70.2,
+   "end": 74.06,
+   "text": "Un simple petit signe et mon cœur déboule"
+  },
+  {
+   "start": 74.06,
+   "end": 79.44,
+   "text": "Je suis ton numéro un, ton numéro un"
+  },
+  {
+   "start": 79.44,
+   "end": 81.6,
+   "text": "Dis-le juste une fois"
+  },
+  {
+   "start": 81.6,
+   "end": 88.3,
+   "text": "Et je m'anime soudain"
+  },
+  {
+   "start": 88.3,
+   "end": 94.48,
+   "text": "Je suis ton numéro un, ton numéro un"
+  },
+  {
+   "start": 94.48,
+   "end": 96.8,
+   "text": "Garde-moi tout près"
+  },
+  {
+   "start": 96.8,
+   "end": 102.98,
+   "text": "Et je prendrai soin du chemin"
+  },
+  {
+   "start": 102.98,
+   "end": 109.52,
+   "text": "Je répare les cadres cassés, je monte les sacs là-haut"
+  },
+  {
+   "start": 109.52,
+   "end": 114.24,
+   "text": "Je me rappelle toujours comment tu veux tes frites comme il faut"
+  },
+  {
+   "start": 114.24,
+   "end": 120.8,
+   "text": "Tu ris de mes mauvaises blagues, tu me gardes une place aussi"
+  },
+  {
+   "start": 120.8,
+   "end": 125.48,
+   "text": "Quand la pièce devient silencieuse, c'est vers moi que tu souris"
+  },
+  {
+   "start": 125.48,
+   "end": 132.3,
+   "text": "Je connais les règles, je connais le jeu"
+  },
+  {
+   "start": 132.3,
+   "end": 135.94,
+   "text": "Mais quand tu dis mon nom, ça me touche un peu"
+  },
+  {
+   "start": 135.94,
+   "end": 139.76,
+   "text": "J'ai pas besoin d'une couronne, ni d'entendre la foule"
+  },
+  {
+   "start": 139.76,
+   "end": 143.52,
+   "text": "Un simple petit signe et mon cœur déboule"
+  },
+  {
+   "start": 143.52,
+   "end": 148.94,
+   "text": "Je suis ton numéro un, ton numéro un"
+  },
+  {
+   "start": 148.94,
+   "end": 151.1,
+   "text": "Dis-le juste une fois"
+  },
+  {
+   "start": 151.1,
+   "end": 157.72,
+   "text": "Et je m'anime soudain"
+  },
+  {
+   "start": 157.72,
+   "end": 163.92,
+   "text": "Je suis ton numéro un, ton numéro un"
+  },
+  {
+   "start": 163.92,
+   "end": 166.04,
+   "text": "Garde-moi tout près"
+  },
+  {
+   "start": 166.04,
+   "end": 172.28,
+   "text": "Et je prendrai soin du chemin"
+  },
+  {
+   "start": 181.1,
+   "end": 189.18,
+   "text": "Si le monde fait du bruit"
+  },
+  {
+   "start": 189.18,
+   "end": 192.92,
+   "text": "Si tes nerfs sont fatigués"
+  },
+  {
+   "start": 192.92,
+   "end": 196.84,
+   "text": "Tu peux compter sur moi"
+  },
+  {
+   "start": 196.84,
+   "end": 200.34,
+   "text": "Laisse la terre tourner"
+  },
+  {
+   "start": 200.34,
+   "end": 203.76,
+   "text": "J'ai pas besoin du parfait"
+  },
+  {
+   "start": 203.76,
+   "end": 207.72,
+   "text": "J'ai besoin de si peu"
+  },
+  {
+   "start": 207.72,
+   "end": 211.56,
+   "text": "Je suis ton petit sourire"
+  },
+  {
+   "start": 211.56,
+   "end": 216.3,
+   "text": "Et ta main dans mes yeux"
+  },
+  {
+   "start": 216.3,
+   "end": 221.1,
+   "text": "Je suis ton numéro, ton numéro"
+  },
+  {
+   "start": 221.1,
+   "end": 223.5,
+   "text": "Dis-le juste une fois"
+  },
+  {
+   "start": 223.5,
+   "end": 229.84,
+   "text": "Et je m'anime soudain"
+  },
+  {
+   "start": 229.84,
+   "end": 235.82,
+   "text": "Je suis ton numéro, ton numéro"
+  },
+  {
+   "start": 235.82,
+   "end": 238.34,
+   "text": "Garde-moi tout près"
+  },
+  {
+   "start": 238.34,
+   "end": 244.4,
+   "text": "Et je prendrai soin du chemin"
+  },
+  {
+   "start": 244.4,
+   "end": 250.56,
+   "text": "Ton numéro, ton numéro"
+  },
+  {
+   "start": 250.56,
+   "end": 256.82,
+   "text": "Dis mon nom doucement"
+  },
+  {
+   "start": 256.82,
+   "end": 261.14,
+   "text": "Et je reviens vivant"
+  },
+  {
+   "start": 265.82,
+   "end": 295.8,
+   "text": "Sous-titrage Société Radio-Canada"
+  }
+ ],
+ "lines": [
+  "Numéro 1",
+  "Dr. O",
+  "Tu gardes une liste de noms collés près de la porte",
+  "J'ai vu le mien écrit là",
+  "Comme une chance qu'on m'apporte",
+  "J'apporte un beau désordre, tu ramènes les sourires",
+  "Et quand tes amis arrivent, tu sais encore me choisir",
+  "Je connais les règles, je connais le jeu",
+  "Mais quand tu dis mon nom, ça me touche un peu",
+  "J'ai pas besoin d'une couronne, ni d'entendre la foule",
+  "Un simple petit signe et mon cœur déboule",
+  "Je suis ton numéro un, ton numéro un",
+  "Dis-le juste une fois",
+  "Et je m'anime soudain",
+  "Je suis ton numéro un, ton numéro un",
+  "Garde-moi tout près",
+  "Et je prendrai soin du chemin",
+  "Je répare les cadres cassés, je monte les sacs là-haut",
+  "Je me rappelle toujours comment tu veux tes frites comme il faut",
+  "Tu ris de mes mauvaises blagues, tu me gardes une place aussi",
+  "Quand la pièce devient silencieuse, c'est vers moi que tu souris",
+  "Je connais les règles, je connais le jeu",
+  "Mais quand tu dis mon nom, ça me touche un peu",
+  "J'ai pas besoin d'une couronne, ni d'entendre la foule",
+  "Un simple petit signe et mon cœur déboule",
+  "Je suis ton numéro un, ton numéro un",
+  "Dis-le juste une fois",
+  "Et je m'anime soudain",
+  "Je suis ton numéro un, ton numéro un",
+  "Garde-moi tout près",
+  "Et je prendrai soin du chemin",
+  "",
+  "Si le monde fait du bruit",
+  "Si tes nerfs sont fatigués",
+  "Tu peux compter sur moi",
+  "Laisse la terre tourner",
+  "J'ai pas besoin du parfait",
+  "J'ai besoin de si peu",
+  "Je suis ton petit sourire",
+  "Et ta main dans mes yeux",
+  "Je suis ton numéro, ton numéro",
+  "Dis-le juste une fois",
+  "Et je m'anime soudain",
+  "Je suis ton numéro, ton numéro",
+  "Garde-moi tout près",
+  "Et je prendrai soin du chemin",
+  "Ton numéro, ton numéro",
+  "Dis mon nom doucement",
+  "Et je reviens vivant",
+  "",
+  "Sous-titrage Société Radio-Canada"
+ ]
+}

@@ -1,0 +1,103 @@
+{
+ "apple_id": 1891102290,
+ "title": "Cup of Life Techno",
+ "released": "2026-04-06",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Cup of Life techno .mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 13.88,
+   "text": "Drinking from the cup of life"
+  },
+  {
+   "start": 13.88,
+   "end": 21.56,
+   "text": "Life goes on"
+  },
+  {
+   "start": 21.56,
+   "end": 24.36,
+   "text": "I remembered"
+  },
+  {
+   "start": 24.36,
+   "end": 29.08,
+   "text": "I forgot"
+  },
+  {
+   "start": 29.08,
+   "end": 44.46,
+   "text": "I forgot the cup"
+  },
+  {
+   "start": 44.46,
+   "end": 48.1,
+   "text": "I was drinking fun"
+  },
+  {
+   "start": 48.1,
+   "end": 51.78,
+   "text": "I chose a new one"
+  },
+  {
+   "start": 51.78,
+   "end": 55.62,
+   "text": "The cup of life"
+  },
+  {
+   "start": 55.62,
+   "end": 63.68,
+   "text": "As it previous was a cup of wine"
+  },
+  {
+   "start": 63.68,
+   "end": 71.16,
+   "text": "I decided why not drinking from the cup of life"
+  },
+  {
+   "start": 71.16,
+   "end": 78.6,
+   "text": "Cup of life"
+  },
+  {
+   "start": 78.6,
+   "end": 82.46,
+   "text": "Cup of wine"
+  },
+  {
+   "start": 82.46,
+   "end": 86.22,
+   "text": "Sit by sit"
+  },
+  {
+   "start": 86.22,
+   "end": 89.26,
+   "text": "My mind"
+  },
+  {
+   "start": 112.46,
+   "end": 142.44,
+   "text": "I'm out."
+  }
+ ],
+ "lines": [
+  "Drinking from the cup of life",
+  "Life goes on",
+  "I remembered",
+  "I forgot",
+  "I forgot the cup",
+  "I was drinking fun",
+  "I chose a new one",
+  "The cup of life",
+  "As it previous was a cup of wine",
+  "I decided why not drinking from the cup of life",
+  "Cup of life",
+  "Cup of wine",
+  "Sit by sit",
+  "My mind",
+  "",
+  "I'm out."
+ ]
+}

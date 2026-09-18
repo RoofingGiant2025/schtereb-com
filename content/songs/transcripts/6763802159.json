@@ -1,0 +1,201 @@
+{
+ "apple_id": 6763802159,
+ "title": "Writer Without Pen",
+ "released": "2026-04-25",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/writer-without-pen.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 12.48,
+   "text": "Right where I was, became a rock"
+  },
+  {
+   "start": 12.48,
+   "end": 18.12,
+   "text": "Nothing moved, everything stopped"
+  },
+  {
+   "start": 18.12,
+   "end": 23.74,
+   "text": "Bird in the sky, told me just try"
+  },
+  {
+   "start": 23.74,
+   "end": 30.64,
+   "text": "No, I don't fly, I write, I can't even stop"
+  },
+  {
+   "start": 30.64,
+   "end": 33.3,
+   "text": "Had it right here, gone again"
+  },
+  {
+   "start": 33.3,
+   "end": 36.18,
+   "text": "Where's my paper, where's my pen?"
+  },
+  {
+   "start": 36.54,
+   "end": 38.94,
+   "text": "Where's my paper, where's my pen?"
+  },
+  {
+   "start": 39.3,
+   "end": 42.62,
+   "text": "Had it right here, gone again"
+  },
+  {
+   "start": 42.62,
+   "end": 45.4,
+   "text": "Here's my paper, here's my pen"
+  },
+  {
+   "start": 45.4,
+   "end": 48.88,
+   "text": "I'm not losing it again"
+  },
+  {
+   "start": 48.88,
+   "end": 54.42,
+   "text": "Thought I lost it in my head"
+  },
+  {
+   "start": 54.42,
+   "end": 57.2,
+   "text": "Every word I never said"
+  },
+  {
+   "start": 57.2,
+   "end": 60.06,
+   "text": "Turned to weight inside my chest"
+  },
+  {
+   "start": 60.06,
+   "end": 64.02,
+   "text": "Pushing out, won't let me rest"
+  },
+  {
+   "start": 64.02,
+   "end": 65.64,
+   "text": "Chasing lines that slip away"
+  },
+  {
+   "start": 65.64,
+   "end": 68.62,
+   "text": "Every night another day"
+  },
+  {
+   "start": 68.62,
+   "end": 71.22,
+   "text": "Now I see it, now I know"
+  },
+  {
+   "start": 71.22,
+   "end": 74.52,
+   "text": "I don't hold it, I let it flow"
+  },
+  {
+   "start": 74.52,
+   "end": 81.06,
+   "text": "Now I fly, I write, I can't even stop"
+  },
+  {
+   "start": 81.06,
+   "end": 86.62,
+   "text": "Now I fly, I write, I can't even stop"
+  },
+  {
+   "start": 86.62,
+   "end": 90.1,
+   "text": "Show me the exit, bye-bye-bye-bye-bye"
+  },
+  {
+   "start": 90.1,
+   "end": 93.02,
+   "text": "Here's my paper, here's my pen"
+  },
+  {
+   "start": 93.02,
+   "end": 96.16,
+   "text": "I'm not losing it again"
+  },
+  {
+   "start": 96.16,
+   "end": 103.12,
+   "text": "Now I fly, I write"
+  },
+  {
+   "start": 103.12,
+   "end": 105.98,
+   "text": "I can't even start"
+  },
+  {
+   "start": 105.98,
+   "end": 108.98,
+   "text": "Write it without a pen"
+  },
+  {
+   "start": 108.98,
+   "end": 112.36,
+   "text": "No more, I got it now"
+  },
+  {
+   "start": 112.36,
+   "end": 130.14,
+   "text": "Where's my paper?"
+  },
+  {
+   "start": 133.12,
+   "end": 135.12,
+   "text": "Where's my pen?"
+  },
+  {
+   "start": 141.12,
+   "end": 143.12,
+   "text": "Here they are"
+  },
+  {
+   "start": 145.12,
+   "end": 147.12,
+   "text": "Again"
+  }
+ ],
+ "lines": [
+  "Right where I was, became a rock",
+  "Nothing moved, everything stopped",
+  "Bird in the sky, told me just try",
+  "No, I don't fly, I write, I can't even stop",
+  "Had it right here, gone again",
+  "Where's my paper, where's my pen?",
+  "Where's my paper, where's my pen?",
+  "Had it right here, gone again",
+  "Here's my paper, here's my pen",
+  "I'm not losing it again",
+  "Thought I lost it in my head",
+  "Every word I never said",
+  "Turned to weight inside my chest",
+  "Pushing out, won't let me rest",
+  "Chasing lines that slip away",
+  "Every night another day",
+  "Now I see it, now I know",
+  "I don't hold it, I let it flow",
+  "Now I fly, I write, I can't even stop",
+  "Now I fly, I write, I can't even stop",
+  "Show me the exit, bye-bye-bye-bye-bye",
+  "Here's my paper, here's my pen",
+  "I'm not losing it again",
+  "Now I fly, I write",
+  "I can't even start",
+  "Write it without a pen",
+  "No more, I got it now",
+  "Where's my paper?",
+  "",
+  "Where's my pen?",
+  "",
+  "Here they are",
+  "",
+  "Again"
+ ]
+}

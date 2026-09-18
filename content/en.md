@@ -1,21 +1,23 @@
 # Notes of Life: Before and After
-### Oleg Shtereb · English verse translation
+### Oleg Schtereb · English verse translation
 
-*Translated from the Ukrainian and Russian originals (shtereb.com, "POET", archived 2019). Where the author rhymes, the translation rhymes; where he shapes a poem on the page, the shape is kept; words that were already English in the originals stay as written. Translator's notes are in italics.*
+*Translated from the Ukrainian and Russian originals (shtereb.com, "POET", archived 2019). The translation keeps every line and stanza of the original and rhymes where the English falls into rhyme without bending the sense — the faithful line always comes first; where the author shapes a poem on the page, the shape is kept; words that were already English in the originals stay as written. Translator's notes are in italics.*
 
 ---
 
 ## White Piece
 
-                             I am a wanderer …
+                             I am a stranger …
 
-But the point is not that a wanderer roams
-the countries of the whole
-                                     wide Earth;
-the wanderer I am is one grown strange
+But the point is not that the stranger is he
+who wanders the countries
+                                     of all the Earth;
+the stranger is I, who am strange
 in Soul, in Mind, in Reason —
-                                         mine own.
-                             I am a wanderer…
+                                         my own.
+                             I am a stranger…
+
+*The Russian pun — странник, a wanderer, and странен, strange — is kept here in "stranger".*
 
 ---
 
@@ -23,44 +25,44 @@ in Soul, in Mind, in Reason —
 
 ## A Real Dream
 
-The hour of sleep had come at last,
-the moon had climbed the sky and passed
-my window, where I turned my eyes —
-and found you there, to my surprise.
+The hour of sleep had come at last;
+the moon had climbed the sky and shone.
+I looked out through the window-glass —
+and there my gaze stopped: you alone.
 
-It all was like a dream, so near:
-you, I — the two of us, right here.
-But sleep came back no more to me
-once I had seen your eyes, and seen
+It all was like a dream: we two,
+you, I — together, side by side.
+But sleep was gone from me that night
+the moment I had seen your eyes.
 
-those eyes of yours, enchanting, blue
-as cornflowers in grey haze and dew.
-Nowhere on Earth, in any place,
-are there such eyes, or such a face.
+Those eyes of yours, enchanting, blue
+as cornflowers in a haze of grey —
+nowhere on Earth, whichever way
+you search, are eyes like these.
 
 And then your lips, so fair, so fine,
-seemed pearls to me in dream's design,
-and pearls they were that whispered low
-the quiet words that lovers know.
+seemed pearls to me within the dream,
+and those same pearls were whispering
+the quiet words of tender love.
 
 Your hair fell loose down to the ground,
-the moonlight lit it all around,
+the moonlight lit it all aglow,
 and suddenly I longed to see
-your body — no glass between you and me.
+your body — with no glass between.
 
 I flung the window open wide,
-but you were gone from the other side.
-Illusions, dreams — they slipped away;
-only the wind blows here and there today…
+but you were gone; you were not there.
+Illusions vanished, dreams as well;
+only the wind blows here and there…
 
 ## The Meeting
 
-When first we met, when first we spoke,
-I saw your eyes — no harm, no cloak.
+When first we met — the very first time —
+I saw your eyes, that meant no harm.
 Your glance went through me like a blade,
-and in that instant all was made,
+and in that instant all began,
 and from that moment I was bound
-to think of you as something found.
+to think of you in earnest.
 I don't know why, but I desired
 to meet again, to learn what fired
 those secret forces, strange and true,
@@ -71,2202 +73,2203 @@ In dreams you'd come, in dreams you'd stay,
 in dreams I'd hear you softly say
 you wished to be with me for ever,
 always, everywhere — and leave me never…
-Awake, I'd lost my mind, and yet
-I knew it for a game, a bet,
-which, like a stanza, has to end
-and find its close, as verses tend.
+Awake, I was out of my mind,
+yet knew it for a game — the kind
+that, like a stanza, has to find
+its ending, and its close.
 
 ## * * *
 
-The image of the sun
+The reflection of the sun
                          in my glass,
-the image of the sun
+the reflection of the sun
                          in your soul.
 O God, how I love
-                              those eyes;
+                              those eyes,
 I want to get there,
-                             just for a breath,
-into that space
-            of sweetness and fire,
-into that chance-found happiness —
+                             if only for a moment,
+I want into that space —
+            sweetness there, and passion —
+into that chance happiness,
                          I want into that hell.
 
 ## I Saw You…
 
-I couldn't trust my own belief
-when my eye caught
+I did not believe myself
+when this eye of mine beheld
                                      You…
-I stood enchanted, past relief.
+I was under a spell.
 
 At first I seldom thought of You,
-but days went by, and then I loved You
+but days went by, and I loved You
                                    in a lovely hour…
-and slow was I to call it true.
+I was not quick to own it true.
 
-I waited long; I begged the skies,
-the gods, to give me not a diamond
+I waited long; I begged and prayed
+the gods to give me not a diamond
                                                  but You…
-and why I waited — no replies.
+But why I waited, I could not understand.
 
 I raved of You when morning came,
 and in the night, in dreams, again
                                 I saw You…
-I knew I couldn't live the same.
+I knew that I could not go on the same.
 
-Perhaps I'll die — and that will be
-the day I learn that You,
-                if not just now,
-will never more be seen by me.
+Perhaps I'll even die
+the day I learn that You —
+                if not just now —
+I'll never see again.
 
-I live in hope of one thing yet:
-to meet You,
-                    one more time at least,
-but live like this? — I can't. Not yet.
+I live in hope
+of meeting You,
+                    if only once more,
+but live like this I cannot any more.
 
 ## The Soul's Desire
 
-I cannot live since that first day,
+I cannot live — not since that day,
 the day I met you on my way,
-when our two glances, in a blaze,
-were joined by one and single way.
+since the one moment when our eyes
+were joined into a single way*.
 
-You're in my thoughts, my every scheme,
-you're in my every night-time dream.
-And how am I to give you up
-when I have learned to love? The cup
+You're in my thoughts, and you are there
+in every dream of mine; and yet
+how could I now renounce you, when
+I've gone and fallen in love with you?
 
-of joy runs over in my soul
-with feelings honest, pure and whole,
-yet my poor reason cannot say
-what I was wanting till today.
+Within my soul there walks about
+the joy of feelings pure and true,
+and yet my reason can't make out
+what I was after — until you.
 
-Perhaps I would have wished, I know,
-my soul to stay as pure as snow.
+Perhaps I would have wished my soul
+to have stayed pure, and clean, and whole.
 I wished it — but it wasn't so:
-my soul with love began to grow.
+with love my soul was overgrown.
 
 At once the world grew sweet and warm,
 and Kansas lost its distant charm.
 I wished to be with you always,
-not part from you even in thought's ways.
+not parted even by a thought.
 
-All! that I wanted, all my will,
-all! that my soul desired still,
-took flesh and blood in your one face,
-and in your soul you gave me place.
+All! that I ever wanted — all!
+that my soul wished for — took its form
+embodied in your image; and
+you took me into your soul.
 
-That's what I wanted, that's the whole
-of everything desired by soul,
-when I first met you on my way,
-when my soul loved — and loves today.
+That's what I wanted, that is what
+my soul desired, on the day
+I met you — when my soul
+was in love.
 
 *"way" is the author's own English word in the Ukrainian original, footnoted there as "шлях".*
 
 ## * * *
 
 Perhaps the name of this is LOVE,
-or just desire, shown enough —
-desire to see you every day,
-to never let you slip away.
+or else desire, showing through —
+desire to see you all the time,
+to never let you out of view.
 
-Desire to touch your hands, and hold,
-to fold you gently, fold on fold,
+Desire to touch your hands, and hold
+you gently, gently in my arms,
 to catch the glances of your eyes,
-to do whatever fancy tries.
+to do whatever comes… all of it.
 
 When you are gone, when you're not near,
-no thought of mine will linger here.
+no thought of mine will settle here.
 I only know: the key to bliss
-is you — and I will find it, this.
+I'll find in you — I know just this.
 
 And when you're here, beside me, close,
-I want to stop the clock that goes,
+I want to make time stop, to pause,
 so that this feeling, new and strange,
 would stay in us and never change.
 
 And when I see I'm losing you,
-what can I say? I have no clue —
+what can I say? — I do not know;
 except "forgive me," said so low,
-"for all the bad" — and wait. And so
+"for all the bad" — and wait for your reply.
 
-I wait… for what, I couldn't tell,
-and wander in my thoughts as well,
-and do not know… what I should do
-so you could love me — even you.
+I wait… for what, I do not know,
+and wander in my thoughts, and go
+not knowing… what I have to do
+so that you could love me too.
 
 ## My Dream
 
 The nights are bright beneath the moon;
-I'd spend them all with you, and soon,
-but I don't know — what right have I,
-what honour, to approach you by?
+I want to spend them all with you,
+but I don't know how I could have
+the honour to approach you.
 
-By day I dream of you; at night
-I think of what I'd say outright,
+By day I dream of you; by night
+I think of what I'd say to you,
 the things I'd tell you, if I could;
-and I can't hold it back — I should
-confess the tenderness of heart
-for you — the world's best girl, apart.
+and I know I can no longer hold
+the tenderness my soul has grown
+for you — the best girl the world has known.
 
-A slender girl, that's what you are,
-long-legged beauty, like a star,
+A slender girl is what you are,
+long-legged beauty, through and through,
 with little eyes of tender blue
-and hair of curls, so fair and true.
+and hair all curls, and white, and fair.
 
 Or maybe you're not fair at all?
-Maybe you're black as night's own shawl,
-long-legged beauty, with a gaze
-like ashes from a fire's blaze?
+Or maybe black as night — your hair,
+long-legged beauty — and your eyes
+like ashes taken from the fire?
 
 And when you look at me, I'll close
 my eyes — afraid the spark that glows
-in yours will pierce me with the dart
-of love, right through my open heart.
+in yours will pierce me like a dart,
+an arrow of love, through the heart.
 
-Or should I open them instead
-and look at you with tender dread…
-Who knows? Perhaps I'd see, at last,
-what I have never seen — not once, not past.
+Or maybe I should open them
+and look at you with tenderness…
+Who knows — perhaps I'd see, at last,
+what I have never seen, not once.
 
-And what if this turns out as gall?
-Though sometimes sweetness comes withal.
-No — better keep my eyes shut tight
-and never learn what might have been…
+And what if it should taste of bitter?
+Though sometimes it can taste of sweet.
+No, better not to open them,
+and not to learn what is to be…
 
 ## Dream of Mine
 
-Oh! how I dream, how I long
-to meet You once again, and strong,
-to stay with you for ever more,
-my darling girl, whom I adore.
+Oh! how I dream, how I dream
+of meeting You again one day,
+and staying with you then for ever,
+my darling girl, my eyes' delight.
 
 At night I do not want to sleep;
-in my mind Your image I keep —
+in my mind I call You back —
 Your golden hair, Your tender eyes…
-Yes, You're my dream, beneath the skies.
+Yes, You are my dream.
 
-Though You are far away from me,
+Although You're far away from me,
 the road to you I'll walk with ease.
 Everything, all — I'll leave behind
-to see You once again, and find.
+to see You once again.
 
-How I wish it could be done —
-that all the people, every one,
+How I wish that everyone,
+all the people on the Earth,
 would vanish for a little while,
-and there'd be left just Me
-                    and You — my Goddess, and your smile.
+and there'd be left only Me
+                    and You — my Goddess.
 
 That flowers would smell all around,
-and we would lie in flowers, found,
-that the moon would shine, bright and free…
-Oh! How I dream, how I dream.
+and we'd be lying in the flowers,
+that the moon would shine so bright…
+Oh! How I dream.
 
 ## Romantic ballad
 
-One summer night, beneath the moon,
-I walked with you — a lover's tune.
-I still recall your tender look
-and eyes that held me like a book.
+On a moonlit summer night
+I walked with you. And I recall
+your tender look, your eyes that fall
+on me — and look at me.
 
-The wind had fallen quiet by then;
-we were alone, we two, and free.
-Only the river's voice again,
-beside which we sat down, to be.
+The wind had died down quite a bit;
+we were alone, we two — and free.
+Only the river's sound was heard,
+the river that we sat beside.
 
-We teased each other, laughed and played,
-we counted stars the sky had made,
-and dreamed, and dreamed for long, and then —
-what happened? — we knew not, nor when.
+We entertained each other, played,
+we counted stars up in the sky,
+and dreamed, and dreamed for long — and then
+what happened? — we could not tell why.
 
 All at once we undressed, bare,
-and looked into each other there.
-A wave ran through the body, high —
-a wave of passion — my dream, my sigh.
+and looked into each other's eyes.
+A wave ran through the body then —
+a wave of passion — dream of mine.
 
-We wrapped our arms in tenderness
-and slowly kissed, and kissed no less.
-You pressed against me, hard and warm,
-and met the essence of man's form.
+We wrapped our arms round each other, gently,
+and slowly, slowly kissed.
+You pressed against me, hard and close,
+and met the essence of a man.
 
 The sand ran over your bare breast,
-the moon lit up your hair, undressed.
+the moon lit up your hair.
 I whispered something into you
-and entered, deeper, through and through.
+and entered, deep inside.
 
-Our bodies held each other, twined,
-we bathed in breath, warm and entwined.
+Our bodies held each other close,
+we bathed in warm breath, mine and yours.
 I looked into your eyes and read
-the words: "Still more… Oh yes…" they said.
+in them: "Still more… Oh yes…"
 
-It was so good, for you, for me,
-as if in Paradise we'd be.
-You — my Eve, I — your Adam, true,
-we yielded, each to each, we two.
+It was so good for us, so good,
+as if in Paradise we stood.
+You — my Eve, I — your Adam;
+we yielded, each of us, to each.
 
 And then there came the moment when
-the river's voice fell still again.
-You and I climbed to the height,
-the summit of the flesh, that night.
+the river's sound fell still.
+You and I climbed up to the summit,
+the summit of the love of flesh.
 
 Then to the water we went in
 and washed away each brand-new sin…
 The night we spent upon the sand;
-at dawn we woke up — happy, hand in hand.
+at dawn we woke up happy.
 
-(And now I think of it, and know
-that that long night, so long ago,
-my first night ever — I'll allow —
-was very, very good, somehow.)
+(And now I call it back to mind,
+that long night, and I know
+that the first night of my life
+was — even — very good.)
 
 ## There Was a Time
 
 There was a time, as I recall,
-a time of joy and grief and gall,
+a time of joy, a time of grief,
 when even air, for me, was not
-a need. Well — all in vain, and what.
+a need at all. Well — and in vain.
 
-I didn't want to live, I know —
-I didn't want to, but lived so.
+I didn't want to live, I remember —
+I didn't want to, but I lived.
 To love myself I never learned;
-for other worlds my whole heart yearned.
+for other worlds I pined and yearned.
 
-Yes, I'd have killed myself, I would,
-slowly, or fast, as best I could,
-if I had never fallen for you
-and felt a woman's warmth come through.
+Yes, I'd have killed myself, I would —
+slowly, or maybe fast —
+if I had not fallen in love with you
+and felt a woman's warmth.
 
-With you it was good — and then, at last,
-! but love began to bore me, fast;
-a woman's warmth grew stale to me —
-I wanted blood, blood I would see.
+With you it was good for me.
+! But love grew tiresome to me,
+a woman's warmth grew tiresome too,
+and I wanted to see blood.
 
-At once, with that desire's flood,
-I climbed a tall roof where I stood,
-and threw myself — but didn't fall — !
-I woke. A dream — I saw it all.
+At once, upon that wish, I went
+up to a tall building's roof, and leapt —
+threw myself down, but did not fall — !
+I woke. A dream — at last I understood.
 
-I held you, kissed you as you lay
-asleep, and still I heard me say:
+I hugged you, kissed you; and although
+you were asleep, I said to you:
 "I'll never kill myself — no, never,
-not even at ninety — not — not ever."
+not even if I were ninety."
 
 ## Joyful Sorrow
 
-The evening had gone dark and cold,
-a far wind blew, and grim, and old.
-I left the house and walked on, on,
-to where nobody knew — and gone.
+The evening had gone dark and cold;
+from far away a cold wind rolled.
+I left the house and walked out, on
+to where nobody knew I'd gone.
 
-For hours through the streets I strayed,
-with no one, all alone, unmade.
-It was so bad, so bad with me:
-I thought of you, and only thee.
+For hours I walked the streets, alone,
+with no one — on my own.
+It was so bad with me, so bad:
+I thought of you — the only thought I had.
 
 But suddenly, far off, I saw
-the shining of your image — awe.
-And soon we met, we two, and then…
-together we stood still again.
+the shining of your image.
+And soon we met, the two of us,
+and… we stopped, together.
 
-You looked at me; the tender spark
-that lit your glance lit up my dark,
-caressed my eyes — and from them fell
-a tear of love, a tear as well.
+You looked at me — and the spark
+of your glance, so tender,
+caressed my eyes,
+and down from them a tear of love ran.
 
-I took you gently in my arms,
-brushed back your hair from all its charms,
-and whispered bright words in your ear:
-"I've fallen in your love's lake here."
+I wrapped my arms around you, gently,
+brushed back the hair from your face,
+and whispered you the brightest words:
+"I've fallen in the lake of your love."
 
 You didn't say a single word;
-you simply kissed me — nothing heard.
-You must have loved me then, I guess —
-you held the kiss so long, no less.
+you simply kissed me — and I knew
+you must have loved me then, you must:
+you held the kiss so long.
 
 And then, when for the very first
-time my lips touched yours, and burst —
-I felt myself as if reborn,
-a new man in the World, that morn.
+time my lips came to touch yours,
+I felt as if I had been born
+again, anew, into the World.
 
-I felt as if I'd grown so glad;
-grief and despair — all gone, all had
-passed on. The clouds all left the sky
-and out came the moon's light, high.
+I felt as if I had grown glad;
+grief and despair — all passed away.
+The clouds all cleared out of the sky
+and the light of the moon appeared.
 
 ## Memory
 
-I remember once it was
-so cold, a cold that had no cause;
-the cold air came and pressed its face
-against my face, in its embrace.
+I remember, once,
+it was cold —
+the cold air
+embraced my face.
 
-A cold wind pierced the human frame,
-into the body, every name,
-and frost ran over skin and bone,
-more wintry, faster, on its own.
+A cold wind made its way
+into the whole human body,
+and frost ran over the body,
+more wintry and faster all the time.
 
-The eyes on every face around
-had frozen with no warmth, no sound.
-And somehow all of it was wrong —
-but why? — nobody knew for long.
+The eyes on every face
+had frozen, with no warmth in them.
+And somehow all of it was wrong,
+but why? — nobody knew.
 
-The whole day long was grey and dim,
-and foggy, misty, to the brim.
+The whole day was grey,
+dim and foggy.
 Up in the sky the clouds stood still,
-a sturdy huddle on the hill.
+held in a solid heap.
 
-The trees turned black, the evening fell
-and came in early, like a bell.
-Somewhere, someone (someone's village, deep)
-had gone and bought itself some sleep.
+The trees turned black,
+and soon the evening fell.
+Somewhere, someone (someone's village)
+had bought itself a sleep.
 
-And with the evening coming down
-it grew more pleasant, in the town,
-to hear the sounds of tender hush;
-all had gone off somewhere, no rush…
+And with the evening's coming
+it grew ever more pleasant to hear
+the sounds of the tender silence;
+everyone had gone somewhere…
 
-It used to please me, I recall,
-when night came falling over all.
-The white snow caught the moon's pale light
-and threw it back, and sparkled bright.
+It used to please me
+when the night came on.
+The white snow reflected
+the light of the moon, and sparkled.
 
-And in that instant of that grace
-I wasn't there alone, in place;
-with me was you — you were the one —
-my tender talisman, my sun.
+In that instant of that beauty
+I was not alone;
+with me was you —
+my tender talisman.
 
-And everywhere just we, just two…
-walked underneath the moon's light through,
-and looked up at the sky above,
-admiring a star, with love.
+Everywhere just us…
+we walked beneath the light of the moon
+and looked up at the sky,
+admiring the beauty of a star.
 
-We thought of everything, and then
-of nothing, all at once again.
-We let go all the bad, and stood
-and listened to the hush, and good.
+We thought of everything,
+and, all at once, of nothing.
+We forgot all that was bad,
+and listened to the hush, at peace.
 
-The World seemed beautiful, immense,
-beyond our minds' small competence.
-And you were near me, at my side,
-caressing with your gaze, my guide.
+The World seemed beautiful,
+beyond our minds' embrace.
+And you, right there beside me,
+caressed my eyes with your gaze.
 
-I held you gently, and I knew,
-right at that instant, plain and true,
-that I am happy, only when
-I'm at your side, and there, and then.
+I held you gently,
+and in that very instant knew
+that I am happy then,
+when I am beside you.
 
-You were amazed at what you saw —
-the bright night's nature, and its awe.
-And I was warmed, and warmed again,
-by the warmth of your hand, and then.
+You were amazed
+at the nature of the bright night.
+I was warmed
+by the warmth of your hand.
 
-And so we spent the night — as one —
-amid the beauty, till the sun.
-We met the sunrise, saw it rise,
-but did not tire out our eyes.
+So we spent the night
+amid nature's beauty.
+We met the sunrise,
+but did not tire our eyes.
 
-And we looked to that far place
-where the first ray's spark, in grace,
-came up above the earth, and stayed,
-and lit us with the day it made.
+And we looked to where
+the spark of the first ray
+rose above the earth
+and lit us with the day.
 
-Only then did we two part —
-a short while, not for the heart.
-We said goodbye with one more kiss —
-and met again by evening's bliss.
+Only then did we part,
+for a little while.
+We parted with a kiss —
+and met again that evening.
 
 ## The Soul's Longing
 
-I do not often see you…
-I do not feel your breath…
-Your eyes, their glances… Where has it all gone?
+I don't see you often…
+I don't feel your breath…
+And the glances of your eyes… Where is it all?
 Am I waiting? I love..! I beg..!
 
-Love burns the soul,
-                             and the soul burns down…
-Though right now hot and blazing
+Love scorches the soul,
+                             the soul burns away…
+Though right now, hot and ardent
                                   is this soul of mine!
-I do not shout, I ask,
+I don't shout, I ask,
                             for there are no words.
 But my soul is alive..!
                         Although — not free…
 
-It is blazing, It is burning,
-That is what It is — My Soul!
+It is ardent, It is fiery,
+Such is It — My Soul!
 
 ## Innocent Angel
 
 Say! Innocent Angel, you —
 do you want? to leave it all and go,
-with me… to fly into the dreams, and through,
-from a beauty where even the devil's struck dumb. Say so.
+with me… to fly away into the dreams,
+from a beauty where even the devil is struck dumb.
 
-Say! And we will fly, we two,
+Say! And we will fly
 into a world of lovely dreams,
-and there we'll find, and find anew,
-our future — in the gaze of hope's own gleams.
+and in that world we'll find
+our future in the gaze of hopes.
 
-Say!… or maybe you don't wish
-to fly with me to beauty's land?
-Then stay right here, and always be like this —
-like everything around you — filth and sand!
+Say!… or maybe you don't want
+to fly with me into the world of beauty?
+Then stay right here, and you'll always be
+like everything around you — dirty!
 
-And I will go — into my dreams I'll fly,
+And I will go, into my dreams I'll fly,
 and rest… from the reality of being,
-and though you, Innocent Angel, I
-                          won't meet there, in that far seeing,
-I won't grieve — and all the same, and free,
-                          in dreams I'll spend my life. That's me.
+and though you, Innocent Angel,
+                          I will not meet there,
+I won't be sad — and all the same
+                          I'll spend my life in dreams.
 
 ## Congratulations
 
-In spring I give you these — behold —
-these snow-white flowers, fold on fold,
-so that you, like these blossoms, will
-always be my beloved still.
+In spring I give you these —
+these flowers white as snow,
+so that you, like these tender flowers,
+would always be my beloved.
 
-So that you never weep, nor pine,
-but take what's lovely, and what's fine,
+So that you'd never weep, nor grieve,
+but take for yourself only what's lovely,
 and give back only good in turn,
-and grow as blossoms grow, and burn.
+so that you'd grow like that flower.
 
 And when I gallop off at dawn
-on a white horse, or black, and gone —
-don't try to stop me, don't — but stand
-and simply wave your little hand.
+on a white horse, or on a black,
+don't try to stop me — only wave
+your little hand to me.
 
-The flowers that I gave you — keep,
-so no one ever takes them, deep
-inside a giant book, and there
-preserve them long, with tender care.
+The flowers that I gave to you —
+so no one ever takes them away,
+lay them inside a giant book
+and keep them there for long.
 
 And when you open up that book,
-you'll see the flowers… (thyme) — and look,
-and then remember me — and please,
-recall me with kind words, not these.
+you'll see the flowers… (of thyme),
+and then remember me,
+and think of me with no unkind word.
 
 ## I Love
 
-Girl, I love you — that is what
-I'll tell you, come the night, and not
-in person, but by telephone,
-when I will call your home, alone.
+Girl, I love you — that's what
+I'll tell you, when at night
+I ring you on the telephone
+and call you at your home.
 
-And when I meet you, I will bring
-a star down from the heavens' ring,
-and whisper in the moonlight, new:
-"You, only you, I love — I do."
+And when I meet you, I will give
+you a star brought down from above,
+and in the moonlight whisper once again:
+"You alone — it's you I love."
 
-You are my lonely star above,
-I am your moon beside you, love.
-And how I long, and gently, to
-embrace you. All is lovely, through…
+You are my lonely star,
+I am your moon, beside you.
+And how I long to tenderly
+embrace you. All is lovely…
 
-This would go on and on, and all
-would reconcile themselves, and fall.
+This would go on and on,
+and all, and everywhere, would come to terms.
 But there is nothing in the World
-that time won't pass — and leave it furled.
+that will not pass with time.
 
 The sun's clear shining passes on,
-and enmity, despair — are gone;
-the time for love, it passes too,
-and sunbeams can't be found anew.
+enmity passes, and despair;
+the time for love — it too is gone,
+and the sun's rays are found nowhere.
 
-But if the sun is shining bright,
-and throws its little beams of light,
-it will shine on for long, and clear
-the evil clouds from heaven's sphere.
+But if the sun is shining bright
+and casts its little beams of light,
+it will go on shining for long,
+and sweep the evil clouds from the sky.
 
 ## I Loved
 
-Girl, I loved you — that I did,
-I called your home, and never hid;
-I met with you, and more than once,
-but never kissed you — not for months.
+Girl, I loved you — yes, I did,
+and called your home, and not just once;
+and more than once I met with you,
+but never got to kiss you.
 
-I loved you, and I called you, girl;
-I brought you flowers, birthday's pearl;
-I dreamed of you, everywhere thought —
-but here's love's ending, here it's brought.
+I loved you, and I called you;
+I gave you flowers on your birthday;
+I dreamed of you, and everywhere remembered —
+but here it came, the end of love.
 
-Love left — the roses shed their bloom,
-the thunder rumbled in the gloom;
-we parted, you and I — I know,
-yet think of our first meeting, though.
+Love left — the roses withered away,
+and thunder rolled across the sky;
+we parted, you and I — I understand,
+but sometimes I recall our first meeting.
 
-I wanted you for ever near,
-but you did not understand, my dear.
-Well, well — it is our fate, and yet,
-though bitter, that's the fate we get.
+I wanted to be with you always,
+but you did not understand me.
+Well then — such is our fate;
+though bitter, that is what it is.
 
-Yes, all has passed, all changed its look;
-the heart ached — then a calmer book.
-For you I do not grieve today,
-and do not want to love you — nay.
+Yes, all has passed, all's changed its course;
+the heart ached for a while, then calmed.
+For you I do not grieve any more,
+nor want to love you any more.
 
 ## * * *
 
-If you don't love me — then, instead,
-tell me of love, what can be said.
+If you don't love me,
+then tell me about love.
 Is it the colour of cold skies,
-or red and hot as blood that flies?
+or red and hot as blood?
 
-If you can't see love — then, instead,
-show me where I should find it, led.
-Is it where sun and landscapes lie,
-or where you sit alone, and sigh?
+If you don't see love,
+then show me where to find it.
+Is it where the sun is, and the lovely views,
+or maybe where you are, alone?
 
-And when you see love — say a word,
-and I will come, and look, and gird;
+When you see love, then tell me;
+I'll come, and take a look as well,
 and if it's gentle, and sincere,
-I'll smile back at it, right here.
+I'll smile at it in answer.
 
 ## Little Delirium
 
-This summer everything went fine —
-with girls a pleasant rest, divine,
-                                 and manly fun and games,
-the joy of freedom; So what?! — what remains?
-Since joy's own time ran off
-                                        so fast, so brief.
-And once again the hour's here
-when studying should be, it's clear,
-but once again, for the umpteenth time,
-for science we don't feel one dime
-                                    of love —
-and not you only, not I alone,
-yes, yes, all of us, every one.
-And it's not worth the hiding, no;
-better not know oneself, and so
-not know, not be acquainted, none,
-but stand soul-naked, one by one.
-And… Oh, what am I saying? — no,
-no, and again — no! It's delirium, though.
+This summer everything turned out well —
+with girls, a pleasant rest,
+                                 and manly amusements,
+the joy of feeling free; So what?!
+Since the time of joy ran by
+                                        so fast.
+And once again the hour has come
+when one really ought to study,
+but here, for the umpteenth time,
+for science we feel
+                                    no love,
+and not you alone, not I alone —
+yes, yes, all of us.
+And it's not worth hiding it;
+better not to know oneself at all.
+Not to know, not to be acquainted,
+but to be naked in the soul.
+And… Oh, what am I saying — no,
+no, and once again — no! All this is delirium.
 And you're a little delirium, and — you,
-…Ah, that's enough of making verses. Through.
+…Ah, that's it, enough of making verses.
 
 ## The Hike
 
-We go on a hike, our leader's near,
-A. Liusak leads, up front, in gear.
-The packs we carry — heavy, tall,
-and our heads are empty, all.
+We're off on a hike with our leader,
+A. Liusak up in front.
+The packs we carry are heavy,
+and our heads are empty.
 
 Time goes by, and on we go,
-although we cannot go — we're slow.
-And heavy packs we carry still,
-although there is no strength, no will.
+although we cannot walk.
+And heavy packs we carry on,
+although there's no strength left to carry.
 
-Time goes by… Oh! we're here at last!
-The answer to "When?" — at last!
-The sleeping mats, that sort of thing… we pull,
-and sit down quick, and very — full.
+Time goes by… Oh — we're here!
+At last the answer to "When?"
+The sleeping mats — that sort of thing… — we pull out,
+and quickly, very quickly, sit down.
 
-We rested from the road a bit,
-and talked of nothing, not a whit.
-Somebody sewed somebody's tights,
-and straight to work — no fights.
+We rested a bit from the road,
+and talked about nothing at all.
+Somebody sewed up somebody's tights,
+and right away we got to work.
 
 The lads went off to have a smoke,
-for stupid struck their heads, a joke.
+for a fit of the stupids hit their heads.
 The boys, meanwhile, chopped up the wood
-and helped the cook as best they could.
+and gave the cook a hand.
 
-And cook, of course, was, is, will be —
-for sure — Tolik L&V;
-his dishes and such courses too,
-that, like it or not, you often spew.
+And the cook, of course, was and will be —
+for certain — Tolik L&V;
+his dishes and the courses that he makes
+are such that, like it or not, you often puke.
 
-We wolf down something — who knows what,
-not knowing what it is we've got.
-Perhaps it is a thickish soup,
-or maybe thin potatoes' goop.
+We wolf down something-or-other,
+not knowing what it is.
+Perhaps it's a nice thick soup,
+or maybe it's thin potatoes.
 
-Whatever — down it goes, and there,
-let it be milky porridge fare,
+Whatever — down it goes;
+let it be milk porridge,
 or one more of Antone's creations —
-it all goes to crap, no reservations.
+it all goes to crap anyway.
 
-At night we sometimes sleep, and then
-sometimes we drink the vodka, men.
-Or maybe beat the little ones —
-who chopped the wood? — yes, those, the sons.
+At night we sometimes sleep,
+and sometimes we drink vodka.
+Or maybe we're beating the little ones —
+the ones who chopped the wood? — yes, those.
 
-At morning we open up our eyes,
-haul heavy backsides out — arise
-from sleeping bags — and see, at once,
-the Carpathian beauty's fine response.
+In the morning we open our eyes,
+haul the heavy backside out of the sleeping bag,
+and all at once we notice the beauty:
+the enchanting Carpathian loveliness.
 
-And so the hike is passing by,
-Liusak drags us home, and why —
-one thought is in the head, and true:
-the porridge, anyway, was cool.
+And so the hike is passing already;
+Liusak is dragging us back home.
+There's one thought in the head —
+anyway, the porridge was cool.
 
-We all regret it, every one,
-the train goes home, the hike is done.
-Behind us we leave the mountains' spears,
-and we are drowning in a sea of tears.
+We're all sorry that
+the train is already heading home.
+Behind us we leave the mountains;
+we are drowning in a sea of tears.
 
-Never mind, the time will pass,
-and once more Antone will say, alas:
-"Tomorrow we go hiking, right?
-Don't forget the cigarettes — and a bite."
+Never mind, time will pass,
+and Antone will say again:
+"Tomorrow we're going on a hike —
+don't forget the cigarettes and lunch."
 
 ## Drunken Saturday
 
-One day the three of us got tight;
-outside it was already night.
-Up to the third floor we came,
-and pulled out bottles — booze, the same.
+One day the three of us got together;
+outside it was already dark.
+Up to the third floor we made it,
+and pulled out bottles of booze.
 
 Andriy brought the little cups,
 told Valera: "Go wash them up."
-Valera washed them, quick, and then
-poured vodka into them again.
+Valera washed them, quick as that,
+and poured the vodka into them.
 
 The first — we knocked it back at once,
-and chased it hard with water, dunce.
-Time passed… We poured out all, and how
-our brains swam off — they're swimming now.
+and chased it down with water, hard.
+Time passed… We'd poured it all,
+and our brains were swimming fast.
 
-Then we wanted a cigarette;
-Andriy wouldn't let us — yet
-we poured him one more, and, no doubt,
-without his leave we lit one out.
+Then we wanted to light a cigarette;
+Andriy wouldn't let us do it,
+but we poured him one more,
+and lit up without his say-so.
 
-We're very drunk, we're junkies, true,
-we gathered up the butts, and threw,
-washed up the cups, and stacked them, tall,
-and off we went — eyes leading all.
+We're very drunken junkies:
+we picked up all the butts,
+washed the cups and stacked them,
+and shoved off wherever our eyes led.
 
-Around the town we wandered long
-and said whatever's proud and strong.
-We drank some "Koryfei" beer, and then
-everybody ran off — somewhere, men.
+Around the town we walked for long
+and said whatever sounded proud.
+We drank some "Koryfei" beer;
+then everyone ran off somewhere.
 
-We didn't get to run for long,
-the disco called — we went along.
-So the vodka wouldn't stink our breath,
-some chewing gum was not our death.
+We didn't get to run for long —
+we had to go to the disco.
+So the vodka wouldn't stink from the mouth,
+some chewing gum did not go amiss.
 
 At the disco everyone rocks out,
-and afterwards forgets, no doubt.
-Only at morning the throat is raw,
-the mouth's on fire — like a saw.
+and afterwards remembers nothing.
+Only, early on, the throat is raw as hell,
+and the mouth burns as if with fire.
 
-Never mind, we lived through that,
-but all the week we remembered flat
-that Saturday would soon come back —
-and we have our own — work. Our knack.
+Never mind, we lived through all of it,
+but all week long remembered
+that soon it would be Saturday again —
+and we've got our own — work.
 
 ## Nothing
 
 You lay alone upon the bed,
-as through the window the moon shed
-its light — and we, the lads, looked on
-like frozen shadows of the gone.
+as, past the window, the moon shone in the sky,
+and we, the lads, were looking at you
+like the frozen shadows of the dead.
 
-We looked, we sought for thoughts, we dreamed…
-Or maybe it wasn't us, it seemed,
-who hung above you? Maybe not you
-lay on that bed, with that boa's view?
+We looked, we hunted for thoughts, we dreamed…
+Or maybe it wasn't us hanging over you?
+Or maybe it wasn't you lying on the bed,
+with that gaze from on high, like a boa's?
 
-Yes, it's not us… We're not shadows, though,
-and the lads weren't watching you — no.
-For you were not exactly boa —
-more like a roundworm, that's the show.
+Yes, it's not us… We're not shadows,
+and the lads weren't looking at you then.
+For you were not so much a boa
+as a roundworm you resembled.
 
-Yes, that was once — but now I gaze
-at you, and I admire, amazed…
-I marvel how, in one short hour,
-from roundworm you became — a flower,
-                                    Princess Lewis, in power.
+Yes, that was once — but now
+I look at you and I admire…
+I marvel how, in the hour gone by,
+from a roundworm you became a princess —
+                                    Princess Lewis.
 
-And where did you get such a name,
-so strange for everyone, the same?
+And where did you get
+a name so strange to everyone?
 Or maybe it's not you? And I — not I?
-Then where are we? If this isn't Earth — then why?
+Then where are we? If this is not the Earth?
 
 ## Junkie's Delirium
 
-One can't forget that evening, warm,
-when the wish to meet took on its form,
+One can't forget that warm evening,
+when the wish to meet was great,
 when in the deep secret of the skies
-the stars were sparkling with surprise.
+the stars sparkled with wonders.
 
-The whole town was finding rest,
-no one fought his wife, no jest.
-In windows bright lights burned away,
-the fireflies had gone astray.
+The whole town was settling into calm;
+no one quarrelled with his wife any more.
+The bright lights in the windows burned down low,
+and the fireflies had gone off somewhere.
 
-The moon, so tender, from the sky
-embraced our bodies from on high.
-Silence… The silence broke — a fly,
-the one that stung your ear — oh my.
+Tenderly the moon embraced our bodies
+with its light down from the sky.
+Silence… The silence was torn by a fly —
+the one that stung you on the ear.
 
 You went wild, just like a cat
-that fell out of a window flat.
-Claws out in front of you, you flew —
-ran off, probably home, you knew.
+fallen from a window, high up.
+Claws stuck out in front of you,
+you ran off fast — probably home.
 
-Then sister melancholy came,
-and sobered me up quick, the same.
-I didn't like being left alone —
-so after you I rushed, and gone…
+Then little sister melancholy came up to me
+and quickly brought me to my senses.
+I didn't like being left alone,
+and so I rushed off after you…
 
 ## Bitch
 
-Summer breathed autumn's breath, and all
-that was between us, big and small,
-has quietly and gently passed;
-the wise sun, past the hill at last,
-peered in with a dirty gleam, half-massed.
+Summer breathed out autumn;
+all that was between us
+has quietly and gently passed.
+The wise sun, behind the mountain,
+peered in with a dirty gleam.
 
-It all began when spring was young,
-    when the snows melted, and it sung.
-All that was cold went flashing past,
-     and the roosters crowed at last.
+It all began in spring,
+    when the snows had melted;
+all that was cold flashed by,
+     and the roosters started singing.
 
-I met you as you were, no lie —
-     a rose of wastelands, dry.
-And you stank so, with such a spree —
-      and I from the drinkers' brigade, me.
+I met you as you were —
+     like a rose of the wastelands.
+And you reeked so —
+      I, from the boozers' brigade.
 
-I asked you, goat, and asked you why,
-how did you get so drunk, and high?
-And then you say to me, okay:
+I asked you, goat: how come
+you got so drunk, and why?
+And then to me you say:
 If you want to be okey,
 Drink a vodka every day.
 
-Then you lay down to have your rest,
-and slept so long, you slept your best,
-and only woke — and only then —
-when I brought you a beer again.
+Then you lay down to rest,
+and slept a very long while,
+and only woke up
+when I brought you a little beer.
 
-You cured your hangover, so glad,
-then looked at me, a look you had,
-and asked me, wondering, where
-you had met me — and where, and where.
+You happily cured your hangover,
+suddenly looked at me,
+and asked me
+where you had met me.
 
-I didn't tell you what was true;
-I simply pitied you, I do;
-I didn't want you to be, ever,
-a real goat — not that, no, never.
+I didn't tell you the truth;
+I simply pitied you.
+I didn't want you to be
+just like a real goat.
 
-You tried to bring something to mind,
-and wanted to ask once more, to find.
-But you remembered nothing, not —
-just waved your snout at what you'd got.
+You tried to remember something,
+and wanted to ask something again.
+But you remembered nothing —
+just waved your snout about.
 
-You've bored me bitterly, and more —
-you festered my soul to the core.
-You made me heave, and retch, and choke,
-my body vomiting — no joke.
+You've bored me bitterly,
+and festered up my soul.
+You made me heave,
+my body retched hard through the mouth.
 
-I shoved you off, far off, away,
-and said: "fly off, stork — fly away."
-I stroked you with a word, and then
-never saw you, nor knew you, again.
+I shoved you off, far away,
+and said: "fly off, stork."
+I stroked you with a word,
+and never saw or knew you more.
 
 ## Singing at a Funeral
 
-On the river stands a fog,
+On the river there's a fog,
 and clouds up in the sky;
-I smoked a little weed, a log,
-and wore you out, oh my.
+I had a little puff of dope,
+and wore you out.
 
-I stood a little while, and dried
+I stood a little while, and wiped
 the tears from off my face,
-and picked a flower for you — it flied,
-the wind took it from place.
+and picked a flower for you —
+but the wind, all at once, took it away.
 
-I picked you one more flower — new,
-but didn't cry no more,
-and laid it on your breast, for you,
-and… "wailed" a bit, for sure.
+I picked you another one,
+but wasn't crying any more,
+and laid it on your breast,
+well, and… "wailed" a little bit.
 
-And then I picked you up, and threw
-you gently in the stream —
-sail off now, sail, my dream, my you,
-you're now to me like — steam…
+And then I took you up
+and threw you gently in the river —
+sail away, my dream,
+you're now to me — I couldn't give a…
 
-And I sat down a little while,
-collected all my thought,
-and sang a little song, with style —
-now listen, "Vasya," what:
+And I sat myself down a bit,
+gathered my thoughts,
+and started up a little song —
+now listen, "Vasya":
 
-"Hemp, from evening till the morn,
-it makes the dreams come pleasant, worn,
-and you — don't say a thing no more,
-…, …, …, …, …, hush, be still, be sore,
-and do not shout behind my door.
+"Hemp, from evening till the morning,
+it makes the dreams come pleasant,
+and you — don't say anything any more,
+…, …, …, …, …, keep quiet,
+and don't shout after me.
 Hemp…
-I'll pack another bowl, that's right,
-for hemp is not our foe tonight.
+I'll pack one more bowl,
+for hemp is no enemy of ours.
 Hemp…
-I do not grieve, though you sailed by,
-I've got the hemp, and hemp's my high,
-and hemp — is our power, and why…"
+I'm not sad, though you've sailed away,
+I've got hemp,
+and hemp — is our strength…"
 
 ## Blessed Moment
 
-Blessed too is that moment when
-I drank my fill of blood — your red,
-and rid my own self, once again,
-of the evil feeling in my head:
-the wish to never know pain's dread.
+Blessed too is that moment
+in which I drank my fill of blood —
+your red blood — and I will rid
+my own person of the evil feeling:
+the wish not to know pain.
 
-Blessed too the cup I'll raise
-to drink my fill of your blood there,
-like that enraged snake's slow craze
-that crawled up to the cup, to share,
-to console itself — Ha-Ha. Beware.
+Blessed too is that cup
+from which I'll drink my fill of your blood,
+like that enraged serpent
+that crawled up to the cup of blood
+wishing to console itself — Ha-Ha.
 
-Yes, I will gulp your blood, and taste,
-and look Jehovah in the eye,
-and not be shaken; stay, unchaste,
-as I have been without it — I:
-stern in the dark, with eyes
-brimful of malice. That's no lie.
+Yes, I'll lap up your blood,
+savour it, look Jehovah in the eye,
+and not be shaken; I will stay
+as I have been till now without blood —
+stern in the darkness, with eyes
+full of malice.
 
-I won't be like this evermore;
-but first let Perun, Great and grim,
-from his own kingdom of the lightning, send
-a thunder-shaft, and a low bow — to him,
-to me — his majestic Padre. Amen.
+I won't always be like this;
+but first, let Perun the Great,
+from his kingdom of lightnings, send down
+a thunderbolt and a low bow
+to me — his majestic Padre.
 
 ## Don't Sniff Lacquer!
 
 Something's changed, something's not right —
-I don't want lacquer now. Not tonight.
-Instead I taste a strange, new thing:
-the coming of warmth, the coming of spring.
+somehow I don't want to sniff lacquer any more.
+Instead, I feel a strange taste:
+the coming of spring, and of warmth.
 
-Already pleased, already gay,
-the whole World's dear to me today.
+I'm feeling good now, I am cheerful,
+the whole World seems dear to me.
 In sorrow's mirror I no longer see
-a soul — not even my own me.
+anyone — not even my own self.
 
-Around me is a world of grace,
-of nature, joy, and clean, plain space.
-Suddenly… the trees burst into bloom,
-and green grass grows through pavement's gloom.
+Around me is a world of beauty,
+of nature, joy, and simple purity.
+Suddenly… the trees have blossomed, and there's grown,
+even on the pavements, green grass.
 
 …That isn't grass — that's harvest wheat,
-and crowds of people on the street,
-a new computer game, a film that shows,
-and I stare through a window — heaven knows.
+and there are lots of people here, and a new
+computer game, and a film is on,
+and for some reason I look out the window.
 
-Around me, suddenly, there's no one left,
-outside — a winter, cold, bereft.
+Around me, suddenly, there's no one any more,
+and outside — a cold and bitter winter.
 Something's changed, something's not right,
-a-a-ah — no more lacquer. Not tonight.
+a-a-ah — I won't sniff lacquer any more.
 
 ## Willfulness
 
-I like it — being clever, and
-to understand them all, and even know,
-to laugh at all with a lunar laugh, offhand,
-but never let it show.
+I like being clever,
+understanding everyone, even knowing them,
+laughing at everyone with a lunar laugh,
+but never letting it show.
 
-I like it…, yet I'd like it more
-if I met clever ones more often, so
-that now and then we'd talk in earnest, and explore
-                                        the universe's truth — and crown a thought, and go.
+I like it…, but I'd like it more
+if I met such clever ones more often,
+so that now and then we'd talk in earnest
+                                        about the truth of the universe — and enthrone a thought.
 
 ## Reflection
 
-My reason has grown dull and grey,
+My reason has grown downcast,
 but what is there to do?
-Since my soul knows not the body's way,
+If my soul does not know the body,
 what is there to do?..
 
-I sit here, and I do not know
-why reason's grown so tired;
-God knows — perhaps because, by now,
-each person's worn it down entire.
+I sit here, and I don't know why
+my reason has grown tired;
+God knows — perhaps because
+every single person's already worn it out.
 
 ## I Don't Want…
 
-I don't want life to say to me: "Now go,"
-and leave me back behind, in thought, below,
-and squeeze the gazing from my soul, and slow,
-and leave one memory, one afterglow,
-and hand me over to fate — to feed on. No.
+I don't want life to say to me: "Go away,"
+leaving me behind, in its thought,
+squeezing all contemplation out of the soul,
+leaving only a single recollection,
+handing me to fate for its consumption.
 
-I don't want life to say to me: "Now go"!!!
+I don't want life to say to me: "Go away"!!!
 I don't want… I myself… will go…
 
 ## * * *
 
-My reason's filled with a spiteful, evil sting;
-I cannot conquer it with my being, with anything…
-I want to live, to flourish, and to grow —
-not like a desert cactus, but like flowers in a meadow's row.
+My reason is filled with a spiteful feeling;
+I cannot overcome it with my being…
+I want to live, to flourish and to grow —
+not like a desert cactus, but like flowers in a field.
 
 ## Sadness
 
 Feelings heavy as a stone
-fill up this present life I own.
-My ancient reason's bound in chains
-of society — forgotten, it remains.
+fill up my present being.
+My ancient reason is bound in chains —
+society's shackles — and already forgotten.
 
-I do not want to live this life
-I live already — this flame, this strife,
-that with the time goes out, won't blaze,
-won't flare up into eternity's rays,
-                                      but burns down. Stays.
+I do not want to live the life
+I live already — this flame
+that with time goes out and does not blaze,
+does not flare up into eternity,
+                                      but burns away.
 
-I'll give my soul a freedom clean,
-free my body from human pain, unseen.
-I'll feel again the space, the free,
-and never step in dirty water — never me.
+I'll give my soul a clean, free will,
+and free my body of human pain.
+I'll feel again the space and freedom,
+and never step in dirty water again.
 
-I will return myself, and then
-rise up in reason to heaven again.
-The heavy earthly chains I'll throw,
-and with my gaze into the future go.
+I will bring myself back once more,
+and in my reason rise to the heavens.
+The heavy earthly shackles I'll cast off,
+and with my gaze I'll drift into the future.
 
 ## O God!!!
 
-Wordlessness — the hour has come
-when thoughts blow by like wind, and pass.
-And all of them are — no one — none,
-all those who quickly forget, alas.
+The wordlessness of words — the hour has come
+when thoughts blow by like wind.
+And all of them are — no one — to us,
+all those who quickly forget.
 
-There's neither joy in me nor pity now,
-the feelings — voluminous — are flat as glass.
-And yet, unbridled, still I beg you — how
-my suffering, my repentance burn, and blaze.
+There's neither joy in me, nor pity;
+the feelings, once so full, are flat as glass.
+And yet I still, unbridled, beg you —
+my suffering and repentance burn.
 
-I will not throw you from my dreams —
-I cannot. And there is no such desire.
-I'll walk far into space — to heaven's seams,
-keeping repentance in my heart, entire.
+I will not cast you out of my dreams —
+I cannot. And there's no such wish in me.
+I'll walk far into space — up to the heavens,
+keeping repentance in my heart.
 
-Sad. Somehow it is always so:
-there is a path, one road, no more…
-I see no exit from the dark, no glow.
-Find me — for I'm a lost soul, nothing more.
+It's sad. Somehow it's always so:
+there is a path, there is one road alone…
+I see no way out of the darkness.
+Find me, for I am a lost soul.
 
 ## Thirst
 
-Somehow it is so hard for me to act,
-as for a small child, helpless, weak.
-Alas, those glances, young and green, in fact,
-were caught by autumn… — thoughts can't speak.
+Somehow it's so hard for me to act,
+like a small and helpless child.
+Alas, those young green glances
+were caught by autumn… — even thoughts are powerless.
 
-The branches withered, leaves went dry;
-"He" dried the middle of me out.
-The lovely garden of happiness lies
-neglected — tall, evil grass all about.
+Withered branches and faded leaves —
+"He" dried out the core of me.
+The lovely garden of happiness lies neglected
+under tall and evil green grass.
 
-And still the only truth — is the soul;
-though dry, like reason, it's alive.
-It needs help as it needs life, whole —
-you are the spring; your water will revive.
+And still the only truth is the soul;
+though dried, like reason, it's alive.
+It needs help as it needs life —
+you are the spring; your water will be healing.
 
-Pour freely — and the soul grows generous,
+Pour generously, and the soul grows more generous,
 the weeds will wilt, the gardens bloom.
-Spring will come for ages, and to us
-lay lovely fruit in seeds, in the womb.
+Spring will come for ever and ever
+and lay lovely fruit into the seeds.
 
-And reaping is for you alone —
+And the harvest is yours alone to reap —
 for you alone the garden and the fruit.
-No one is kinder than you on Earth, none known,
-and I believe that kindness leaves its root.
+There's no one kinder than you on all the Earth,
+and I believe that kindness leaves its trace.
 
 ## Lost Fate
 
-My fate went out of me, and went
-to wander somewhere, far,
-to run away from me — and spent
-itself through sands, deserts, ravines' scar,
-through swamps and forests — near and far.
+My fate went out of me
+and went off somewhere to roam,
+to run away from me
+through sands, through deserts, through ravines,
+through swamps and forests.
 
-I closed my eyes, I saw the dark,
-and in the dark I saw the ways
-that would allow me find the mark,
-my Fate, which society lost these days.
-It ran, as river-water runs, always.
+I closed my eyes, I saw the darkness,
+and in the darkness I could see the ways
+that would allow me to find my Fate,
+the Fate that society had lost for me.
+It ran, as water runs away down a river.
 
-Along the ways of darkness ran the fear,
+Along the ways of darkness ran fear,
 and with the fear my soul ran too;
-it searched for Fate, but found none here…
-Back to the body it returned, and through —
-but without Fate the body would not live. It's true.
+it looked for Fate, but never found it…
+Back into the body it returned,
+but the body, without Fate, did not want to live.
 
-It would not live — but lived, and made
-a thought from nothing, all the same.
-The Art of Life took note, and stayed,
-and loved that body that would not live — its shame,
-and for its Birthday gave the body a Fate — a name.
+It did not want to live, yet lived,
+and out of nothing made a thought.
+Life noticed the work of art,
+and came to love that body which did not want to live;
+for its Birthday it gave the body a Fate.
 
-The body, having Fate, rejoiced with pride,
-yet still on Earth it would not live.
-Into another dimension it went, inside —
-a society that doesn't press the person down, and give
-no crown but dreaminess. That's where it lives.
+The body, having a Fate, rejoiced with pride,
+yet still did not want to live on Earth.
+Into another dimension it passed —
+into a society with no hold on the person,
+where dreaminess remained the main thing.
 
 ## I BELIEVE
 
 Give me strength, O Angel of mine,
-I cannot walk another mile
-along life's long, long road, its trial:
-though I am still so young, so fine.
+I cannot walk any further
+along this long road of life:
+although I am still very young.
 
-Yes, I am very young — but yet
-I'll grow strong in thought, and send
-the World my protest, to the end,
-for counting other's life a game, a bet.
+Yes, I am still very young,
+but I will grow strong in thought
+and send my protest to the World
+for counting another's life a game.
 
-Cruel and stern is this our World,
-but if I can, I'll set it right,
-and maybe learn to love it, quite,
-like tender sounds of ancient lyres, unfurled.
+Cruel and very stern is our World,
+but if I can, I will set it right,
+and maybe even come to love it,
+like the tender sounds of ancient lyres.
 
 Give me strength, O Angel of mine.
-I do believe the World will change,
-be lovely — tender, even — not strange.
-With you I'll win this at any price. That's my sign.
+I believe that the World will be different —
+lovely at least, and maybe even tender.
+With you I'll win this at any price.
 
-Give me strength — or I will fade,
-leave this World, and to another go,
-a World of understanding, mute, and slow.
-I do not want to — but I'll leave, if you don't give
-                                                                                         what I've prayed.
+Give me strength, or else I'll vanish,
+leave this World, go to another —
+a World of understanding, a World without words — mute.
+I do not want to, but I'll go, if you don't give
+                                                                                         what I ask.
 
 ## * * *
 
-My reason's tortured to distraction, day on day,
-by the plain questions of the everyday.
-Somehow it's hard to wash away the stains
-I set before repentance — what remains.
+My reason's tortured to distraction
+by the everyday questions of life.
+Somehow it's so hard to remove those stains
+I left before repentance.
 
-The wish to live, to smile, to be glad
-vanish at once, that moment, and go bad,
-when you don't know where, or how, to put
-the negative the soul has taken root.
+The wish to live, to smile and to be glad
+vanishes all at once, the moment
+you don't know how or where to put
+the negative the soul has taken on.
 
-The endless brooding over each mistake
-will not produce an ideal life — for its sake.
-Fate has been stitched with threads unclean:
-"At least don't you become its child. Stay clean."
+The constant brooding over mistakes
+will not lead to an ideal existence.
+Fate is embroidered with unclean threads:
+"At least you — don't become its child."
 
-I'm sad, on the eve of grief and sorrow's rain —
-that's what my thoughts are, today, again.
-But the soul is gladdened by these lines — still poor —
-laid down on paper, white, and nothing more.
+I'm sad, on the eve of grief and sorrow;
+that is what my thoughts are today.
+But the soul is gladdened by these lines — still poor ones —
+written down on white paper.
 
 ## man or Man
 
-If you're a man, and have not got
-a reason, nor a mind — not one jot,
-then you're a man — an ass, your lot.
+If you're a man, and you have got
+no reason, and not even a mind,
+then you're a man — much like an ass.
 
-If you're a man who has a mind,
-and reason comes to you slow, behind,
-then you're a man — a lion of a kind.
+If you're a man possessed of a mind,
+and reason comes to you with effort,
+then you're a man — count yourself a lion.
 
-If reason and mind you've made your own,
-though you read no books, and none were known,
-then you're a Man — for people, an IDEAL, full-grown.
+If reason and mind you have made your own,
+and never mind that you've read no books,
+then you're a Man — for people, an IDEAL.
 
 ## * * *
 
 There are all kinds of people in this World:
-some narrower, some wider, some unfurled;
-but not upon the thickness of the hide
-depends their mind, or wish to think, inside.
+some people narrower, some people wider;
+but it's not on the thickness of the body
+that their mind depends, or their wish to think.
 
 ## I Would Like…
 
-I'm crazy about you, it's true,
-my stupid homeland, you.
+I'm crazy about you,
+my stupid homeland.
 I'm flattered by the game you play
-with all the human crowd each day.
+with the whole human crowd.
 
-You're the only one I've got,
-my stupid homeland, like it or not.
-But how I'd like, how I would choose
-for you to be wise. Not to lose.
+You're the only one I have,
+my stupid homeland.
+But how I would like
+for you to be clever.
 
-That life would turn out beautiful,
-that music played, everywhere, in full,
+That life would grow more beautiful,
+that music would play everywhere,
 that joy would stay on every face,
 that the soul would hold the World's embrace.
 
-Of course I'd like — I'd like it so —
-to do something on Earth, and show,
-so evil vanished — gone for aye.
-I'd like… Oh yes! Oh yes, would I!
+Of course I'd like
+to do something on this Earth,
+so that evil vanished for ever —
+I'd like to… Oh yes!
 
 ## You — Society
 
-You want to force me to complain of life!?
-I won't do it, I — I won't! Not I!
-I'll rise — from weakness I will rise, through strife,
-so don't you curse my back then. Don't you try.
+You want to force me to complain about life!?
+I won't do it, I — I won't!
+I'll rise — from weakness I will rise —
+and then don't curse me behind my back.
 
 You're able to trample everything that grows,
-to keep it from rising, to keep it down…
-To lull desire, strength, and spirit's throes,
-lull will and honour — lull, lull, lull to drown.
+to keep it from rising, to keep it…
+To lull desire, and strength, and spirit,
+to lull will and honour — lull, lull, lull.
 
 You're able to gouge out the eyes
-of every one who still can see;
-to take the soul, stuff the body with tow, and rise
-to call that scarecrow — sighted!?! Let it be.
+of all those who still see.
+To take the soul, and stuff the body with tow,
+and call that scarecrow — sighted!?!
 
 You want to force me to complain?
-I won't do it, I — I won't. Not I.
-Even when there's nowhere left, again
-I'll rise up — from weakness rise. And fly.
+I won't do it, I — I won't.
+Even when there's nowhere left to go,
+I'll rise up — from weakness I will rise.
 
 All… A pity — all are as all are:
-like stone, like sand, like clay, like wall;
-no heart, no soul — not near, not far —
-just a society, not a person. That is all.
+like stone, like sand, like clay;
+no heart, and no soul either —
+like a society, and not like a person.
 
 ## SUCCESS IS NO SIN
 
-Without a doubt, the World is grand
-in its greatness, clear, and planned,
-though not for everyone, not all;
-but to somebody out of it, by call
-of fate, there is assigned, and set,
-GREAT SUCCESS — and yet
-that is NO SIN at all. No debt.
+Without a doubt, the World is beautiful
+in its greatness, and it is clear,
+although not for everyone;
+but for someone out of it
+fate has appointed
+GREAT SUCCESS,
+and that, after all, is NO SIN.
 
 ## Darkness
 
-Great is Man, and great, we say,
-his river of the soul, its way;
-yes, that's so — but not each day,
-for there's a man, a certain clay,
-with no conscience and no shame — no way,
-not even the word "Kindness" — nay,
-and his life's a black cat's, a stray…
-and for him all around is dark. All grey…
+Great is Man, and great
+is the river of his soul;
+yes, that's so — but not always,
+for there is a man who has
+neither conscience nor shame,
+nor even the word "Kindness",
+and his life is like a black cat's…
+and, for him, all around is darkness…
 
 ## Have a Cry
 
-When you are feeling bad,
-and do not want to live,
-if you want to — no need to be sad —
-a little cry you may give.
+When you're feeling bad
+and don't want to live,
+if you want, of course,
+you can have a cry.
 
-Want to cry — then cry;
+Want to cry — then cry,
 and to live — then live.
-Don't see the good — look, and try,
-and take happiness from life. It'll give.
+Don't see the good — then look,
+and take your happiness from life.
 
 You're feeling bad — then grieve,
-cry with the soul, with a tear;
-with the tear soothe the grief, and leave
-the misfortune of pain. Soothe it here.
+cry with your soul and with a tear;
+with a tear soothe the sorrow,
+soothe the misfortune of pain.
 
 ## Melancholy
 
-Longing… no edge, no end… longing, and long…
-Longing for the sun, for the skies, for song.
-Longing that silently shouts in the chest,
-leaving the joy behind. At rest.
+Longing… without edge, without end… longing…
+Longing for the sun and for the skies.
+Longing that silently cries out in the chest,
+leaving joy behind.
 
-Longing for carefree days of a child,
-for bright multicoloured dreams, and wild,
-for puddles that I ran through, on and on,
-and never knew discomfort. Gone.
+Longing for the carefree days of childhood,
+for the bright, many-coloured dreams,
+for the puddles that I ran through
+without ever knowing discomfort.
 
-Longing, like a rider, bridled tight
-my thoughts, and gave them, in its might,
-a greyish tint of meaning — to remind
-that I am not a child now. Not of that kind.
+Longing, like a rider, has bridled
+my thoughts, and given them
+a grey shade of meaning,
+reminding me that I'm no longer a child.
 
 ## Definition
 
-When you believe, and think it true,
-that evil's on its way to you,
-it will, of course, arrive — and bring
-misfortune with it. That's the thing.
+When you come to believe
+that evil will come to you,
+it will, of course, come,
+and bring you misfortune.
 
-But when, without a doubt, you're one
-who believes in good alone,
-then it will be, of course, and so —
-pleasant to live on earth. And grow.
+But when, without any doubt,
+you believe in good alone,
+then, of course, it will be
+pleasant to live in the world.
 
-But when you doubt, and can't decide,
-not knowing what to wish, inside,
-there'll be no place to run, no door,
-when they come to take you. No more.
+When you are doubting,
+not knowing what to wish for yourself,
+there'll be nowhere to hide
+when they come to take you.
 
-They'll take you either to the land
-where light and beauty always stand,
-where kindness is unbroken, whole,
-and a person's free of lies — the soul,
+They'll take you either there
+where it's always fair and light,
+where kindness all around is whole,
+and a person is free of lies,
 
-or where the darkness lies on all,
-where people wander in the mire, and fall,
-where fear has been, and will be, aye,
-and never leaves that place. Goodbye.
+or there where darkness is everywhere,
+and people wander in the mire,
+where fear has been, and will be, always,
+and will never go from there.
 
 ## It's Sad When…
 
-The birds fly off to warmer lands,
-and take the joy off in their bands —
-the joy of warm summer nights, and of
-the beauty of the untouched grove.
+The birds fly off to the warm lands,
+and take the joy away with them —
+the joy of warm summer evenings
+and the beauty of untouched groves.
 
-They fly to where the warm sun warms,
-where summer dreams, in all its forms,
-of meeting winter — so as to play
-with the sun upon the ice, all day.
+They fly to where the warm sun
+gives warmth, and where the summer dreams
+of meeting winter, so as to play
+with sunlight on the ice.
 
-There summer's warm — it's hot, in fact,
-and spring-fed water flows, intact,
-in countless rivers, though no rain
-falls — not even at night — on the plain.
+There summer's warm — it's even hot —
+and spring water flows
+in countless rivers, though the rains
+don't fall, not even at night.
 
-They won't be there for long, those birds;
-with spring's first breath, without words,
-they fly back to their native land
-to cheer us with their song. And stand.
+They won't be there for long:
+with the first breath of spring
+they'll fly back to their native land
+to cheer us with their song.
 
-And nature will come alive once more,
-the earth grow green with grass, as before,
+And nature will come alive again,
+the earth grow over with grass,
 the trees will wrap themselves in leaves,
 and all the beasts wake up from sleep.
 
-So the fresh spring will pass — and then
-warm summer flash right by again,
-and autumn quickly come, and go,
-and it will be cold again. And so —
+So the fresh spring will pass,
+and the warm summer flash by,
+and autumn quickly come again,
+and it will be cold again.
 
-the birds fly off to warmer lands,
-and take the joy off in their bands —
-the joy of warm summer nights, and of
-the beauty of the untouched grove.
+The birds will fly off to the warm lands,
+and they'll be taking the joy away —
+the joy of warm summer evenings
+and the beauty of untouched groves.
 
 ## Without a State
 
-The gardens bloomed, the spring had come,
-bright blossom by the house, all round,
-and mother would have called — the sound —
-and quick, quick, we'd have run back home.
+The spring gardens have come into bloom,
+bright blossom all around the house,
+and mother would have called us home already —
+quick, quick, we would have run.
 
-We would have run… But where? But where?
-We do not have that house, that door,
-we have no mother there, no more —
-for we are orphans everywhere.
+We would have run… But where?
+We do not have that house,
+and in the house we have no mother,
+for we are orphans in this world.
 
-Not we alone are Motherless —
-a whole people has no state, its own.
-Uncle has nowhere to lay his bone,
-though glory for the State
-                      he won, no less.
+Not we alone are without a Mother —
+the people has no state of its own.
+Uncle has nowhere to sleep,
+though for the State
+                      he won much glory.
 
 Alas, not for his own native state
-did he win all that glory — none.
-But win he did… And now — it's done:
-of cold and hunger he's dead. Too late.
+did he win so much of that glory.
+But win it he did… And now
+of cold and hunger he has died.
 
-Why do we need a foreign state?
-Why do orphans need a foreign mother — why?
-No need! Each wants his own good, and by
-and by we'll have a State,
-                  and pride, and glory. Wait!
+What do we need a foreign state for?
+What do orphans need a foreign mother for?
+We don't! Everyone wants their own good,
+and we shall have a State,
+                  and pride, and glory!
 
-But when — but after how many years?
-If the spring gardens shed their bloom
-already, bright — and in the gloom
-turned to black trees — like us, foreign slaves. In tears.
+But when — in how many years?
+If the spring gardens have already shed
+their bright blossom, and have turned
+into black trees — like us, foreign slaves.
 
-Know this! The gardens will bloom in spring again,
-and bring sincere joy — but only then,
-for long — when you, at least, will not betray
-your native state. Only that way.
+Know this! The gardens will bloom again in spring,
+and bring sincere joy
+for long — only when you, at least,
+do not betray your native state.
 
 ## * * *
 
         O Yes!       O No!
-Again I see the same delirium, and so
-I don't understand — what is this — what?
-A long strange dream — or nothing, not
-compared to a dream? My own dream — got
-and long forgotten. Forgot.
+Again I see the same delirium,
+and I don't understand — what is this?
+A long strange dream, or nothing
+compared with a dream?
+With my forgotten dream.
 
 The years will pass, I still won't understand;
-I simply won't remember — nothing, out of hand.
-All, all that was — I will forget, let go,
-and hiding in my life the Proud Stray, so
-I'll give my reason to my people — and, just so,
-light with it an unburnable candle. A glow.
+I simply won't remember anything.
+All, all that was — I will forget,
+and, hiding away in life the Proud Stray,
+I'll give my reason to my people,
+and with it light an unburnable candle.
 
 ## Ramblings
 
-A pleasant night, the spring was here;
-I stepped outside and killed, quite clear,
-a mosquito that had just flown in
-and landed on my hand, for blood — its sin.
+A pleasant night, springtime;
+I stepped outside and swatted a mosquito
+that had just flown in and landed
+on my hand, wanting blood.
 
-But blood it never got to drink —
-I killed it fast, quick as a blink.
-It felt no pain, it felt no fear:
-one swing, the first — and it lay here.
+But it never got to drink its blood —
+I managed to kill it fast.
+It felt no pain and felt no fear,
+for I killed it with the very first swing.
 
-Then a big bee came flying by;
-I marvelled how, at night, it could fly,
-not sleeping — simply on the wing,
-and aiming at me its sting.
+Then a big bee came flying up;
+I wondered how it could be
+not sleeping at night, but simply flying,
+and bending its sting toward me.
 
-I ran, and hurled a heavy hammer, and, wow,
-I hit the big bee right in the brow.
-The big bee never flew again;
-alas, I never found my hammer then.
+A heavy hammer at the big bee
+I hurled at a run — and hit it in the brow.
+The big bee flew no more;
+alas, I never found my hammer.
 
-Then up there galloped a black horse,
-not small, not dirty — nothing coarse.
-A horse is no mosquito, and no bee —
-Ah!!! I took that horse for me.
+Then up galloped a black horse,
+not small, and not dirty.
+A horse is no mosquito and no bee —
+Ah!!! I took that horse for myself.
 
-I ride to fields at the village's edge,
-and do not see that towel, that pledge,
-that mother embroidered by night, awake,
-and gave me for luck, for fate, for my sake.
+I ride the horse to the fields at the village edge,
+and don't see at all that rushnyk
+that mother embroidered at night, not sleeping,
+and gave me for happiness, for fate.
 
-I ride through some village on my horse —
-and this whole village mourns, of course,
-that woman, Kateryna, who bore
-for us an unplanned child. And more.
+I ride the horse through some village,
+and the whole village is in mourning
+for that woman Kateryna,
+who bore us an unplanned child.
 
-I do not want to mourn there, so I
-ride further out into the world — and spy
-father-uncle, sitting in the field,
-a kobza in his hands, a hat. Revealed.
+I don't want to be in mourning in the village;
+I ride on into the world on my horse,
+but I see father-uncle sitting in a field,
+a kobza in his hands and a hat on his head.
 
-Father-uncle, why so sad — and why?
-And he answers me, with a sigh,
-that Ukraine has no happiness, no way,
-and Freedom and Fate are dreams. They stay.
+Father-uncle, why are you sad?
+And he answers me
+that there is no happiness in Ukraine,
+and Freedom and Fate are only in a dream.
 
-No, father-uncle — you're the one who dreams;
-Fate and Freedom are in Ukraine — it seems…
-…He smiled, rejoiced, and vanished — gone;
-at once… that towel of mother's shone.
+No, father-uncle, it's you who are in a dream,
+and Fate and Freedom are already in Ukraine…
+…He smiled, rejoiced, and vanished;
+at once… that rushnyk of mother's appeared.
 
 *The embroidered towel (rushnyk), the ruined girl Kateryna and the kobza-player are figures out of Taras Shevchenko; the poem rides through his landscape.*
 
 ## The Little Bird Wanted…
 
-A little bird sat by the window's glass,
-wanted to — and flew off to the sun, alas.
-It flew a day, it flew two days,
-probably the bird did not know, in its ways,
-that the sun is far. And on it flew…
-sweated hard — and then burned up, through.
-Better the bird had never wanted to…
+A little bird sat by the window;
+it wanted to — and off it flew, to the sun.
+It flew a day, it flew two,
+probably the little bird didn't know
+that the sun is far away. And on it flew…
+It sweated hard, and then it burned.
+Better the little bird had never wanted to…
 The little bird flew to the sun,
-and didn't get there — none;
-probably, by the window's glass,
-it ate too little porridge, alas.
+and never got there;
+probably, by the window,
+it had eaten too little porridge.
 
 ## Question Mark?
 
 Why take a cigarette in hand?
-Why breathe the heavy smoke — and stand?
-Far better eat a tasteless sweet,
-or go on holiday with empty pockets — a treat,
-                     to the — for someone — far, far, dim
-                                seaside Crimea, for a swim.
-                       Although, perhaps, and yet,
+Why breathe in the heavy smoke?
+Better to eat a tasteless sweet,
+or go off on holiday with no money
+                     to the — for someone — far-off
+                                seaside Crimea.
+                       Although, perhaps,
                for someone a cigarette
             is tastier than a sweet —
-              and lays him in the shit, complete.
-              Of course, perhaps you smoke
-              your cigarette, not as a joke,
-                      to discover the unknown for you…
-                      But do not smoke too much — it's true,
+              and it will lay him in the shit.
+              Of course, it may be
+              you smoke your cigarette
+                      to discover the unknown for yourself…
+                      But don't smoke a lot,
                        Stop. And…
-                            Eat a sweet. That's grand.
+                            Eat a sweet.
 
                 But when
-                you've gone, by then,
-                on a diet —
-                then, be quiet:
-                don't smoke, and let
-                go the cigarette.
+                you've already
+                gone on a diet,
+                then already
+                don't smoke
+                the cigarette either.
 
 ## Alconaut
 
-Oh, pale, pale man — why do you gleam,
-gleam with your pallor, grim and grey?
-Why did you go to the spirits' regime?
-Answer… But silent you stay.
+Oh, pale, pale man,
+why do you gleam with pallor,
+why did you go off into the age of spirits?
+Answer… But you say nothing.
 
-Oh, pale, poor man — why do you gleam,
-gleam with your poverty, and low?
-Like a dried-up bed of a deep stream,
-you lie a cobblestone at the bottom. So.
+Oh, pale, poor man,
+why do you gleam with poverty?
+Like the bed of a deep, dried-up river,
+you lie at the bottom like a cobblestone.
 
-Oh, pale, harmful man — you can't, it seems,
-even look at your own face.
-You look worse than sick cripples, in their dreams;
-what a pity… What a pity — your case!
+Oh, pale, harmful man,
+unable to look at yourself.
+You look worse than sick cripples;
+what a pity… What a pity for you!
 
 ## The Bird and the Birds
 
-A morning: sunny, spring, and new,
-it led me out into the air,
-and gave me a fragrant scent, and true:
-I rejoiced — and sat on a bench, right there.
+A morning: sunny, spring —
+it led me out for a walk,
+gave me a fragrant scent:
+I rejoiced and sat down on a bench.
 
-I raised my eyes up to the sky,
-sailed with my gaze into the blue,
-and there the birds wheel round, and fly;
-they need nothing more. It's true.
+I raised my eyes up high,
+my gaze sailed off into the sky,
+and there the birds are circling;
+they need nothing more.
 
-A second time I raised my eyes:
-above the natural birds, in flight,
-another bird went through the skies —
-the one that we had made. Our might.
+A second time I raised my eyes,
+and above the natural birds
+another bird was flying by —
+the one that we created.
 
-I raised my eyes a third time — and
-I saw no birds up there at all,
-only the boundless, clear, and grand,
-into which my thoughts flew. Beyond recall.
+I raised my eyes once more:
+I noticed no birds there,
+only the transparent boundlessness
+into which my thoughts flew off.
 
 ## I Love to Love
 
-I love the warm spring morning's light,
-I love to meet the dawn, so bright,
-I love to look to where, on high,
-the sun climbs upward through the sky.
+I love the warm spring morning,
+I love to meet the day's first dawning,
+I love to look toward the sky
+where the sun is climbing high.
 
 Where a ray of light breaks through
-the tight veil of non-being, too;
-with time the darkness fades, and then
-a new life starts. Again.
+the tight curtain of non-being;
+with time the darkness passes,
+and a new life comes into being.
 
-I love to feel my freedom, wide,
-desire, joy, beauty, grace beside.
-I love to stay myself, be free,
-not fear the light of darkness. Me.
+I love to feel my freedom,
+desire, and joy, and beauty, grace.
+I love to stay myself,
+not fear the light of darkness.
 
-I love to love, and to desire,
-I love to feel love's fire;
-of course I love — I do, I do,
-but why?.. I do not know… Do you?
+I love to love and to desire,
+I love to feel love — yes,
+of course I love,
+but why?.. I don't know…
 
 ## Early in the Morning
 
-Heavenly sea, how I would like
+Heavenly sea, I would like
                              to drown in you,
-to enter your deep depths, that, new,
-early in the morning, at the dawn,
-lured me to search — and on, and on.
+to enter your depths,
+which early in the morning, at dawn,
+lured me out to search.
 
-I see the distance — lovely and enchanting — and
-                                          I live as nothing else on land.
-The edge of unknown being shows…
-There the sun rises; and my soul, it knows,
-has been taken captive by the feelings. So it goes.
+I see the distance, lovely and enchanting,
+                                          and I live like nothing else.
+The edge of an unknown being shows…
+There the sun rises; my soul
+has been taken captive by feeling.
 
 ## O.Rich
 
-Sleep. I see a thousand clusters of the vine.
-Before me a spring garden blooms, in line;
+Dream. I see a thousand clusters of grapes.
+Before me a spring garden in bloom,
 beyond the garden a field, in the field — flax,
-above the field a bird no one tracks.
+above the field an unnoticed bird.
 
-Night. I and the Earth, face to face.
-Moonlight has spilled on every place:
-clearly and plainly I see — O.Rich —
-in the sky my name is born. And which.
+Night. The Earth and I, face to face.
+Moonlight has spilled everywhere:
+clearly and plainly I see O.Rich —
+in the sky my name is born.
 
-Instant. The unnoticed bird takes flight.
-I know… with the bird's eyes I pass the Earth, in light…
-I am the bird… I fly… The Earth cries out:
-"Come back..!" I do not hear… I fly off. Out.
+Instant. The unnoticed bird is flying.
+I know… with the bird's eyes I pass over the Earth…
+I am a bird… I fly… And the Earth cries out:
+"Come back..!" I don't hear… Into the distance I fly.
 
-World. A far bird's flight, and far.
-I see space — freedom without bar,
-no sky, no Earth, — a garden, — an apple's fruit…
-Reality? A taste — or life's reward, to boot?
+World. A distant bird's flight.
+I see space — boundless freedom,
+without sky or Earth, — a garden, — an apple's fruit…
+Reality? A taste, or life's reward?
 
-Taste. I wake — but why, why so?
-I want to stay inside the dream! No —
-all around is winter, black earth… Fuck !
-And one dream only — to return into the dream for good…
+Taste. I wake — but why so?
+I want to stay in the dream!
+No, all around is winter, black earth… Fuck !
+And there's one dream — to return into the dream for ever…
 
 ## * * *
 
 Again Your hair upon my lips,
-again Your hands in my hands' grips.
-The feelings fill the heart, and higher —
-                                        the body — with desire;
-the breath of love, unstoppable, joined us — its fire.
+again Your hands in my hands.
+Feelings fill the heart,
+                                        and the body — desire;
+the unstoppable breath of love has joined us.
 
-In passion's rhythm the hearts beat on,
-two souls as if one soul — as one.
-The Earth is small: I — one, You — one, whole;
-this is our fantastic game of love. Our goal.
+In the rhythm of passion the hearts are beating,
+two souls, as if one soul.
+The Earth is small: I — alone, and You — alone;
+this is our fantastic game of love.
 
-The dark night wrapped our bodies round;
-for us, up in the sky, our star burns — found.
-I'm always with You — and You are mine,
-my Lovely Lady, my Feeling. Divine.
+The dark night has embraced our bodies;
+for us, in the sky, our star is blazing.
+I'm always with You, and You are mine,
+my Beautiful Lady, my Feeling.
 
-Your tender touch, Your breath so warm,
-wrapped me in nets of love, in love's own form.
-I was right here — and suddenly I'm gone;
-down Your cheek a hot tear rolled. Alone.
+Your tender touch, Your warm breath
+have wrapped me in the nets of love.
+I was beside you — suddenly I'm not here;
+down Your cheek a hot tear has rolled.
 
-I do not want You crying anymore,
-so I'll return — through other worlds I'll soar,
-to our star, into eternity, I'll carry You in my arms…
+I don't want You to cry any more,
+so I'll return, flash through other worlds,
+to our star; into eternity I'll carry You in my arms…
 And again Your hair upon my lips.
 
 ## Contrast
 
-Nets made of thoughts, like a spider's spinning,
-where glances from within are interlaced.
-A child hid there, from spite, beginning
-to fear — so pray for it, in haste.
+Nets made of thoughts, like a spider's web,
+in which the glances from within have interlaced.
+There, from spite, a child has hidden;
+it's frightened — say a prayer for it.
 
-Bliss and purity, the soul's own dawn —
-that is the source that knows what's fair.
-Dirt and darkness, unknown, foreign, drawn
-closer with time — become familiar there.
+Bliss and purity, the untouched soul —
+that is the source that is aware of beauty.
+Dirt and darkness, unknown till now, still foreign,
+become familiar with the flow of time.
 
-Solitude — as life's greatest joy,
-as the edge you flee to, from the crowd,
-to solve the riddle of feelings — coy —
-that play in the heart like kingdom's heroes, proud.
+Solitude as the greatest joy in life,
+as the edge you run to from society,
+to solve the mystery of feelings
+that play in the heart like the heroes of a kingdom.
 
-Boundlessness — with love filled up,
-where there's no room for emptiness,
-like a wound that hot blood fills, a cup,
-and the wound's pain — the salt in the tear, no less.
+Boundlessness that is filled with love,
+in which there is no room for emptiness,
+like a wound that's flooded with hot blood,
+and the pain of the wound — the salt that's in the tear.
 
-And suffering — only as a means to be
-in that world, in that burning game,
-which once we called love, you and me,
-and then gave it all our dreams. The same.
+Suffering, only as a means of existence
+in that world, in that ardent game
+which once we called love,
+and then gave all our dreams to.
 
 ## For You, Kitten
 
-Why did God give the joy of feeling love?
-Why do the thoughts flood reason, overflow?
-Why is it so ardent, early — above?
-Why did I touch your hand? Why so?
+Why did God give the joy of feeling love,
+why do thoughts overfill the reason,
+why is it so ardent and so early,
+why did I touch your hand?
 
-Why did that fire ignite inside the soul,
-if it's eternal, and will never die?
-Unless the soul burns down, and on the knoll
-the wind scatters the ashes of a child — unhappy — high.
+Why did that fire ignite in the soul,
+if it's eternal and will not go out —
+unless the soul burns down, and the wind in the field
+scatters the ashes of a child who is unhappy.
 
-My soul — is my child, in love, my own;
+My soul — is my child in love;
 what are you alive for, ardent one — die!
-Why, without the beloved, feelings, life — alone?
-Why the pain, why those last mistakes — why?
+Why, without the beloved, those feelings, that life.
+Why the pain, what for those last mistakes?
 
-Why the body, the tender touch, caress?
-What are the eyes for, if not to see you — you?
-Why tears from those eyes, the begging, the distress,
-if I can never forgive myself? Never. True.
+Why the body, the tender touches and caresses?
+What for the eyes, if not to see you?
+Why the tears from those eyes, the begging,
+if I can never forgive myself.
 
-Why these empty-stupid words of mine — why say?
-Why, without You, Kitten, do I live at all?
-Why space and freedom, money, fame — and their display?
-Why am I..? if you're not here — why am I..? At all?
+Why those empty, stupid words of mine,
+what for, without You, Kitten, is my life,
+what for the space and freedom, money and fame?
+Why am I..? if you are not here, why am I..?
 
 ## Madame
 
-Madame, I want You — and I do,
-in every sense that can be meant;
-You are so sweet that I can't woo —
-can't make a proposal. I relent.
+Madame, I want You
+in every sense of the word;
+You are so sweet that I cannot
+make You a proposal.
 
-I'm Yours, though You are not my own;
-so be it… Yes, I still want, still,
-that love's star rise — and yet, alone,
-I'll modestly keep silent. I will.
+I am Yours, though You are not mine;
+so be it… Yes, I still want
+the star of love to rise —
+but I'll modestly keep silent.
 
-It gives me pleasure, gives me rest,
-to be beside You, near You, near,
-to hear together the birds' small fest,
-the noise of trees, the waterfall's bass — clear.
+It gives me pleasure
+to be beside You, near You,
+to listen together to the birds' singing,
+the sound of trees and the waterfall's bass.
 
-I like Your smile — it's pure, and free
-of any trace of unfreedom's sway;
-I drink it in, sweet, unsteady — me —
-not leaving the smallest share away.
+I like Your smile —
+pure, with no admixture of unfreedom;
+I drink it in, sweetly and unsteadily,
+not leaving the smallest part.
 
-Your eyes… they play so charmingly;
-in them is truth, and life's own deep,
-calm and joy — all that draws and lures,
-like a ruby's gleam. And endures.
+Your eyes… play so charmingly;
+in them are truth, the depth of life,
+calm and joy — all that attracts
+and lures, like the gleam of a ruby.
 
-And Your hair, and lips… and every line
-of Your lovely face — to me they are
-the mirror of a dream, a sign,
-like space for a fledgling. Like a star.
+And Your hair, and lips… and the features
+of Your lovely face
+are for me the reflection of a dream,
+like space for a fledgling.
 
 You are so beautiful…, so bright…,
-that I will not permit myself to plead
-for Your hand and heart, for love, tonight —
-though in suffering I'll live. Indeed.
+that I will not allow myself to offer
+You my hand and heart for love,
+though I'll have to live in suffering.
 
 ## Don't Over…
 
 Be for me a muse
-whose music I can't lose,
-in gentle, tender tones,
-notes side by side, like stones.
+that sounds like music,
+in gentle, tender,
+adjoining notes.
 
 Be for me a flower
-of spring's eternal hour;
-a heady, fragrant day —
+that is an eternal spring;
+a heady, fragrant scent —
 be for me a holiday.
 
 Be for me a game
-that captivates, no shame;
-flow as an emotional stream,
-only don't be a shock. A dream.
+that carries me away,
+seethe like a stream of emotion,
+only don't be a shock.
 
-Be for me a nanny, too,
-a toy, a plaything — new;
-read me "Maliatko" — see,
-for I'm still a little child. Me.
+Be for me a nanny,
+a toy and a plaything,
+read me the magazine "Maliatko",
+for I'm still a little one.
 
-Be for me dear,
-a smile sincere,
+Be for me a darling,
+a sincere smile,
 but above all, with me,
-always be yourself. Be free.
+always be yourself.
 
 *"Maliatko" ("Little One") is a Ukrainian children's magazine.*
 
 ## Remember
 
-O happiness of mine, tell me — do you recall
-the first touches, the burning caresses — do?
-Have you forgotten the path you walk through all?
-Have you painted over love's own colours — you?
+O my happiness, tell me — do you remember
+the first touches and the burning caresses…
+Have you not forgotten the path you're walking,
+have you not painted over the colours of love?
 
-O sun of mine, paint me warmth, and blue
-sky, and space, and freedom — free;
-paint the moment that into eternity went through;
-paint us red among grey people — you and me.
+O my sun, paint me warmth,
+blue sky, space and freedom;
+paint the moment that has passed into eternity,
+paint us in red among the grey people.
 
-Bright star among dark and empty nights —
-shine and don't go out; know, and remember, too:
-your light — is the life of my eyes, their sights;
-always give me the chance to see. To see you.
+Bright star among the dark and empty nights,
+shine and don't go out; know and remember
+that your light is the life of my eyes;
+always give me the possibility to see.
 
-O feeling of mine — infinity is your bound;
-go, run — but don't forget: you have wings, so —
-fly. Be everything, and what is never found…
-Your motion breathes sincere joy. Go.
+O my feeling, infinity is your limit;
+go, run, but don't forget that you have wings —
+fly. Be everything, and that which is not…
+Your motion inspires sincere joy.
 
-O fate of mine, tell me — do you recall
-that I am yours alone, for you alone?
-Say!!! Or do you not know me at all?..
-Then listen how the silence sings. Its tone.
+O my fate, tell me — do you remember
+that I am only yours and only for you.
+Tell me!!! Or do you no longer know me?..
+Then listen to how the silence sings…
 
 ## Is It Too Late?
 
-Why is it that you love me now —
-now, when I already… somehow…
-And when I was winning you, back then,
-you asked me: "Where?" — again, again.
+Why do you love me
+now, when I already…
+And when I was winning you,
+you would ask: "Where?"
 
-"Where is love? — show me, show, I plead,
-I do not see it — no, indeed,
-this love. A-ha! now tell me true…
-— It's all dre-e-eams." — that's what you'd do.
+"Where is love? — show me,
+I don't see it,
+this love. A-ha! tell me…
+— It's all dre-e-eams."
 
-You blamed me then — that I, that I
-did not love you. And I'd go by,
-more than once, back to my home,
-and to the heavens say, alone:
+You blamed me
+for not loving you.
+And more than once I came back home
+saying to the heavens:
 
-"I love you deeply, and I do,
-I love you! Why won't you — won't you
-trust me — I don't know why, not why?..
-And once again I'm silent. I…"
+"I love you so much,
+I love you! Why
+don't you trust me — I don't know
+why?.. And again I'm silent…"
 
-But now I will not hold my tongue,
-I don't want, don't want, don't want — I'm stung!
-Although I won't forget you — no,
-but… already… I don't want to… so…
+But now I won't be silent,
+I don't want to, don't want to, don't want to!
+Although I won't forget you,
+but… already… I don't want to…
                 I don't want to… I don't want to…
 
-What's to be done now, now, when you
-love me? What am I to do?
-How can I help you, and me — how,
-when I already… don't… not now…
+What to do now, when
+you love me?
+How to help you and myself,
+when I already… don't…
 
 ## Don't Hover
 
 Don't count on me
-as property that you can get,
+as on property you can acquire,
 but count on me
-as a friend who can support you yet
-in minutes of joy, and of sadness. Don't forget.
+as on a friend who can support you
+in minutes of joy and of sadness.
 
 Don't demand of me
-to be obliged to you in anything;
+to be obliged to you in anything,
 don't demand of me
-to become your captive, or your prisoner — a thing
-that loses its own opinion. Its own spring.
+to become your captive or your prisoner
+who loses his own opinion.
 
 Don't demand of me
-to do what you want for amusement's sake;
-don't demand of me —
-if you want truth, and more respect — to make
-it not as pride, but love. That's what to take.
+to do what you want for the sake of amusement,
+don't demand of me,
+if you want truth and more respect —
+not as pride, but as love.
 
 Don't do for me
-anything you don't really want to do;
+anything you don't really want to do,
 don't live for me,
-if you haven't learned to live for yourself, for you,
-and understand the wonderful moments. Through.
+if you haven't learned to live for yourself
+and to understand the wonderful moments.
 
 Don't count on me,
 don't demand of me,
-don't do for me —
+don't do for me,
 if you want me.
 
 ## And Where Are You Going?
 
-The river of everyday events flowed on
+The river of everyday events flowed on,
 and carried me along with it
-through years of priceless youth — and gone;
-I am the Actor! It's only the stage — a set!
+through the years of priceless youth;
+I am the Actor! It is only the stage!
 
-I didn't always keep it in my mind;
-the scenery kept changing on the stage,
-my actor's role kept changing, kind by kind…
+I didn't always remember this;
+the scenery on the stage kept changing,
+my actor's role kept changing…
 But where am I?
 
-Past flew the streets, the houses, and the towns —
-strange towns, and faces-masks, a sister, one,
-somebody's mother, father — nouns…
+Past flew the streets, the houses,
+the faces-masks, the foreign towns,
+somebody's mother, father, sister…
 But where am I?
 
-The frozen echo of somebody's voice,
-and human sounds like dogs' own barking, hoarse.
-A new performance? A new drama — choice?
-Again he's α, again you're γ — of course?
+The frozen echo of somebody's voices,
+the sounds of people like the barking of dogs.
+A new performance? A new drama?
+Again he is α, again you are γ?
 
-And then all over, from the start, once more?
-He will be 3, and you'll be 5 — as before?
-Now that's a funny game, that's what it's for…
+And then all over from the start, again?
+He will be 3, you will be 5?
+Now there's an amusing game…
 But where am I?
 
-!"Pale falsehood and malicious flattery — this;
-there is no Good, existence — is revenge;
-where… are… you, Main HERO?" — it is!
-Isn't that my role? — my own — my range? …
+!"Pale falseness and malicious flattery,
+there is no Good, existence is revenge;
+where… are… you, Main HERO?"!
+Isn't that already my role? …
 
-And everyone's in haste, and everyone calls,
-and everyone goes there — they push, they shove…
-But — no, no, no; through all the halls:
-NO — that is my answer! From above.
+And everyone's in a hurry, and everyone calls,
+and everyone goes there, they push…
+But — no, no, no;
+NO — that is my answer!
 
-Stepped off the public path, its trodden way,
-I did not go where everyone went, too,
-for moral calm is never won, I say,
-while the tone of thinking's bright. And new.
+Having stepped off the public path,
+I did not go where everyone went,
+for moral peace is not attained
+while the tone of thinking is bright.
 
 ## A Question of Eternity
 
-An autumn evening, late, not cold;
-dusk lay upon the town's shoulders, old,
-and carried off to the Kingdom of Sleep
-the daily, daytime bustle — to keep.
+A late autumn evening, not cold;
+dusk has settled on the shoulders of the town,
+carrying off with it into the Kingdom of Sleep
+the everyday bustle of the day.
 
-Today is night, tomorrow's morning — see:
-it is a labyrinth, locked without a key,
-a rebus no one solves, a code
-that no one cracks. That is the road.
+Today is night, tomorrow — morning:
+this is a labyrinth locked with a lock,
+a rebus that cannot be solved,
+a code that cannot be cracked.
 
-This is life — yes… this is life,
-the riddle of eternity, of being, of strife,
-of longing, joy, and grief — the same,
-the axiom of the medal's two sides. The game.
+This is life, yes… this is life,
+the riddle of eternity and of being,
+of desire, of joys and of sorrows,
+and the axiom of the medal's two sides.
 
-Life, tell me, Life — I ask you, how
-to live so that happiness, somehow,
-could be felt at least once in life, be heard —
-to live, and not just dumbly be. One word.
+Life, tell me, Life,
+how to live, so that the feeling of happiness
+could be felt at least once in a lifetime,
+so as to live, and not just dumbly be.
 
-Life, tell me, Life — I ask you, why
-all the future repentances — and I?
-Tell me, am I living, am I alive, and grow,
-developing — or simply am…? Say so.
+Life, tell me, Life,
+what are all the future repentances for?
+Tell me, am I living, am I alive,
+am I developing and growing, or do I simply exist…?
 
-If my thoughts are alive, and true,
-when I die the poems will remain — for you:
-the poetry and the prose — this is for You — …
-My family and my crew.
+If my thoughts are alive,
+when I die, the poems will remain:
+poetry and prose — this is for You — …
+my family and my crew.
 
 ## No Judge
 
-What do you need, boy — what, and why?
-You beg for money, gather change?
-And what for, what's it for — reply?
-You say you're dying. Strange.
+What do you need, boy, what?
+Asking for money, collecting change?
+And what for, what do you need it for?
+You say you're dying.
 
-You'll buy some bread for brother — will you, now?
-The one who lies somewhere in a cellar's gloom,
-shot up beyond return — and how,
-played out on the "accordion." His doom.
+You'll buy some bread for your brother?
+The one lying somewhere in a cellar,
+shot up beyond return,
+having played his last on the "accordion".
 
-Or will you rather take the glue,
+Or will you rather take some glue
 and a little polyethylene bag?
-For yourself, and for your friends — you two —
-and there'll be a change at work? A drag?
+For yourself and for your friends,
+and there'll be a change at work?
 
-If you… had not done so — if you had not,
-you might have started, maybe, to understand
-who is your friend, and who your foe — what's what,
-where to pick up, and where to drop. First-hand.
+If you… had not done that,
+maybe you'd have come to understand
+who is your friend, and who your enemy,
+where to pick up, and where to throw away.
 
-You won't listen to the old man — no,
-you have no time for chat.
-He gives no money — off you go
-in search of the road to the latrine. That's that.
+You won't listen to the old man,
+there's no time for chatter.
+He won't give money — you run off
+in search of the road to the latrine.
 
-Hey! Boy, stop! Stop, wait —
-take the bread, it's my breakfast, take it, son,
-sorry it's not with sausage — it's late,
-sorry — take some apples too… take one…
+Hey! Boy, stop!
+Take the bread, it's my breakfast;
+sorry it's not with sausage,
+sorry — take some apples too…
 
-Hey..! stop…, boy, stop, I say,
-don't run away! No, no —
-I've got no money… none today…
-But… he doesn't need bread. No.
+Hey..! stop…, boy,
+don't run away! No,
+I've got no money…
+But… he doesn't need bread.
 
-He didn't listen to the old man — no,
-he had no time for chat.
-He got no money — off he'd go
-in search of the road to the latrine. That's that.
+He didn't listen to the old man,
+there's no time for chatter.
+He got no money — he ran off
+in search of the road to the latrine.
 
 *"Accordion" (баян) is street slang for a syringe.*
 
 ## Big Boy
 
-A boy who looks out of the window, so
-piercingly, so deeply — and, below,
-sees truths behind it — truths that hide
-beneath society's fear, inside.
+A boy who looks out of the window,
+so piercingly, and so deeply,
+sees truths behind it,
+covered over by society's fear.
 
-He looks, and with his eyes takes in
-all that remains of Paradise — and sin,
-sorting the Good out from the Evil, mute,
-piercingly, deeply, silent. Absolute.
+He looks, taking in with his eyes
+all that is left of Paradise,
+sorting the Good from the Evil,
+piercingly, deeply, and in silence.
 
 The mouth is shut, the lips are dumb,
-but the boy's soul sobs — and won't succumb:
-it moans, it aches, it hurts, it cries —
-but for now the boy is silent. He tries.
+but the boy's soul is sobbing,
+it moans, it aches, it hurts, it cries,
+but for now the boy keeps silent.
 
 The heart is clenching in the chest,
-the bright day is behind him — laid to rest,
-night is ahead… The Darkness, deep,
-that lures the little one to itself. To keep.
+the bright day is already behind,
+night lies ahead… Darkness,
+that lures the little one to itself.
 
-For him the darkness is good, because
-it's quiet in it — it has no laws;
-he can remain alone, and be,
-not fear his stupid friends. Be free.
+For him it is good
+because there is silence in it;
+he can stay alone,
+not be afraid of stupid friends.
 
 And more and more the depth of night
-drowns the little one in itself. Its might
-slyly calls him: "Come on… come —
-all the delights lie ahead…" — and some.
+drowns the little one in itself.
+Slyly it calls: "Come…
+all the delights are ahead…"
 
-But don't you hurry, little one — wait!
-Remember what has happened — the date —
-how you sat and looked out of the window, so
-piercingly, so deeply — below.
+But don't hurry, little one, wait!
+Remember what happened to you,
+how you sat and looked out of the window,
+so piercingly and so deeply.
 
-You saw how, out beyond the pane,
-down there, in the night town, in the lane,
-a person lies, and the body doesn't breathe…
-Someone, someday, will write this down. And grieve.
+You saw how, beyond the window,
+down there, in the night city,
+a man lies, and the body isn't breathing…
+Someone will write about it some day.
 
-Someone has written it already, though —
-and there, back then, a person died, below,
-and you were looking through the window at it all,
-and went numb, helpless. Small.
+Someone has already written about it,
+and there, back then, a man was dying,
+and you were looking out of the window at it,
+and went numb from helplessness.
 
-You saw them passing by, and by —
-the women and the men, lustful, dry:
-this is the truth of "grown-up people," this —
-this is the experience of stupid friends. It is.
+You saw how they pass by,
+women and men, lustfully:
+this is the truth of "grown-up people",
+this is the experience of stupid friends.
 
-You saw the ambulance arrive,
-and carry the dead body off into the night. Alive —
-your heart exploded in your chest, and split;
-down your cheek a hot tear rolled. And lit.
+You saw how the ambulance
+carries the dead body off into the night…
+The heart exploded in your chest,
+down your cheek a hot tear rolled…
 
-Cry, little one — cry, cry, and cry!
-Tears are your doctor today. Don't ask why.
-You are the stronger, little one — roar, and wail!
-Would a strong one cry like you? Would he fail?
+Cry, little one, cry, cry!
+Tears are your doctor today.
+You are stronger, little one, howl!
+Would a strong one weep like you?
 
-Let loose your tongue, and let it shout!
-Let it not go numb, let it not go out.
-You couldn't hold the fire — you sobbed, you cried,
-loudly, loudly into the night. You cried…
+Let your tongue loose, let it cry out!
+Let it not go numb and not keep silent.
+You couldn't hold back the fire — you sobbed,
+loudly, loudly you cried out into the night…
 
-…And silence all around again… and empty air…
-No one has heard the little one… Nobody there…
-You're strong, boy — you are a soul, you are;
-this is the first truth of your life. By far.
+…And again silence all around… emptiness…
+No one heard the little one…
+You are strong, boy, you are a soul —
+this is the first truth of your life.
 
 ## * * *
 
-I want to grab hold of life — to hold
-that moment when I'm young — not old,
-those lovely feelings in the heart, the fire,
-that ardent state of the soul — desire.
+I want to grab hold of life,
+of that moment when I am young,
+of those beautiful feelings in the heart,
+of that ardent state of the soul.
 
-I want to grab hold of life, and keep
-the years of youth — not lose them to sleep,
-to keep inside me that same child
-who takes the flight of fantasy — wild.
+I want to grab hold of life,
+so as not to lose the years of youth,
+so as to keep inside me that child
+who makes the flight of fantasy.
 
-I want to grab hold of life — to stay
-the flow of time upon its way,
-to bring happiness into being, through —
-or is this wish a dream, a smoke, untrue?
+I want to grab hold of life,
+so as to stop the flow of time,
+so as to bring happiness into being —
+or is this wish an unfulfilled dream, a smoke?
 
-And still I want to grab hold of life —
-there's no disappointment yet; I'm alive, in strife.
-Though bitter, all the same, repentance will be,
-still I want to — while I'm young. Still me.
+Still, I want to grab hold of life,
+for there's no disappointment, I'm still alive.
+Though bitter, all the same, will be the repentance,
+still I want to — while I'm young.
 
 ## Secret
 
-One must work, one must strive,
-no matter what, and through,
-and this work will keep you alive —
-it will bring everything to you.
+One must work,
+no matter what,
+and this work
+will bring you everything.
 
-One must work upon oneself,
-on the inner and the outer, both,
-on body and on soul — not the shelf —
-to remain successful. Take the oath.
+One must work on oneself,
+on the inner and the outer,
+on the body and on the soul,
+so as to remain successful.
 
-For not the one is successful, who,
-achieving his success at last,
-remained a sinner, through and through,
-and fame — was his amusement. Passed.
+For not he is successful
+who, while achieving success,
+remained a sinner,
+and fame — his amusement.
 
-But he who works, who strives,
-          no matter what, and through —
-this work, this labour, drives
-          everything to him. It's true.
+But he who works,
+          no matter what,
+and this work
+          brings him everything.
 
 ## I'll Stay Alone
 
-I'll stay alone, I'll stay,
-I'll be like the wind, and free,
-even if I have to pay
-with death — that answer's me.
+I will stay alone,
+I will be like the wind,
+even if I have
+to answer with death.
 
-And nothing has a meaning, none —
-not yesterday, not tomorrow, no.
-Not society, not renunciation, done —
-when suddenly you go.
+And nothing has any meaning,
+not yesterday, not tomorrow.
+Not society, not renunciation,
+when you die suddenly.
 
-Only one soul, and only she,
-who lightly, from the body, went
-out into space — and left, to be,
-all that she had. All spent.
+Only one soul,
+which lightly, from the body,
+has gone out into space,
+leaving all that it had.
 
-Let them merge and be as one,
-like a drop and the ocean, wide.
-And there will be no one — none —
-to provoke deceit. To lie.
+Let them merge into one,
+like a drop and the ocean.
+And there will be no one any more
+to provoke to deceit.
 
 ## To Stand One's Ground
 
-I cannot sleep — I lie awake,
-I have to know, for my own sake:
-who am I, where, and what for — where
-my mother is, where the house — and where
-a being without sin is. There.
+I cannot sleep,
+I have to know
+who I am, where I am, and what for,
+where my dear mother is, where the house,
+where a sinless being is.
 
-To come back to the house, and then
-to my dear mother — home again,
-from the boundless well, to lean,
+So as to come to the house,
+to my own mother,
+from the boundless well
 to drink, to draw
-the healing water. Clean.
+the healing water.
 
-So that, in quenching my thirst — and so —
-I'd always show courage — show
-the truth, the freedom, and the honour, both,
-before the one who carries, in himself,
-the bloody death. That's my oath.
+So that, quenching my thirst,
+I'd always show courage,
+truth, freedom and honour
+before the one who carries
+bloody death within himself.
 
 ## UNDERSTAND
 
-Life is a game —
-but if it is a game, the same,
+Life is a game,
+but if it is a game
 where there's no shield and sword,
-then, for me, it isn't worth
-the candle. Not one word!
+then for me it
+isn't worth the candle!
 
-The main thing in this life
-is not to give death — no knife —
-and not to take a life away,
-but the emptiness of other souls…, I say,
-to fill with the perfect thing, to fill,
-and… to heal… and to heal… still…
+The main thing in life
+is not to give death to others
+and not to take life away,
+but to fill the emptiness of others' souls…
+with the perfect,
+and… to heal…
 
-But what will help — what then —
-when the wish to live departs, and when
-it becomes beyond your power
-to forgive yourself — in that hour?
+But what will help, then,
+when the wish to live
+goes away,
+and it becomes beyond your strength
+to forgive yourself.
 
 Do not perish — pray!
-Seek, and you will find the way —
-the paths that lead you there,
-to where you'll understand, aware,
-that not all lie — not all, not,
-and… the meaning of life you'll have got.
+Seek, and you will find
+the paths that lead
+to where you'll understand
+that not everyone lies,
+and… you'll find the meaning of life.
 
 ## Who?
 
 As the seagull flies above the sea,
-as the wind rustles the leaves on trees,
-as the mountains tower, wild and free,
-as the lion over the beasts.
+as the wind rustles the leaves of the trees,
+as the picturesque mountains rise high,
+as the lion above the beasts.
 
-As pleasant-light, and beautiful,
-as piercing, and containing all,
-as mighty, happy — powerful,
-as highest — when he's small.
+As pleasantly light and beautiful,
+as piercing and all-containing,
+as mighty and happy,
+as the highest, when lowly.
 
-As the sun after long, long rain,
+As the sun after a long rain,
 as rain after a drought,
-as a road through dark woods, plain,
-as hands for one without.
+as a road in a dark forest,
+as hands for one without hands.
 
-As space — the one that has no end,
-as a sea that has no floor,
-as the ideal, as perfection — the friend —
-as He, for Whom I am. Forevermore.
+As space, the one that is boundlessness,
+as a sea that has no bottom,
+as the ideal, as perfection,
+as He, for Whom I am for ever.
 
 ## Choose the Light
 
-"Is life really beautiful — is it?" —
-so a man will say.
-And against himself, in vain, and split,
-he'll answer — "No." — that way.
+"Is life really beautiful?" —
+a man will say.
+And against himself, in vain,
+he'll answer — "No."
 
-Without a doubt, to live in dark
-is not a lovely thing,
-for life without God — no spark —
-is solid dark. No spring.
+Without a doubt, to live in darkness
+is no beauty,
+for life without God
+is unbroken darkness.
 
-God is the Word, the Word is light;
-whoever understands the Word
-will never answer — "No" — not quite.
-Not "No." Not once. Not heard.
+God is the word,
+the word is light;
+whoever understands the word
+will not answer — "No."
 
-Don't hide yourself, don't run away,
-accept the Word of God, and live,
-and do not perish — not today;
-in everything, its help it'll give.
+Don't hide, don't run away,
+accept God's word,
+and do not perish —
+it will help in everything.
 
-And life… life is beautiful, and bright —
-there's nothing lovelier — no, none;
-but choosing death — you put out the light,
-in vain — the bright, bright light. The sun.
+And life… life is beautiful,
+there's nothing more beautiful,
+but by choosing death — in vain
+you put out the bright light.
 
 ## * * *
 
-I love to live, I love —
-I love this life, I do,
-I love the lovely feelings of
-the heart. And they are true.
+I love to live,
+I love life,
+I love the beautiful
+feelings in the heart.
 
-I love to make, to create,
-I love the Creator — Him:
-the Holy Spirit, God the Father — great,
-and His Son — Jesus Christ. Not dim.
+I love to create,
+I love the Creator:
+the Holy Spirit, God the Father
+and His Son — Jesus Christ.
 
-I love to love — I love,
-I love Love. I take
-the blood that God shed, from above,
-for me. For my own sake.
+I love to love,
+I love Love.
+I accept the blood
+shed by God for me.
 
-I love to live — to be
-in the delight of knowing, true,
-the Truth and Essence — see —
-and not good and evil. Not those two.
+I love to live
+in the delight of knowing
+the Truth and the Essence,
+and not good and evil.
 
-I love to live — and so
-I choose life. I choose to live.
-So as not to die — not to go —
-choose no evil. That's what I give.
+I love to live —
+and I choose life.
+So as not to die —
+do not choose evil.
 
 ## And Why Do You…?
 
-You know…? — I love God — I do,
-and so disappointment and anxiety, too,
-for me aren't real, but empty, a seam,
-like the reality inside a dream.
+You know…?, I love God,
+and so disappointment and anxiety
+for me are not real, but empty,
+like the reality that is in a dream.
 
-Like a mirage, far in the deep,
-somebody's dreams went out — asleep —
-but not mine, for I am for Him, His,
-and with that truth my road is paved. It is.
+Like a mirage, far down in the depths,
+somebody's dreams went out in the silence,
+but not mine, for I am for Him;
+with that truth my road is paved.
 
-You know…, I love that God, the One
-who gives happiness, and joy, and life — the sun,
-and pleasant feelings, and Who is love, and more,
-for He forgives, again and again. As before.
+You know…, I love that God
+who gives happiness, joy and life,
+pleasant feelings, and who is love,
+for He forgives again and again.
 
-Again He lifts me from my knees, and, mild,
+Again He lifts me from my knees,
 teaches me reason like a little child.
-For that I love Him without end, without bound;
-without Him I don't want to live on my own ground.
+For that I love Him without limit;
+without Him I don't want to live on my own.
 
-And so many different words — and so;
-perhaps you understood nothing at all — I know,
-but you know…? — I love God — I do,
-and only one thing matters — love for Him. It's true.
+And so many different words —
+perhaps you understood nothing at all,
+but you know…? I love God,
+and only one thing has meaning — love for Him.
 
 ## To All Poets
 
-Poets, tell us, if you please,
-if it isn't hard for you — with ease —
+Poets, tell us, please,
+if it isn't hard for you,
 how one becomes a poet.
 
-How, in the poetic form,
-for you so simple, and the norm,
-one's thoughts get told. Show it.
+How, in poetic form,
+for you so simple and habitual,
+to describe one's thoughts.
 
-How the enchanting beauty and the grace,
-desire, joy, freedom — in their place —
-are carried into verse.
+How to convey in verse
+enchanting beauty and grace,
+desire, joy and freedom.
 
-How life's discord one can chase
-out of the soul, out of its space,
-and never let it near. Nor worse.
+How to drive life's discord
+out of the soul for good,
+and never let it near again.
 
-Tell us of the transparent boundless dome;
-of how in thoughts you flew, and roamed
-up to the sky, with birds, and home.
+Tell us about the transparent boundlessness;
+about how in your thoughts you flew
+up into the sky together with the birds.
 
-Tell us without arrogance, and free,
-to all of us, dear poets — to me —
-well, at least a couplet each. Then we'll see.
+Tell us without arrogance,
+all of us, dear poets —
+well, at least a verse each.
 
 ## Bright Light
 

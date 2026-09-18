@@ -1,0 +1,161 @@
+{
+ "apple_id": 6773919460,
+ "title": "Velvet Pulse",
+ "released": "2026-05-27",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/velvet-pulse.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 20.36,
+   "text": "Go, my love"
+  },
+  {
+   "start": 20.36,
+   "end": 27.22,
+   "text": "Stay inside my soul tonight"
+  },
+  {
+   "start": 30.0,
+   "end": 35.52,
+   "text": "Hold me close"
+  },
+  {
+   "start": 35.52,
+   "end": 43.08,
+   "text": "Underneath these golden lights"
+  },
+  {
+   "start": 43.08,
+   "end": 46.86,
+   "text": "No more running from the dark"
+  },
+  {
+   "start": 46.86,
+   "end": 50.44,
+   "text": "You already want my heart"
+  },
+  {
+   "start": 50.44,
+   "end": 54.1,
+   "text": "Every breath feels new"
+  },
+  {
+   "start": 54.1,
+   "end": 57.58,
+   "text": "Because of you"
+  },
+  {
+   "start": 60.0,
+   "end": 62.0,
+   "text": "My love"
+  },
+  {
+   "start": 68.0,
+   "end": 70.0,
+   "text": "My love"
+  },
+  {
+   "start": 75.0,
+   "end": 77.0,
+   "text": "Champagne dreams and city rain"
+  },
+  {
+   "start": 78.0,
+   "end": 81.0,
+   "text": "You kiss away my hidden pain"
+  },
+  {
+   "start": 82.0,
+   "end": 85.0,
+   "text": "Every second next to you"
+  },
+  {
+   "start": 86.0,
+   "end": 89.0,
+   "text": "Feels too beautiful to lose"
+  },
+  {
+   "start": 90.0,
+   "end": 93.0,
+   "text": "Your affection in my veins"
+  },
+  {
+   "start": 93.0,
+   "end": 97.0,
+   "text": "Burned softly like a flame"
+  },
+  {
+   "start": 97.0,
+   "end": 100.0,
+   "text": "If the whole world disappeared"
+  },
+  {
+   "start": 100.0,
+   "end": 105.0,
+   "text": "I would still want you right here"
+  },
+  {
+   "start": 105.0,
+   "end": 108.0,
+   "text": "Maybe heaven looks like this"
+  },
+  {
+   "start": 108.0,
+   "end": 112.0,
+   "text": "Two hearts frozen and numb"
+  },
+  {
+   "start": 120.0,
+   "end": 149.98,
+   "text": "I'm going to go back to my house."
+  },
+  {
+   "start": 150.0,
+   "end": 179.98,
+   "text": "I love you."
+  },
+  {
+   "start": 180.0,
+   "end": 209.98,
+   "text": "Thank you."
+  },
+  {
+   "start": 210.0,
+   "end": 212.0,
+   "text": "you"
+  }
+ ],
+ "lines": [
+  "Go, my love",
+  "Stay inside my soul tonight",
+  "",
+  "Hold me close",
+  "Underneath these golden lights",
+  "No more running from the dark",
+  "You already want my heart",
+  "Every breath feels new",
+  "Because of you",
+  "",
+  "My love",
+  "",
+  "My love",
+  "",
+  "Champagne dreams and city rain",
+  "You kiss away my hidden pain",
+  "Every second next to you",
+  "Feels too beautiful to lose",
+  "Your affection in my veins",
+  "Burned softly like a flame",
+  "If the whole world disappeared",
+  "I would still want you right here",
+  "Maybe heaven looks like this",
+  "Two hearts frozen and numb",
+  "",
+  "I'm going to go back to my house.",
+  "I love you.",
+  "Thank you.",
+  "you"
+ ]
+}

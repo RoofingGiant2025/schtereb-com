@@ -1,0 +1,104 @@
+{
+ "apple_id": 1892722428,
+ "title": "Highway My Life",
+ "released": "2026-04-11",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Highway My Life Landr .mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 24.28,
+   "text": "I love you too"
+  },
+  {
+   "start": 24.28,
+   "end": 29.08,
+   "text": "And more, even most"
+  },
+  {
+   "start": 30.0,
+   "end": 34.1,
+   "text": "Highway my life"
+  },
+  {
+   "start": 34.1,
+   "end": 40.14,
+   "text": "Oh, highway"
+  },
+  {
+   "start": 40.14,
+   "end": 49.96,
+   "text": "A song that I, very man, understand"
+  },
+  {
+   "start": 53.96,
+   "end": 57.9,
+   "text": "No drugs or alcohol"
+  },
+  {
+   "start": 57.9,
+   "end": 60.86,
+   "text": "The Dolce Home"
+  },
+  {
+   "start": 60.86,
+   "end": 64.86,
+   "text": "Let's go my love"
+  },
+  {
+   "start": 87.9,
+   "end": 117.88,
+   "text": "I'm out."
+  },
+  {
+   "start": 117.9,
+   "end": 139.36,
+   "text": "I love you too"
+  },
+  {
+   "start": 139.36,
+   "end": 144.24,
+   "text": "And more even more"
+  },
+  {
+   "start": 144.24,
+   "end": 154.24,
+   "text": "Highway my life, oh highway"
+  },
+  {
+   "start": 154.24,
+   "end": 161.24,
+   "text": "A song that I, very men understand"
+  },
+  {
+   "start": 161.24,
+   "end": 170.24,
+   "text": "No drugs or alcohol, the Dolce home"
+  },
+  {
+   "start": 170.24,
+   "end": 173.58,
+   "text": "Let's go my love"
+  }
+ ],
+ "lines": [
+  "I love you too",
+  "And more, even most",
+  "Highway my life",
+  "Oh, highway",
+  "A song that I, very man, understand",
+  "",
+  "No drugs or alcohol",
+  "The Dolce Home",
+  "Let's go my love",
+  "",
+  "I'm out.",
+  "I love you too",
+  "And more even more",
+  "Highway my life, oh highway",
+  "A song that I, very men understand",
+  "No drugs or alcohol, the Dolce home",
+  "Let's go my love"
+ ]
+}

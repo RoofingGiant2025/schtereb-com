@@ -1,10 +1,10 @@
-# Brief — "My Poetry": the first collection of Oleg Shtereb, as a book on schtereb.com
+# Brief — "My Poetry": the first collection of Oleg Schtereb, as a book on schtereb.com
 
 *This is the prompt for Claude. It is self-contained; everything needed is in `content/` and this file.*
 
 ## What you are building
 
-A four-language digital edition of Oleg Shtereb's first poetry collection (≈80 poems, originally published on schtereb.com, page "POET", c. 2005–2019), presented as a **book to be read**, not a web page to be scanned. Deployed live at **https://schtereb.com** (domain and hosting at GoDaddy).
+A four-language digital edition of Oleg Schtereb's first poetry collection (≈80 poems, originally published on schtereb.com, page "POET", c. 2005–2019), presented as a **book to be read**, not a web page to be scanned. Deployed live at **https://schtereb.com** (domain and hosting at GoDaddy).
 
 Languages: **English, Ukrainian, Russian, Spanish.** Every poem exists in all four.
 
@@ -24,7 +24,7 @@ Languages: **English, Ukrainian, Russian, Spanish.** Every poem exists in all fo
 2. **Translate only into the languages that are missing.** A Ukrainian poem gets Russian, English, Spanish. A Russian poem gets Ukrainian, English, Spanish. The original is always marked as the original.
 3. **Translation standard:** literary, line-for-line where the target language allows, stanza structure identical to the original, meaning and imagery before rhyme; rhyme where it arrives naturally, never forced at the cost of sense. Register follows the author — slang stays slang, prayer stays prayer, obscenity stays obscenity. Words already in English in the original stay in English in every version.
 4. **Order and grouping** follow the original page exactly. No re-sorting, no "best of", no omissions.
-5. **Author's name, one way:** Oleg Shtereb / Олег Штереб / Oleg Shtereb (es).
+5. **Author's name, one way:** Oleg Schtereb / Олег Штереб / Oleg Schtereb (es).
 
 ## The reading experience ("looks like reading a book")
 
@@ -32,7 +32,7 @@ Languages: **English, Ukrainian, Russian, Spanish.** Every poem exists in all fo
 - Front matter: half-title, title page, a short **author's note** (to be written by the author or left as a one-line placeholder — do not invent biography), contents.
 - Contents page lists all poems by section with page numbers; every poem is a stable, shareable URL (`/en/12-my-dream`, `/uk/12-moya-mriya`, …).
 - Navigation: ← / → keys and swipe move between poems; a **language switch** stays on the same poem; an "original" badge marks the language the poem was written in; optional **side-by-side** view (original | chosen language).
-- Colophon at the back: original publication note, translation note, © Oleg Shtereb, year.
+- Colophon at the back: original publication note, translation note, © Oleg Schtereb, year.
 - Light and dark paper. No ads, no analytics beyond a privacy-respecting counter if the owner asks, no cookie banner.
 - Static HTML/CSS/JS, no framework, no build server required to view. Works offline once loaded. Total weight small.
 - Works in Safari/Chrome/Firefox, iPhone and desktop. Lighthouse ≥ 95 on all four.

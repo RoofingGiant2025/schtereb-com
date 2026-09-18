@@ -1,0 +1,154 @@
+{
+ "apple_id": 1874003549,
+ "title": "Tell Her Anyway",
+ "released": "2026-02-02",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/LANDR-Tell her anyway -Balanced-Medium-REV_V1.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 14.18,
+   "text": "Tell her to look away just for a little while"
+  },
+  {
+   "start": 14.18,
+   "end": 19.82,
+   "text": "Tell her to never come back, no need for that smile"
+  },
+  {
+   "start": 19.82,
+   "end": 26.02,
+   "text": "Tell her you love all you can, even if it's just a sigh"
+  },
+  {
+   "start": 26.02,
+   "end": 31.22,
+   "text": "Tell her you waded through storms with tears you never let dry"
+  },
+  {
+   "start": 31.22,
+   "end": 38.18,
+   "text": "Every word you hide is one more chance you lose"
+  },
+  {
+   "start": 38.18,
+   "end": 43.68,
+   "text": "Even silence sounds like the truth you didn't choose"
+  },
+  {
+   "start": 43.68,
+   "end": 51.58,
+   "text": "Tell her anyway, let the words just fly"
+  },
+  {
+   "start": 51.58,
+   "end": 59.62,
+   "text": "Even if the night falls down and the stars refuse the sky"
+  },
+  {
+   "start": 59.62,
+   "end": 69.42,
+   "text": "Tell the lure anyway before goodbye feels too real"
+  },
+  {
+   "start": 71.42,
+   "end": 78.78,
+   "text": "Cause hearts don't break with noise, they break with what we fail to feel"
+  },
+  {
+   "start": 78.78,
+   "end": 92.52,
+   "text": "Tell her about the song she never got to hear"
+  },
+  {
+   "start": 92.52,
+   "end": 97.92,
+   "text": "Tell her how the echo stayed when she disappeared"
+  },
+  {
+   "start": 97.92,
+   "end": 102.96,
+   "text": "Tell her your dreams still start with her name"
+  },
+  {
+   "start": 102.96,
+   "end": 108.42,
+   "text": "Even if she's long gone, the feeling stays the same"
+  },
+  {
+   "start": 108.42,
+   "end": 113.42,
+   "text": "What if she's waiting for you to speak?"
+  },
+  {
+   "start": 114.42,
+   "end": 118.42,
+   "text": "What if she's fading more every week?"
+  },
+  {
+   "start": 119.42,
+   "end": 124.42,
+   "text": "What if your silence wrote the end?"
+  },
+  {
+   "start": 125.42,
+   "end": 130.42,
+   "text": "What if she needed more than just a friend?"
+  },
+  {
+   "start": 130.42,
+   "end": 160.4,
+   "text": "We are now at Kisah Road"
+  },
+  {
+   "start": 160.42,
+   "end": 167.42,
+   "text": "Like every word is a firework lighting up the sky"
+  },
+  {
+   "start": 172.42,
+   "end": 177.42,
+   "text": "Tell her while you can before the silence stays"
+  },
+  {
+   "start": 179.42,
+   "end": 185.42,
+   "text": "Tell her while you can before love walks away"
+  },
+  {
+   "start": 190.42,
+   "end": 220.4,
+   "text": "I'm sorry."
+  }
+ ],
+ "lines": [
+  "Tell her to look away just for a little while",
+  "Tell her to never come back, no need for that smile",
+  "Tell her you love all you can, even if it's just a sigh",
+  "Tell her you waded through storms with tears you never let dry",
+  "Every word you hide is one more chance you lose",
+  "Even silence sounds like the truth you didn't choose",
+  "Tell her anyway, let the words just fly",
+  "Even if the night falls down and the stars refuse the sky",
+  "Tell the lure anyway before goodbye feels too real",
+  "",
+  "Cause hearts don't break with noise, they break with what we fail to feel",
+  "Tell her about the song she never got to hear",
+  "Tell her how the echo stayed when she disappeared",
+  "Tell her your dreams still start with her name",
+  "Even if she's long gone, the feeling stays the same",
+  "What if she's waiting for you to speak?",
+  "What if she's fading more every week?",
+  "What if your silence wrote the end?",
+  "What if she needed more than just a friend?",
+  "We are now at Kisah Road",
+  "Like every word is a firework lighting up the sky",
+  "",
+  "Tell her while you can before the silence stays",
+  "",
+  "Tell her while you can before love walks away",
+  "",
+  "I'm sorry."
+ ]
+}

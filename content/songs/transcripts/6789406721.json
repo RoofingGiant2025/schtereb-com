@@ -1,0 +1,111 @@
+{
+ "apple_id": 6789406721,
+ "title": "Du Du Festival",
+ "released": "2026-07-09",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/**du-du-festival**.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 29.98,
+   "text": "I'm sorry."
+  },
+  {
+   "start": 30.0,
+   "end": 33.6,
+   "text": "Hold that line"
+  },
+  {
+   "start": 33.6,
+   "end": 37.26,
+   "text": "Feel it climb"
+  },
+  {
+   "start": 37.26,
+   "end": 39.8,
+   "text": "I love you more"
+  },
+  {
+   "start": 39.8,
+   "end": 44.4,
+   "text": "More than ever before"
+  },
+  {
+   "start": 44.4,
+   "end": 47.08,
+   "text": "I love you too"
+  },
+  {
+   "start": 47.08,
+   "end": 50.88,
+   "text": "I love you too"
+  },
+  {
+   "start": 50.88,
+   "end": 54.66,
+   "text": "I love you too"
+  },
+  {
+   "start": 54.66,
+   "end": 57.02,
+   "text": "Even more"
+  },
+  {
+   "start": 57.02,
+   "end": 60.16,
+   "text": "More than ever before"
+  },
+  {
+   "start": 87.02,
+   "end": 108.56,
+   "text": "Hold that line"
+  },
+  {
+   "start": 108.56,
+   "end": 112.12,
+   "text": "Feel it climb"
+  },
+  {
+   "start": 117.02,
+   "end": 147.0,
+   "text": "I'm sorry."
+  },
+  {
+   "start": 147.02,
+   "end": 153.68,
+   "text": "Then hush, then rise"
+  },
+  {
+   "start": 153.68,
+   "end": 156.64,
+   "text": "Right there, alive"
+  },
+  {
+   "start": 177.02,
+   "end": 207.0,
+   "text": "I'm out."
+  }
+ ],
+ "lines": [
+  "I'm sorry.",
+  "Hold that line",
+  "Feel it climb",
+  "I love you more",
+  "More than ever before",
+  "I love you too",
+  "I love you too",
+  "I love you too",
+  "Even more",
+  "More than ever before",
+  "",
+  "Hold that line",
+  "Feel it climb",
+  "",
+  "I'm sorry.",
+  "Then hush, then rise",
+  "Right there, alive",
+  "",
+  "I'm out."
+ ]
+}

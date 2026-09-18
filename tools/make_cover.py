@@ -25,7 +25,7 @@ ROOM, PAPER, GILT, MUTED = colors.HexColor("#12100e"), colors.HexColor("#f4ead6"
 
 def build(out):
     c = Canvas(out, pagesize=(W, H), initialFontName="CG")
-    c.setTitle("Ноти життя: до і після — cover"); c.setAuthor("Oleg Shtereb")
+    c.setTitle("Ноти життя: до і після — cover"); c.setAuthor("Oleg Schtereb")
     # whole sheet: room colour (covers back, spine, and all bleed)
     c.setFillColor(ROOM); c.rect(0, 0, W, H, stroke=0, fill=1)
     # ---- front panel: painting full-bleed, cropped to the panel + bleed
@@ -76,7 +76,7 @@ def build(out):
         Paragraph("<br/>Eighty poems written in Ukrainian and Russian, and two in English — from first "
                   "infatuation and the loneliness of youth to faith. Each poem appears in its original "
                   "language and in verse translation: Ukrainian, Russian, English, Spanish.", st),
-        Paragraph("<br/><br/>Олег Штереб · Oleg Shtereb", sti),
+        Paragraph("<br/><br/>Олег Штереб · Oleg Schtereb", sti),
         Paragraph("Перша збірка · A first collection", stm),
         Paragraph("<br/>schtereb.com", ParagraphStyle("u", parent=stm, textColor=GILT)),
     ]

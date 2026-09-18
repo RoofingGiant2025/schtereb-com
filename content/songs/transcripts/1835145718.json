@@ -1,0 +1,295 @@
+{
+ "apple_id": 1835145718,
+ "title": "Lovable Time",
+ "released": "2025-08-23",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Downloads/Lovable_Time__Extended_Festival_Mix__ef26978d-5e35-48a6-b1dc-9e016e32f90e.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 19.68,
+   "text": "Deep Bass Rumble"
+  },
+  {
+   "start": 30.0,
+   "end": 39.22,
+   "text": "I had started taking baseline to Kim's two poles"
+  },
+  {
+   "start": 39.22,
+   "end": 50.34,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 50.34,
+   "end": 52.94,
+   "text": "I create the light"
+  },
+  {
+   "start": 52.94,
+   "end": 55.5,
+   "text": "I create the floor"
+  },
+  {
+   "start": 55.5,
+   "end": 59.18,
+   "text": "I create the sound and the ground"
+  },
+  {
+   "start": 59.18,
+   "end": 62.22,
+   "text": "Hold on bro, I'm writing a song"
+  },
+  {
+   "start": 62.22,
+   "end": 64.68,
+   "text": "I'll play it for you, won't take long"
+  },
+  {
+   "start": 64.68,
+   "end": 67.16,
+   "text": "Energy high, feel the bass ignite"
+  },
+  {
+   "start": 67.16,
+   "end": 69.86,
+   "text": "We're flying through this neon night"
+  },
+  {
+   "start": 69.86,
+   "end": 72.08,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 72.08,
+   "end": 75.12,
+   "text": "I create the light, I create the floor"
+  },
+  {
+   "start": 75.12,
+   "end": 77.74,
+   "text": "I create the sound and the ground"
+  },
+  {
+   "start": 77.74,
+   "end": 80.12,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 80.12,
+   "end": 82.68,
+   "text": "Hold on though bro, I'm writing a song"
+  },
+  {
+   "start": 82.68,
+   "end": 85.68,
+   "text": "I'll play it for you, won't take long"
+  },
+  {
+   "start": 85.68,
+   "end": 87.54,
+   "text": "Energy high"
+  },
+  {
+   "start": 87.54,
+   "end": 89.94,
+   "text": "Feel the bass ignite"
+  },
+  {
+   "start": 89.94,
+   "end": 97.28,
+   "text": "We're flying through this neon night"
+  },
+  {
+   "start": 97.28,
+   "end": 99.94,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 99.94,
+   "end": 102.52,
+   "text": "Create the light"
+  },
+  {
+   "start": 102.52,
+   "end": 105.0,
+   "text": "Create the floor"
+  },
+  {
+   "start": 105.0,
+   "end": 108.6,
+   "text": "Create the sound and the ground"
+  },
+  {
+   "start": 108.6,
+   "end": 112.24,
+   "text": "Come dance with this light"
+  },
+  {
+   "start": 112.24,
+   "end": 115.0,
+   "text": "Come here"
+  },
+  {
+   "start": 115.0,
+   "end": 119.98,
+   "text": "Come here, my dear"
+  },
+  {
+   "start": 119.98,
+   "end": 125.0,
+   "text": "One beat, two beats"
+  },
+  {
+   "start": 125.0,
+   "end": 127.66,
+   "text": "Feel the heart raise, lift the face"
+  },
+  {
+   "start": 127.66,
+   "end": 129.72,
+   "text": "This is your space tonight"
+  },
+  {
+   "start": 129.72,
+   "end": 139.46,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 139.46,
+   "end": 142.14,
+   "text": "I create the light"
+  },
+  {
+   "start": 142.14,
+   "end": 144.52,
+   "text": "I create the floor"
+  },
+  {
+   "start": 144.52,
+   "end": 148.2,
+   "text": "I create the sound and the ground"
+  },
+  {
+   "start": 148.2,
+   "end": 151.82,
+   "text": "Come dance with soul tonight"
+  },
+  {
+   "start": 151.82,
+   "end": 164.44,
+   "text": "Slow it down, breathe it in"
+  },
+  {
+   "start": 164.44,
+   "end": 168.96,
+   "text": "This is where we begin"
+  },
+  {
+   "start": 168.96,
+   "end": 173.1,
+   "text": "It's a lovable time"
+  },
+  {
+   "start": 173.1,
+   "end": 175.74,
+   "text": "It's lovable time"
+  },
+  {
+   "start": 175.74,
+   "end": 179.04,
+   "text": "Come here, my dear"
+  },
+  {
+   "start": 179.04,
+   "end": 188.94,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 188.94,
+   "end": 191.56,
+   "text": "I create the light"
+  },
+  {
+   "start": 191.56,
+   "end": 194.02,
+   "text": "I create the floor"
+  },
+  {
+   "start": 194.02,
+   "end": 197.72,
+   "text": "I create the sound and the ground"
+  },
+  {
+   "start": 197.72,
+   "end": 201.32,
+   "text": "Come dance with us tonight"
+  },
+  {
+   "start": 201.32,
+   "end": 203.98,
+   "text": "In here"
+  },
+  {
+   "start": 203.98,
+   "end": 206.44,
+   "text": "My dear"
+  },
+  {
+   "start": 206.44,
+   "end": 209.02,
+   "text": "It's a lovable time"
+  }
+ ],
+ "lines": [
+  "Deep Bass Rumble",
+  "",
+  "I had started taking baseline to Kim's two poles",
+  "Come dance with us tonight",
+  "I create the light",
+  "I create the floor",
+  "I create the sound and the ground",
+  "Hold on bro, I'm writing a song",
+  "I'll play it for you, won't take long",
+  "Energy high, feel the bass ignite",
+  "We're flying through this neon night",
+  "Come dance with us tonight",
+  "I create the light, I create the floor",
+  "I create the sound and the ground",
+  "Come dance with us tonight",
+  "Hold on though bro, I'm writing a song",
+  "I'll play it for you, won't take long",
+  "Energy high",
+  "Feel the bass ignite",
+  "We're flying through this neon night",
+  "Come dance with us tonight",
+  "Create the light",
+  "Create the floor",
+  "Create the sound and the ground",
+  "Come dance with this light",
+  "Come here",
+  "Come here, my dear",
+  "One beat, two beats",
+  "Feel the heart raise, lift the face",
+  "This is your space tonight",
+  "Come dance with us tonight",
+  "I create the light",
+  "I create the floor",
+  "I create the sound and the ground",
+  "Come dance with soul tonight",
+  "Slow it down, breathe it in",
+  "This is where we begin",
+  "It's a lovable time",
+  "It's lovable time",
+  "Come here, my dear",
+  "Come dance with us tonight",
+  "I create the light",
+  "I create the floor",
+  "I create the sound and the ground",
+  "Come dance with us tonight",
+  "In here",
+  "My dear",
+  "It's a lovable time"
+ ]
+}

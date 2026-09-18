@@ -1,0 +1,665 @@
+{
+ "poems": {
+  "1": {
+   "pages": [
+    {
+     "w": 849,
+     "h": 1000,
+     "zw": 1699,
+     "zh": 2000,
+     "src": "assets/ms/1.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш у лінійку, кулькова ручка",
+    "ru": "лист в линейку, шариковая ручка",
+    "en": "ruled sheet, ballpoint",
+    "es": "hoja rayada, bolígrafo"
+   }
+  },
+  "6": {
+   "pages": [
+    {
+     "w": 886,
+     "h": 1000,
+     "zw": 1771,
+     "zh": 2000,
+     "src": "assets/ms/6.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "зошит у клітинку, кулькова ручка",
+    "ru": "тетрадь в клетку, шариковая ручка",
+    "en": "squared notebook sheet, ballpoint",
+    "es": "hoja cuadriculada, bolígrafo"
+   }
+  },
+  "9": {
+   "pages": [
+    {
+     "w": 790,
+     "h": 1000,
+     "zw": 1581,
+     "zh": 2000,
+     "src": "assets/ms/9.jpg"
+    }
+   ],
+   "date": "28.07.1999",
+   "medium": {
+    "uk": "зошит у клітинку, кулькова ручка; підпис «З любов’ю, Олег»",
+    "ru": "тетрадь в клетку, шариковая ручка; подпись «З любов’ю, Олег»",
+    "en": "squared notebook sheet, ballpoint; signed “With love, Oleh”",
+    "es": "hoja cuadriculada, bolígrafo; firmado «Con amor, Oleh»"
+   }
+  },
+  "10": {
+   "pages": [
+    {
+     "w": 685,
+     "h": 1000,
+     "zw": 1370,
+     "zh": 2000,
+     "src": "assets/ms/10.jpg"
+    },
+    {
+     "w": 1000,
+     "h": 896,
+     "zw": 1909,
+     "zh": 1710,
+     "src": "assets/ms/10-2.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "зошит у лінійку, кулькова ручка; 2 сторінки",
+    "ru": "тетрадь в линейку, шариковая ручка; 2 страницы",
+    "en": "ruled notebook, ballpoint; 2 pages",
+    "es": "cuaderno rayado, bolígrafo; 2 páginas"
+   }
+  },
+  "11": {
+   "pages": [
+    {
+     "w": 783,
+     "h": 1000,
+     "zw": 1566,
+     "zh": 2000,
+     "src": "assets/ms/11.jpg"
+    }
+   ],
+   "date": "2.06.2000, Київ",
+   "medium": {
+    "uk": "зошит у клітинку, кулькова ручка; чернетка з правками",
+    "ru": "тетрадь в клетку, шариковая ручка; черновик с правками",
+    "en": "squared sheet, ballpoint; working draft with corrections",
+    "es": "hoja cuadriculada, bolígrafo; borrador con correcciones"
+   }
+  },
+  "16": {
+   "pages": [
+    {
+     "w": 718,
+     "h": 1000,
+     "zw": 1436,
+     "zh": 2000,
+     "src": "assets/ms/16.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "пожовклий аркуш, кулькова ручка",
+    "ru": "пожелтевший лист, шариковая ручка",
+    "en": "yellowed sheet, ballpoint",
+    "es": "hoja amarillenta, bolígrafo"
+   }
+  },
+  "23": {
+   "pages": [
+    {
+     "w": 782,
+     "h": 1000,
+     "zw": 1565,
+     "zh": 2000,
+     "src": "assets/ms/23.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш у лінійку, кулькова ручка; чернетка з правками",
+    "ru": "лист в линейку, шариковая ручка; черновик с правками",
+    "en": "ruled sheet, ballpoint; draft with corrections",
+    "es": "hoja rayada, bolígrafo; borrador con correcciones"
+   }
+  },
+  "25": {
+   "pages": [
+    {
+     "w": 742,
+     "h": 1000,
+     "zw": 1483,
+     "zh": 2000,
+     "src": "assets/ms/25.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш, кулькова ручка; строфи 4–5, нижче — початок «Хотел бы…»",
+    "ru": "лист, шариковая ручка; строфы 4–5, ниже — начало «Хотел бы…»",
+    "en": "sheet, ballpoint; stanzas 4–5, below them the opening of “I Would Like…”",
+    "es": "hoja, bolígrafo; estrofas 4–5, debajo el inicio de «Quisiera…»"
+   }
+  },
+  "26": {
+   "pages": [
+    {
+     "w": 759,
+     "h": 1000,
+     "zw": 1517,
+     "zh": 2000,
+     "src": "assets/ms/26.jpg"
+    },
+    {
+     "w": 742,
+     "h": 1000,
+     "zw": 1483,
+     "zh": 2000,
+     "src": "assets/ms/26-2.jpg"
+    }
+   ],
+   "date": "28.10.1999, 12:25",
+   "medium": {
+    "uk": "складений учетверо аркуш, кулькова ручка; 2 сторінки, підпис O.Rich",
+    "ru": "сложенный вчетверо лист, шариковая ручка; 2 страницы, подпись O.Rich",
+    "en": "sheet folded in four, ballpoint; 2 pages, signed O.Rich",
+    "es": "hoja doblada en cuatro, bolígrafo; 2 páginas, firmado O.Rich"
+   }
+  },
+  "28": {
+   "pages": [
+    {
+     "w": 783,
+     "h": 1000,
+     "zw": 1565,
+     "zh": 2000,
+     "src": "assets/ms/28.jpg"
+    }
+   ],
+   "date": "4.03, 1:20",
+   "medium": {
+    "uk": "зошит у клітинку, кулькова ручка",
+    "ru": "тетрадь в клетку, шариковая ручка",
+    "en": "squared sheet, ballpoint",
+    "es": "hoja cuadriculada, bolígrafo"
+   }
+  },
+  "37": {
+   "pages": [
+    {
+     "w": 851,
+     "h": 1000,
+     "zw": 1702,
+     "zh": 2000,
+     "src": "assets/ms/37.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш, чорнило; внизу — малюнок-штамп O.Rich",
+    "ru": "лист, чернила; внизу — рисунок-штамп O.Rich",
+    "en": "sheet, ink; the O.Rich stamp drawing at the foot",
+    "es": "hoja, tinta; abajo, el dibujo-sello O.Rich"
+   }
+  },
+  "41": {
+   "pages": [
+    {
+     "w": 805,
+     "h": 1000,
+     "zw": 1610,
+     "zh": 2000,
+     "src": "assets/ms/41.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "зошит у клітинку, кулькова ручка",
+    "ru": "тетрадь в клетку, шариковая ручка",
+    "en": "squared sheet, ballpoint",
+    "es": "hoja cuadriculada, bolígrafo"
+   }
+  },
+  "45": {
+   "pages": [
+    {
+     "w": 897,
+     "h": 1000,
+     "zw": 1794,
+     "zh": 2000,
+     "src": "assets/ms/45.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш у лінійку, кулькова ручка",
+    "ru": "лист в линейку, шариковая ручка",
+    "en": "ruled sheet, ballpoint",
+    "es": "hoja rayada, bolígrafo"
+   }
+  },
+  "48": {
+   "pages": [
+    {
+     "w": 1000,
+     "h": 893,
+     "zw": 2000,
+     "zh": 1786,
+     "src": "assets/ms/48.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш у клітинку, кулькова ручка; строфи 1–3",
+    "ru": "лист в клетку, шариковая ручка; строфы 1–3",
+    "en": "squared sheet, ballpoint; stanzas 1–3",
+    "es": "hoja cuadriculada, bolígrafo; estrofas 1–3"
+   }
+  },
+  "49": {
+   "pages": [
+    {
+     "w": 820,
+     "h": 1000,
+     "zw": 1640,
+     "zh": 2000,
+     "src": "assets/ms/49.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш у лінійку, кулькова ручка; сторінка 1",
+    "ru": "лист в линейку, шариковая ручка; страница 1",
+    "en": "ruled sheet, ballpoint; page 1",
+    "es": "hoja rayada, bolígrafo; página 1"
+   }
+  },
+  "51": {
+   "pages": [
+    {
+     "w": 734,
+     "h": 1000,
+     "zw": 1467,
+     "zh": 2000,
+     "src": "assets/ms/51.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "блокнот на спіралі, кулькова ручка; строфи 3–7",
+    "ru": "блокнот на спирали, шариковая ручка; строфы 3–7",
+    "en": "spiral notebook, ballpoint; stanzas 3–7",
+    "es": "cuaderno de espiral, bolígrafo; estrofas 3–7"
+   }
+  },
+  "59": {
+   "pages": [
+    {
+     "w": 824,
+     "h": 1000,
+     "zw": 1647,
+     "zh": 2000,
+     "src": "assets/ms/59.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш у клітинку, кулькова ручка",
+    "ru": "лист в клетку, шариковая ручка",
+    "en": "squared sheet, ballpoint",
+    "es": "hoja cuadriculada, bolígrafo"
+   }
+  },
+  "61": {
+   "pages": [
+    {
+     "w": 758,
+     "h": 1000,
+     "zw": 1515,
+     "zh": 2000,
+     "src": "assets/ms/61.jpg"
+    }
+   ],
+   "date": "5.02.2002, 00:15",
+   "medium": {
+    "uk": "зошит у клітинку, кулькова ручка; чернетка з правками",
+    "ru": "тетрадь в клетку, шариковая ручка; черновик с правками",
+    "en": "squared sheet, ballpoint; draft with corrections",
+    "es": "hoja cuadriculada, bolígrafo; borrador con correcciones"
+   }
+  },
+  "63": {
+   "pages": [
+    {
+     "w": 719,
+     "h": 1000,
+     "zw": 1437,
+     "zh": 2000,
+     "src": "assets/ms/63.jpg"
+    }
+   ],
+   "date": "5.12.2005, 1:40",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка",
+    "ru": "лист A4, шариковая ручка",
+    "en": "A4 sheet, ballpoint",
+    "es": "hoja A4, bolígrafo"
+   }
+  },
+  "65": {
+   "pages": [
+    {
+     "w": 754,
+     "h": 1000,
+     "zw": 1508,
+     "zh": 2000,
+     "src": "assets/ms/65.jpg"
+    }
+   ],
+   "date": "27.09.2004, 2:48",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка",
+    "ru": "лист A4, шариковая ручка",
+    "en": "A4 sheet, ballpoint",
+    "es": "hoja A4, bolígrafo"
+   }
+  },
+  "66": {
+   "pages": [
+    {
+     "w": 739,
+     "h": 1000,
+     "zw": 1478,
+     "zh": 2000,
+     "src": "assets/ms/66.jpg"
+    }
+   ],
+   "date": "15.11.2004, 1:47",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка",
+    "ru": "лист A4, шариковая ручка",
+    "en": "A4 sheet, ballpoint",
+    "es": "hoja A4, bolígrafo"
+   }
+  },
+  "67": {
+   "pages": [
+    {
+     "w": 711,
+     "h": 1000,
+     "zw": 1423,
+     "zh": 2000,
+     "src": "assets/ms/67.jpg"
+    },
+    {
+     "w": 764,
+     "h": 1000,
+     "zw": 1528,
+     "zh": 2000,
+     "src": "assets/ms/67-2.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка; 2 сторінки, чернетка з правками",
+    "ru": "лист A4, шариковая ручка; 2 страницы, черновик с правками",
+    "en": "A4 sheet, ballpoint; 2 pages, draft with corrections",
+    "es": "hoja A4, bolígrafo; 2 páginas, borrador con correcciones"
+   }
+  },
+  "70": {
+   "pages": [
+    {
+     "w": 749,
+     "h": 1000,
+     "zw": 1498,
+     "zh": 2000,
+     "src": "assets/ms/70.jpg"
+    }
+   ],
+   "date": "",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка; сторінка 2, чернетка",
+    "ru": "лист A4, шариковая ручка; страница 2, черновик",
+    "en": "A4 sheet, ballpoint; page 2, draft",
+    "es": "hoja A4, bolígrafo; página 2, borrador"
+   }
+  },
+  "72": {
+   "pages": [
+    {
+     "w": 725,
+     "h": 1000,
+     "zw": 1450,
+     "zh": 2000,
+     "src": "assets/ms/72.jpg"
+    }
+   ],
+   "date": "18.03.2005, 23:54",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка",
+    "ru": "лист A4, шариковая ручка",
+    "en": "A4 sheet, ballpoint",
+    "es": "hoja A4, bolígrafo"
+   }
+  },
+  "76": {
+   "pages": [
+    {
+     "w": 780,
+     "h": 1000,
+     "zw": 1560,
+     "zh": 2000,
+     "src": "assets/ms/76.jpg"
+    }
+   ],
+   "date": "24.03.2005, 0:05",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка",
+    "ru": "лист A4, шариковая ручка",
+    "en": "A4 sheet, ballpoint",
+    "es": "hoja A4, bolígrafo"
+   }
+  },
+  "78": {
+   "pages": [
+    {
+     "w": 741,
+     "h": 1000,
+     "zw": 1482,
+     "zh": 2000,
+     "src": "assets/ms/78.jpg"
+    }
+   ],
+   "date": "17.01.2006, 1:17",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка",
+    "ru": "лист A4, шариковая ручка",
+    "en": "A4 sheet, ballpoint",
+    "es": "hoja A4, bolígrafo"
+   }
+  },
+  "80": {
+   "pages": [
+    {
+     "w": 718,
+     "h": 1000,
+     "zw": 1436,
+     "zh": 2000,
+     "src": "assets/ms/80.jpg"
+    }
+   ],
+   "date": "21.09.2004, 00:30",
+   "medium": {
+    "uk": "аркуш A4, кулькова ручка; «посвящ. Всім поетам»",
+    "ru": "лист A4, шариковая ручка; «посвящ. Всім поетам»",
+    "en": "A4 sheet, ballpoint; inscribed “dedicated to all poets”",
+    "es": "hoja A4, bolígrafo; «dedicado a todos los poetas»"
+   }
+  }
+ },
+ "art": {
+  "frontispiece": {
+   "w": 980,
+   "h": 1000,
+   "zw": 1912,
+   "zh": 1951,
+   "src": "assets/art/frontispiece.jpg",
+   "title": {
+    "uk": "Автопортрет",
+    "ru": "Автопортрет",
+    "en": "Self-portrait",
+    "es": "Autorretrato"
+   },
+   "note": {
+    "uk": "олівець, підпис O.Rich",
+    "ru": "карандаш, подпись O.Rich",
+    "en": "pencil, signed O.Rich",
+    "es": "lápiz, firmado O.Rich"
+   }
+  },
+  "endpaper": {
+   "w": 736,
+   "h": 1000,
+   "zw": 1472,
+   "zh": 2000,
+   "src": "assets/art/endpaper.jpg",
+   "title": {
+    "uk": "Папка для паперів",
+    "ru": "Папка для бумаг",
+    "en": "The folder",
+    "es": "La carpeta"
+   },
+   "note": {
+    "uk": "папка, в якій зберігалися рукописи",
+    "ru": "папка, в которой хранились рукописи",
+    "en": "the folder the manuscripts were kept in",
+    "es": "la carpeta donde se guardaban los manuscritos"
+   }
+  },
+  "part-before": {
+   "w": 1000,
+   "h": 634,
+   "zw": 2000,
+   "zh": 1268,
+   "src": "assets/art/part-before.jpg",
+   "title": {
+    "uk": "Три ока",
+    "ru": "Три глаза",
+    "en": "Three Eyes",
+    "es": "Tres ojos"
+   },
+   "note": {
+    "uk": "кулькова ручка, зелений олівець",
+    "ru": "шариковая ручка, зелёный карандаш",
+    "en": "ballpoint and green pencil",
+    "es": "bolígrafo y lápiz verde"
+   }
+  },
+  "sec-1": {
+   "w": 617,
+   "h": 1000,
+   "zw": 1234,
+   "zh": 2000,
+   "src": "assets/art/sec-1.jpg",
+   "title": {
+    "uk": "Рибка і лебідь",
+    "ru": "Рыбка и лебедь",
+    "en": "Goldfish and Swan",
+    "es": "Pez dorado y cisne"
+   },
+   "note": {
+    "uk": "кольорові олівці, шкільний малюнок",
+    "ru": "цветные карандаши, школьный рисунок",
+    "en": "coloured pencils, a school drawing",
+    "es": "lápices de colores, dibujo escolar"
+   }
+  },
+  "sec-2": {
+   "w": 726,
+   "h": 1000,
+   "zw": 1453,
+   "zh": 2000,
+   "src": "assets/art/sec-2.jpg",
+   "title": {
+    "uk": "Santa Chortika",
+    "ru": "Santa Chortika",
+    "en": "Santa Chortika",
+    "es": "Santa Chortika"
+   },
+   "note": {
+    "uk": "кулькова ручка",
+    "ru": "шариковая ручка",
+    "en": "ballpoint",
+    "es": "bolígrafo"
+   }
+  },
+  "sec-3": {
+   "w": 750,
+   "h": 1000,
+   "zw": 1500,
+   "zh": 2000,
+   "src": "assets/art/sec-3.jpg",
+   "title": {
+    "uk": "Тарас Шевченко",
+    "ru": "Тарас Шевченко",
+    "en": "Taras Shevchenko",
+    "es": "Tarás Shevchenko"
+   },
+   "note": {
+    "uk": "олівець, за автопортретом поета",
+    "ru": "карандаш, по автопортрету поэта",
+    "en": "pencil, after the poet’s self-portrait",
+    "es": "lápiz, según el autorretrato del poeta"
+   }
+  },
+  "part-after": {
+   "w": 819,
+   "h": 1000,
+   "zw": 1637,
+   "zh": 2000,
+   "src": "assets/art/part-after.jpg",
+   "title": {
+    "uk": "Хлопчик у полі",
+    "ru": "Мальчик в поле",
+    "en": "Boy in a Field",
+    "es": "Niño en el campo"
+   },
+   "note": {
+    "uk": "гуаш",
+    "ru": "гуашь",
+    "en": "gouache",
+    "es": "gouache"
+   }
+  },
+  "colophon": {
+   "w": 569,
+   "h": 1000,
+   "zw": 1138,
+   "zh": 2000,
+   "src": "assets/art/colophon.jpg",
+   "title": {
+    "uk": "«Вся суть не в том, о чём думаем»",
+    "ru": "«Вся суть не в том, о чём думаем»",
+    "en": "“The whole point is not what we think about”",
+    "es": "«Lo esencial no es aquello en lo que pensamos»"
+   },
+   "note": {
+    "uk": "кулькова ручка, підпис O★Rich",
+    "ru": "шариковая ручка, подпись O★Rich",
+    "en": "ballpoint, signed O★Rich",
+    "es": "bolígrafo, firmado O★Rich"
+   }
+  }
+ }
+}

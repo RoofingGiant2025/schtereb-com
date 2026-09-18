@@ -1,0 +1,223 @@
+{
+ "apple_id": 6779731594,
+ "title": "Flâneur",
+ "released": "2026-06-12",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Flâneur.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 26.52,
+   "text": "I walk through cities made of light"
+  },
+  {
+   "start": 26.52,
+   "end": 31.56,
+   "text": "Neon ghosts in black and white"
+  },
+  {
+   "start": 31.56,
+   "end": 36.5,
+   "text": "Every window tells a tale"
+  },
+  {
+   "start": 36.5,
+   "end": 41.52,
+   "text": "Every heartbeat leaves a trail"
+  },
+  {
+   "start": 41.52,
+   "end": 46.76,
+   "text": "People rush and heads bow down"
+  },
+  {
+   "start": 46.76,
+   "end": 51.76,
+   "text": "Kings and beggars wear a crown"
+  },
+  {
+   "start": 51.76,
+   "end": 56.96,
+   "text": "I collect what they ignore"
+  },
+  {
+   "start": 56.96,
+   "end": 61.94,
+   "text": "Fragments scattered on the floor"
+  },
+  {
+   "start": 61.94,
+   "end": 67.62,
+   "text": "I don't run, I don't chase"
+  },
+  {
+   "start": 67.62,
+   "end": 72.62,
+   "text": "I let time reveal its face"
+  },
+  {
+   "start": 72.62,
+   "end": 77.86,
+   "text": "I am a flyer, walking through the noise"
+  },
+  {
+   "start": 77.86,
+   "end": 83.02,
+   "text": "Listening to silence hidden in the voice"
+  },
+  {
+   "start": 83.02,
+   "end": 87.74,
+   "text": "I am a flaniel, a stranger passing through"
+  },
+  {
+   "start": 87.74,
+   "end": 95.08,
+   "text": "Searching for the patterns that were always true"
+  },
+  {
+   "start": 95.08,
+   "end": 103.3,
+   "text": "Rain reflects a thousand skies"
+  },
+  {
+   "start": 103.3,
+   "end": 108.42,
+   "text": "Truth disguises itself in lies"
+  },
+  {
+   "start": 108.42,
+   "end": 112.68,
+   "text": "Every street a memory"
+  },
+  {
+   "start": 112.68,
+   "end": 117.78,
+   "text": "Every glance a mystery"
+  },
+  {
+   "start": 117.78,
+   "end": 123.34,
+   "text": "Some are looking for a home"
+  },
+  {
+   "start": 123.34,
+   "end": 128.3,
+   "text": "Some are terrified alone"
+  },
+  {
+   "start": 128.3,
+   "end": 139.06,
+   "text": "I just wander through the scene, seeing what has never been seen"
+  },
+  {
+   "start": 139.06,
+   "end": 149.26,
+   "text": "I don't fight, I don't flee, I let the world speak to me"
+  },
+  {
+   "start": 149.26,
+   "end": 154.48,
+   "text": "I am a flanier, walking through the noise"
+  },
+  {
+   "start": 154.48,
+   "end": 159.56,
+   "text": "Listen to silence hidden in the voice"
+  },
+  {
+   "start": 159.56,
+   "end": 164.38,
+   "text": "I am a flanier, a stranger passing through"
+  },
+  {
+   "start": 164.38,
+   "end": 171.66,
+   "text": "Searching for the patterns that were always true"
+  },
+  {
+   "start": 179.26,
+   "end": 186.98,
+   "text": "Not a traveler of nations, not a collector of names"
+  },
+  {
+   "start": 186.98,
+   "end": 192.28,
+   "text": "I wander through consciousness and return with a flame"
+  },
+  {
+   "start": 192.28,
+   "end": 197.26,
+   "text": "The avenues of reason, the alleyways of dreams"
+  },
+  {
+   "start": 197.26,
+   "end": 203.26,
+   "text": "Nothing is quite what it is, nothing is what it seems"
+  },
+  {
+   "start": 203.26,
+   "end": 210.62,
+   "text": "I am a flyer, walking through the noise"
+  },
+  {
+   "start": 210.62,
+   "end": 215.72,
+   "text": "Listening to silence hidden in the voice"
+  },
+  {
+   "start": 215.72,
+   "end": 220.6,
+   "text": "I am a flyer, a witness to the view"
+  },
+  {
+   "start": 220.6,
+   "end": 227.88,
+   "text": "Watching all the colorful people trying to become true"
+  },
+  {
+   "start": 227.88,
+   "end": 233.38,
+   "text": "I am a fanya"
+  }
+ ],
+ "lines": [
+  "I walk through cities made of light",
+  "Neon ghosts in black and white",
+  "Every window tells a tale",
+  "Every heartbeat leaves a trail",
+  "People rush and heads bow down",
+  "Kings and beggars wear a crown",
+  "I collect what they ignore",
+  "Fragments scattered on the floor",
+  "I don't run, I don't chase",
+  "I let time reveal its face",
+  "I am a flyer, walking through the noise",
+  "Listening to silence hidden in the voice",
+  "I am a flaniel, a stranger passing through",
+  "Searching for the patterns that were always true",
+  "Rain reflects a thousand skies",
+  "Truth disguises itself in lies",
+  "Every street a memory",
+  "Every glance a mystery",
+  "Some are looking for a home",
+  "Some are terrified alone",
+  "I just wander through the scene, seeing what has never been seen",
+  "I don't fight, I don't flee, I let the world speak to me",
+  "I am a flanier, walking through the noise",
+  "Listen to silence hidden in the voice",
+  "I am a flanier, a stranger passing through",
+  "Searching for the patterns that were always true",
+  "",
+  "Not a traveler of nations, not a collector of names",
+  "I wander through consciousness and return with a flame",
+  "The avenues of reason, the alleyways of dreams",
+  "Nothing is quite what it is, nothing is what it seems",
+  "I am a flyer, walking through the noise",
+  "Listening to silence hidden in the voice",
+  "I am a flyer, a witness to the view",
+  "Watching all the colorful people trying to become true",
+  "I am a fanya"
+ ]
+}

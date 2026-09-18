@@ -1,0 +1,174 @@
+{
+ "apple_id": 6773604834,
+ "title": "My Gucci",
+ "released": "2026-05-26",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/my-gucci.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.0,
+   "text": "Who's new now?"
+  },
+  {
+   "start": 4.8,
+   "end": 6.32,
+   "text": "My Gucci, my Gucci"
+  },
+  {
+   "start": 6.32,
+   "end": 10.0,
+   "text": "Big dog, go so"
+  },
+  {
+   "start": 10.0,
+   "end": 13.72,
+   "text": "My Gucci, my Gucci"
+  },
+  {
+   "start": 13.72,
+   "end": 16.76,
+   "text": "Late nights on the hardwood floor"
+  },
+  {
+   "start": 16.76,
+   "end": 20.42,
+   "text": "What outside, I close the door"
+  },
+  {
+   "start": 20.42,
+   "end": 23.84,
+   "text": "No fake love, no fake crew"
+  },
+  {
+   "start": 23.84,
+   "end": 27.64,
+   "text": "Only real eyes next to you"
+  },
+  {
+   "start": 27.64,
+   "end": 34.98,
+   "text": "Head down low, he feel my pain Silent burn, no need explain"
+  },
+  {
+   "start": 34.98,
+   "end": 41.8,
+   "text": "People switch like seasons do But my Gucci stay true"
+  },
+  {
+   "start": 41.8,
+   "end": 50.8,
+   "text": "When the lights go dim and the room gets cold He don't ask me why, he already knows"
+  },
+  {
+   "start": 50.8,
+   "end": 55.2,
+   "text": "My Gucci, my Gucci Ride or die, never judgment"
+  },
+  {
+   "start": 55.2,
+   "end": 58.86,
+   "text": "Big paws, big hearts, stay beside me from the start"
+  },
+  {
+   "start": 58.86,
+   "end": 63.0,
+   "text": "Ooh, snoop now, yeah, we too smooth now"
+  },
+  {
+   "start": 63.0,
+   "end": 66.7,
+   "text": "King dog energy, hold on, calm down"
+  },
+  {
+   "start": 66.7,
+   "end": 70.04,
+   "text": "Black shade, strike gold tea, floor level royalty"
+  },
+  {
+   "start": 70.04,
+   "end": 73.72,
+   "text": "Everybody talk too much, Gucci move silently"
+  },
+  {
+   "start": 73.72,
+   "end": 77.62,
+   "text": "Heavy steps through the hall, protector, watching all"
+  },
+  {
+   "start": 77.62,
+   "end": 81.28,
+   "text": "If I fall into the dark, he the first one when I caught"
+  },
+  {
+   "start": 81.28,
+   "end": 84.92,
+   "text": "No diamonds on his chain, still richer than the fame"
+  },
+  {
+   "start": 84.92,
+   "end": 87.9,
+   "text": "Some souls don't speak words, still change every brain"
+  },
+  {
+   "start": 87.9,
+   "end": 92.22,
+   "text": "My Gucci, my Gucci, ain't nobody above me"
+  },
+  {
+   "start": 92.22,
+   "end": 95.78,
+   "text": "Loyal through the highs, loyal through the ugly"
+  },
+  {
+   "start": 95.78,
+   "end": 99.8,
+   "text": "Who's new now? Look around now"
+  },
+  {
+   "start": 99.8,
+   "end": 103.46,
+   "text": "Need Gucci in the frame like a movie, slow down"
+  },
+  {
+   "start": 103.46,
+   "end": 106.92,
+   "text": "Good boy, good soul"
+  },
+  {
+   "start": 106.92,
+   "end": 110.5,
+   "text": "My Gucci, my Gucci"
+  }
+ ],
+ "lines": [
+  "Who's new now?",
+  "My Gucci, my Gucci",
+  "Big dog, go so",
+  "My Gucci, my Gucci",
+  "Late nights on the hardwood floor",
+  "What outside, I close the door",
+  "No fake love, no fake crew",
+  "Only real eyes next to you",
+  "Head down low, he feel my pain Silent burn, no need explain",
+  "People switch like seasons do But my Gucci stay true",
+  "When the lights go dim and the room gets cold He don't ask me why, he already knows",
+  "My Gucci, my Gucci Ride or die, never judgment",
+  "Big paws, big hearts, stay beside me from the start",
+  "Ooh, snoop now, yeah, we too smooth now",
+  "King dog energy, hold on, calm down",
+  "Black shade, strike gold tea, floor level royalty",
+  "Everybody talk too much, Gucci move silently",
+  "Heavy steps through the hall, protector, watching all",
+  "If I fall into the dark, he the first one when I caught",
+  "No diamonds on his chain, still richer than the fame",
+  "Some souls don't speak words, still change every brain",
+  "My Gucci, my Gucci, ain't nobody above me",
+  "Loyal through the highs, loyal through the ugly",
+  "Who's new now? Look around now",
+  "Need Gucci in the frame like a movie, slow down",
+  "Good boy, good soul",
+  "My Gucci, my Gucci"
+ ]
+}

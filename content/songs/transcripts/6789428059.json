@@ -1,0 +1,483 @@
+{
+ "apple_id": 6789428059,
+ "title": "Brian Golf",
+ "released": "2026-07-09",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/brian-golf.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 24.64,
+   "text": "My friend Brian asked me today to write a song about golf."
+  },
+  {
+   "start": 24.64,
+   "end": 27.24,
+   "text": "Here we go."
+  },
+  {
+   "start": 30.0,
+   "end": 44.84,
+   "text": "I say yes to a song"
+  },
+  {
+   "start": 44.84,
+   "end": 52.2,
+   "text": "I know nothing about God"
+  },
+  {
+   "start": 52.2,
+   "end": 55.16,
+   "text": "Here we go again"
+  },
+  {
+   "start": 55.16,
+   "end": 58.0,
+   "text": "Again"
+  },
+  {
+   "start": 60.0,
+   "end": 85.2,
+   "text": "My friend Brian, he's a gold pro, tough pro, I don't even know where the ball goes, where the grass ends, while the little car got no doors, my friend, he says, Dr. O, just feel the swing."
+  },
+  {
+   "start": 85.2,
+   "end": 88.24,
+   "text": "I said, Brian, brother, I don't know a thing"
+  },
+  {
+   "start": 88.24,
+   "end": 91.44,
+   "text": "But I got rhythm, I got soul"
+  },
+  {
+   "start": 91.44,
+   "end": 94.88,
+   "text": "So I put the whole course in a rock and roll"
+  },
+  {
+   "start": 94.88,
+   "end": 98.26,
+   "text": "I don't know the club, I don't know the score"
+  },
+  {
+   "start": 98.26,
+   "end": 101.54,
+   "text": "But I know Brian can open the door"
+  },
+  {
+   "start": 101.54,
+   "end": 105.06,
+   "text": "To the green, to the sky, to the ball"
+  },
+  {
+   "start": 105.06,
+   "end": 107.24,
+   "text": "Flying high, I don't know golf"
+  },
+  {
+   "start": 107.24,
+   "end": 108.86,
+   "text": "But I know this guy"
+  },
+  {
+   "start": 108.86,
+   "end": 111.62,
+   "text": "Brian Golf, here we go"
+  },
+  {
+   "start": 111.62,
+   "end": 115.02,
+   "text": "Swing that thing, let it roll"
+  },
+  {
+   "start": 115.02,
+   "end": 117.16,
+   "text": "Brian Go"
+  },
+  {
+   "start": 117.16,
+   "end": 118.9,
+   "text": "Go Pro Soul"
+  },
+  {
+   "start": 118.9,
+   "end": 120.54,
+   "text": "Hit that ball"
+  },
+  {
+   "start": 120.54,
+   "end": 121.92,
+   "text": "Let it go"
+  },
+  {
+   "start": 121.92,
+   "end": 124.38,
+   "text": "I know nothing"
+  },
+  {
+   "start": 124.38,
+   "end": 127.08,
+   "text": "But I feel it now"
+  },
+  {
+   "start": 127.08,
+   "end": 130.62,
+   "text": "Brian Go"
+  },
+  {
+   "start": 130.62,
+   "end": 133.84,
+   "text": "Take a bow"
+  },
+  {
+   "start": 133.84,
+   "end": 137.76,
+   "text": "Everybody quiet"
+  },
+  {
+   "start": 137.76,
+   "end": 139.46,
+   "text": "Standing in the sun"
+  },
+  {
+   "start": 139.46,
+   "end": 141.1,
+   "text": "Brian steps up"
+  },
+  {
+   "start": 141.1,
+   "end": 142.74,
+   "text": "Like the war is won"
+  },
+  {
+   "start": 142.74,
+   "end": 144.6,
+   "text": "I'm by the cart"
+  },
+  {
+   "start": 144.6,
+   "end": 146.42,
+   "text": "Looking confused"
+  },
+  {
+   "start": 146.42,
+   "end": 149.6,
+   "text": "Is this a sport or expensive shoes?"
+  },
+  {
+   "start": 150.16,
+   "end": 151.84,
+   "text": "He says watch the grip"
+  },
+  {
+   "start": 151.84,
+   "end": 153.56,
+   "text": "I say watch the vibe"
+  },
+  {
+   "start": 153.56,
+   "end": 155.26,
+   "text": "He says watch the wind"
+  },
+  {
+   "start": 155.26,
+   "end": 157.04,
+   "text": "I say I'm alive"
+  },
+  {
+   "start": 157.04,
+   "end": 159.3,
+   "text": "Birdie bogey"
+  },
+  {
+   "start": 159.3,
+   "end": 160.48,
+   "text": "Eagle too"
+  },
+  {
+   "start": 160.48,
+   "end": 163.44,
+   "text": "Sounds like animals escape from the zoo"
+  },
+  {
+   "start": 163.44,
+   "end": 165.2,
+   "text": "I don't know the clock"
+  },
+  {
+   "start": 165.2,
+   "end": 166.86,
+   "text": "I don't know the score"
+  },
+  {
+   "start": 166.86,
+   "end": 170.1,
+   "text": "But I know Brian can't open the door"
+  },
+  {
+   "start": 170.1,
+   "end": 172.76,
+   "text": "To the green, to the sky"
+  },
+  {
+   "start": 172.76,
+   "end": 174.56,
+   "text": "To the ball, flying high"
+  },
+  {
+   "start": 174.56,
+   "end": 177.36,
+   "text": "Don't know golf, but I know the sky"
+  },
+  {
+   "start": 177.36,
+   "end": 180.2,
+   "text": "Brian Gump, here we go"
+  },
+  {
+   "start": 180.2,
+   "end": 183.62,
+   "text": "Swing that thing, let it roll"
+  },
+  {
+   "start": 183.62,
+   "end": 187.42,
+   "text": "Brian Gump, go pro soul"
+  },
+  {
+   "start": 187.42,
+   "end": 190.5,
+   "text": "Hit that ball, let it go"
+  },
+  {
+   "start": 190.5,
+   "end": 195.66,
+   "text": "I know nothing, but I feel it now"
+  },
+  {
+   "start": 195.66,
+   "end": 199.38,
+   "text": "Brian Gump"
+  },
+  {
+   "start": 199.38,
+   "end": 202.4,
+   "text": "Take a bow"
+  },
+  {
+   "start": 202.76,
+   "end": 211.48,
+   "text": "Nine holes, eighteen holes, I don't know, I just go"
+  },
+  {
+   "start": 211.48,
+   "end": 218.06,
+   "text": "White ball, blue sky, Brian says watch it fly"
+  },
+  {
+   "start": 218.06,
+   "end": 225.1,
+   "text": "I say wow, he says nice, I say brother, do that twice"
+  },
+  {
+   "start": 225.1,
+   "end": 231.74,
+   "text": "Gone cock, moving, sunset glow, Brian laughing, Dr. O"
+  },
+  {
+   "start": 231.74,
+   "end": 235.08,
+   "text": "Brian Gough, here we go"
+  },
+  {
+   "start": 235.08,
+   "end": 238.5,
+   "text": "Swing that thing, let it roll"
+  },
+  {
+   "start": 238.5,
+   "end": 242.1,
+   "text": "Brian Gough, no pro soul"
+  },
+  {
+   "start": 242.1,
+   "end": 245.28,
+   "text": "Hit that ball, let it go"
+  },
+  {
+   "start": 245.28,
+   "end": 250.56,
+   "text": "I know nothing, but I made it loud"
+  },
+  {
+   "start": 250.56,
+   "end": 254.12,
+   "text": "Brian Gough"
+  },
+  {
+   "start": 254.12,
+   "end": 257.34,
+   "text": "For the crowd"
+  },
+  {
+   "start": 261.74,
+   "end": 263.98,
+   "text": "Oh"
+  },
+  {
+   "start": 263.98,
+   "end": 268.06,
+   "text": "Brian Gawm"
+  },
+  {
+   "start": 268.06,
+   "end": 271.02,
+   "text": "Here we go"
+  },
+  {
+   "start": 271.02,
+   "end": 276.06,
+   "text": "Brian Gawm"
+  },
+  {
+   "start": 276.06,
+   "end": 281.94,
+   "text": "GoPro song"
+  },
+  {
+   "start": 281.94,
+   "end": 288.54,
+   "text": "My friend Brian"
+  },
+  {
+   "start": 288.54,
+   "end": 291.76,
+   "text": "Asked me today"
+  },
+  {
+   "start": 291.76,
+   "end": 295.36,
+   "text": "To write a song"
+  },
+  {
+   "start": 295.36,
+   "end": 298.88,
+   "text": "About gum"
+  },
+  {
+   "start": 298.88,
+   "end": 302.14,
+   "text": "I said yes"
+  },
+  {
+   "start": 302.14,
+   "end": 305.58,
+   "text": "I know nothing"
+  },
+  {
+   "start": 305.58,
+   "end": 309.14,
+   "text": "About gum"
+  },
+  {
+   "start": 309.14,
+   "end": 314.36,
+   "text": "But the song"
+  },
+  {
+   "start": 314.36,
+   "end": 317.68,
+   "text": "Let's go"
+  },
+  {
+   "start": 318.54,
+   "end": 348.52,
+   "text": "Thank you."
+  }
+ ],
+ "lines": [
+  "My friend Brian asked me today to write a song about golf.",
+  "Here we go.",
+  "",
+  "I say yes to a song",
+  "I know nothing about God",
+  "Here we go again",
+  "Again",
+  "",
+  "My friend Brian, he's a gold pro, tough pro, I don't even know where the ball goes, where the grass ends, while the little car got no doors, my friend, he says, Dr. O, just feel the swing.",
+  "I said, Brian, brother, I don't know a thing",
+  "But I got rhythm, I got soul",
+  "So I put the whole course in a rock and roll",
+  "I don't know the club, I don't know the score",
+  "But I know Brian can open the door",
+  "To the green, to the sky, to the ball",
+  "Flying high, I don't know golf",
+  "But I know this guy",
+  "Brian Golf, here we go",
+  "Swing that thing, let it roll",
+  "Brian Go",
+  "Go Pro Soul",
+  "Hit that ball",
+  "Let it go",
+  "I know nothing",
+  "But I feel it now",
+  "Brian Go",
+  "Take a bow",
+  "Everybody quiet",
+  "Standing in the sun",
+  "Brian steps up",
+  "Like the war is won",
+  "I'm by the cart",
+  "Looking confused",
+  "Is this a sport or expensive shoes?",
+  "He says watch the grip",
+  "I say watch the vibe",
+  "He says watch the wind",
+  "I say I'm alive",
+  "Birdie bogey",
+  "Eagle too",
+  "Sounds like animals escape from the zoo",
+  "I don't know the clock",
+  "I don't know the score",
+  "But I know Brian can't open the door",
+  "To the green, to the sky",
+  "To the ball, flying high",
+  "Don't know golf, but I know the sky",
+  "Brian Gump, here we go",
+  "Swing that thing, let it roll",
+  "Brian Gump, go pro soul",
+  "Hit that ball, let it go",
+  "I know nothing, but I feel it now",
+  "Brian Gump",
+  "Take a bow",
+  "Nine holes, eighteen holes, I don't know, I just go",
+  "White ball, blue sky, Brian says watch it fly",
+  "I say wow, he says nice, I say brother, do that twice",
+  "Gone cock, moving, sunset glow, Brian laughing, Dr. O",
+  "Brian Gough, here we go",
+  "Swing that thing, let it roll",
+  "Brian Gough, no pro soul",
+  "Hit that ball, let it go",
+  "I know nothing, but I made it loud",
+  "Brian Gough",
+  "For the crowd",
+  "",
+  "Oh",
+  "Brian Gawm",
+  "Here we go",
+  "Brian Gawm",
+  "GoPro song",
+  "My friend Brian",
+  "Asked me today",
+  "To write a song",
+  "About gum",
+  "I said yes",
+  "I know nothing",
+  "About gum",
+  "But the song",
+  "Let's go",
+  "Thank you."
+ ]
+}

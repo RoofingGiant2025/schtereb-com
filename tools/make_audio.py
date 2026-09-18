@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Record every poem in every language with macOS speech voices → docs/audio/<lang>/<n>.m4a + manifest.json.
+"""Record every poem in every language with macOS speech voices → docs/audio/<lang>/<n>.m4a + manifest.json ({lang:{n:{s:seconds, v:hash}}}).
 Uses `say` (Apple voices) and `afconvert` (AAC). Stanza breaks become pauses. Re-runs skip files whose text hash is unchanged."""
 import os, json, re, subprocess, hashlib, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -40,7 +40,7 @@ def main():
                 open(meta, "w").write(h)
             dur = subprocess.run(["afinfo", m4a], capture_output=True, text=True).stdout
             sec = float(re.search(r"estimated duration: ([\d.]+)", dur).group(1)) if "estimated duration" in dur else 0
-            manifest[lang][str(p["n"])] = round(sec)
+            manifest[lang][str(p["n"])] = {"s": round(sec), "v": h}   # v = text+voice hash → cache-busting ?v= in the reader
             print(lang, p["n"], round(sec), "s", flush=True)
     old = {}
     mp = os.path.join(OUT, "manifest.json")

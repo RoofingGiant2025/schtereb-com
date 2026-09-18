@@ -1,0 +1,177 @@
+{
+ "apple_id": 6800058790,
+ "title": "Life and Death",
+ "released": "2026-08-10",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Life_and_Death_MASTERED.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 14.0,
+   "text": "Life and death, two equally beautiful experiences that we cannot escape, even though we're you."
+  },
+  {
+   "start": 14.0,
+   "end": 28.32,
+   "text": "I decided for myself"
+  },
+  {
+   "start": 28.32,
+   "end": 31.88,
+   "text": "I will never be constrained"
+  },
+  {
+   "start": 31.88,
+   "end": 35.0,
+   "text": "Where is my paper?"
+  },
+  {
+   "start": 36.58,
+   "end": 38.2,
+   "text": "Where is my pen?"
+  },
+  {
+   "start": 40.02,
+   "end": 41.88,
+   "text": "Here it goes again"
+  },
+  {
+   "start": 41.88,
+   "end": 45.16,
+   "text": "Another beautiful line"
+  },
+  {
+   "start": 45.16,
+   "end": 50.3,
+   "text": "I cannot even stop to rhyme"
+  },
+  {
+   "start": 50.3,
+   "end": 53.84,
+   "text": "I decided for myself"
+  },
+  {
+   "start": 53.84,
+   "end": 57.18,
+   "text": "I will never contradict myself"
+  },
+  {
+   "start": 57.18,
+   "end": 61.98,
+   "text": "I will never put myself in a position where"
+  },
+  {
+   "start": 61.98,
+   "end": 64.1,
+   "text": "There is no choice to make"
+  },
+  {
+   "start": 64.1,
+   "end": 66.82,
+   "text": "How stupid is that?"
+  },
+  {
+   "start": 66.82,
+   "end": 68.68,
+   "text": "I am a mathematician"
+  },
+  {
+   "start": 68.68,
+   "end": 70.8,
+   "text": "I love to calculate"
+  },
+  {
+   "start": 70.8,
+   "end": 74.3,
+   "text": "Here is my thing, here is my staff"
+  },
+  {
+   "start": 74.3,
+   "end": 75.98,
+   "text": "How long do you think?"
+  },
+  {
+   "start": 77.2,
+   "end": 79.1,
+   "text": "It's measured in inches"
+  },
+  {
+   "start": 79.1,
+   "end": 80.52,
+   "text": "Or meters"
+  },
+  {
+   "start": 80.52,
+   "end": 82.92,
+   "text": "Or the fucking kilometers"
+  },
+  {
+   "start": 82.92,
+   "end": 87.38,
+   "text": "Who gives a fuck just how long is the staff?"
+  },
+  {
+   "start": 100.8,
+   "end": 101.3,
+   "text": "Pierce."
+  },
+  {
+   "start": 130.8,
+   "end": 136.1,
+   "text": "Who gives a fuck? Just how long is the staff?"
+  },
+  {
+   "start": 136.1,
+   "end": 158.42,
+   "text": "How long is the life"
+  },
+  {
+   "start": 158.42,
+   "end": 161.76,
+   "text": "Life and death"
+  },
+  {
+   "start": 161.76,
+   "end": 164.9,
+   "text": "Too equally beautiful"
+  },
+  {
+   "start": 164.9,
+   "end": 173.78,
+   "text": "experiences we cannot escape the end"
+  }
+ ],
+ "lines": [
+  "Life and death, two equally beautiful experiences that we cannot escape, even though we're you.",
+  "I decided for myself",
+  "I will never be constrained",
+  "Where is my paper?",
+  "Where is my pen?",
+  "",
+  "Here it goes again",
+  "Another beautiful line",
+  "I cannot even stop to rhyme",
+  "I decided for myself",
+  "I will never contradict myself",
+  "I will never put myself in a position where",
+  "There is no choice to make",
+  "How stupid is that?",
+  "I am a mathematician",
+  "I love to calculate",
+  "Here is my thing, here is my staff",
+  "How long do you think?",
+  "It's measured in inches",
+  "Or meters",
+  "Or the fucking kilometers",
+  "Who gives a fuck just how long is the staff?",
+  "",
+  "Pierce.",
+  "",
+  "Who gives a fuck? Just how long is the staff?",
+  "How long is the life",
+  "Life and death",
+  "Too equally beautiful",
+  "experiences we cannot escape the end"
+ ]
+}

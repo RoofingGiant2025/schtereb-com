@@ -1,0 +1,74 @@
+{
+ "apple_id": 6766536148,
+ "title": "Aquí y Ahora",
+ "released": "2026-05-05",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/aquí-y-ahora.mp3",
+ "language": "es",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "text": "Música"
+  },
+  {
+   "start": 30.0,
+   "end": 59.98,
+   "text": "¡Suscríbete al canal!"
+  },
+  {
+   "start": 60.0,
+   "end": 89.98,
+   "text": "¡Suscríbete al canal!"
+  },
+  {
+   "start": 90.0,
+   "end": 92.84,
+   "text": "No yesterday, no mañana"
+  },
+  {
+   "start": 92.84,
+   "end": 96.2,
+   "text": "I am aquí, ya ora"
+  },
+  {
+   "start": 96.2,
+   "end": 98.86,
+   "text": "I am aquí, ya ora"
+  },
+  {
+   "start": 98.86,
+   "end": 102.46,
+   "text": "Ooh, right now"
+  },
+  {
+   "start": 102.46,
+   "end": 109.82,
+   "text": "Ooh, right now"
+  },
+  {
+   "start": 109.82,
+   "end": 118.0,
+   "text": "Ooh, right now"
+  },
+  {
+   "start": 120.0,
+   "end": 149.98,
+   "text": "¡Suscríbete al canal!"
+  }
+ ],
+ "lines": [
+  "Música",
+  "",
+  "¡Suscríbete al canal!",
+  "¡Suscríbete al canal!",
+  "No yesterday, no mañana",
+  "I am aquí, ya ora",
+  "I am aquí, ya ora",
+  "Ooh, right now",
+  "Ooh, right now",
+  "Ooh, right now",
+  "",
+  "¡Suscríbete al canal!"
+ ]
+}

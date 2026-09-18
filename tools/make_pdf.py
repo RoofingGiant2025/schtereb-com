@@ -158,6 +158,16 @@ class Book(BaseDocTemplate):
 
 from reportlab.pdfgen.canvas import Canvas
 CANVAS_MAKER = Canvas
+PRINT_EDITION = False   # make_print.py sets True: edition page, dedication, blanks so the title and the first poem fall on rectos
+
+from reportlab.platypus.doctemplate import ActionFlowable, PageBegin
+class RectoBreak(ActionFlowable):
+    """Page break that lands the next flowable on an odd (right-hand) page, burning one blank page when needed."""
+    def apply(self, doc):
+        if not (doc._hanging and doc._hanging[-1] is PageBegin):
+            doc.handle_pageBreak()
+        if (doc.page + 1) % 2 == 0:
+            doc.clean_hanging(); doc.handle_pageBreak()
 LANG_ORDER = ["uk", "ru", "en", "es"]
 TITLE = {"uk": "Ноти життя: до і після", "ru": "Ноты жизни: до и после",
          "en": "Notes of Life: Before and After", "es": "Notas de la vida: antes y después"}
@@ -167,6 +177,12 @@ SECTION_T = {"Любов як захоплення": {"ru": "Любовь как
              "Після": {"ru": "После", "en": "After", "es": "Después"}}
 ORIG_LINE = {"uk": "Оригінал · українська", "ru": "Оригинал · русский", "en": "Original · English"}
 TR_LINE = {"uk": "Переклад українською", "ru": "Перевод на русский", "en": "English translation", "es": "Traducción al español"}
+
+def roman_num(n):
+    out = ""
+    for v, r in [(50, "L"), (40, "XL"), (10, "X"), (9, "IX"), (5, "V"), (4, "IV"), (1, "I")]:
+        while n >= v: out += r; n -= v
+    return out
 
 def label(p):
     if p["title"] == "* * *":
@@ -179,18 +195,20 @@ def build(out_path, texts):
     originals = texts["orig"]
     for l in LANG_ORDER:
         assert len(texts[l]) == 82, (l, len(texts[l]))
-    doc = Book(out_path, title="Ноти життя: до і після — Notes of Life: Before and After", author="Oleg Shtereb",
+    doc = Book(out_path, title="Ноти життя: до і після — Notes of Life: Before and After", author="Oleg Schtereb",
                subject="First collection, four languages: Ukrainian, Russian, English, Spanish")
     st = []
     # first page inside: the epigraph
     st.append(Spacer(1, 3.4 * inch))
     st.append(Paragraph("Art Knows No Languages", ParagraphStyle("epi", parent=S["title"], fontSize=20, leading=26)))
     st.append(Spacer(1, 10))
-    st.append(Paragraph("— Oleg Shtereb", S["subtitle"]))
+    st.append(Paragraph("— Oleg Schtereb", S["subtitle"]))
     st.append(PageBreak())
+    if PRINT_EDITION:
+        st.append(RectoBreak())          # the title page is a recto
     # title page
     st.append(Spacer(1, 2.0 * inch))
-    st.append(Paragraph("Олег Штереб · Oleg Shtereb", S["author"]))
+    st.append(Paragraph("Олег Штереб · Oleg Schtereb", S["author"]))
     st.append(Spacer(1, 26))
     st.append(Paragraph("Ноти життя:<br/>до і після", S["title"]))
     st.append(Spacer(1, 16))
@@ -200,9 +218,31 @@ def build(out_path, texts):
     st.append(Spacer(1, 26))
     st.append(Paragraph("Перша збірка · First collection", S["subtitle"]))
     st.append(Paragraph("Вірші I–LXXX · Після I–II", S["subtitle"]))
-    st.append(Spacer(1, 2.0 * inch))
+    st.append(Spacer(1, 1.4 * inch))
     st.append(Paragraph("schtereb.com", S["colophon"]))
     st.append(PageBreak())
+    if PRINT_EDITION:
+        # edition page (verso of the title): copyright, edition statement, a line for the author's number and signature
+        st.append(Spacer(1, 4.5 * inch))
+        for line in ["Ноти життя: до і після · Notes of Life: Before and After",
+                     "© 2026 Олег Штереб · Oleg Schtereb",
+                     "Усі права застережено · All rights reserved",
+                     "Перше видання · First edition · Тверда палітурка · Hardcover",
+                     "Вірші вперше опубліковано на shtereb.com, 2005–2019",
+                     "Переклади · Translations — 2026",
+                     "Set in Georgia · 6 × 9 in · cream paper · printed to order",
+                     "schtereb.com"]:
+            st.append(Paragraph(line, S["colophon"]))
+        st.append(Spacer(1, 22))
+        st.append(Paragraph("Примірник № ____________ · Copy No. ____________", S["colophon"]))
+        st.append(Spacer(1, 14))
+        st.append(Paragraph("Підпис автора · Signed ______________________________", S["colophon"]))
+        st.append(PageBreak())
+        # dedication (recto)
+        st.append(Spacer(1, 3.4 * inch))
+        st.append(Paragraph("Тим, хто живе мрією", ParagraphStyle("ded", parent=S["subtitle"], fontSize=15, leading=21)))
+        st.append(Paragraph("To Those Who Are Living the Dream", S["subtitle"]))
+        st.append(PageBreak())
     # note on the edition (four languages)
     st.append(Spacer(1, 0.6 * inch))
     st.append(Paragraph("Про це видання · Об этом издании<br/>About this edition · Sobre esta edición", S["section_sub"]))
@@ -213,7 +253,7 @@ def build(out_path, texts):
         "Кожен вірш надруковано спочатку мовою оригіналу (позначено вгорі), а потім у перекладах: українською, російською, англійською, іспанською.",
         "Стихи этого сборника написаны на украинском и русском языках и впервые опубликованы на сайте автора (shtereb.com, 2019). "
         "Здесь они приведены в авторском порядке и без изменений. Каждое стихотворение напечатано сначала на языке оригинала, затем в переводах.",
-        "The poems were written in Ukrainian and Russian and first first published on the author's website (shtereb.com, 2019). They appear here in their "
+        "The poems were written in Ukrainian and Russian and first published on the author's website (shtereb.com, 2019). They appear here in their "
         "original order and exactly as the author wrote them; nothing has been corrected. Each poem is printed first in its original language, "
         "marked at the top, and then in the other three. The translations follow the originals line by line where the language allows, keep the "
         "stanza structure, images and register, and rhyme only where rhyme arrived on its own.",
@@ -222,7 +262,7 @@ def build(out_path, texts):
     ]:
         st.append(Paragraph(para, ParagraphStyle("fr", parent=S["front"], fontSize=9.5, leading=14)))
         st.append(Spacer(1, 8))
-    st.append(PageBreak())
+    st.append(RectoBreak() if PRINT_EDITION else PageBreak())
     # contents
     st.append(Paragraph("Зміст · Contents", S["toc_h"]))
     toc = TableOfContents()
@@ -230,7 +270,7 @@ def build(out_path, texts):
     toc.dotsMinLevel = 0
     st.append(toc)
     st.append(NextPageTemplate("body"))
-    st.append(PageBreak())
+    st.append(RectoBreak() if PRINT_EDITION else PageBreak())
 
     cur_section = None
     for i in range(len(originals)):
@@ -259,9 +299,39 @@ def build(out_path, texts):
             st.extend(poem_flow(p))
             st.append(PageBreak())
 
+    # ---- Songs: the released singles of Dr. O Schtereb (content/songs.md, written by build_content.py) — original words only
+    songs_md = os.path.join(ROOT, "content", "songs.md")
+    if os.path.exists(songs_md):
+        songs = parse(songs_md)
+        if songs:
+            st.append(Spacer(1, 2.8 * inch))
+            h = Paragraph("Пісні", S["section"]); h._toc = (1, "Пісні · Songs")
+            st.append(h); st.append(Spacer(1, 8))
+            st.append(Paragraph("Песни<br/>Songs<br/>Canciones", S["section_sub"]))
+            st.append(Spacer(1, 18))
+            st.append(Paragraph("Шістдесят синглів Dr. O Schtereb (Apple Music, Spotify, 2025–2026). Слова подано мовою запису; де текст розшифровано із запису, це позначено — до вичитки автором. · "
+                                "Sixty singles by Dr. O Schtereb. Words in the language of the recording; where they were transcribed from the audio this is marked — awaiting the author's proofreading.",
+                                ParagraphStyle("sn", parent=S["front"], fontSize=9, leading=13)))
+            st.append(PageBreak())
+            for k, sg in enumerate(songs, start=1):
+                sg["_langline"] = ""
+                body = sg["body"]
+                meta = ""
+                if body and body[0].startswith("*") and body[0].endswith("*"):
+                    meta = body[0].strip("*"); body = body[1:]
+                    while body and not body[0].strip(): body = body[1:]
+                sg["body"] = body
+                sg["_langline"] = f"Song {roman_num(k)} · {meta}"
+                flow = poem_flow(sg)
+                flow[0]._toc = (0, f"{sg['title']}")
+                st.extend(flow)
+                st.append(PageBreak())
+
+    st.pop()                                   # the last poem's PageBreak: re-add it after the template switch so the colophon page is unnumbered
     st.append(NextPageTemplate("plain"))
+    st.append(PageBreak())
     st.append(Spacer(1, 3.3 * inch))
-    for line in ["© Олег Штереб · Oleg Shtereb", "Усі вірші та переклади · All poems and translations.",
+    for line in ["© Олег Штереб · Oleg Schtereb", "Усі вірші та переклади · All poems and translations.",
                  "Оригінали вперше опубліковано на shtereb.com (2019); нове видання — schtereb.com.",
                  "Переклади українською, російською, англійською та іспанською — 2026.",
                  "Set in Georgia · 6 × 9 in"]:
@@ -272,7 +342,7 @@ if __name__ == "__main__":
     texts = {"orig": parse(os.path.join(ROOT, "content", "originals.md"))}
     for l in LANG_ORDER:
         texts[l] = parse(os.path.join(ROOT, "content", f"{l}.md"))
-    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "Oleg-Shtereb-Noty-Zhyttia-4-languages.pdf")
+    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "Oleg-Schtereb-Noty-Zhyttia-4-languages.pdf")
     build(out, texts)
     from pypdf import PdfReader
     print(out, len(PdfReader(out).pages), "pages")

@@ -1,0 +1,199 @@
+{
+ "apple_id": 6772595342,
+ "title": "Blue Cup Bruise",
+ "released": "2026-05-23",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/blue-cup-bruise.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 15.62,
+   "text": "Every set comes to me and says, keep it down, brother"
+  },
+  {
+   "start": 15.62,
+   "end": 21.38,
+   "text": "I got a bruise in my throat and a storm in the other"
+  },
+  {
+   "start": 21.38,
+   "end": 27.2,
+   "text": "I bite my tongue and grin like I got no choice"
+  },
+  {
+   "start": 27.2,
+   "end": 32.2,
+   "text": "But the floor keeps shaking when I raise my voice"
+  },
+  {
+   "start": 32.78,
+   "end": 34.64,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 34.64,
+   "end": 37.44,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 37.44,
+   "end": 39.44,
+   "text": "Keep it down"
+  },
+  {
+   "start": 39.44,
+   "end": 43.78,
+   "text": "I try, I try, but the hurt comes out"
+  },
+  {
+   "start": 43.78,
+   "end": 49.04,
+   "text": "Mama left a blue cup on the sink by the door"
+  },
+  {
+   "start": 49.04,
+   "end": 54.48,
+   "text": "I sing to that empty room like I've done it before"
+  },
+  {
+   "start": 54.48,
+   "end": 56.94,
+   "text": "I bite my tongue and grin"
+  },
+  {
+   "start": 56.94,
+   "end": 60.58,
+   "text": "Like I got no choice"
+  },
+  {
+   "start": 60.58,
+   "end": 62.64,
+   "text": "But the floor keeps shaking"
+  },
+  {
+   "start": 62.64,
+   "end": 66.22,
+   "text": "When I raise my voice"
+  },
+  {
+   "start": 66.22,
+   "end": 68.08,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 68.08,
+   "end": 70.9,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 70.9,
+   "end": 72.88,
+   "text": "Keep it down"
+  },
+  {
+   "start": 72.88,
+   "end": 74.52,
+   "text": "I try, I try"
+  },
+  {
+   "start": 74.52,
+   "end": 77.22,
+   "text": "But the hurt comes out"
+  },
+  {
+   "start": 77.22,
+   "end": 78.82,
+   "text": "Oh"
+  },
+  {
+   "start": 78.82,
+   "end": 93.32,
+   "text": "If I go soft now"
+  },
+  {
+   "start": 93.32,
+   "end": 97.98,
+   "text": "What do I do with this fire?"
+  },
+  {
+   "start": 100.12,
+   "end": 104.1,
+   "text": "It climbs my ribs"
+  },
+  {
+   "start": 104.1,
+   "end": 109.98,
+   "text": "And pulls me higher"
+  },
+  {
+   "start": 109.98,
+   "end": 112.3,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 112.3,
+   "end": 115.12,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 115.12,
+   "end": 117.08,
+   "text": "Keep it down"
+  },
+  {
+   "start": 117.08,
+   "end": 121.3,
+   "text": "I try, I try, but the hurt comes out"
+  },
+  {
+   "start": 121.3,
+   "end": 123.48,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 123.48,
+   "end": 126.24,
+   "text": "Keep it down, brother"
+  },
+  {
+   "start": 126.24,
+   "end": 132.48,
+   "text": "I try, I try, but the hurt comes out"
+  }
+ ],
+ "lines": [
+  "Every set comes to me and says, keep it down, brother",
+  "I got a bruise in my throat and a storm in the other",
+  "I bite my tongue and grin like I got no choice",
+  "But the floor keeps shaking when I raise my voice",
+  "Keep it down, brother",
+  "Keep it down, brother",
+  "Keep it down",
+  "I try, I try, but the hurt comes out",
+  "Mama left a blue cup on the sink by the door",
+  "I sing to that empty room like I've done it before",
+  "I bite my tongue and grin",
+  "Like I got no choice",
+  "But the floor keeps shaking",
+  "When I raise my voice",
+  "Keep it down, brother",
+  "Keep it down, brother",
+  "Keep it down",
+  "I try, I try",
+  "But the hurt comes out",
+  "Oh",
+  "If I go soft now",
+  "What do I do with this fire?",
+  "",
+  "It climbs my ribs",
+  "And pulls me higher",
+  "Keep it down, brother",
+  "Keep it down, brother",
+  "Keep it down",
+  "I try, I try, but the hurt comes out",
+  "Keep it down, brother",
+  "Keep it down, brother",
+  "I try, I try, but the hurt comes out"
+ ]
+}

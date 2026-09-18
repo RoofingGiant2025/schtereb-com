@@ -1,0 +1,510 @@
+{
+ "apple_id": 6789515557,
+ "title": "C****n",
+ "released": "2026-07-10",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/cabron.mp3",
+ "language": "es",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "text": "Cabron"
+  },
+  {
+   "start": 5.12,
+   "end": 7.12,
+   "text": "Dr. O Shtereb"
+  },
+  {
+   "start": 9.6,
+   "end": 10.6,
+   "text": "Cabron"
+  },
+  {
+   "start": 10.6,
+   "end": 12.6,
+   "text": "Cabron"
+  },
+  {
+   "start": 15.32,
+   "end": 17.32,
+   "text": "Nueva música está aquí"
+  },
+  {
+   "start": 17.8,
+   "end": 19.8,
+   "text": "Dr. O Shtereb"
+  },
+  {
+   "start": 21.92,
+   "end": 22.92,
+   "text": "Vamos"
+  },
+  {
+   "start": 24.68,
+   "end": 26.12,
+   "text": "Muchos hoties"
+  },
+  {
+   "start": 26.12,
+   "end": 30.48,
+   "text": "Met this girl, she wants my kids"
+  },
+  {
+   "start": 30.48,
+   "end": 34.2,
+   "text": "Maybe a new line and a new song"
+  },
+  {
+   "start": 34.2,
+   "end": 36.82,
+   "text": "JK, perfect"
+  },
+  {
+   "start": 36.82,
+   "end": 41.3,
+   "text": "Walking through life, I meet this blonde one"
+  },
+  {
+   "start": 41.3,
+   "end": 44.96,
+   "text": "Sun in her hair like she stole it from someone"
+  },
+  {
+   "start": 44.96,
+   "end": 48.4,
+   "text": "She looks at me, I look at the ground"
+  },
+  {
+   "start": 48.4,
+   "end": 52.18,
+   "text": "All of the cows start turning around"
+  },
+  {
+   "start": 52.18,
+   "end": 54.74,
+   "text": "Cowbron, what is this now?"
+  },
+  {
+   "start": 54.74,
+   "end": 57.12,
+   "text": "El cielo se quedó quieto"
+  },
+  {
+   "start": 57.12,
+   "end": 60.64,
+   "text": "Así se dice, Dr. O"
+  },
+  {
+   "start": 60.64,
+   "end": 62.24,
+   "text": "No ríe demasiado"
+  },
+  {
+   "start": 62.24,
+   "end": 64.38,
+   "text": "Las mentes vuelven"
+  },
+  {
+   "start": 64.38,
+   "end": 65.98,
+   "text": "Levantado"
+  },
+  {
+   "start": 65.98,
+   "end": 68.12,
+   "text": "Ella dijo, yo estoy pregnant"
+  },
+  {
+   "start": 68.12,
+   "end": 70.02,
+   "text": "Yo dije, cabrón"
+  },
+  {
+   "start": 70.02,
+   "end": 73.68,
+   "text": "Todos los cerdos knew it all alone"
+  },
+  {
+   "start": 73.68,
+   "end": 75.66,
+   "text": "Ella dijo, no panas"
+  },
+  {
+   "start": 75.66,
+   "end": 77.48,
+   "text": "Este es el son"
+  },
+  {
+   "start": 77.48,
+   "end": 79.16,
+   "text": "La música está aquí"
+  },
+  {
+   "start": 79.16,
+   "end": 80.98,
+   "text": "Desde el underground"
+  },
+  {
+   "start": 80.98,
+   "end": 83.12,
+   "text": "Cabrón"
+  },
+  {
+   "start": 83.12,
+   "end": 84.98,
+   "text": "Cabron"
+  },
+  {
+   "start": 84.98,
+   "end": 88.8,
+   "text": "All of the cows are watching me now"
+  },
+  {
+   "start": 88.8,
+   "end": 93.84,
+   "text": "No drugs, no drama"
+  },
+  {
+   "start": 93.84,
+   "end": 95.68,
+   "text": "Just dust and karma"
+  },
+  {
+   "start": 95.68,
+   "end": 97.58,
+   "text": "No gun, no crime"
+  },
+  {
+   "start": 97.58,
+   "end": 99.44,
+   "text": "Just one strange line"
+  },
+  {
+   "start": 99.44,
+   "end": 101.86,
+   "text": "At the wrong, right time"
+  },
+  {
+   "start": 101.86,
+   "end": 102.78,
+   "text": "Met this girl"
+  },
+  {
+   "start": 102.78,
+   "end": 104.88,
+   "text": "She wants my kids"
+  },
+  {
+   "start": 104.88,
+   "end": 108.5,
+   "text": "JK, then life said perfect"
+  },
+  {
+   "start": 108.5,
+   "end": 109.34,
+   "text": "Cabron"
+  },
+  {
+   "start": 109.34,
+   "end": 111.0,
+   "text": "What is this now?"
+  },
+  {
+   "start": 111.0,
+   "end": 113.3,
+   "text": "La luna se ha nervioso"
+  },
+  {
+   "start": 113.3,
+   "end": 114.72,
+   "text": "Así ha dicho la cava"
+  },
+  {
+   "start": 114.72,
+   "end": 116.9,
+   "text": "Dice, doctor O"
+  },
+  {
+   "start": 116.9,
+   "end": 118.5,
+   "text": "Ya lo escribí"
+  },
+  {
+   "start": 118.5,
+   "end": 120.48,
+   "text": "Dice, cabrón"
+  },
+  {
+   "start": 120.48,
+   "end": 122.18,
+   "text": "¿Cómo te lo sabes?"
+  },
+  {
+   "start": 122.98,
+   "end": 124.36,
+   "text": "Dice, yo estoy pregnant"
+  },
+  {
+   "start": 124.36,
+   "end": 126.3,
+   "text": "Dice, cabrón"
+  },
+  {
+   "start": 126.3,
+   "end": 128.12,
+   "text": "Todos los cava"
+  },
+  {
+   "start": 128.12,
+   "end": 129.84,
+   "text": "Knew it all alone"
+  },
+  {
+   "start": 129.84,
+   "end": 131.92,
+   "text": "Dice, no panas"
+  },
+  {
+   "start": 131.92,
+   "end": 133.72,
+   "text": "Este es el son"
+  },
+  {
+   "start": 133.72,
+   "end": 135.44,
+   "text": "La música es de la tierra"
+  },
+  {
+   "start": 135.44,
+   "end": 137.24,
+   "text": "Desde el underground"
+  },
+  {
+   "start": 137.24,
+   "end": 139.38,
+   "text": "Cabrón"
+  },
+  {
+   "start": 139.38,
+   "end": 141.2,
+   "text": "Cabron"
+  },
+  {
+   "start": 141.2,
+   "end": 146.46,
+   "text": "All of the cows are watching me now, now, now, now"
+  },
+  {
+   "start": 146.46,
+   "end": 148.36,
+   "text": "Ha ha ha ha ha ha ha"
+  },
+  {
+   "start": 148.36,
+   "end": 150.3,
+   "text": "All of the cows"
+  },
+  {
+   "start": 150.3,
+   "end": 151.6,
+   "text": "Standing there holy"
+  },
+  {
+   "start": 151.6,
+   "end": 153.88,
+   "text": "Not saying how"
+  },
+  {
+   "start": 153.88,
+   "end": 156.3,
+   "text": "Ha ha ha ha ha ha ha"
+  },
+  {
+   "start": 156.3,
+   "end": 157.74,
+   "text": "All of the cows"
+  },
+  {
+   "start": 157.74,
+   "end": 159.36,
+   "text": "Looking at me like"
+  },
+  {
+   "start": 159.36,
+   "end": 161.4,
+   "text": "Figure it out"
+  },
+  {
+   "start": 161.4,
+   "end": 162.82,
+   "text": "Cabron in the air"
+  },
+  {
+   "start": 162.82,
+   "end": 163.7,
+   "text": "Cabron"
+  },
+  {
+   "start": 163.7,
+   "end": 164.74,
+   "text": "On the ground"
+  },
+  {
+   "start": 164.74,
+   "end": 166.52,
+   "text": "Love gets strained"
+  },
+  {
+   "start": 166.52,
+   "end": 168.66,
+   "text": "When the truth comes around"
+  },
+  {
+   "start": 168.66,
+   "end": 170.3,
+   "text": "Cool, cool"
+  },
+  {
+   "start": 198.66,
+   "end": 201.68,
+   "text": "Met, met, met, met, met, met, met, met, met this girl"
+  },
+  {
+   "start": 201.68,
+   "end": 204.14,
+   "text": "She wants my kids"
+  },
+  {
+   "start": 204.14,
+   "end": 205.16,
+   "text": "Low help"
+  },
+  {
+   "start": 205.16,
+   "end": 206.66,
+   "text": "Maybe a new line"
+  },
+  {
+   "start": 206.66,
+   "end": 208.14,
+   "text": "And a new song"
+  },
+  {
+   "start": 208.14,
+   "end": 209.36,
+   "text": "Not JK"
+  },
+  {
+   "start": 209.36,
+   "end": 210.62,
+   "text": "Gabron"
+  },
+  {
+   "start": 210.62,
+   "end": 211.62,
+   "text": "Gabron"
+  },
+  {
+   "start": 211.62,
+   "end": 213.52,
+   "text": "All of the cows"
+  },
+  {
+   "start": 213.52,
+   "end": 214.62,
+   "text": "Know now"
+  }
+ ],
+ "lines": [
+  "Cabron",
+  "",
+  "Dr. O Shtereb",
+  "",
+  "Cabron",
+  "Cabron",
+  "",
+  "Nueva música está aquí",
+  "Dr. O Shtereb",
+  "",
+  "Vamos",
+  "",
+  "Muchos hoties",
+  "Met this girl, she wants my kids",
+  "Maybe a new line and a new song",
+  "JK, perfect",
+  "Walking through life, I meet this blonde one",
+  "Sun in her hair like she stole it from someone",
+  "She looks at me, I look at the ground",
+  "All of the cows start turning around",
+  "Cowbron, what is this now?",
+  "El cielo se quedó quieto",
+  "Así se dice, Dr. O",
+  "No ríe demasiado",
+  "Las mentes vuelven",
+  "Levantado",
+  "Ella dijo, yo estoy pregnant",
+  "Yo dije, cabrón",
+  "Todos los cerdos knew it all alone",
+  "Ella dijo, no panas",
+  "Este es el son",
+  "La música está aquí",
+  "Desde el underground",
+  "Cabrón",
+  "Cabron",
+  "All of the cows are watching me now",
+  "No drugs, no drama",
+  "Just dust and karma",
+  "No gun, no crime",
+  "Just one strange line",
+  "At the wrong, right time",
+  "Met this girl",
+  "She wants my kids",
+  "JK, then life said perfect",
+  "Cabron",
+  "What is this now?",
+  "La luna se ha nervioso",
+  "Así ha dicho la cava",
+  "Dice, doctor O",
+  "Ya lo escribí",
+  "Dice, cabrón",
+  "¿Cómo te lo sabes?",
+  "Dice, yo estoy pregnant",
+  "Dice, cabrón",
+  "Todos los cava",
+  "Knew it all alone",
+  "Dice, no panas",
+  "Este es el son",
+  "La música es de la tierra",
+  "Desde el underground",
+  "Cabrón",
+  "Cabron",
+  "All of the cows are watching me now, now, now, now",
+  "Ha ha ha ha ha ha ha",
+  "All of the cows",
+  "Standing there holy",
+  "Not saying how",
+  "Ha ha ha ha ha ha ha",
+  "All of the cows",
+  "Looking at me like",
+  "Figure it out",
+  "Cabron in the air",
+  "Cabron",
+  "On the ground",
+  "Love gets strained",
+  "When the truth comes around",
+  "Cool, cool",
+  "",
+  "Met, met, met, met, met, met, met, met, met this girl",
+  "She wants my kids",
+  "Low help",
+  "Maybe a new line",
+  "And a new song",
+  "Not JK",
+  "Gabron",
+  "Gabron",
+  "All of the cows",
+  "Know now"
+ ]
+}

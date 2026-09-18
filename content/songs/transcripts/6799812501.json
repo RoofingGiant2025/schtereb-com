@@ -1,0 +1,247 @@
+{
+ "apple_id": 6799812501,
+ "title": "Reflection of the Sun",
+ "released": "2026-08-10",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Reflection_of_the_Sun__Mastered.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.2,
+   "text": "The reflection of the sun in the glass I hold tonight"
+  },
+  {
+   "start": 5.2,
+   "end": 9.72,
+   "text": "Like the fire in your soul, you're glowing from inside"
+  },
+  {
+   "start": 9.72,
+   "end": 14.44,
+   "text": "Oh God, I swear I'm lost in the sparkle of your eyes"
+  },
+  {
+   "start": 14.44,
+   "end": 18.52,
+   "text": "If I could dive into that world just for a moment's time"
+  },
+  {
+   "start": 18.52,
+   "end": 22.32,
+   "text": "I see a place where the night burns slow"
+  },
+  {
+   "start": 22.32,
+   "end": 26.74,
+   "text": "Where passion's wild and hearts just glow"
+  },
+  {
+   "start": 26.74,
+   "end": 29.7,
+   "text": "I wanna feel that sweet desire"
+  },
+  {
+   "start": 29.7,
+   "end": 34.18,
+   "text": "That random joy, that reckless fire"
+  },
+  {
+   "start": 34.18,
+   "end": 39.42,
+   "text": "Take me to your heaven or your wildest hell"
+  },
+  {
+   "start": 39.42,
+   "end": 44.1,
+   "text": "I just wanna feel, I just wanna dwell"
+  },
+  {
+   "start": 44.1,
+   "end": 47.56,
+   "text": "In the reflection, reflection of the sun"
+  },
+  {
+   "start": 47.56,
+   "end": 51.98,
+   "text": "In you"
+  },
+  {
+   "start": 51.98,
+   "end": 56.96,
+   "text": "I'm dancing on the edge"
+  },
+  {
+   "start": 56.96,
+   "end": 60.2,
+   "text": "Of a dream that feels too real"
+  },
+  {
+   "start": 60.2,
+   "end": 62.5,
+   "text": "Your touch is like a flame"
+  },
+  {
+   "start": 62.5,
+   "end": 64.64,
+   "text": "And I just want to feel"
+  },
+  {
+   "start": 64.64,
+   "end": 66.98,
+   "text": "Let me in, don't shut the door"
+  },
+  {
+   "start": 66.98,
+   "end": 69.3,
+   "text": "Let the chaos pull me more"
+  },
+  {
+   "start": 69.3,
+   "end": 72.06,
+   "text": "This space between your breath and mine"
+  },
+  {
+   "start": 72.06,
+   "end": 73.78,
+   "text": "That's what I'm living for"
+  },
+  {
+   "start": 73.78,
+   "end": 77.4,
+   "text": "I see a place where time stands still"
+  },
+  {
+   "start": 77.4,
+   "end": 81.74,
+   "text": "Where every move is pure free will"
+  },
+  {
+   "start": 81.74,
+   "end": 84.62,
+   "text": "I wanna feel that sweet desire"
+  },
+  {
+   "start": 84.62,
+   "end": 89.16,
+   "text": "That random joy, that reckless fire"
+  },
+  {
+   "start": 89.16,
+   "end": 94.32,
+   "text": "Take me to your heaven or your wildest hell"
+  },
+  {
+   "start": 94.32,
+   "end": 98.94,
+   "text": "I just wanna feel, I just wanna dwell"
+  },
+  {
+   "start": 98.94,
+   "end": 102.44,
+   "text": "In the reflection, reflection of the sun"
+  },
+  {
+   "start": 102.44,
+   "end": 106.58,
+   "text": "In you"
+  },
+  {
+   "start": 106.58,
+   "end": 115.0,
+   "text": "Flashing lights and stardust heat"
+  },
+  {
+   "start": 115.0,
+   "end": 119.34,
+   "text": "Heaven's chaos at our feet"
+  },
+  {
+   "start": 119.34,
+   "end": 123.1,
+   "text": "Don't wake me now, don't make it end"
+  },
+  {
+   "start": 123.1,
+   "end": 127.24,
+   "text": "Let's break again, then just pretend"
+  },
+  {
+   "start": 127.24,
+   "end": 130.32,
+   "text": "I wanna feel that sweet desire"
+  },
+  {
+   "start": 130.32,
+   "end": 134.9,
+   "text": "That random joy, that burning fire"
+  },
+  {
+   "start": 134.9,
+   "end": 140.1,
+   "text": "Take me to your heaven or your wildest hell"
+  },
+  {
+   "start": 140.1,
+   "end": 144.68,
+   "text": "I just wanna feel, I just wanna dwell"
+  },
+  {
+   "start": 144.68,
+   "end": 145.96,
+   "text": "In reflection"
+  },
+  {
+   "start": 145.96,
+   "end": 147.86,
+   "text": "End of the song"
+  },
+  {
+   "start": 164.9,
+   "end": 194.88,
+   "text": "Thank you."
+  }
+ ],
+ "lines": [
+  "The reflection of the sun in the glass I hold tonight",
+  "Like the fire in your soul, you're glowing from inside",
+  "Oh God, I swear I'm lost in the sparkle of your eyes",
+  "If I could dive into that world just for a moment's time",
+  "I see a place where the night burns slow",
+  "Where passion's wild and hearts just glow",
+  "I wanna feel that sweet desire",
+  "That random joy, that reckless fire",
+  "Take me to your heaven or your wildest hell",
+  "I just wanna feel, I just wanna dwell",
+  "In the reflection, reflection of the sun",
+  "In you",
+  "I'm dancing on the edge",
+  "Of a dream that feels too real",
+  "Your touch is like a flame",
+  "And I just want to feel",
+  "Let me in, don't shut the door",
+  "Let the chaos pull me more",
+  "This space between your breath and mine",
+  "That's what I'm living for",
+  "I see a place where time stands still",
+  "Where every move is pure free will",
+  "I wanna feel that sweet desire",
+  "That random joy, that reckless fire",
+  "Take me to your heaven or your wildest hell",
+  "I just wanna feel, I just wanna dwell",
+  "In the reflection, reflection of the sun",
+  "In you",
+  "Flashing lights and stardust heat",
+  "Heaven's chaos at our feet",
+  "Don't wake me now, don't make it end",
+  "Let's break again, then just pretend",
+  "I wanna feel that sweet desire",
+  "That random joy, that burning fire",
+  "Take me to your heaven or your wildest hell",
+  "I just wanna feel, I just wanna dwell",
+  "In reflection",
+  "End of the song",
+  "",
+  "Thank you."
+ ]
+}

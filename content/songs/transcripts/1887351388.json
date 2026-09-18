@@ -1,0 +1,258 @@
+{
+ "apple_id": 1887351388,
+ "title": "Circuit Never Sleeps",
+ "released": "2026-03-23",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/circuit-never-sleeps.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.56,
+   "text": "It's back too tight"
+  },
+  {
+   "start": 4.56,
+   "end": 12.18,
+   "text": "Too tight people"
+  },
+  {
+   "start": 30.0,
+   "end": 33.16,
+   "text": "It's packed too tight, too tight people"
+  },
+  {
+   "start": 33.16,
+   "end": 37.04,
+   "text": "People put themselves in dumb positions"
+  },
+  {
+   "start": 37.04,
+   "end": 40.72,
+   "text": "Worked their whole life for a vacation"
+  },
+  {
+   "start": 40.72,
+   "end": 44.48,
+   "text": "Seven days of freedom, simulation"
+  },
+  {
+   "start": 44.48,
+   "end": 48.34,
+   "text": "Tickets crazy, lines are forming"
+  },
+  {
+   "start": 48.34,
+   "end": 52.22,
+   "text": "Everybody moving without warning"
+  },
+  {
+   "start": 52.22,
+   "end": 56.0,
+   "text": "Last piece taken, no one waiting"
+  },
+  {
+   "start": 56.0,
+   "end": 59.82,
+   "text": "All this pressure suffocating"
+  },
+  {
+   "start": 59.82,
+   "end": 63.18,
+   "text": "And I feel it building in my brain"
+  },
+  {
+   "start": 63.18,
+   "end": 65.0,
+   "text": "Like a wave I can't contain"
+  },
+  {
+   "start": 65.0,
+   "end": 66.98,
+   "text": "Every face it looks the same"
+  },
+  {
+   "start": 66.98,
+   "end": 68.9,
+   "text": "Different body, same thing"
+  },
+  {
+   "start": 68.9,
+   "end": 76.86,
+   "text": "I want my head to explode"
+  },
+  {
+   "start": 76.86,
+   "end": 78.78,
+   "text": "Explode, explode"
+  },
+  {
+   "start": 78.78,
+   "end": 84.52,
+   "text": "All this noise in my soul"
+  },
+  {
+   "start": 84.52,
+   "end": 86.42,
+   "text": "Won't let go"
+  },
+  {
+   "start": 89.82,
+   "end": 103.58,
+   "text": "I don't want to partake. I don't want to fake. Everybody running. I just break."
+  },
+  {
+   "start": 106.28,
+   "end": 114.48,
+   "text": "Drive safely. Now you've arrived. Same damn crowd. Different side. Same idea. Same rotation. Different place. Same vacation."
+  },
+  {
+   "start": 114.48,
+   "end": 119.28,
+   "text": "Phones up high, capture nothing, living fast but feeling nothing by the moment"
+  },
+  {
+   "start": 119.28,
+   "end": 122.2,
+   "text": "Sell the feeling, call it life but something's missing"
+  },
+  {
+   "start": 122.2,
+   "end": 126.3,
+   "text": "And it hits me all at once"
+  },
+  {
+   "start": 126.3,
+   "end": 130.1,
+   "text": "Too many voices, too much noise"
+  },
+  {
+   "start": 130.1,
+   "end": 134.12,
+   "text": "I don't need another choice"
+  },
+  {
+   "start": 134.12,
+   "end": 137.56,
+   "text": "I just need to hear my voice"
+  },
+  {
+   "start": 137.56,
+   "end": 143.52,
+   "text": "I want my head to explode, explode, explode"
+  },
+  {
+   "start": 144.48,
+   "end": 151.48,
+   "text": "All this noise in my soul, won't let go."
+  },
+  {
+   "start": 151.48,
+   "end": 157.48,
+   "text": "I don't wanna partake."
+  },
+  {
+   "start": 157.48,
+   "end": 162.48,
+   "text": "I don't wanna fade."
+  },
+  {
+   "start": 162.48,
+   "end": 166.48,
+   "text": "Everybody running."
+  },
+  {
+   "start": 166.48,
+   "end": 170.48,
+   "text": "I just pray, pray, pray, pray, pray, pray, pray, pray."
+  },
+  {
+   "start": 170.48,
+   "end": 172.48,
+   "text": "Step back."
+  },
+  {
+   "start": 172.48,
+   "end": 185.06,
+   "text": "Breathe slow, let go, don't go, step back, see clear, no fear, I'm here."
+  },
+  {
+   "start": 192.38,
+   "end": 196.86,
+   "text": "I want my head to explode, explode, explode."
+  },
+  {
+   "start": 196.86,
+   "end": 214.08,
+   "text": "I don't want to fade."
+  },
+  {
+   "start": 214.08,
+   "end": 218.02,
+   "text": "I see the system."
+  },
+  {
+   "start": 218.02,
+   "end": 221.8,
+   "text": "I escape."
+  },
+  {
+   "start": 226.86,
+   "end": 229.3,
+   "text": "Too tight, too tight."
+  },
+  {
+   "start": 231.38,
+   "end": 233.12,
+   "text": "Too tight, people."
+  }
+ ],
+ "lines": [
+  "It's back too tight",
+  "Too tight people",
+  "",
+  "It's packed too tight, too tight people",
+  "People put themselves in dumb positions",
+  "Worked their whole life for a vacation",
+  "Seven days of freedom, simulation",
+  "Tickets crazy, lines are forming",
+  "Everybody moving without warning",
+  "Last piece taken, no one waiting",
+  "All this pressure suffocating",
+  "And I feel it building in my brain",
+  "Like a wave I can't contain",
+  "Every face it looks the same",
+  "Different body, same thing",
+  "I want my head to explode",
+  "Explode, explode",
+  "All this noise in my soul",
+  "Won't let go",
+  "",
+  "I don't want to partake. I don't want to fake. Everybody running. I just break.",
+  "",
+  "Drive safely. Now you've arrived. Same damn crowd. Different side. Same idea. Same rotation. Different place. Same vacation.",
+  "Phones up high, capture nothing, living fast but feeling nothing by the moment",
+  "Sell the feeling, call it life but something's missing",
+  "And it hits me all at once",
+  "Too many voices, too much noise",
+  "I don't need another choice",
+  "I just need to hear my voice",
+  "I want my head to explode, explode, explode",
+  "All this noise in my soul, won't let go.",
+  "I don't wanna partake.",
+  "I don't wanna fade.",
+  "Everybody running.",
+  "I just pray, pray, pray, pray, pray, pray, pray, pray.",
+  "Step back.",
+  "Breathe slow, let go, don't go, step back, see clear, no fear, I'm here.",
+  "",
+  "I want my head to explode, explode, explode.",
+  "I don't want to fade.",
+  "I see the system.",
+  "I escape.",
+  "",
+  "Too tight, too tight.",
+  "",
+  "Too tight, people."
+ ]
+}

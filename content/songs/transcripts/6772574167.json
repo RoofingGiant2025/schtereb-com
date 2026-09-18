@@ -1,0 +1,252 @@
+{
+ "apple_id": 6772574167,
+ "title": "Put Some Music On",
+ "released": "2026-05-23",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/LANDR-Put Some Music On -Balanced-Medium.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.5,
+   "text": "Put some music on"
+  },
+  {
+   "start": 4.5,
+   "end": 9.48,
+   "text": "Something I've never heard before"
+  },
+  {
+   "start": 9.48,
+   "end": 12.04,
+   "text": "Neon in the smoke tonight"
+  },
+  {
+   "start": 12.04,
+   "end": 16.18,
+   "text": "Open up the floor, I'm here"
+  },
+  {
+   "start": 16.18,
+   "end": 20.8,
+   "text": "Baseline moving through the floor"
+  },
+  {
+   "start": 20.8,
+   "end": 24.72,
+   "text": "Heartbeat knocking wanting more"
+  },
+  {
+   "start": 24.72,
+   "end": 28.52,
+   "text": "City glowing midnight blue"
+  },
+  {
+   "start": 28.52,
+   "end": 32.86,
+   "text": "All I wanna sound in you"
+  },
+  {
+   "start": 32.86,
+   "end": 38.04,
+   "text": "Hands rise high, don't kill the vibe"
+  },
+  {
+   "start": 38.04,
+   "end": 41.8,
+   "text": "Everybody breathing like the moment just arrived"
+  },
+  {
+   "start": 41.8,
+   "end": 45.64,
+   "text": "Come on, wave side to side, lose yourself inside the light"
+  },
+  {
+   "start": 45.64,
+   "end": 48.32,
+   "text": "Let the rhythm drive"
+  },
+  {
+   "start": 48.32,
+   "end": 51.94,
+   "text": "No past hype, no bad news"
+  },
+  {
+   "start": 51.94,
+   "end": 55.76,
+   "text": "Just one room, one truth"
+  },
+  {
+   "start": 55.76,
+   "end": 59.44,
+   "text": "We don't need tomorrow now"
+  },
+  {
+   "start": 59.44,
+   "end": 63.52,
+   "text": "We just need to drop while I'm on"
+  },
+  {
+   "start": 63.52,
+   "end": 65.42,
+   "text": "Put some music up"
+  },
+  {
+   "start": 65.42,
+   "end": 68.88,
+   "text": "Something new and beautiful"
+  },
+  {
+   "start": 68.88,
+   "end": 73.32,
+   "text": "Something with the pulse so strong"
+  },
+  {
+   "start": 73.32,
+   "end": 78.54,
+   "text": "Makes the whole room lose control"
+  },
+  {
+   "start": 78.54,
+   "end": 82.26,
+   "text": "Hands rise high, don't kill the vibe"
+  },
+  {
+   "start": 82.26,
+   "end": 84.54,
+   "text": "Come on, wait with me tonight"
+  },
+  {
+   "start": 84.54,
+   "end": 92.34,
+   "text": "Like the ocean comes alive"
+  },
+  {
+   "start": 92.34,
+   "end": 96.96,
+   "text": "Strobe lights, kick a silver rain"
+  },
+  {
+   "start": 96.96,
+   "end": 98.94,
+   "text": "Bodies dancing through the haze"
+  },
+  {
+   "start": 98.94,
+   "end": 102.68,
+   "text": "DJ cuts the silence open like a blade across the gray"
+  },
+  {
+   "start": 102.68,
+   "end": 106.52,
+   "text": "Every stranger sings along like they've known this all along"
+  },
+  {
+   "start": 106.52,
+   "end": 110.2,
+   "text": "One eye living in the air, one touch everywhere"
+  },
+  {
+   "start": 110.2,
+   "end": 113.96,
+   "text": "Oh, c-c-come on away"
+  },
+  {
+   "start": 113.96,
+   "end": 117.96,
+   "text": "Don't fade away"
+  },
+  {
+   "start": 117.96,
+   "end": 121.96,
+   "text": "Let the speakers shake"
+  },
+  {
+   "start": 121.96,
+   "end": 125.96,
+   "text": "Till the dark turns into day"
+  },
+  {
+   "start": 125.96,
+   "end": 129.96,
+   "text": "Put some music on"
+  },
+  {
+   "start": 129.96,
+   "end": 133.96,
+   "text": "Something I've never heard before"
+  },
+  {
+   "start": 133.96,
+   "end": 137.96,
+   "text": "Turn it louder than my thoughts"
+  },
+  {
+   "start": 137.96,
+   "end": 141.96,
+   "text": "Till I can't feel the floor"
+  },
+  {
+   "start": 141.96,
+   "end": 146.98,
+   "text": "Hands rise high, don't kill the fire"
+  },
+  {
+   "start": 146.98,
+   "end": 149.32,
+   "text": "Come on, wait with me tonight"
+  },
+  {
+   "start": 149.32,
+   "end": 154.66,
+   "text": "We were born for nights"
+  },
+  {
+   "start": 154.66,
+   "end": 157.08,
+   "text": "Like this"
+  }
+ ],
+ "lines": [
+  "Put some music on",
+  "Something I've never heard before",
+  "Neon in the smoke tonight",
+  "Open up the floor, I'm here",
+  "Baseline moving through the floor",
+  "Heartbeat knocking wanting more",
+  "City glowing midnight blue",
+  "All I wanna sound in you",
+  "Hands rise high, don't kill the vibe",
+  "Everybody breathing like the moment just arrived",
+  "Come on, wave side to side, lose yourself inside the light",
+  "Let the rhythm drive",
+  "No past hype, no bad news",
+  "Just one room, one truth",
+  "We don't need tomorrow now",
+  "We just need to drop while I'm on",
+  "Put some music up",
+  "Something new and beautiful",
+  "Something with the pulse so strong",
+  "Makes the whole room lose control",
+  "Hands rise high, don't kill the vibe",
+  "Come on, wait with me tonight",
+  "Like the ocean comes alive",
+  "Strobe lights, kick a silver rain",
+  "Bodies dancing through the haze",
+  "DJ cuts the silence open like a blade across the gray",
+  "Every stranger sings along like they've known this all along",
+  "One eye living in the air, one touch everywhere",
+  "Oh, c-c-come on away",
+  "Don't fade away",
+  "Let the speakers shake",
+  "Till the dark turns into day",
+  "Put some music on",
+  "Something I've never heard before",
+  "Turn it louder than my thoughts",
+  "Till I can't feel the floor",
+  "Hands rise high, don't kill the fire",
+  "Come on, wait with me tonight",
+  "We were born for nights",
+  "Like this"
+ ]
+}

@@ -1,0 +1,199 @@
+{
+ "apple_id": 6799519427,
+ "title": "It’s a Beautiful Day",
+ "released": "2026-08-08",
+ "source_file": "/Users/olegshtereb/Music/Music/Media.localized/Music/Dr. O/The Line We Cross/Its a Beautiful.wav",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 13.88,
+   "text": "It's beautiful day, the sun is shining, the fly is flying, I don't give a fuck"
+  },
+  {
+   "start": 13.88,
+   "end": 22.8,
+   "text": "Water and sugar, mustard and burger, booger on shoulder, I don't give a fuck"
+  },
+  {
+   "start": 30.0,
+   "end": 35.74,
+   "text": "It's a beautiful day"
+  },
+  {
+   "start": 35.74,
+   "end": 38.62,
+   "text": "Coffee's too bitter"
+  },
+  {
+   "start": 38.62,
+   "end": 40.82,
+   "text": "Sure got a stain"
+  },
+  {
+   "start": 40.82,
+   "end": 43.24,
+   "text": "Still I don't give a fuck"
+  },
+  {
+   "start": 43.24,
+   "end": 44.96,
+   "text": "Water and sugar"
+  },
+  {
+   "start": 44.96,
+   "end": 47.34,
+   "text": "Mustard and burger"
+  },
+  {
+   "start": 47.34,
+   "end": 49.66,
+   "text": "Booger on shoulder"
+  },
+  {
+   "start": 49.66,
+   "end": 52.18,
+   "text": "I don't give a fuck"
+  },
+  {
+   "start": 52.18,
+   "end": 54.74,
+   "text": "It's a beautiful day"
+  },
+  {
+   "start": 54.74,
+   "end": 57.0,
+   "text": "Coffee's too bitter"
+  },
+  {
+   "start": 57.0,
+   "end": 59.62,
+   "text": "Sure got a stain"
+  },
+  {
+   "start": 59.62,
+   "end": 62.9,
+   "text": "Still I don't give a fuck"
+  },
+  {
+   "start": 62.9,
+   "end": 64.52,
+   "text": "Water and sugar"
+  },
+  {
+   "start": 64.52,
+   "end": 66.94,
+   "text": "Mustard and burger"
+  },
+  {
+   "start": 66.94,
+   "end": 69.28,
+   "text": "Bulldog on shoulder"
+  },
+  {
+   "start": 69.28,
+   "end": 71.84,
+   "text": "I don't give a fuck"
+  },
+  {
+   "start": 71.84,
+   "end": 74.2,
+   "text": "Gucci passed out"
+  },
+  {
+   "start": 74.2,
+   "end": 76.56,
+   "text": "By the couch"
+  },
+  {
+   "start": 76.56,
+   "end": 79.04,
+   "text": "Everything's loud"
+  },
+  {
+   "start": 79.04,
+   "end": 81.16,
+   "text": "I'm still chilling out"
+  },
+  {
+   "start": 81.16,
+   "end": 86.26,
+   "text": "It's a beautiful, beautiful day"
+  },
+  {
+   "start": 86.26,
+   "end": 89.02,
+   "text": "Gucci passed out"
+  },
+  {
+   "start": 89.02,
+   "end": 94.56,
+   "text": "By the couch, I don't give a fuck, yeah"
+  },
+  {
+   "start": 94.56,
+   "end": 98.56,
+   "text": "It's a beautiful day"
+  },
+  {
+   "start": 98.56,
+   "end": 113.76,
+   "text": "Gucci passed out"
+  },
+  {
+   "start": 113.76,
+   "end": 118.24,
+   "text": "By the couch"
+  },
+  {
+   "start": 118.24,
+   "end": 121.64,
+   "text": "I don't give a fuck"
+  },
+  {
+   "start": 121.64,
+   "end": 125.38,
+   "text": "It's a beautiful day"
+  },
+  {
+   "start": 125.38,
+   "end": 130.24,
+   "text": "It's a beautiful day"
+  }
+ ],
+ "lines": [
+  "It's beautiful day, the sun is shining, the fly is flying, I don't give a fuck",
+  "Water and sugar, mustard and burger, booger on shoulder, I don't give a fuck",
+  "",
+  "It's a beautiful day",
+  "Coffee's too bitter",
+  "Sure got a stain",
+  "Still I don't give a fuck",
+  "Water and sugar",
+  "Mustard and burger",
+  "Booger on shoulder",
+  "I don't give a fuck",
+  "It's a beautiful day",
+  "Coffee's too bitter",
+  "Sure got a stain",
+  "Still I don't give a fuck",
+  "Water and sugar",
+  "Mustard and burger",
+  "Bulldog on shoulder",
+  "I don't give a fuck",
+  "Gucci passed out",
+  "By the couch",
+  "Everything's loud",
+  "I'm still chilling out",
+  "It's a beautiful, beautiful day",
+  "Gucci passed out",
+  "By the couch, I don't give a fuck, yeah",
+  "It's a beautiful day",
+  "Gucci passed out",
+  "By the couch",
+  "I don't give a fuck",
+  "It's a beautiful day",
+  "It's a beautiful day"
+ ]
+}

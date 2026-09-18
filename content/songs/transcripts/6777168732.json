@@ -1,0 +1,108 @@
+{
+ "apple_id": 6777168732,
+ "title": "Entropy in a Poem",
+ "released": "2026-06-05",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/entropy-in-a-poem.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 5.56,
+   "text": "Every time I sit and write, it's entropy in the poem"
+  },
+  {
+   "start": 5.56,
+   "end": 9.34,
+   "text": "Organized from scattered light"
+  },
+  {
+   "start": 9.34,
+   "end": 17.08,
+   "text": "Every time I hear your voice, I sublimate the meaning of choice in life"
+  },
+  {
+   "start": 17.08,
+   "end": 22.82,
+   "text": "Every line is a chaos dramatized, a negotiating gently conquer love and fate"
+  },
+  {
+   "start": 22.82,
+   "end": 27.94,
+   "text": "From the cave, I breathe the world, I ride the wave"
+  },
+  {
+   "start": 27.94,
+   "end": 33.76,
+   "text": "I build a temple of love, unfurled"
+  },
+  {
+   "start": 33.76,
+   "end": 39.22,
+   "text": "Even disintegration calls, a whisper in the broken walls"
+  },
+  {
+   "start": 39.22,
+   "end": 43.6,
+   "text": "Every fall a sacred sign, a perfect loss"
+  },
+  {
+   "start": 43.6,
+   "end": 46.08,
+   "text": "By design, you speak"
+  },
+  {
+   "start": 46.08,
+   "end": 51.04,
+   "text": "And I begin to bend, not to break but just transcend"
+  },
+  {
+   "start": 51.04,
+   "end": 57.08,
+   "text": "There's structure in the soft collapse, truth revealed in thunderclaps"
+  },
+  {
+   "start": 57.08,
+   "end": 60.62,
+   "text": "Entropy is not the end, I fear that"
+  },
+  {
+   "start": 60.62,
+   "end": 62.6,
+   "text": "It's the shape of truth"
+  },
+  {
+   "start": 62.6,
+   "end": 65.56,
+   "text": "When the veil is clear"
+  },
+  {
+   "start": 65.56,
+   "end": 68.84,
+   "text": "For us to see it end"
+  },
+  {
+   "start": 68.84,
+   "end": 70.94,
+   "text": "End"
+  }
+ ],
+ "lines": [
+  "Every time I sit and write, it's entropy in the poem",
+  "Organized from scattered light",
+  "Every time I hear your voice, I sublimate the meaning of choice in life",
+  "Every line is a chaos dramatized, a negotiating gently conquer love and fate",
+  "From the cave, I breathe the world, I ride the wave",
+  "I build a temple of love, unfurled",
+  "Even disintegration calls, a whisper in the broken walls",
+  "Every fall a sacred sign, a perfect loss",
+  "By design, you speak",
+  "And I begin to bend, not to break but just transcend",
+  "There's structure in the soft collapse, truth revealed in thunderclaps",
+  "Entropy is not the end, I fear that",
+  "It's the shape of truth",
+  "When the veil is clear",
+  "For us to see it end",
+  "End"
+ ]
+}

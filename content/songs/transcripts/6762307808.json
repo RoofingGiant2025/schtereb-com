@@ -1,0 +1,249 @@
+{
+ "apple_id": 6762307808,
+ "title": "Bali Ri",
+ "released": "2026-04-15",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Bali ri mastered .mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 8.6,
+   "text": "Yeah, I see you, chill, checkin' out my time"
+  },
+  {
+   "start": 8.6,
+   "end": 15.14,
+   "text": "She's hooked, yeah, she's hooked, once been around now"
+  },
+  {
+   "start": 15.14,
+   "end": 20.76,
+   "text": "She's hooked, she's hooked, yeah, she's hooked, I walk away still"
+  },
+  {
+   "start": 20.76,
+   "end": 24.72,
+   "text": "She's hooked, yeah, that girl isn't givin' up"
+  },
+  {
+   "start": 24.72,
+   "end": 28.76,
+   "text": "I've been ignorin' her all day long"
+  },
+  {
+   "start": 28.76,
+   "end": 33.88,
+   "text": "From blowing up, text after text I already told her"
+  },
+  {
+   "start": 33.88,
+   "end": 37.86,
+   "text": "What's in my head, it's overwhelming I made it clear"
+  },
+  {
+   "start": 37.86,
+   "end": 40.66,
+   "text": "No girlfriend, this year"
+  },
+  {
+   "start": 40.66,
+   "end": 44.46,
+   "text": "Different focus, different role, different rhythm, different coding"
+  },
+  {
+   "start": 44.46,
+   "end": 47.8,
+   "text": "Chill, chill, you're not my type"
+  },
+  {
+   "start": 47.8,
+   "end": 50.38,
+   "text": "So spin on the sea lights"
+  },
+  {
+   "start": 50.38,
+   "end": 52.68,
+   "text": "And she's hooked, yeah she's hooked"
+  },
+  {
+   "start": 52.68,
+   "end": 55.48,
+   "text": "One spin round now, she's hooked"
+  },
+  {
+   "start": 55.48,
+   "end": 58.32,
+   "text": "She's hooked, yeah she's hooked"
+  },
+  {
+   "start": 58.32,
+   "end": 62.16,
+   "text": "I stare back, but still she's hurt, yeah"
+  },
+  {
+   "start": 62.16,
+   "end": 64.32,
+   "text": "No, I don't, I don't love her"
+  },
+  {
+   "start": 64.32,
+   "end": 67.82,
+   "text": "Baby, back then there was spring break"
+  },
+  {
+   "start": 67.82,
+   "end": 69.96,
+   "text": "Now my mind, clean and calm"
+  },
+  {
+   "start": 69.96,
+   "end": 73.12,
+   "text": "Different way, different song"
+  },
+  {
+   "start": 73.12,
+   "end": 75.88,
+   "text": "She keeps dancing round and round"
+  },
+  {
+   "start": 75.88,
+   "end": 78.8,
+   "text": "Like a batterina on the ground"
+  },
+  {
+   "start": 78.8,
+   "end": 81.6,
+   "text": "I asked, I won't let go"
+  },
+  {
+   "start": 81.6,
+   "end": 85.76,
+   "text": "But I already told her, so break, so spin"
+  },
+  {
+   "start": 85.76,
+   "end": 88.68,
+   "text": "Street batterina likes flash"
+  },
+  {
+   "start": 88.68,
+   "end": 91.48,
+   "text": "Can we see the beat drop?"
+  },
+  {
+   "start": 92.5,
+   "end": 93.58,
+   "text": "He hit the floor"
+  },
+  {
+   "start": 93.58,
+   "end": 95.38,
+   "text": "And I said"
+  },
+  {
+   "start": 95.38,
+   "end": 97.86,
+   "text": "She's a, she's a"
+  },
+  {
+   "start": 97.86,
+   "end": 99.64,
+   "text": "Once been young"
+  },
+  {
+   "start": 99.64,
+   "end": 103.72,
+   "text": "She's a, she's dancing around and around"
+  },
+  {
+   "start": 103.72,
+   "end": 106.56,
+   "text": "Like a ballerina on the ground"
+  },
+  {
+   "start": 106.56,
+   "end": 109.18,
+   "text": "She's a, she's a"
+  },
+  {
+   "start": 109.18,
+   "end": 112.56,
+   "text": "I walk away, she's fine"
+  },
+  {
+   "start": 112.56,
+   "end": 114.84,
+   "text": "She's a, she's a"
+  },
+  {
+   "start": 114.84,
+   "end": 118.84,
+   "text": "Everybody looking"
+  },
+  {
+   "start": 122.84,
+   "end": 125.84,
+   "text": "She"
+  },
+  {
+   "start": 127.84,
+   "end": 129.84,
+   "text": "She's you"
+  },
+  {
+   "start": 130.84,
+   "end": 132.84,
+   "text": "Shouts in the night"
+  },
+  {
+   "start": 134.84,
+   "end": 137.84,
+   "text": "She's you"
+  }
+ ],
+ "lines": [
+  "Yeah, I see you, chill, checkin' out my time",
+  "She's hooked, yeah, she's hooked, once been around now",
+  "She's hooked, she's hooked, yeah, she's hooked, I walk away still",
+  "She's hooked, yeah, that girl isn't givin' up",
+  "I've been ignorin' her all day long",
+  "From blowing up, text after text I already told her",
+  "What's in my head, it's overwhelming I made it clear",
+  "No girlfriend, this year",
+  "Different focus, different role, different rhythm, different coding",
+  "Chill, chill, you're not my type",
+  "So spin on the sea lights",
+  "And she's hooked, yeah she's hooked",
+  "One spin round now, she's hooked",
+  "She's hooked, yeah she's hooked",
+  "I stare back, but still she's hurt, yeah",
+  "No, I don't, I don't love her",
+  "Baby, back then there was spring break",
+  "Now my mind, clean and calm",
+  "Different way, different song",
+  "She keeps dancing round and round",
+  "Like a batterina on the ground",
+  "I asked, I won't let go",
+  "But I already told her, so break, so spin",
+  "Street batterina likes flash",
+  "Can we see the beat drop?",
+  "He hit the floor",
+  "And I said",
+  "She's a, she's a",
+  "Once been young",
+  "She's a, she's dancing around and around",
+  "Like a ballerina on the ground",
+  "She's a, she's a",
+  "I walk away, she's fine",
+  "She's a, she's a",
+  "Everybody looking",
+  "",
+  "She",
+  "",
+  "She's you",
+  "Shouts in the night",
+  "",
+  "She's you"
+ ]
+}

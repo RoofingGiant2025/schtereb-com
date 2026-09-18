@@ -1,0 +1,7 @@
+{
+ "price_usd": 49,
+ "order_url": "",
+ "linen": "black",
+ "foil": "gold",
+ "note": "order_url = the Lulu bookstore link once the project is published; price_usd is printed on the jacket flap and shown on /<lang>/order.html"
+}

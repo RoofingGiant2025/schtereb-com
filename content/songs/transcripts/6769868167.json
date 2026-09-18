@@ -1,0 +1,263 @@
+{
+ "apple_id": 6769868167,
+ "title": "Louder My Love",
+ "released": "2026-05-15",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/louder-my-love.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.0,
+   "text": "I"
+  },
+  {
+   "start": 30.0,
+   "end": 35.64,
+   "text": "Echoes of your name ring out"
+  },
+  {
+   "start": 35.64,
+   "end": 43.0,
+   "text": "I keep turning all the volume loud"
+  },
+  {
+   "start": 43.0,
+   "end": 50.34,
+   "text": "Every heartbeat calls a lie"
+  },
+  {
+   "start": 50.34,
+   "end": 57.86,
+   "text": "Begging love to pierce the night"
+  },
+  {
+   "start": 60.0,
+   "end": 63.38,
+   "text": "I'm shouting into roaring dreams"
+  },
+  {
+   "start": 63.38,
+   "end": 67.1,
+   "text": "Above the noise, above the screams"
+  },
+  {
+   "start": 67.1,
+   "end": 70.7,
+   "text": "Inside the storm I feel the spark"
+  },
+  {
+   "start": 70.7,
+   "end": 74.9,
+   "text": "Your whisper growing from the dark"
+  },
+  {
+   "start": 74.9,
+   "end": 80.0,
+   "text": "So louder, louder, my wider love"
+  },
+  {
+   "start": 80.0,
+   "end": 87.48,
+   "text": "Shake this broken sky we're under"
+  },
+  {
+   "start": 87.48,
+   "end": 92.66,
+   "text": "Let it crash like endless thunder"
+  },
+  {
+   "start": 92.66,
+   "end": 96.38,
+   "text": "Let every shadow here above"
+  },
+  {
+   "start": 96.38,
+   "end": 102.14,
+   "text": "Louder, louder saying now"
+  },
+  {
+   "start": 117.48,
+   "end": 123.9,
+   "text": "I will cry your name to the wolves"
+  },
+  {
+   "start": 123.9,
+   "end": 126.9,
+   "text": "Tear the silence from the night"
+  },
+  {
+   "start": 127.5,
+   "end": 131.12,
+   "text": "Even if you never answer back"
+  },
+  {
+   "start": 131.12,
+   "end": 134.8,
+   "text": "My love will burn and blaze it wide"
+  },
+  {
+   "start": 134.8,
+   "end": 140.3,
+   "text": "No retreat, just fire and flame"
+  },
+  {
+   "start": 140.3,
+   "end": 146.0,
+   "text": "I'll never be the same"
+  },
+  {
+   "start": 146.0,
+   "end": 152.04,
+   "text": "Maybe you will never hear"
+  },
+  {
+   "start": 152.04,
+   "end": 155.66,
+   "text": "But I'll still sing you through the fear"
+  },
+  {
+   "start": 155.66,
+   "end": 159.16,
+   "text": "Every secret, every scar"
+  },
+  {
+   "start": 159.16,
+   "end": 162.82,
+   "text": "I'll raise up like a falling star"
+  },
+  {
+   "start": 162.82,
+   "end": 167.58,
+   "text": "So louder, louder, my wild love"
+  },
+  {
+   "start": 167.58,
+   "end": 174.86,
+   "text": "Shake this broken sky we're under"
+  },
+  {
+   "start": 174.86,
+   "end": 180.2,
+   "text": "Let it crash like endless thunder"
+  },
+  {
+   "start": 180.2,
+   "end": 183.78,
+   "text": "Let every shadow hear our vow"
+  },
+  {
+   "start": 183.78,
+   "end": 189.94,
+   "text": "Louder, louder, say it now"
+  },
+  {
+   "start": 204.86,
+   "end": 224.58,
+   "text": "Maybe you will never hear"
+  },
+  {
+   "start": 224.58,
+   "end": 228.26,
+   "text": "But I'll still sing you through the fear"
+  },
+  {
+   "start": 228.26,
+   "end": 231.7,
+   "text": "Every secret, every scar"
+  },
+  {
+   "start": 231.7,
+   "end": 235.98,
+   "text": "I'll raise up like a falling star"
+  },
+  {
+   "start": 235.98,
+   "end": 242.04,
+   "text": "So louder, louder my wild love"
+  },
+  {
+   "start": 242.04,
+   "end": 249.12,
+   "text": "Shake this broken sky we're under"
+  },
+  {
+   "start": 249.12,
+   "end": 254.4,
+   "text": "Let it crash like endless thunder"
+  },
+  {
+   "start": 254.4,
+   "end": 257.98,
+   "text": "Let every shadow hear our vow"
+  },
+  {
+   "start": 257.98,
+   "end": 264.88,
+   "text": "Louder, louder, say it now"
+  },
+  {
+   "start": 264.88,
+   "end": 274.26,
+   "text": "Echoes of your name come back to me"
+  },
+  {
+   "start": 274.26,
+   "end": 281.5,
+   "text": "And every shout, you set me free"
+  },
+  {
+   "start": 287.98,
+   "end": 291.98,
+   "text": "Ooh"
+  }
+ ],
+ "lines": [
+  "I",
+  "",
+  "Echoes of your name ring out",
+  "I keep turning all the volume loud",
+  "Every heartbeat calls a lie",
+  "Begging love to pierce the night",
+  "",
+  "I'm shouting into roaring dreams",
+  "Above the noise, above the screams",
+  "Inside the storm I feel the spark",
+  "Your whisper growing from the dark",
+  "So louder, louder, my wider love",
+  "Shake this broken sky we're under",
+  "Let it crash like endless thunder",
+  "Let every shadow here above",
+  "Louder, louder saying now",
+  "",
+  "I will cry your name to the wolves",
+  "Tear the silence from the night",
+  "Even if you never answer back",
+  "My love will burn and blaze it wide",
+  "No retreat, just fire and flame",
+  "I'll never be the same",
+  "Maybe you will never hear",
+  "But I'll still sing you through the fear",
+  "Every secret, every scar",
+  "I'll raise up like a falling star",
+  "So louder, louder, my wild love",
+  "Shake this broken sky we're under",
+  "Let it crash like endless thunder",
+  "Let every shadow hear our vow",
+  "Louder, louder, say it now",
+  "",
+  "Maybe you will never hear",
+  "But I'll still sing you through the fear",
+  "Every secret, every scar",
+  "I'll raise up like a falling star",
+  "So louder, louder my wild love",
+  "Shake this broken sky we're under",
+  "Let it crash like endless thunder",
+  "Let every shadow hear our vow",
+  "Louder, louder, say it now",
+  "Echoes of your name come back to me",
+  "And every shout, you set me free",
+  "",
+  "Ooh"
+ ]
+}

@@ -1,0 +1,409 @@
+{
+ "apple_id": 1894320763,
+ "title": "First Time Fever",
+ "released": "2026-04-17",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/LANDR-first-time-fever-(full-version)-Balanced-Medium.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 6.92,
+   "text": "For the very first time in my life, first time"
+  },
+  {
+   "start": 6.92,
+   "end": 16.0,
+   "text": "Yeah, for the very first time in my life"
+  },
+  {
+   "start": 16.0,
+   "end": 26.04,
+   "text": "Oh, for the first time in my life"
+  },
+  {
+   "start": 26.04,
+   "end": 30.52,
+   "text": "In my life"
+  },
+  {
+   "start": 30.52,
+   "end": 39.94,
+   "text": "Dust on my boots"
+  },
+  {
+   "start": 39.94,
+   "end": 42.04,
+   "text": "Wind in my hair"
+  },
+  {
+   "start": 42.04,
+   "end": 43.92,
+   "text": "Tailgate down"
+  },
+  {
+   "start": 43.92,
+   "end": 46.26,
+   "text": "Summer night air"
+  },
+  {
+   "start": 46.26,
+   "end": 50.12,
+   "text": "You slide and close that shotgun seat"
+  },
+  {
+   "start": 50.12,
+   "end": 54.28,
+   "text": "Fireflies dancing to a back road beat"
+  },
+  {
+   "start": 54.28,
+   "end": 58.86,
+   "text": "Small town lights in your hazel eyes"
+  },
+  {
+   "start": 58.86,
+   "end": 62.8,
+   "text": "Happen so hard that we almost cry"
+  },
+  {
+   "start": 62.8,
+   "end": 67.06,
+   "text": "Radio up, singing out of tune"
+  },
+  {
+   "start": 67.06,
+   "end": 71.26,
+   "text": "Falling head first underneath that moon"
+  },
+  {
+   "start": 71.26,
+   "end": 75.56,
+   "text": "Heartbeats racing like a freight train rolling"
+  },
+  {
+   "start": 75.56,
+   "end": 80.02,
+   "text": "Every little touch got my self-control stolen"
+  },
+  {
+   "start": 80.02,
+   "end": 84.04,
+   "text": "Didn't know love could hit like this"
+  },
+  {
+   "start": 84.04,
+   "end": 88.22,
+   "text": "One slow dance, one long kiss"
+  },
+  {
+   "start": 88.22,
+   "end": 93.6,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 93.6,
+   "end": 100.12,
+   "text": "First time, yeah"
+  },
+  {
+   "start": 100.12,
+   "end": 106.66,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 106.66,
+   "end": 112.56,
+   "text": "Oh, for the first time"
+  },
+  {
+   "start": 112.56,
+   "end": 116.72,
+   "text": "In my life"
+  },
+  {
+   "start": 116.72,
+   "end": 120.88,
+   "text": "In my life"
+  },
+  {
+   "start": 120.88,
+   "end": 128.14,
+   "text": "Neon glow on the sun-kissed skin"
+  },
+  {
+   "start": 128.14,
+   "end": 132.42,
+   "text": "Barroom door keeps swinging you in"
+  },
+  {
+   "start": 132.42,
+   "end": 136.64,
+   "text": "Two-step floor feels like it's ours"
+  },
+  {
+   "start": 136.64,
+   "end": 140.54,
+   "text": "Spinning around underneath the stars"
+  },
+  {
+   "start": 140.54,
+   "end": 145.1,
+   "text": "Bartender grins when you grab my hands"
+  },
+  {
+   "start": 145.1,
+   "end": 149.14,
+   "text": "Jukebox plays a brand new dam"
+  },
+  {
+   "start": 149.14,
+   "end": 153.16,
+   "text": "You lean and whisper right in my ear"
+  },
+  {
+   "start": 153.16,
+   "end": 157.46,
+   "text": "Let's chase this night, never disappear"
+  },
+  {
+   "start": 157.46,
+   "end": 161.74,
+   "text": "Heartbeats racing like a freight train rolling"
+  },
+  {
+   "start": 161.74,
+   "end": 166.22,
+   "text": "Every little touch got my self-control stolen"
+  },
+  {
+   "start": 166.22,
+   "end": 170.24,
+   "text": "Didn't know love could hit like this"
+  },
+  {
+   "start": 170.24,
+   "end": 174.42,
+   "text": "One slow dance, one long kiss"
+  },
+  {
+   "start": 174.42,
+   "end": 179.78,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 179.78,
+   "end": 186.4,
+   "text": "First time, yeah"
+  },
+  {
+   "start": 186.4,
+   "end": 192.92,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 192.92,
+   "end": 198.72,
+   "text": "Oh, for the first time"
+  },
+  {
+   "start": 198.72,
+   "end": 202.92,
+   "text": "In my life"
+  },
+  {
+   "start": 202.92,
+   "end": 208.92,
+   "text": "All those lonely roads that led me here"
+  },
+  {
+   "start": 208.92,
+   "end": 213.04,
+   "text": "Every wrong turn just made it clear"
+  },
+  {
+   "start": 213.04,
+   "end": 217.32,
+   "text": "I was meant to find you on this night"
+  },
+  {
+   "start": 217.32,
+   "end": 221.32,
+   "text": "Burning like a match in the pale moonlight"
+  },
+  {
+   "start": 221.32,
+   "end": 225.62,
+   "text": "Hands on my heart, I finally see"
+  },
+  {
+   "start": 225.62,
+   "end": 229.66,
+   "text": "This first time feels like destiny"
+  },
+  {
+   "start": 229.66,
+   "end": 234.4,
+   "text": "If this is a dream, don't wake me up"
+  },
+  {
+   "start": 234.4,
+   "end": 238.56,
+   "text": "I'm all in, you're my first love, love"
+  },
+  {
+   "start": 238.56,
+   "end": 244.98,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 244.98,
+   "end": 251.0,
+   "text": "My first time"
+  },
+  {
+   "start": 251.0,
+   "end": 258.24,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 258.24,
+   "end": 268.08,
+   "text": "For the first time in my life"
+  },
+  {
+   "start": 268.08,
+   "end": 274.42,
+   "text": "First time, first time"
+  },
+  {
+   "start": 274.42,
+   "end": 276.46,
+   "text": "Fever in my veins"
+  },
+  {
+   "start": 276.46,
+   "end": 277.96,
+   "text": "Country night sky"
+  },
+  {
+   "start": 277.96,
+   "end": 280.46,
+   "text": "Calling out our names"
+  },
+  {
+   "start": 280.46,
+   "end": 281.66,
+   "text": "Hold on tight"
+  },
+  {
+   "start": 281.66,
+   "end": 284.78,
+   "text": "Let the whole world fade"
+  },
+  {
+   "start": 284.78,
+   "end": 286.42,
+   "text": "For the first time"
+  },
+  {
+   "start": 286.42,
+   "end": 289.04,
+   "text": "Baby, I ain't afraid"
+  },
+  {
+   "start": 289.04,
+   "end": 294.5,
+   "text": "For the very first time"
+  },
+  {
+   "start": 294.5,
+   "end": 297.62,
+   "text": "In my life"
+  },
+  {
+   "start": 297.62,
+   "end": 301.84,
+   "text": "In my life"
+  },
+  {
+   "start": 301.84,
+   "end": 304.52,
+   "text": "In my life"
+  },
+  {
+   "start": 310.46,
+   "end": 340.44,
+   "text": "We'll be right back."
+  }
+ ],
+ "lines": [
+  "For the very first time in my life, first time",
+  "Yeah, for the very first time in my life",
+  "Oh, for the first time in my life",
+  "In my life",
+  "Dust on my boots",
+  "Wind in my hair",
+  "Tailgate down",
+  "Summer night air",
+  "You slide and close that shotgun seat",
+  "Fireflies dancing to a back road beat",
+  "Small town lights in your hazel eyes",
+  "Happen so hard that we almost cry",
+  "Radio up, singing out of tune",
+  "Falling head first underneath that moon",
+  "Heartbeats racing like a freight train rolling",
+  "Every little touch got my self-control stolen",
+  "Didn't know love could hit like this",
+  "One slow dance, one long kiss",
+  "For the very first time in my life",
+  "First time, yeah",
+  "For the very first time in my life",
+  "Oh, for the first time",
+  "In my life",
+  "In my life",
+  "Neon glow on the sun-kissed skin",
+  "Barroom door keeps swinging you in",
+  "Two-step floor feels like it's ours",
+  "Spinning around underneath the stars",
+  "Bartender grins when you grab my hands",
+  "Jukebox plays a brand new dam",
+  "You lean and whisper right in my ear",
+  "Let's chase this night, never disappear",
+  "Heartbeats racing like a freight train rolling",
+  "Every little touch got my self-control stolen",
+  "Didn't know love could hit like this",
+  "One slow dance, one long kiss",
+  "For the very first time in my life",
+  "First time, yeah",
+  "For the very first time in my life",
+  "Oh, for the first time",
+  "In my life",
+  "All those lonely roads that led me here",
+  "Every wrong turn just made it clear",
+  "I was meant to find you on this night",
+  "Burning like a match in the pale moonlight",
+  "Hands on my heart, I finally see",
+  "This first time feels like destiny",
+  "If this is a dream, don't wake me up",
+  "I'm all in, you're my first love, love",
+  "For the very first time in my life",
+  "My first time",
+  "For the very first time in my life",
+  "For the first time in my life",
+  "First time, first time",
+  "Fever in my veins",
+  "Country night sky",
+  "Calling out our names",
+  "Hold on tight",
+  "Let the whole world fade",
+  "For the first time",
+  "Baby, I ain't afraid",
+  "For the very first time",
+  "In my life",
+  "In my life",
+  "In my life",
+  "",
+  "We'll be right back."
+ ]
+}

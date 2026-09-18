@@ -1,0 +1,327 @@
+{
+ "apple_id": 6772275580,
+ "title": "202",
+ "released": "2026-05-22",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/202.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 7.8,
+   "text": "Tontoa 2"
+  },
+  {
+   "start": 7.8,
+   "end": 13.3,
+   "text": "Full ringin'"
+  },
+  {
+   "start": 13.84,
+   "end": 15.48,
+   "text": "They started callin' me"
+  },
+  {
+   "start": 15.48,
+   "end": 19.06,
+   "text": "Hello, Mama"
+  },
+  {
+   "start": 19.06,
+   "end": 23.08,
+   "text": "I'm ready for another song"
+  },
+  {
+   "start": 30.0,
+   "end": 46.72,
+   "text": "Face hit low, she's in the mood"
+  },
+  {
+   "start": 46.72,
+   "end": 50.42,
+   "text": "Black dress dancing to the groove"
+  },
+  {
+   "start": 50.42,
+   "end": 54.06,
+   "text": "Neon green on velvet walls"
+  },
+  {
+   "start": 54.06,
+   "end": 57.64,
+   "text": "Late night angels in the hall"
+  },
+  {
+   "start": 57.64,
+   "end": 61.36,
+   "text": "Gold chain coat against my chest"
+  },
+  {
+   "start": 61.36,
+   "end": 65.04,
+   "text": "Old damn city overdressed"
+  },
+  {
+   "start": 65.04,
+   "end": 68.5,
+   "text": "Smoking lasers through the room"
+  },
+  {
+   "start": 68.5,
+   "end": 72.12,
+   "text": "Everybody chasing something new"
+  },
+  {
+   "start": 72.12,
+   "end": 75.4,
+   "text": "She said, doctor, oh, you crazy"
+  },
+  {
+   "start": 75.4,
+   "end": 79.2,
+   "text": "I said, maybe entertain me"
+  },
+  {
+   "start": 79.2,
+   "end": 82.18,
+   "text": "Mirror lights and flashing blue"
+  },
+  {
+   "start": 82.18,
+   "end": 84.86,
+   "text": "Two or two, do I go or you do?"
+  },
+  {
+   "start": 84.86,
+   "end": 92.86,
+   "text": "Hands up high don't kill the vibe We alive for one more night"
+  },
+  {
+   "start": 92.86,
+   "end": 98.86,
+   "text": "Heartbeats sync with every drum Another anthem being born"
+  },
+  {
+   "start": 98.86,
+   "end": 110.86,
+   "text": "Pace it low she's in the mood Two or two though I go or you do"
+  },
+  {
+   "start": 110.86,
+   "end": 113.7,
+   "text": "She said, fuck it, make your move"
+  },
+  {
+   "start": 113.7,
+   "end": 117.48,
+   "text": "Whole club spinning out the roof"
+  },
+  {
+   "start": 117.48,
+   "end": 121.0,
+   "text": "Late night love and dirty truth"
+  },
+  {
+   "start": 121.0,
+   "end": 124.32,
+   "text": "Champagne dreams and attitude"
+  },
+  {
+   "start": 124.32,
+   "end": 128.2,
+   "text": "Everybody want the view"
+  },
+  {
+   "start": 128.2,
+   "end": 132.14,
+   "text": "Do what to do, I go, all you do"
+  },
+  {
+   "start": 132.14,
+   "end": 135.94,
+   "text": "Phone light glow across the face"
+  },
+  {
+   "start": 135.94,
+   "end": 139.52,
+   "text": "Red lips talking reckless ways"
+  },
+  {
+   "start": 139.52,
+   "end": 143.2,
+   "text": "DJ screaming through the hey"
+  },
+  {
+   "start": 143.2,
+   "end": 146.8,
+   "text": "Bodies moving wave to wave"
+  },
+  {
+   "start": 146.8,
+   "end": 149.6,
+   "text": "I don't sleep, I make songs"
+  },
+  {
+   "start": 149.6,
+   "end": 151.34,
+   "text": "Turn mistakes into neon"
+  },
+  {
+   "start": 151.34,
+   "end": 153.2,
+   "text": "Every scar become a hook"
+  },
+  {
+   "start": 153.2,
+   "end": 155.04,
+   "text": "Every night another look"
+  },
+  {
+   "start": 155.04,
+   "end": 156.74,
+   "text": "Oops, there's a boob on the screen"
+  },
+  {
+   "start": 156.74,
+   "end": 158.58,
+   "text": "Everybody acting free"
+  },
+  {
+   "start": 158.58,
+   "end": 160.44,
+   "text": "Life too short to play confused"
+  },
+  {
+   "start": 160.44,
+   "end": 162.3,
+   "text": "Dance first and make the news"
+  },
+  {
+   "start": 162.3,
+   "end": 166.4,
+   "text": "Mama said, boy, slow down"
+  },
+  {
+   "start": 166.4,
+   "end": 170.04,
+   "text": "But the speaker's way too loud"
+  },
+  {
+   "start": 170.04,
+   "end": 173.1,
+   "text": "If tonight becomes a blur"
+  },
+  {
+   "start": 173.1,
+   "end": 175.92,
+   "text": "At least the music still occurs"
+  },
+  {
+   "start": 175.92,
+   "end": 180.92,
+   "text": "Face it low, she's in a mood"
+  },
+  {
+   "start": 180.92,
+   "end": 185.02,
+   "text": "Two or two do I go, all you do"
+  },
+  {
+   "start": 185.02,
+   "end": 188.58,
+   "text": "She said, fuck it, make you move"
+  },
+  {
+   "start": 188.58,
+   "end": 191.88,
+   "text": "Strobe lights cutting through the room"
+  },
+  {
+   "start": 191.88,
+   "end": 195.44,
+   "text": "Darker row inside the spoon"
+  },
+  {
+   "start": 196.4,
+   "end": 204.4,
+   "text": "Turning chaos into gold One more night, one more tune"
+  },
+  {
+   "start": 204.4,
+   "end": 208.4,
+   "text": "To a doo-doo I go, you doo-doo-doo-doo"
+  },
+  {
+   "start": 210.4,
+   "end": 212.4,
+   "text": "Full static"
+  },
+  {
+   "start": 214.4,
+   "end": 216.4,
+   "text": "Hello mama"
+  },
+  {
+   "start": 217.4,
+   "end": 220.4,
+   "text": "I got another one"
+  }
+ ],
+ "lines": [
+  "Tontoa 2",
+  "Full ringin'",
+  "They started callin' me",
+  "Hello, Mama",
+  "I'm ready for another song",
+  "",
+  "Face hit low, she's in the mood",
+  "Black dress dancing to the groove",
+  "Neon green on velvet walls",
+  "Late night angels in the hall",
+  "Gold chain coat against my chest",
+  "Old damn city overdressed",
+  "Smoking lasers through the room",
+  "Everybody chasing something new",
+  "She said, doctor, oh, you crazy",
+  "I said, maybe entertain me",
+  "Mirror lights and flashing blue",
+  "Two or two, do I go or you do?",
+  "Hands up high don't kill the vibe We alive for one more night",
+  "Heartbeats sync with every drum Another anthem being born",
+  "Pace it low she's in the mood Two or two though I go or you do",
+  "She said, fuck it, make your move",
+  "Whole club spinning out the roof",
+  "Late night love and dirty truth",
+  "Champagne dreams and attitude",
+  "Everybody want the view",
+  "Do what to do, I go, all you do",
+  "Phone light glow across the face",
+  "Red lips talking reckless ways",
+  "DJ screaming through the hey",
+  "Bodies moving wave to wave",
+  "I don't sleep, I make songs",
+  "Turn mistakes into neon",
+  "Every scar become a hook",
+  "Every night another look",
+  "Oops, there's a boob on the screen",
+  "Everybody acting free",
+  "Life too short to play confused",
+  "Dance first and make the news",
+  "Mama said, boy, slow down",
+  "But the speaker's way too loud",
+  "If tonight becomes a blur",
+  "At least the music still occurs",
+  "Face it low, she's in a mood",
+  "Two or two do I go, all you do",
+  "She said, fuck it, make you move",
+  "Strobe lights cutting through the room",
+  "Darker row inside the spoon",
+  "Turning chaos into gold One more night, one more tune",
+  "To a doo-doo I go, you doo-doo-doo-doo",
+  "",
+  "Full static",
+  "",
+  "Hello mama",
+  "I got another one"
+ ]
+}

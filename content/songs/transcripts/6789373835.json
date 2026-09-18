@@ -1,0 +1,419 @@
+{
+ "apple_id": 6789373835,
+ "title": "The Nicest",
+ "released": "2026-07-09",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/The Nicest.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 14.56,
+   "text": "I ain't no bomba"
+  },
+  {
+   "start": 14.56,
+   "end": 17.0,
+   "text": "Hey, hey, hey"
+  },
+  {
+   "start": 17.0,
+   "end": 19.32,
+   "text": "Yeah"
+  },
+  {
+   "start": 19.32,
+   "end": 21.92,
+   "text": "Hey, hey, hey"
+  },
+  {
+   "start": 21.92,
+   "end": 25.96,
+   "text": "You walked in late"
+  },
+  {
+   "start": 25.96,
+   "end": 28.42,
+   "text": "With rain on your coat"
+  },
+  {
+   "start": 28.42,
+   "end": 30.86,
+   "text": "Said my name soft"
+  },
+  {
+   "start": 30.86,
+   "end": 33.14,
+   "text": "Like you already know"
+  },
+  {
+   "start": 33.14,
+   "end": 34.48,
+   "text": "I kept my cool"
+  },
+  {
+   "start": 34.48,
+   "end": 36.26,
+   "text": "But I felt that flame"
+  },
+  {
+   "start": 36.26,
+   "end": 38.66,
+   "text": "Every little move, yeah, you change the frame"
+  },
+  {
+   "start": 38.66,
+   "end": 41.02,
+   "text": "Every tone low when I try to play you safe"
+  },
+  {
+   "start": 41.02,
+   "end": 43.58,
+   "text": "But my chest goes tight when you say my name"
+  },
+  {
+   "start": 43.58,
+   "end": 45.9,
+   "text": "You look me over like you see right through"
+  },
+  {
+   "start": 45.9,
+   "end": 48.52,
+   "text": "And I lose my nerve, what else can I do?"
+  },
+  {
+   "start": 48.94,
+   "end": 50.8,
+   "text": "Every time you speak to me"
+  },
+  {
+   "start": 50.8,
+   "end": 53.32,
+   "text": "It hits too deep, it pulls me clean"
+  },
+  {
+   "start": 53.32,
+   "end": 55.62,
+   "text": "Every time I start to shake"
+  },
+  {
+   "start": 55.62,
+   "end": 58.2,
+   "text": "Like the floor might move, like the roof might cave"
+  },
+  {
+   "start": 58.2,
+   "end": 61.44,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 61.44,
+   "end": 66.32,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 66.32,
+   "end": 71.4,
+   "text": "You twist my heart and make me crazy"
+  },
+  {
+   "start": 73.58,
+   "end": 76.04,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 76.04,
+   "end": 80.96,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 80.96,
+   "end": 85.8,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 85.8,
+   "end": 88.32,
+   "text": "Say it once, say it maybe"
+  },
+  {
+   "start": 88.32,
+   "end": 90.6,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 90.6,
+   "end": 92.82,
+   "text": "You took my hand in a grocery line"
+  },
+  {
+   "start": 92.82,
+   "end": 95.26,
+   "text": "Four paper bags and your reckless smile"
+  },
+  {
+   "start": 95.26,
+   "end": 97.64,
+   "text": "Tell me your truth and I tell you mine"
+  },
+  {
+   "start": 97.64,
+   "end": 100.08,
+   "text": "I was barely standing and you made it shine"
+  },
+  {
+   "start": 100.08,
+   "end": 102.54,
+   "text": "I talk too much and I run too high"
+  },
+  {
+   "start": 102.54,
+   "end": 104.96,
+   "text": "You just lean in like you heard a lie"
+  },
+  {
+   "start": 104.96,
+   "end": 106.8,
+   "text": "And when you laugh, if I get my name"
+  },
+  {
+   "start": 106.8,
+   "end": 109.54,
+   "text": "Then I come back sharp just to feel that change"
+  },
+  {
+   "start": 109.54,
+   "end": 111.62,
+   "text": "Every time you speak to me"
+  },
+  {
+   "start": 111.62,
+   "end": 114.1,
+   "text": "It hits too deep, it pulls me clean"
+  },
+  {
+   "start": 114.1,
+   "end": 116.48,
+   "text": "Every time I start to shake"
+  },
+  {
+   "start": 116.48,
+   "end": 119.16,
+   "text": "Like the floor might move, like the roof might cave"
+  },
+  {
+   "start": 119.16,
+   "end": 122.24,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 122.24,
+   "end": 127.12,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 127.12,
+   "end": 132.24,
+   "text": "You twist my heart and make me crazy"
+  },
+  {
+   "start": 132.24,
+   "end": 136.86,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 136.86,
+   "end": 141.78,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 141.78,
+   "end": 146.6,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 146.6,
+   "end": 149.16,
+   "text": "Say it once then say it maybe"
+  },
+  {
+   "start": 149.16,
+   "end": 151.48,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 151.48,
+   "end": 158.12,
+   "text": "And I try to stay composed"
+  },
+  {
+   "start": 158.12,
+   "end": 163.0,
+   "text": "But you open up what I close"
+  },
+  {
+   "start": 163.0,
+   "end": 165.76,
+   "text": "One small word and I'm undone"
+  },
+  {
+   "start": 165.76,
+   "end": 170.68,
+   "text": "You make that heart sound feel like love"
+  },
+  {
+   "start": 170.68,
+   "end": 172.98,
+   "text": "I go high, I go too far"
+  },
+  {
+   "start": 172.98,
+   "end": 175.44,
+   "text": "Boys are torn up in the dark"
+  },
+  {
+   "start": 175.44,
+   "end": 178.12,
+   "text": "Still, I'm yours when you walk in"
+  },
+  {
+   "start": 178.12,
+   "end": 182.5,
+   "text": "Still, I'm gone when you bring, bring, bring, bring"
+  },
+  {
+   "start": 182.5,
+   "end": 195.28,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 195.28,
+   "end": 200.14,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 200.14,
+   "end": 205.26,
+   "text": "You twist my heart and make me crazy"
+  },
+  {
+   "start": 205.26,
+   "end": 209.86,
+   "text": "The nicest fucking lady"
+  },
+  {
+   "start": 212.5,
+   "end": 214.9,
+   "text": "The nicest fuckin' lady"
+  },
+  {
+   "start": 217.4,
+   "end": 219.8,
+   "text": "The nicest fuckin' lady"
+  },
+  {
+   "start": 219.8,
+   "end": 222.3,
+   "text": "Say it once, then I say it, baby"
+  },
+  {
+   "start": 222.3,
+   "end": 224.6,
+   "text": "The nicest fuckin' lady"
+  },
+  {
+   "start": 227.1,
+   "end": 229.5,
+   "text": "The nicest fuckin' lady"
+  },
+  {
+   "start": 229.5,
+   "end": 232.0,
+   "text": "I'm a mess, but you still save me"
+  },
+  {
+   "start": 232.0,
+   "end": 234.4,
+   "text": "The nicest fuckin' lady"
+  },
+  {
+   "start": 242.5,
+   "end": 243.56,
+   "text": "Boom, boom, boom, boom, boom."
+  }
+ ],
+ "lines": [
+  "I ain't no bomba",
+  "Hey, hey, hey",
+  "Yeah",
+  "Hey, hey, hey",
+  "You walked in late",
+  "With rain on your coat",
+  "Said my name soft",
+  "Like you already know",
+  "I kept my cool",
+  "But I felt that flame",
+  "Every little move, yeah, you change the frame",
+  "Every tone low when I try to play you safe",
+  "But my chest goes tight when you say my name",
+  "You look me over like you see right through",
+  "And I lose my nerve, what else can I do?",
+  "Every time you speak to me",
+  "It hits too deep, it pulls me clean",
+  "Every time I start to shake",
+  "Like the floor might move, like the roof might cave",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "You twist my heart and make me crazy",
+  "",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "Say it once, say it maybe",
+  "The nicest fucking lady",
+  "You took my hand in a grocery line",
+  "Four paper bags and your reckless smile",
+  "Tell me your truth and I tell you mine",
+  "I was barely standing and you made it shine",
+  "I talk too much and I run too high",
+  "You just lean in like you heard a lie",
+  "And when you laugh, if I get my name",
+  "Then I come back sharp just to feel that change",
+  "Every time you speak to me",
+  "It hits too deep, it pulls me clean",
+  "Every time I start to shake",
+  "Like the floor might move, like the roof might cave",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "You twist my heart and make me crazy",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "Say it once then say it maybe",
+  "The nicest fucking lady",
+  "And I try to stay composed",
+  "But you open up what I close",
+  "One small word and I'm undone",
+  "You make that heart sound feel like love",
+  "I go high, I go too far",
+  "Boys are torn up in the dark",
+  "Still, I'm yours when you walk in",
+  "Still, I'm gone when you bring, bring, bring, bring",
+  "The nicest fucking lady",
+  "The nicest fucking lady",
+  "You twist my heart and make me crazy",
+  "The nicest fucking lady",
+  "",
+  "The nicest fuckin' lady",
+  "",
+  "The nicest fuckin' lady",
+  "Say it once, then I say it, baby",
+  "The nicest fuckin' lady",
+  "",
+  "The nicest fuckin' lady",
+  "I'm a mess, but you still save me",
+  "The nicest fuckin' lady",
+  "",
+  "Boom, boom, boom, boom, boom."
+ ]
+}

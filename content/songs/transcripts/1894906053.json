@@ -1,0 +1,440 @@
+{
+ "apple_id": 1894906053,
+ "title": "She’s Hooked",
+ "released": "2026-04-20",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/She’s hooked .mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 4.64,
+   "text": "She's hooked"
+  },
+  {
+   "start": 4.64,
+   "end": 7.5,
+   "text": "Yeah"
+  },
+  {
+   "start": 7.5,
+   "end": 19.28,
+   "text": "She's hooked"
+  },
+  {
+   "start": 19.28,
+   "end": 22.34,
+   "text": "Yeah"
+  },
+  {
+   "start": 22.34,
+   "end": 27.44,
+   "text": "I see you"
+  },
+  {
+   "start": 27.44,
+   "end": 30.46,
+   "text": "Chill chicken, not my type"
+  },
+  {
+   "start": 30.46,
+   "end": 34.28,
+   "text": "She's hooked"
+  },
+  {
+   "start": 34.28,
+   "end": 37.88,
+   "text": "Yeah, she's hooked"
+  },
+  {
+   "start": 37.88,
+   "end": 41.64,
+   "text": "Once been round, now she's hooked"
+  },
+  {
+   "start": 41.64,
+   "end": 45.4,
+   "text": "Now she's hooked"
+  },
+  {
+   "start": 45.4,
+   "end": 49.14,
+   "text": "She's hooked, yeah, she's hooked"
+  },
+  {
+   "start": 49.14,
+   "end": 52.86,
+   "text": "She's hooked, now she's hooked"
+  },
+  {
+   "start": 57.44,
+   "end": 60.36,
+   "text": "I walk away, still she's hooked"
+  },
+  {
+   "start": 60.36,
+   "end": 62.34,
+   "text": "That girl isn't giving up"
+  },
+  {
+   "start": 62.34,
+   "end": 66.24,
+   "text": "I've been ignoring her all day long"
+  },
+  {
+   "start": 66.24,
+   "end": 67.98,
+   "text": "Phone, phone blowing up"
+  },
+  {
+   "start": 67.98,
+   "end": 71.66,
+   "text": "Text after text, I already told her what's in my head"
+  },
+  {
+   "start": 71.66,
+   "end": 73.86,
+   "text": "It's overwhelming, I made it clear"
+  },
+  {
+   "start": 73.86,
+   "end": 75.3,
+   "text": "No girlfriend this year"
+  },
+  {
+   "start": 75.3,
+   "end": 77.06,
+   "text": "Different focus, different road"
+  },
+  {
+   "start": 77.06,
+   "end": 79.04,
+   "text": "Different rhythm, different code"
+  },
+  {
+   "start": 79.04,
+   "end": 80.8,
+   "text": "Different focus, different road"
+  },
+  {
+   "start": 80.8,
+   "end": 82.9,
+   "text": "Different rhythm, different code"
+  },
+  {
+   "start": 82.9,
+   "end": 84.76,
+   "text": "Chill chicken, I'm on my type"
+  },
+  {
+   "start": 84.76,
+   "end": 86.6,
+   "text": "Slow spin on the city lights"
+  },
+  {
+   "start": 86.6,
+   "end": 90.44,
+   "text": "Eyes on me but I don't buy music loud Friday night"
+  },
+  {
+   "start": 90.44,
+   "end": 94.54,
+   "text": "She's hooked, she's hooked, she's hooked"
+  },
+  {
+   "start": 94.54,
+   "end": 98.26,
+   "text": "Now she's hooked, she's hooked, she's hooked"
+  },
+  {
+   "start": 98.26,
+   "end": 101.1,
+   "text": "Now she's hooked, she's hooked, she's hooked"
+  },
+  {
+   "start": 101.1,
+   "end": 105.04,
+   "text": "I-I-I-I step on the gas"
+  },
+  {
+   "start": 105.04,
+   "end": 107.08,
+   "text": "Yo, she's hooked"
+  },
+  {
+   "start": 107.08,
+   "end": 116.54,
+   "text": "No, I don't, I-I don't love her"
+  },
+  {
+   "start": 116.54,
+   "end": 118.38,
+   "text": "Maybe back then that one spring break"
+  },
+  {
+   "start": 118.38,
+   "end": 120.26,
+   "text": "Now my mind, clean and calm"
+  },
+  {
+   "start": 120.26,
+   "end": 122.12,
+   "text": "Different wave, different song"
+  },
+  {
+   "start": 122.12,
+   "end": 124.0,
+   "text": "She keeps dancing round and round"
+  },
+  {
+   "start": 124.0,
+   "end": 125.86,
+   "text": "Like a ballerina on the ground"
+  },
+  {
+   "start": 125.86,
+   "end": 127.66,
+   "text": "Eyes locked, won't let go"
+  },
+  {
+   "start": 127.66,
+   "end": 129.06,
+   "text": "But I already told her so"
+  },
+  {
+   "start": 129.06,
+   "end": 131.5,
+   "text": "Slow spin, street ballerina"
+  },
+  {
+   "start": 131.5,
+   "end": 133.26,
+   "text": "Ice, camera scene"
+  },
+  {
+   "start": 133.26,
+   "end": 135.18,
+   "text": "Crowd moves, hits the floor"
+  },
+  {
+   "start": 135.18,
+   "end": 137.02,
+   "text": "Everybody watching once and more"
+  },
+  {
+   "start": 137.02,
+   "end": 138.9,
+   "text": "Spins once, then twice again"
+  },
+  {
+   "start": 138.9,
+   "end": 140.88,
+   "text": "All these people closing in"
+  },
+  {
+   "start": 140.88,
+   "end": 141.82,
+   "text": "Beat, beat, beat, drop"
+  },
+  {
+   "start": 141.82,
+   "end": 144.16,
+   "text": "Silence, silence, silence, silence, silence"
+  },
+  {
+   "start": 144.16,
+   "end": 144.7,
+   "text": "And I say"
+  },
+  {
+   "start": 144.7,
+   "end": 148.84,
+   "text": "She's hooked"
+  },
+  {
+   "start": 148.84,
+   "end": 152.4,
+   "text": "Now she's hooked"
+  },
+  {
+   "start": 152.4,
+   "end": 154.04,
+   "text": "I walk away"
+  },
+  {
+   "start": 154.04,
+   "end": 155.96,
+   "text": "She's hooked"
+  },
+  {
+   "start": 155.96,
+   "end": 158.22,
+   "text": "Yeah, she's hooked"
+  },
+  {
+   "start": 158.22,
+   "end": 159.62,
+   "text": "Once been round"
+  },
+  {
+   "start": 159.62,
+   "end": 161.5,
+   "text": "Now, now"
+  },
+  {
+   "start": 161.5,
+   "end": 163.28,
+   "text": "Now she's hooked"
+  },
+  {
+   "start": 163.28,
+   "end": 165.2,
+   "text": "She keeps dancing round and round"
+  },
+  {
+   "start": 165.2,
+   "end": 168.98,
+   "text": "Like a ballerina on the ground"
+  },
+  {
+   "start": 168.98,
+   "end": 170.88,
+   "text": "She's hooked"
+  },
+  {
+   "start": 170.88,
+   "end": 182.02,
+   "text": "Yeah, she's hooked"
+  },
+  {
+   "start": 182.02,
+   "end": 184.86,
+   "text": "Everybody looking"
+  },
+  {
+   "start": 184.86,
+   "end": 185.9,
+   "text": "She's hooked"
+  },
+  {
+   "start": 185.9,
+   "end": 189.52,
+   "text": "Yeah, she's hooked"
+  },
+  {
+   "start": 189.52,
+   "end": 193.22,
+   "text": "I don't chase, but she's hooked"
+  },
+  {
+   "start": 193.22,
+   "end": 195.3,
+   "text": "Once been around city lights"
+  },
+  {
+   "start": 195.3,
+   "end": 198.94,
+   "text": "I walk away into the night"
+  },
+  {
+   "start": 198.94,
+   "end": 200.82,
+   "text": "She's hooked"
+  },
+  {
+   "start": 200.82,
+   "end": 204.46,
+   "text": "Yeah, she's hooked"
+  },
+  {
+   "start": 204.46,
+   "end": 207.2,
+   "text": "And everybody saw"
+  },
+  {
+   "start": 207.2,
+   "end": 208.22,
+   "text": "She's hooked"
+  },
+  {
+   "start": 228.94,
+   "end": 258.92,
+   "text": "Thank you."
+  }
+ ],
+ "lines": [
+  "She's hooked",
+  "Yeah",
+  "She's hooked",
+  "Yeah",
+  "I see you",
+  "Chill chicken, not my type",
+  "She's hooked",
+  "Yeah, she's hooked",
+  "Once been round, now she's hooked",
+  "Now she's hooked",
+  "She's hooked, yeah, she's hooked",
+  "She's hooked, now she's hooked",
+  "",
+  "I walk away, still she's hooked",
+  "That girl isn't giving up",
+  "I've been ignoring her all day long",
+  "Phone, phone blowing up",
+  "Text after text, I already told her what's in my head",
+  "It's overwhelming, I made it clear",
+  "No girlfriend this year",
+  "Different focus, different road",
+  "Different rhythm, different code",
+  "Different focus, different road",
+  "Different rhythm, different code",
+  "Chill chicken, I'm on my type",
+  "Slow spin on the city lights",
+  "Eyes on me but I don't buy music loud Friday night",
+  "She's hooked, she's hooked, she's hooked",
+  "Now she's hooked, she's hooked, she's hooked",
+  "Now she's hooked, she's hooked, she's hooked",
+  "I-I-I-I step on the gas",
+  "Yo, she's hooked",
+  "No, I don't, I-I don't love her",
+  "Maybe back then that one spring break",
+  "Now my mind, clean and calm",
+  "Different wave, different song",
+  "She keeps dancing round and round",
+  "Like a ballerina on the ground",
+  "Eyes locked, won't let go",
+  "But I already told her so",
+  "Slow spin, street ballerina",
+  "Ice, camera scene",
+  "Crowd moves, hits the floor",
+  "Everybody watching once and more",
+  "Spins once, then twice again",
+  "All these people closing in",
+  "Beat, beat, beat, drop",
+  "Silence, silence, silence, silence, silence",
+  "And I say",
+  "She's hooked",
+  "Now she's hooked",
+  "I walk away",
+  "She's hooked",
+  "Yeah, she's hooked",
+  "Once been round",
+  "Now, now",
+  "Now she's hooked",
+  "She keeps dancing round and round",
+  "Like a ballerina on the ground",
+  "She's hooked",
+  "Yeah, she's hooked",
+  "Everybody looking",
+  "She's hooked",
+  "Yeah, she's hooked",
+  "I don't chase, but she's hooked",
+  "Once been around city lights",
+  "I walk away into the night",
+  "She's hooked",
+  "Yeah, she's hooked",
+  "And everybody saw",
+  "She's hooked",
+  "",
+  "Thank you."
+ ]
+}

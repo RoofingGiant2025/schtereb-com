@@ -1,0 +1,390 @@
+{
+ "apple_id": 1894320844,
+ "title": "The Moment I Love",
+ "released": "2026-04-17",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/Downloads/The Moment I Love.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 13.0,
+   "text": "Take your time, honey, take your time"
+  },
+  {
+   "start": 13.0,
+   "end": 20.88,
+   "text": "What time does the gate open tonight?"
+  },
+  {
+   "start": 21.2,
+   "end": 24.76,
+   "text": "City lights breathing in white"
+  },
+  {
+   "start": 24.76,
+   "end": 27.96,
+   "text": "No rush, no reason to run"
+  },
+  {
+   "start": 27.96,
+   "end": 31.72,
+   "text": "We're not erasing the sun"
+  },
+  {
+   "start": 31.72,
+   "end": 34.0,
+   "text": "I don't wanna think"
+  },
+  {
+   "start": 34.0,
+   "end": 35.9,
+   "text": "I've been thinking all day"
+  },
+  {
+   "start": 35.9,
+   "end": 37.62,
+   "text": "Let the noise fade away"
+  },
+  {
+   "start": 37.62,
+   "end": 39.6,
+   "text": "Let it fall, let it break"
+  },
+  {
+   "start": 39.6,
+   "end": 41.58,
+   "text": "Slow down, feel the air"
+  },
+  {
+   "start": 41.58,
+   "end": 43.4,
+   "text": "Nothing's broken here"
+  },
+  {
+   "start": 43.4,
+   "end": 45.12,
+   "text": "All the doubts disappear"
+  },
+  {
+   "start": 45.12,
+   "end": 48.2,
+   "text": "When I'm standing right here"
+  },
+  {
+   "start": 48.2,
+   "end": 52.12,
+   "text": "Take your time"
+  },
+  {
+   "start": 52.12,
+   "end": 59.88,
+   "text": "Honey, take your time"
+  },
+  {
+   "start": 59.88,
+   "end": 69.58,
+   "text": "I don't wanna think, I've been thinking all day"
+  },
+  {
+   "start": 69.58,
+   "end": 73.5,
+   "text": "It's time to love myself, it's too late to look back"
+  },
+  {
+   "start": 73.5,
+   "end": 78.32,
+   "text": "I believe I am falling in love"
+  },
+  {
+   "start": 78.32,
+   "end": 81.1,
+   "text": "Look at the beautiful sky"
+  },
+  {
+   "start": 81.1,
+   "end": 85.28,
+   "text": "I, I, I, I, I gotta take a picture"
+  },
+  {
+   "start": 85.28,
+   "end": 88.72,
+   "text": "The moment I love"
+  },
+  {
+   "start": 88.72,
+   "end": 95.44,
+   "text": "Every second we almost missed"
+  },
+  {
+   "start": 95.44,
+   "end": 99.26,
+   "text": "Every memory kissed by risk"
+  },
+  {
+   "start": 99.26,
+   "end": 103.32,
+   "text": "All the pages we turned too fast"
+  },
+  {
+   "start": 103.32,
+   "end": 106.96,
+   "text": "Now we're letting the moment last"
+  },
+  {
+   "start": 106.96,
+   "end": 108.84,
+   "text": "No rewind, no regret"
+  },
+  {
+   "start": 108.84,
+   "end": 110.8,
+   "text": "No more shadows in my head"
+  },
+  {
+   "start": 110.8,
+   "end": 114.76,
+   "text": "If this is where I'm meant to be, then this is where I'll breathe"
+  },
+  {
+   "start": 114.76,
+   "end": 118.4,
+   "text": "Slow down, feel the light, everything feels right"
+  },
+  {
+   "start": 118.4,
+   "end": 122.12,
+   "text": "No more running from the night, I'm alive inside"
+  },
+  {
+   "start": 122.12,
+   "end": 128.32,
+   "text": "This is the moment I love, right here, rising above"
+  },
+  {
+   "start": 128.32,
+   "end": 137.28,
+   "text": "No past, pulling me down, no fear left around"
+  },
+  {
+   "start": 137.28,
+   "end": 143.44,
+   "text": "Take your time"
+  },
+  {
+   "start": 143.44,
+   "end": 147.98,
+   "text": "Honey, take your time"
+  },
+  {
+   "start": 147.98,
+   "end": 155.88,
+   "text": "I don't wanna think"
+  },
+  {
+   "start": 155.88,
+   "end": 157.7,
+   "text": "I've been thinking all day"
+  },
+  {
+   "start": 157.7,
+   "end": 159.6,
+   "text": "It's time to love myself"
+  },
+  {
+   "start": 159.6,
+   "end": 161.58,
+   "text": "It's too late to look back"
+  },
+  {
+   "start": 161.58,
+   "end": 166.02,
+   "text": "I believe I am falling in love"
+  },
+  {
+   "start": 166.02,
+   "end": 169.46,
+   "text": "With the moment with the sky above"
+  },
+  {
+   "start": 169.46,
+   "end": 173.0,
+   "text": "Look at the beautiful sky"
+  },
+  {
+   "start": 173.0,
+   "end": 177.1,
+   "text": "I've gotta take a picture"
+  },
+  {
+   "start": 177.1,
+   "end": 180.56,
+   "text": "This is the moment I love"
+  },
+  {
+   "start": 180.56,
+   "end": 187.74,
+   "text": "No more chasing what I used to be"
+  },
+  {
+   "start": 187.74,
+   "end": 190.96,
+   "text": "No more trying to please everybody"
+  },
+  {
+   "start": 190.96,
+   "end": 193.56,
+   "text": "Right here, right now"
+  },
+  {
+   "start": 193.56,
+   "end": 195.56,
+   "text": "That's enough for me"
+  },
+  {
+   "start": 195.56,
+   "end": 203.02,
+   "text": "If love is a door, I'm stepping in"
+  },
+  {
+   "start": 203.02,
+   "end": 207.26,
+   "text": "No fear anymore, let it begin"
+  },
+  {
+   "start": 207.26,
+   "end": 210.8,
+   "text": "This is the moment I love"
+  },
+  {
+   "start": 210.8,
+   "end": 214.76,
+   "text": "The only one I'm dreaming of"
+  },
+  {
+   "start": 214.76,
+   "end": 217.76,
+   "text": "No rewind, no escape"
+  },
+  {
+   "start": 217.76,
+   "end": 223.24,
+   "text": "Just the light on my face"
+  },
+  {
+   "start": 223.24,
+   "end": 227.78,
+   "text": "Take your time"
+  },
+  {
+   "start": 227.78,
+   "end": 234.24,
+   "text": "Honey, take your time"
+  },
+  {
+   "start": 234.24,
+   "end": 242.12,
+   "text": "I don't wanna think"
+  },
+  {
+   "start": 242.12,
+   "end": 243.96,
+   "text": "I've been thinking all day"
+  },
+  {
+   "start": 243.96,
+   "end": 245.8,
+   "text": "It's time to love myself"
+  },
+  {
+   "start": 245.8,
+   "end": 247.84,
+   "text": "It's too late to look back"
+  },
+  {
+   "start": 247.84,
+   "end": 252.74,
+   "text": "I believe I am falling in love"
+  },
+  {
+   "start": 252.74,
+   "end": 260.24,
+   "text": "Falling in love, falling in love"
+  },
+  {
+   "start": 260.24,
+   "end": 266.86,
+   "text": "Look at the beautiful sky, I, I, I"
+  },
+  {
+   "start": 266.86,
+   "end": 272.74,
+   "text": "I've gotta take a picture of the moment I love"
+  }
+ ],
+ "lines": [
+  "Take your time, honey, take your time",
+  "What time does the gate open tonight?",
+  "City lights breathing in white",
+  "No rush, no reason to run",
+  "We're not erasing the sun",
+  "I don't wanna think",
+  "I've been thinking all day",
+  "Let the noise fade away",
+  "Let it fall, let it break",
+  "Slow down, feel the air",
+  "Nothing's broken here",
+  "All the doubts disappear",
+  "When I'm standing right here",
+  "Take your time",
+  "Honey, take your time",
+  "I don't wanna think, I've been thinking all day",
+  "It's time to love myself, it's too late to look back",
+  "I believe I am falling in love",
+  "Look at the beautiful sky",
+  "I, I, I, I, I gotta take a picture",
+  "The moment I love",
+  "Every second we almost missed",
+  "Every memory kissed by risk",
+  "All the pages we turned too fast",
+  "Now we're letting the moment last",
+  "No rewind, no regret",
+  "No more shadows in my head",
+  "If this is where I'm meant to be, then this is where I'll breathe",
+  "Slow down, feel the light, everything feels right",
+  "No more running from the night, I'm alive inside",
+  "This is the moment I love, right here, rising above",
+  "No past, pulling me down, no fear left around",
+  "Take your time",
+  "Honey, take your time",
+  "I don't wanna think",
+  "I've been thinking all day",
+  "It's time to love myself",
+  "It's too late to look back",
+  "I believe I am falling in love",
+  "With the moment with the sky above",
+  "Look at the beautiful sky",
+  "I've gotta take a picture",
+  "This is the moment I love",
+  "No more chasing what I used to be",
+  "No more trying to please everybody",
+  "Right here, right now",
+  "That's enough for me",
+  "If love is a door, I'm stepping in",
+  "No fear anymore, let it begin",
+  "This is the moment I love",
+  "The only one I'm dreaming of",
+  "No rewind, no escape",
+  "Just the light on my face",
+  "Take your time",
+  "Honey, take your time",
+  "I don't wanna think",
+  "I've been thinking all day",
+  "It's time to love myself",
+  "It's too late to look back",
+  "I believe I am falling in love",
+  "Falling in love, falling in love",
+  "Look at the beautiful sky, I, I, I",
+  "I've gotta take a picture of the moment I love"
+ ]
+}

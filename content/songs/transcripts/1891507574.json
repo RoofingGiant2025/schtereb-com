@@ -1,0 +1,192 @@
+{
+ "apple_id": 1891507574,
+ "title": "Agitated Regret",
+ "released": "2026-04-07",
+ "source_file": "/Users/olegshtereb/Library/Mobile Documents/com~apple~CloudDocs/agitated-regret.mp3",
+ "language": "en",
+ "model": "mlx-community/whisper-large-v3-turbo",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 19.96,
+   "text": "For the very first time in my life, agitating regret on my tracks"
+  },
+  {
+   "start": 19.96,
+   "end": 29.42,
+   "text": "Can I confirm who the heck was that thus dead?"
+  },
+  {
+   "start": 30.68,
+   "end": 37.8,
+   "text": "For the first one in my life, the master prying in"
+  },
+  {
+   "start": 37.8,
+   "end": 46.6,
+   "text": "For she very first time in my league"
+  },
+  {
+   "start": 46.6,
+   "end": 50.08,
+   "text": "Aples, regected my track crop"
+  },
+  {
+   "start": 50.08,
+   "end": 53.0,
+   "text": "Canon confirmed, Joe"
+  },
+  {
+   "start": 53.0,
+   "end": 56.26,
+   "text": "The pack was that, I, Nas, Rad"
+  },
+  {
+   "start": 56.26,
+   "end": 60.14,
+   "text": "Porst, Fig, no naifé"
+  },
+  {
+   "start": 60.14,
+   "end": 63.98,
+   "text": "Deep as me, pas, he oing"
+  },
+  {
+   "start": 63.98,
+   "end": 65.3,
+   "text": "Las, da was"
+  },
+  {
+   "start": 65.3,
+   "end": 68.12,
+   "text": "Pildas, prude"
+  },
+  {
+   "start": 68.12,
+   "end": 72.54,
+   "text": "And again it, why not you, terer, I'm her"
+  },
+  {
+   "start": 72.54,
+   "end": 75.06,
+   "text": "No need to seg"
+  },
+  {
+   "start": 75.06,
+   "end": 79.22,
+   "text": "BBB 0404 26"
+  },
+  {
+   "start": 79.22,
+   "end": 91.02,
+   "text": "For the very first time in my life"
+  },
+  {
+   "start": 91.02,
+   "end": 94.72,
+   "text": "Agitating regret on my tracks"
+  },
+  {
+   "start": 94.72,
+   "end": 100.94,
+   "text": "Cannot confirm who the heck was that"
+  },
+  {
+   "start": 100.94,
+   "end": 103.76,
+   "text": "Thus dead"
+  },
+  {
+   "start": 105.06,
+   "end": 113.16,
+   "text": "For the first one in my life, the master prying in"
+  },
+  {
+   "start": 113.16,
+   "end": 121.96,
+   "text": "For she very first time in my league, a plez reggae did my track drop"
+  },
+  {
+   "start": 121.96,
+   "end": 129.18,
+   "text": "Canon confirmed, Joe the pack was that, Aina's ride"
+  },
+  {
+   "start": 129.18,
+   "end": 132.42,
+   "text": "Porstvic no naifes"
+  },
+  {
+   "start": 132.42,
+   "end": 135.36,
+   "text": "Dipesme pasión"
+  },
+  {
+   "start": 135.36,
+   "end": 137.42,
+   "text": "Las tavas"
+  },
+  {
+   "start": 137.42,
+   "end": 139.74,
+   "text": "Piltas pruja"
+  },
+  {
+   "start": 139.74,
+   "end": 141.48,
+   "text": "And again it wine"
+  },
+  {
+   "start": 141.48,
+   "end": 143.64,
+   "text": "Not you to rare I'm hurt"
+  },
+  {
+   "start": 143.64,
+   "end": 146.38,
+   "text": "No need to say"
+  },
+  {
+   "start": 146.38,
+   "end": 147.68,
+   "text": "B-B-B"
+  },
+  {
+   "start": 147.68,
+   "end": 150.4,
+   "text": "040426"
+  }
+ ],
+ "lines": [
+  "For the very first time in my life, agitating regret on my tracks",
+  "Can I confirm who the heck was that thus dead?",
+  "For the first one in my life, the master prying in",
+  "For she very first time in my league",
+  "Aples, regected my track crop",
+  "Canon confirmed, Joe",
+  "The pack was that, I, Nas, Rad",
+  "Porst, Fig, no naifé",
+  "Deep as me, pas, he oing",
+  "Las, da was",
+  "Pildas, prude",
+  "And again it, why not you, terer, I'm her",
+  "No need to seg",
+  "BBB 0404 26",
+  "For the very first time in my life",
+  "Agitating regret on my tracks",
+  "Cannot confirm who the heck was that",
+  "Thus dead",
+  "For the first one in my life, the master prying in",
+  "For she very first time in my league, a plez reggae did my track drop",
+  "Canon confirmed, Joe the pack was that, Aina's ride",
+  "Porstvic no naifes",
+  "Dipesme pasión",
+  "Las tavas",
+  "Piltas pruja",
+  "And again it wine",
+  "Not you to rare I'm hurt",
+  "No need to say",
+  "B-B-B",
+  "040426"
+ ]
+}

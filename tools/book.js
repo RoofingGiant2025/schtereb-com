@@ -4,7 +4,7 @@
   var LANGS = ["uk", "ru", "en", "es"];
   var root = document.getElementById("book-root");
   if (!root) return;
-  var BASE = root.dataset.base || "/";
+  var BASE = root.dataset.base || "/", VER = root.dataset.v || "0";
   var state = { lang: root.dataset.lang || "uk", open: root.dataset.open === "1", page: 0, data: null, pages: null, turning: "none" };
   var spreadMode = window.matchMedia("(min-width: 768px)");
   var el = {
@@ -13,9 +13,11 @@
     prevL: document.getElementById("turn-prev-l"), prevR: document.getElementById("turn-prev-r"), nextR: document.getElementById("turn-next-r"),
     langs: document.getElementById("langs"), toc: document.getElementById("toc-btn"), folio: document.getElementById("folio-ind"),
     overlay: document.getElementById("overlay"), sheet: document.getElementById("sheet"), bottom: document.getElementById("chrome-bottom"),
-    coverBtn: document.getElementById("cover-open")
+    coverBtn: document.getElementById("cover-open"), cta: document.getElementById("cover-cta"),
+    lb: document.getElementById("lightbox"), lbImg: document.getElementById("lb-img"), lbCap: document.getElementById("lb-cap"), lbStage: document.getElementById("lb-stage")
   };
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); };
+  var em = function (s) { return esc(s).replace(/\*([^*]+)\*/g, "<em>$1</em>"); };   /* headnotes: *word* = italics (foreign words, titles) */
   var ORN = {
     rule: '<svg class="orn rule" viewBox="0 0 180 12" fill="none" aria-hidden="true"><path d="M2 6h68" stroke="currentColor" stroke-width=".7" stroke-linecap="round"/><circle cx="90" cy="6" r="1.6" fill="currentColor"/><path d="M78 6h24" stroke="currentColor" stroke-width=".7" opacity=".5"/><path d="M110 6h68" stroke="currentColor" stroke-width=".7" stroke-linecap="round"/></svg>',
     staff: '<svg class="orn staff" viewBox="0 0 96 36" fill="none" aria-hidden="true"><path d="M4 8h88M4 14h88M4 20h88M4 26h88M4 32h88" stroke="currentColor" stroke-width=".7" opacity=".55"/><path d="M22 26c0-7 5-12 8-18 1 8-2 14-2 20 0 3 2 5 4 5 3 0 5-3 5-6 0-5-4-8-7-8-4 0-8 4-8 9 0 6 5 10 11 10 8 0 13-7 13-15" stroke="currentColor" stroke-width="1.15" stroke-linecap="round"/><ellipse cx="58" cy="24" rx="4.2" ry="3" fill="currentColor"/><path d="M62 24V10" stroke="currentColor" stroke-width="1.1"/><ellipse cx="74" cy="18" rx="4.2" ry="3" fill="currentColor"/><path d="M78 18V6" stroke="currentColor" stroke-width="1.1"/></svg>',
@@ -26,10 +28,11 @@
   /* ---------- page model ---------- */
   function contentsEntries(D) {
     var out = [{ k: "part", id: "before" }], last = null;
+    var lastPart = "before";
     D.poems.forEach(function (p) {
-      if (p.part === "after" && last !== "after") { out.push({ k: "part", id: "after" }); }
+      if (p.part !== "before" && p.part !== lastPart) { out.push({ k: "part", id: p.part }); }
       else if (p.part === "before" && p.section && p.section !== last) { out.push({ k: "sec", id: p.section }); }
-      last = p.part === "after" ? "after" : p.section;
+      last = p.part !== "before" ? p.part : p.section; lastPart = p.part;
       out.push({ k: "poem", n: p.n });
     });
     return out;
@@ -49,27 +52,46 @@
     contentsChunks(D).forEach(function (_, i) { pages.push({ t: "contents", c: i }); });
     if (pages.length % 2 === 1) pages.push({ t: "blank" });
     var rightHand = function () { if (pages.length % 2 === 0) pages.push({ t: "blank" }); };
-    rightHand(); pages.push({ t: "part", id: "before" });
+    var leftHand = function () { if (pages.length % 2 === 1) pages.push({ t: "blank" }); };
+    var art = D.art || {};
+    /* a drawing from the author's archive on the verso, facing a part or section plate on the recto */
+    var plateWithArt = function (page, key) { if (art[key]) { leftHand(); pages.push({ t: "art", key: key }); } else rightHand(); pages.push(page); };
+    plateWithArt({ t: "part", id: "before" }, "part-before");
     var lastSec = null, lastPart = "before";
     D.poems.forEach(function (p) {
-      if (p.part === "after" && lastPart !== "after") { rightHand(); pages.push({ t: "part", id: "after" }); }
-      else if (p.part === "before" && p.section && p.section !== lastSec) { rightHand(); pages.push({ t: "section", id: p.section }); }
+      if (p.part !== "before" && p.part !== lastPart) plateWithArt({ t: "part", id: p.part }, "part-" + p.part);
+      else if (p.part === "before" && p.section && p.section !== lastSec) plateWithArt({ t: "section", id: p.section }, "sec-" + (sectionIndex(p.section) + 1));
       lastSec = p.section; lastPart = p.part;
       var chunks = p.texts[p.orig].chunks.length;
-      if (lang === p.orig) {
-        rightHand(); pages.push({ t: "plate", n: p.n });
-        for (var c = 0; c < chunks; c++) pages.push({ t: "poem", n: p.n, c: c });
-      } else {
-        if (pages.length % 2 === 1) pages.push({ t: "blank" });
-        for (var c2 = 0; c2 < chunks; c2++) { pages.push({ t: "orig", n: p.n, c: c2 }); pages.push({ t: "poem", n: p.n, c: c2 }); }
-      }
+      /* every poem, in every language: [autograph or blank | title plate with the headnote], then the text —
+         the original alone, or original | translation */
+      if (p.ms) { leftHand(); pages.push({ t: "ms", n: p.n }); } else rightHand();
+      pages.push({ t: "plate", n: p.n });
+      if (lang === p.orig || p.single) { for (var c = 0; c < chunks; c++) pages.push({ t: "poem", n: p.n, c: c }); }
+      else { for (var c2 = 0; c2 < chunks; c2++) { pages.push({ t: "orig", n: p.n, c: c2 }); pages.push({ t: "poem", n: p.n, c: c2 }); } }
     });
-    rightHand(); pages.push({ t: "colophon" });
+    if (D.portrait) { if (pages.length % 2 === 1) pages.push({ t: "blank" }); pages.push({ t: "author-plate" }); pages.push({ t: "author" }); }
+    plateWithArt({ t: "colophon" }, "colophon");
     if (pages.length % 2 === 1) pages.push({ t: "blank" });
     pages.push({ t: "endpaper" });
     return pages;
   }
-  function poem(n) { return state.data.poems[n - 1]; }
+  function sectionIndex(id) { for (var i = 0; i < state.data.sections.length; i++) if (state.data.sections[i].key === id) return i; return 0; }
+  function artHTML(a, key, lang) {
+    var t = (a.title || {})[lang] || "", n = (a.note || {})[lang] || "";
+    return '<figure class="ms art" data-art="' + key + '"><button type="button" class="ms-sheet" aria-label="' + esc(t) + '"><img src="' + BASE + a.src + '?v=' + VER + '" alt="' + esc(t) + '" width="' + a.w + '" height="' + a.h + '" decoding="async"></button>' +
+      '<figcaption><span class="c">' + esc(t) + (n ? ' · ' + esc(n) : "") + "</span></figcaption></figure>";
+  }
+  function msHTML(p, lang) {
+    var ui = state.data.ui[lang], m = p.ms, pg = m.pages[0];
+    var cap = [ui.autograph, m.date, (m.medium || {})[lang]].filter(Boolean).join(" · "), note = (m.note || {})[lang];
+    return '<figure class="ms" data-n="' + p.n + '"><button type="button" class="ms-sheet" aria-label="' + esc(ui.zoom) + '"><img src="' + BASE + pg.src + '?v=' + VER + '" alt="' + esc(ui.manuscript) + ' — ' + esc(p.texts[lang].title) + '" width="' + pg.w + '" height="' + pg.h + '" decoding="async">' +
+      (m.pages.length > 1 ? '<span class="ms-more">1 ' + esc(ui.of_pages) + " " + m.pages.length + "</span>" : "") + "</button>" +
+      '<figcaption><span class="r">' + p.roman + '</span><span class="c">' + esc(cap) + (note ? '<br>' + esc(note) : "") + "</span></figcaption></figure>";
+  }
+  var byN = null;
+  function poem(n) { if (!byN) { byN = {}; state.data.poems.forEach(function (q) { byN[q.n] = q; }); } return byN[n]; }
+  function pageIndex(t, id, c) { for (var i = 0; i < state.pages.length; i++) { var q = state.pages[i]; if (q.t === t && (id === undefined || q.id === id) && (c === undefined || q.c === c)) return i; } return -1; }
   function firstPageOf(pages, n, c) {
     c = c || 0;
     for (var i = 0; i < pages.length; i++) {
@@ -96,15 +118,25 @@
     }).join("") + "</div>";
   }
   var LISTEN_SVG = '<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M3 7.5v5h3l4 3.5v-12l-4 3.5H3z" fill="currentColor"/><path d="M12.5 6.5a4.5 4.5 0 0 1 0 7M14.5 4a8 8 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>';
+  var ABOUT_SVG = '<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M10 9v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="6.4" r=".9" fill="currentColor"/></svg>';
+  function listenBtn(n, lang) {   /* same recording as the leaf; class/label are kept in sync by setBtn for every copy of the button */
+    var ui = state.data.ui[lang], on = player.key === lang + "/" + n;
+    return '<button class="listen' + (on ? " playing" : "") + '" type="button" data-n="' + n + '" data-lang="' + lang + '" aria-label="' + esc(ui.listen) + '">' + LISTEN_SVG + "<span>" + esc(on ? ui.stop : ui.listen) + "</span></button>";
+  }
   function poemBlock(title, lines, kicker, drop, cont, n, lang) {
     var ui = state.data.ui[lang || state.lang];
-    var btn = (n && !cont) ? '<button class="listen" type="button" data-n="' + n + '" data-lang="' + lang + '" aria-label="' + esc(ui.listen) + '">' + LISTEN_SVG + "<span>" + esc(ui.listen) + "</span></button>" : "";
-    return '<div class="poem"><div class="poem-head">' + (kicker ? '<p class="kick">' + esc(kicker) + '</p>' : "<p></p>") + btn + "</div>" +
+    var btn = (n && !cont) ? listenBtn(n, lang) : "";
+    /* "About the poem": the headnote in the reading language, opened in the sheet — only on the leaf in that language */
+    if (n && !cont && lang === state.lang && (poem(n).note || {})[lang]) {
+      var uiR = state.data.ui[state.lang];
+      btn += '<button class="about-btn" type="button" data-about="' + n + '" aria-label="' + esc(uiR.about_poem) + '">' + ABOUT_SVG + "<span>" + esc(uiR.about_btn) + "</span></button>";
+    }
+    return '<div class="poem"><div class="poem-head">' + (kicker ? '<p class="kick">' + esc(kicker) + '</p>' : "<p></p>") + '<span class="poem-tools">' + btn + "</span></div>" +
       '<h2 class="' + (cont ? "cont" : "") + '">' + esc(title) + "</h2>" + ORN.rule + verse(lines, drop) + "</div>";
   }
   function sectionName(id, lang) {
     var D = state.data;
-    if (id === "before" || id === "after") return D.parts[id][lang];
+    if (D.parts && D.parts[id]) return D.parts[id][lang];
     var s = D.sections.filter(function (x) { return x.key === id; })[0];
     return s ? s[lang] : id;
   }
@@ -117,18 +149,20 @@
     return "<ol>" + entries.map(function (e) {
       if (e.k !== "poem") return '<li class="sec"><p>' + esc(sectionName(e.id, lang)) + "</p></li>";
       var p = poem(e.n);
-      return '<li class="p"><a href="' + hrefFn(p) + '" data-n="' + p.n + '"><span class="r">' + p.roman + '</span><span class="t">' + esc(tocTitle(p, lang)) + "</span></a></li>";
+      return '<li class="p"><a href="' + hrefFn(p) + '" data-n="' + p.n + '"><span class="r">' + p.roman + '</span><span class="t">' + esc(tocTitle(p, lang)) + (p.ms ? '<span class="ms-mark" title="' + esc(state.data.ui[lang].manuscript) + '">✎</span>' : "") + "</span></a></li>";
     }).join("") + "</ol>";
   }
   function poemHref(p, lang) { return BASE + lang + "/" + p.slug[lang] + ".html"; }
   function render(page, lang) {
     var D = state.data, ui = D.ui[lang];
     switch (page.t) {
-      case "endpaper": return { cls: "endpaper", body: '<img src="' + BASE + 'assets/img/endpaper.jpg" alt="">' };
+      case "endpaper": return D.art && D.art.endpaper ? { cls: "endpaper folder", body: '<img src="' + BASE + D.art.endpaper.src + '?v=' + VER + '" alt="">' } : { cls: "endpaper", body: '<img src="' + BASE + 'assets/img/endpaper.jpg" alt="">' };
+      case "art": return { cls: "plate art", body: artHTML(D.art[page.key], page.key, lang) };
+      case "ms": return { cls: "plate", body: msHTML(poem(page.n), lang) };
       case "blank": return { body: '<div style="height:100%"></div>' };
-      case "epigraph": return { body: '<div class="center">' + ORN.staff + '<p class="epi">Art Knows No Languages</p><p class="epi-by">Oleg Shtereb</p>' + (lang !== "en" ? '<p class="epi-tr">' + esc(ui.epigraph) + "</p>" : "") + "</div>" };
+      case "epigraph": return { body: '<div class="center">' + ORN.staff + '<p class="epi">Art Knows No Languages</p><p class="epi-by">Oleg Schtereb</p>' + (lang !== "en" ? '<p class="epi-tr">' + esc(ui.epigraph) + "</p>" : "") + "</div>" };
       case "half": return { body: '<div class="center"><p class="kick">' + esc(ui.first) + '</p><h2 class="ht-main">' + esc(ui.main) + '</h2><p class="ht-sub">' + esc(ui.sub) + "</p></div>" };
-      case "frontis": return { body: '<figure class="frontis" style="margin:0"><img src="' + BASE + 'assets/img/frontispiece.jpg" alt=""></figure>' };
+      case "frontis": return D.art && D.art.frontispiece ? { cls: "plate art", body: artHTML(D.art.frontispiece, "frontispiece", lang) } : { body: '<figure class="frontis" style="margin:0"><img src="' + BASE + 'assets/img/frontispiece.jpg" alt=""></figure>' };
       case "title": return { body: '<div class="center"><p class="kick">' + esc(ui.first) + '</p><div style="margin-top:2rem">' + ORN.rule + '</div><h1 class="tp-main">' + esc(ui.main) + '</h1><p class="tp-sub">' + esc(ui.sub) + '</p><p class="tp-count">' + esc(ui.count) + '</p><p class="tp-author">' + esc(D.author[lang]) + '</p><div style="margin-top:2rem">' + ORN.rule + '</div><p class="tp-house">' + esc(ui.house) + " · 2026</p></div>" };
       case "copyright": return { body: '<div class="copyright"><p class="kick">' + esc(ui.edition) + ' · 2026</p><p class="note">' + esc(ui.note) + '</p><p class="m">' + esc(ui.facing) + '</p><p class="c">© 2026 ' + esc(D.author[lang]) + "</p><p>" + esc(ui.rights) + '</p><p class="m">' + esc(ui.published) + "</p></div>" };
       case "dedication": return { body: '<div class="center"><p class="dedic">To Those Who Are Living the Dream</p>' + (lang !== "en" ? '<p class="dedic-tr">' + esc(ui.dedication) + "</p>" : "") + "</div>" };
@@ -142,16 +176,24 @@
       }
       case "plate": {
         var p = poem(page.n), mark = p.n === 81 ? ORN.light : p.n === 82 ? ORN.bfly : ORN.staff;
-        return { body: '<div class="center">' + mark + '<p class="plate-num">' + p.roman + '</p><h2 class="plate-title">' + esc(p.texts[lang].title) + "</h2></div>" };
+        var note = (p.note || {})[lang] || "", ot = p.texts[p.orig].title, pt = p.texts[lang].title;
+        var sg = p.song ? '<p class="plate-song">' + esc(ui.single) + " · " + esc(p.song.released) + (p.song.explicit ? " · E" : "") + '</p><p class="plate-links"><a href="' + esc(p.song.apple_url) + '" target="_blank" rel="noopener">Apple Music ↗</a> · <a href="' + esc(p.song.spotify) + '" target="_blank" rel="noopener">Spotify ↗</a>' + (p.song.source_poem ? ' · <a href="#" data-n="' + p.song.source_poem + '" class="src-poem">' + esc(ui.from_poem) + " " + (poem(p.song.source_poem).part === "after" ? esc(state.data.parts.after[lang]) + " " : "") + poem(p.song.source_poem).roman + "</a>" : "") + "</p>" : "";
+        return { body: '<div class="center plate-page">' + mark + '<p class="plate-num">' + (p.song ? esc(ui.song) + " " : "") + p.roman + '</p><h2 class="plate-title">' + esc(pt) + "</h2>" + sg +
+          (lang !== p.orig && ot !== pt ? '<p class="plate-orig">' + esc(ot) + "</p>" : "") +
+          (note ? ORN.rule + '<p class="kick plate-kick">' + esc(ui.about_poem) + '</p><p class="plate-note">' + em(note) + "</p>" : "") + "</div>" };
       }
       case "orig": {
         var po = poem(page.n), to = po.texts[po.orig];
         return { body: poemBlock(to.title, to.chunks[page.c], page.c === 0 ? ui.original : ui.continued, false, page.c > 0, po.n, po.orig) };
       }
       case "poem": {
-        var pp = poem(page.n), tp = pp.texts[lang], isO = lang === pp.orig;
+        var pp = poem(page.n), tp = pp.texts[lang], isO = lang === pp.orig || !!pp.single;
+        if (pp.song) { var st = pp.song.status === "author" ? ui.lyrics_author : pp.song.status === "transcribed" ? ui.lyrics_transcribed : ui.lyrics_pending;
+          return { body: poemBlock(tp.title, tp.chunks[page.c], page.c === 0 ? st : ui.continued, page.c === 0, page.c > 0, pp.n, lang) }; }
         return { body: poemBlock(tp.title, tp.chunks[page.c], isO ? (page.c > 0 ? ui.continued : "") : (page.c === 0 ? ui.translation : ui.continued), page.c === 0, page.c > 0, pp.n, lang) };
       }
+      case "author-plate": return { body: '<figure class="portrait"><img src="' + BASE + D.portrait + '?v=' + (root.dataset.v || "0") + '" alt="' + esc(D.author[lang]) + '" width="960" height="1440" loading="lazy"><figcaption>' + esc(ui.about_caption) + "</figcaption></figure>" };
+      case "author": return { body: '<div class="about"><p class="kick">' + esc(ui.about) + '</p><h2 class="about-name">' + esc(D.author[lang]) + "</h2>" + ORN.rule + '<p class="about-text">' + esc(ui.about_text) + "</p></div>" };
       case "colophon": return { body: '<div class="center">' + ORN.rule + '<p class="colo">' + esc(ui.colophon) + '</p><p class="colo-house">' + esc(ui.house) + " · " + esc(ui.published) + "</p>" + ORN.rule + "</div>" };
     }
     return { body: "" };
@@ -159,9 +201,9 @@
   function leafHTML(page, lang, side, folio) {
     if (!page) return '<div class="leaf"><div class="leaf-body"></div></div>';
     var r = render(page, lang), ui = state.data.ui[lang];
-    if (r.cls === "endpaper") return '<div class="leaf endpaper">' + r.body + "</div>";
+    if (r.cls && r.cls.indexOf("endpaper") === 0) return '<div class="leaf ' + r.cls + '">' + r.body + "</div>";
     var foot = side === "left" ? '<span class="n">' + folio + "</span><span>" + esc(state.data.author[lang]) + "</span>" : "<span>" + esc(ui.main) + '</span><span class="n">' + folio + "</span>";
-    return '<div class="leaf"><div class="leaf-body">' + r.body + '</div><footer class="leaf-foot">' + foot + "</footer></div>";
+    return '<div class="leaf' + (r.cls ? " " + r.cls : "") + '"><div class="leaf-body">' + r.body + '</div><footer class="leaf-foot">' + foot + "</footer></div>";
   }
 
   /* ---------- state & navigation ---------- */
@@ -179,6 +221,8 @@
     el.bottom.hidden = !state.open;
     el.stage.className = "stage " + (state.open ? "open" : "closed");
     el.cover.dataset.open = state.open ? "true" : "false";
+    el.cover.setAttribute("aria-hidden", state.open ? "true" : "false");
+    if (state.open) tilt.stop(true); else tilt.start();
     document.documentElement.lang = state.lang;
     syncURL();
     try { localStorage.setItem("book.lang", state.lang); localStorage.setItem("book.page." + state.lang, String(state.page)); } catch (e) { }
@@ -196,7 +240,10 @@
     var o = document.querySelector(".order-link"); if (o) { o.textContent = ui.order; o.href = BASE + state.lang + "/order.html"; }
     el.sheet.setAttribute("aria-label", ui.contents);
     var cov = el.coverBtn; if (cov) { cov.setAttribute("aria-label", ui.open); var q = function (sel, v) { var n = cov.querySelector(sel); if (n) n.textContent = v; };
-      q(".k", ui.first); q("h1", ui.main); q(".s", ui.sub); q(".a", state.data.author[state.lang]); q(".open", ui.open); }
+      q(".k", ui.first); q("h1", ui.main); q(".s", ui.sub); q(".a", state.data.author[state.lang]); q(".c", ui.count); }
+    var sp = function (sel, v) { var n = el.cover.querySelector(sel); if (n) n.textContent = v; };
+    sp(".sp-t", ui.main + ": " + ui.sub); sp(".sp-a", state.data.author[state.lang]);
+    if (el.cta) { var cs = el.cta.querySelector("span"); if (cs) cs.textContent = ui.open; }
   }
   function currentPoem() {
     var spread = spreadMode.matches, idx = [state.page].concat(spread ? [state.page + 1] : []);
@@ -217,6 +264,7 @@
     if (!state.open) return;
     stopAll();
     var target = dir > 0 ? Math.min(state.pages.length - 1, state.page + n) : Math.max(0, state.page - n);
+    if (!spreadMode.matches) { while (target > 0 && target < state.pages.length - 1 && state.pages[target].t === "blank") target += dir > 0 ? 1 : -1; }   /* one page at a time: never stop on a blank verso */
     if (target === state.page) return;
     state.page = target;
     el.book.classList.add("turning"); el.book.dataset.dir = dir > 0 ? "next" : "prev";
@@ -226,9 +274,11 @@
   function goToPoem(n, c) { stopAll(); state.page = firstPageOf(state.pages, n, c || 0); state.open = true; draw(); }
   function setLang(lang) {
     if (lang === state.lang) return;
-    var cp = currentPoem(), oldPage = state.page;
+    var cp = currentPoem(), oldPage = state.page, cur = state.pages[oldPage], same;
     state.lang = lang; state.pages = buildPages(state.data, lang);
-    if (cp) state.page = firstPageOf(state.pages, cp.n, cp.c || 0); else state.page = Math.min(oldPage, state.pages.length - 1);
+    if (cp) state.page = firstPageOf(state.pages, cp.n, cp.c || 0);
+    else if (cur && cur.t !== "blank" && (same = pageIndex(cur.t, cur.id, cur.c)) >= 0) state.page = same;   // front/back matter keeps its place across languages
+    else state.page = Math.min(oldPage, state.pages.length - 1);
     Array.prototype.forEach.call(el.langs.querySelectorAll("a"), function (a) { a.classList.toggle("on", a.dataset.lang === lang); });
     relabelChrome(); buildSheet(); draw();
   }
@@ -236,24 +286,115 @@
   function buildSheet() {
     var D = state.data, ui = D.ui[state.lang];
     el.sheet.innerHTML = '<button class="close" type="button">' + esc(ui.close) + '</button><p class="kick">' + esc(ui.main) + '</p><h2>' + esc(ui.contents) + '</h2><p class="kick" style="margin-top:.5rem">' + esc(ui.count) + '</p>' +
-      '<div class="fm"><a href="#p0" data-p="0">' + esc(ui.epigraph_short) + '</a><a href="#p3" data-p="3">' + esc(ui.titlepage) + '</a><a href="#p' + (state.pages.length - 2) + '" data-p="' + (state.pages.length - 2) + '">' + esc(ui.colophon_short) + '</a></div>' +
+      '<div class="fm"><a href="#p0" data-p="0">' + esc(ui.epigraph_short) + '</a><a href="#p3" data-p="3">' + esc(ui.titlepage) + "</a>" + (D.portrait ? '<a href="#p' + pageIndex("author-plate") + '" data-p="' + pageIndex("author-plate") + '">' + esc(ui.about) + "</a>" : "") + '<a href="#p' + (state.pages.length - 2) + '" data-p="' + (state.pages.length - 2) + '">' + esc(ui.colophon_short) + '</a></div>' +
       contentsList(D, state.lang, contentsEntries(D), function (p) { return poemHref(p, state.lang); });
+    el.sheet.dataset.mode = "toc";
   }
-  function showSheet(on) { el.overlay.hidden = !on; if (on) { var c = el.sheet.querySelector(".close"); if (c) c.focus(); } }
+  function showSheet(on) { if (on && el.sheet.dataset.mode === "note") buildSheet(); el.overlay.hidden = !on; if (on) { var c = el.sheet.querySelector(".close"); if (c) c.focus(); } }
+  /* the headnote of poem n in the sheet (for readers who arrived by link or from the contents, past the title plate) */
+  function showNote(n) {
+    var D = state.data, ui = D.ui[state.lang], p = poem(n), ot = p.texts[p.orig].title, pt = p.texts[state.lang].title;
+    el.sheet.innerHTML = '<button class="close" type="button">' + esc(ui.close) + '</button><p class="kick">' + esc(ui.about_poem) + " · " + p.roman + '</p><h2>' + esc(tocTitle(p, state.lang)) + "</h2>" +
+      (state.lang !== p.orig && ot !== pt ? '<p class="sheet-orig">' + esc(ot) + "</p>" : "") +
+      '<p class="sheet-tools">' + listenBtn(n, state.lang) + "</p>" +
+      '<p class="sheet-note">' + em((p.note || {})[state.lang] || "") + "</p>" +
+      '<div class="fm"><a href="#" data-toc="1">' + esc(ui.contents) + "</a></div>";
+    el.overlay.hidden = false; var c = el.sheet.querySelector(".close"); if (c) c.focus();
+    el.sheet.dataset.mode = "note";
+  }
+
+  /* ---------- closed book: 3-D pose. Follows a fine pointer (walk around the book); otherwise a slow sway ---------- */
+  var tilt = (function () {
+    var tome = el.cover, REST = { ry: -26, rx: 7 }, cur = { ry: REST.ry, rx: REST.rx }, tgt = { ry: REST.ry, rx: REST.rx };
+    var mx = 50, my = 32, raf = 0, ptr = false, ptrT = 0, t0 = 0, last = 0;
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)"), fine = window.matchMedia("(hover: hover) and (pointer: fine)");
+    function set() {
+      tome.style.setProperty("--ry", cur.ry.toFixed(2) + "deg"); tome.style.setProperty("--rx", cur.rx.toFixed(2) + "deg");
+      tome.style.setProperty("--mx", mx.toFixed(1) + "%"); tome.style.setProperty("--my", my.toFixed(1) + "%");
+    }
+    function frame(now) {
+      if (!t0) { t0 = now; last = now; }
+      var dt = Math.min(100, now - last); last = now;
+      var k = 1 - Math.pow(.93, dt / 16.7), ks = 1 - Math.pow(.96, dt / 16.7);   /* frame-rate independent easing */
+      if (ptr && now - ptrT > 2500) ptr = false;
+      if (!ptr) {
+        var t = (now - t0) / 1000;
+        tgt.ry = REST.ry + Math.sin(t * .42) * 7; tgt.rx = REST.rx + Math.sin(t * .29 + 1) * 2.5;
+        mx += ((50 - (tgt.ry - REST.ry) * 3) - mx) * ks; my += (32 - my) * ks;
+      }
+      cur.ry += (tgt.ry - cur.ry) * k; cur.rx += (tgt.rx - cur.rx) * k;
+      set(); raf = requestAnimationFrame(frame);
+    }
+    function move(e) {
+      if (!raf || !fine.matches) return;
+      var r = el.stage.getBoundingClientRect();
+      var nx = (e.clientX - (r.left + r.width / 2)) / (r.width * .9), ny = (e.clientY - (r.top + r.height / 2)) / (r.height * .8);
+      nx = Math.max(-1, Math.min(1, nx)); ny = Math.max(-1, Math.min(1, ny));
+      tgt.ry = REST.ry + (nx < 0 ? -nx * 60 : -nx * 16);   /* pointer left: turn to show the spine; right: more of the fore-edge */
+      tgt.rx = REST.rx - ny * 8;
+      mx = 50 + nx * 40; my = 35 + ny * 30; ptr = true; ptrT = performance.now();
+    }
+    function start() { if (!tome || state.open || reduce.matches || raf) return; t0 = 0; last = 0; raf = requestAnimationFrame(frame); }
+    function stop(open) {
+      if (raf) cancelAnimationFrame(raf); raf = 0;
+      if (open && tome) { tome.style.setProperty("--ry", "0deg"); tome.style.setProperty("--rx", "0deg"); }
+    }
+    document.addEventListener("pointermove", move, { passive: true });
+    document.addEventListener("mouseleave", function () { ptr = false; });
+    document.addEventListener("visibilitychange", function () { if (document.hidden) stop(false); else start(); });
+    return { start: start, stop: stop };
+  })();
+
+  /* ---------- lightbox: the sheet at full size; tap to zoom in on that spot, ←/→ between pages ---------- */
+  var lb = { items: [], i: 0, zoom: false };
+  function zoomSrc(src) { return src.replace(/\.jpg$/, "-x.jpg"); }
+  function lbShow(i) {
+    var it = lb.items[i]; lb.i = i; lb.zoom = false;
+    el.lb.classList.remove("zoomed"); el.lbImg.src = BASE + zoomSrc(it.src) + "?v=" + VER; el.lbImg.alt = it.cap;
+    el.lbCap.textContent = it.cap + (lb.items.length > 1 ? "  ·  " + (i + 1) + " / " + lb.items.length : "");
+    document.getElementById("lb-prev").hidden = document.getElementById("lb-next").hidden = lb.items.length < 2;
+  }
+  function openLightbox(fig) {
+    var D = state.data, lang = state.lang, ui = D.ui[lang];
+    if (fig.dataset.n) {
+      var p = poem(+fig.dataset.n), m = p.ms, base = [p.roman, p.texts[lang].title, ui.autograph, m.date].filter(Boolean).join(" · ");
+      lb.items = m.pages.map(function (pg, k) { return { src: pg.src, cap: base }; });
+    } else {
+      var a = D.art[fig.dataset.art]; lb.items = [{ src: a.src, cap: [(a.title || {})[lang], (a.note || {})[lang]].filter(Boolean).join(" · ") }];
+    }
+    el.lb.hidden = false; document.body.classList.add("lb-open"); lbShow(0);
+    document.getElementById("lb-close").focus();
+  }
+  function closeLightbox() { el.lb.hidden = true; document.body.classList.remove("lb-open"); el.lbImg.removeAttribute("src"); }
+  function lbStep(d) { if (lb.items.length > 1) lbShow((lb.i + d + lb.items.length) % lb.items.length); }
+  el.lbImg.addEventListener("click", function (e) {
+    lb.zoom = !lb.zoom; el.lb.classList.toggle("zoomed", lb.zoom);
+    if (lb.zoom) {                                   /* keep the tapped point under the finger */
+      var r = el.lbStage.getBoundingClientRect(), fx = (e.clientX - r.left) / r.width, fy = (e.clientY - r.top) / r.height;
+      el.lbStage.scrollLeft = fx * el.lbImg.offsetWidth - r.width / 2; el.lbStage.scrollTop = fy * el.lbImg.offsetHeight - r.height / 2;
+    }
+  });
+  document.getElementById("lb-close").addEventListener("click", closeLightbox);
+  document.getElementById("lb-prev").addEventListener("click", function () { lbStep(-1); });
+  document.getElementById("lb-next").addEventListener("click", function () { lbStep(1); });
+  el.lb.addEventListener("click", function (e) { if (e.target === el.lb || e.target === el.lbStage) closeLightbox(); });
+  document.addEventListener("click", function (e) { var b = e.target.closest("button.ms-sheet"); if (b && state.data) { e.preventDefault(); openLightbox(b.closest("figure.ms")); } });
 
   /* ---------- listening: recorded file first, device speech as fallback ---------- */
-  var player = { audio: null, btn: null, manifest: null, utter: null };
+  var player = { audio: null, key: null, manifest: null, utter: null };   /* key = "<lang>/<n>" of what is playing */
   var SPEECH_LANG = { uk: "uk-UA", ru: "ru-RU", en: "en-US", es: "es-ES" };
-  function setBtn(btn, playing) {
-    if (!btn) return;
-    var ui = state.data.ui[btn.dataset.lang] || state.data.ui[state.lang];
-    btn.classList.toggle("playing", playing);
-    btn.querySelector("span").textContent = playing ? ui.stop : ui.listen;
+  function setBtn(key, playing) {   /* every Listen button for this poem+language: on the leaf and in the About sheet */
+    if (!key) return;
+    var lang = key.split("/")[0], n = key.split("/")[1], ui = state.data.ui[lang] || state.data.ui[state.lang];
+    document.querySelectorAll('button.listen[data-n="' + n + '"][data-lang="' + lang + '"]').forEach(function (btn) {
+      btn.classList.toggle("playing", playing);
+      btn.querySelector("span").textContent = playing ? ui.stop : ui.listen;
+    });
   }
   function stopAll() {
     if (player.audio) { player.audio.pause(); player.audio = null; }
     if (window.speechSynthesis) speechSynthesis.cancel();
-    setBtn(player.btn, false); player.btn = null;
+    setBtn(player.key, false); player.key = null;
   }
   function speakable(p, lang) {
     var t = p.texts[lang], parts = [];
@@ -261,30 +402,37 @@
     t.chunks.forEach(function (c) { c.forEach(function (l) { if (l.trim() && !/^\*.+\*$/.test(l.trim())) parts.push(l.trim()); else if (!l.trim()) parts.push(""); }); });
     return parts;
   }
-  function speakFallback(p, lang, btn) {
+  function speakFallback(p, lang, key) {
     if (!window.speechSynthesis) return;
     var voices = speechSynthesis.getVoices(), want = SPEECH_LANG[lang], pick = null;
     voices.forEach(function (v) { if (v.lang.replace("_", "-").toLowerCase().indexOf(want.slice(0, 2)) === 0 && (!pick || /premium|enhanced|natural/i.test(v.name))) pick = v; });
     var lines = speakable(p, lang), text = lines.map(function (l) { return l === "" ? "\n" : l; }).join(",\n");
     var u = new SpeechSynthesisUtterance(text); u.lang = want; u.rate = 0.88; if (pick) u.voice = pick;
-    u.onend = u.onerror = function () { if (player.btn === btn) setBtn(btn, false), player.btn = null; };
+    u.onend = u.onerror = function () { if (player.key === key) { setBtn(key, false); player.key = null; } };
     player.utter = u; speechSynthesis.speak(u);
   }
   function listen(btn) {
-    var n = +btn.dataset.n, lang = btn.dataset.lang, p = poem(n);
-    if (player.btn === btn) { stopAll(); return; }
-    stopAll(); player.btn = btn; setBtn(btn, true);
+    var n = +btn.dataset.n, lang = btn.dataset.lang, p = poem(n), key = lang + "/" + n;
+    if (player.key === key) { stopAll(); return; }
+    stopAll(); player.key = key; setBtn(key, true);
     var has = player.manifest && player.manifest[lang] && player.manifest[lang][String(n)];
-    if (has) {
-      var a = new Audio(BASE + "audio/" + lang + "/" + n + ".m4a"); player.audio = a;
-      a.onended = function () { if (player.audio === a) { setBtn(btn, false); player.btn = null; player.audio = null; } };
-      a.onerror = function () { if (player.audio === a) { player.audio = null; speakFallback(p, lang, btn); } };
-      a.play().catch(function () { player.audio = null; speakFallback(p, lang, btn); });
-    } else speakFallback(p, lang, btn);
+    if (p.song && p.song.preview) {
+      var pa = new Audio(p.song.preview); player.audio = pa;
+      pa.onended = function () { if (player.audio === pa) { setBtn(key, false); player.key = null; player.audio = null; } };
+      pa.onerror = function () { if (player.audio === pa) { setBtn(key, false); player.key = null; player.audio = null; } };
+      pa.play().catch(function () { setBtn(key, false); player.key = null; player.audio = null; });
+    } else if (has) {
+      var a = new Audio(BASE + "audio/" + lang + "/" + n + ".m4a?v=" + (has.v || VER)); player.audio = a;   /* versioned: m4a is cached 7 days */
+      a.onended = function () { if (player.audio === a) { setBtn(key, false); player.key = null; player.audio = null; } };
+      a.onerror = function () { if (player.audio === a) { player.audio = null; speakFallback(p, lang, key); } };
+      a.play().catch(function () { player.audio = null; speakFallback(p, lang, key); });
+    } else speakFallback(p, lang, key);
   }
-  fetch(BASE + "audio/manifest.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (m) { player.manifest = m; }).catch(function () { player.manifest = {}; });
+  fetch(BASE + "audio/manifest.json?v=" + VER).then(function (r) { return r.ok ? r.json() : {}; }).then(function (m) { player.manifest = m; }).catch(function () { player.manifest = {}; });
   if (window.speechSynthesis) speechSynthesis.getVoices();
   document.addEventListener("click", function (e) { var b = e.target.closest("button.listen"); if (b && state.data) { e.preventDefault(); listen(b); } });
+  document.addEventListener("click", function (e) { var a = e.target.closest("a.src-poem"); if (a && state.data) { e.preventDefault(); goToPoem(+a.dataset.n, 0); } });
+  document.addEventListener("click", function (e) { var b = e.target.closest("button.about-btn"); if (b && state.data) { e.preventDefault(); showNote(+b.dataset.about); } });
 
   /* ---------- wiring ---------- */
   function init(D) {
@@ -298,6 +446,7 @@
     buildSheet(); draw();
 
     el.coverBtn.addEventListener("click", openBook);
+    if (el.cta) el.cta.addEventListener("click", openBook);
     el.prevL.addEventListener("click", function () { turn(-1, step()); });
     el.prevR.addEventListener("click", function () { turn(-1, step()); });
     el.nextR.addEventListener("click", function () { turn(1, step()); });
@@ -306,6 +455,7 @@
       if (e.target === el.overlay || e.target.closest(".close")) { showSheet(false); return; }
       var a = e.target.closest("a"); if (!a) return;
       e.preventDefault();
+      if (a.dataset.toc) { buildSheet(); return; }
       if (a.dataset.n) goToPoem(+a.dataset.n, 0); else if (a.dataset.p) { state.page = +a.dataset.p; state.open = true; draw(); }
       showSheet(false);
     });
@@ -314,6 +464,7 @@
     function onTocLink(e) { var a = e.target.closest("a[data-n]"); if (!a) return; e.preventDefault(); goToPoem(+a.dataset.n, 0); }
     document.addEventListener("keydown", function (e) {
       if (e.metaKey || e.ctrlKey || e.altKey) return;
+      if (!el.lb.hidden) { if (e.key === "Escape") closeLightbox(); else if (e.key === "ArrowRight") lbStep(1); else if (e.key === "ArrowLeft") lbStep(-1); return; }
       if (!el.overlay.hidden) { if (e.key === "Escape") showSheet(false); return; }
       if (e.key === "ArrowRight" || e.key === "PageDown") { e.preventDefault(); turn(1, step()); }
       else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); turn(-1, step()); }
@@ -323,7 +474,7 @@
     var tx = null, ty = null;
     document.addEventListener("touchstart", function (e) { tx = e.changedTouches[0].clientX; ty = e.changedTouches[0].clientY; }, { passive: true });
     document.addEventListener("touchend", function (e) {
-      if (tx === null) return; var dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty; tx = ty = null;
+      if (tx === null || !el.lb.hidden) { tx = ty = null; return; } var dx = e.changedTouches[0].clientX - tx, dy = e.changedTouches[0].clientY - ty; tx = ty = null;
       if (Math.abs(dx) < 48 || Math.abs(dy) > Math.abs(dx)) return;
       turn(dx < 0 ? 1 : -1, step());
     }, { passive: true });
