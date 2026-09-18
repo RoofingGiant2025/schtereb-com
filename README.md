@@ -22,10 +22,16 @@ cd ~/Shtereb-Poems && python3 tools/build_content.py && python3 tools/build_site
 2. Run the rebuild line above. The build asserts 80 poems × 4 languages and refuses to build if any is missing.
 3. Deploy `docs/` (see below).
 
-## Deploy to schtereb.com (GoDaddy)
-The site is plain files — upload the *contents* of `docs/` to the web root (`public_html/` on cPanel hosting).
-With cPanel/FTP credentials in hand: `rsync -av --delete docs/ user@host:public_html/` or use the cPanel File Manager.
-If the domain is domain-only at GoDaddy, host `docs/` on GitHub Pages / Cloudflare Pages and point the A/CNAME records there.
+## Deploy to schtereb.com (Hostinger)
+Run `./deploy.sh` — rebuilds and rsyncs `docs/` to `roofinggiant:~/domains/schtereb.com/public_html/`
+(Hostinger Business plan; the website was added on 2026-09-18 through the Hostinger API).
+
+The domain is registered at GoDaddy. DNS records to set there (Domain → DNS → Manage):
+- `A`     `@`    → `82.197.83.129`   (Hostinger server for this account)
+- `CNAME` `www`  → `schtereb.com`
+Delete the two existing parked `A` records (3.33.130.190, 15.197.148.33) and any domain forwarding.
+Once DNS resolves, Hostinger issues the Let's Encrypt certificate automatically (hPanel → Websites → schtereb.com → SSL);
+then turn on **Force HTTPS** in hPanel, or add the redirect to the `.htaccess` block in `tools/build_site.py`.
 
 ## Site URLs
 `/` epigraph + language choice · `/<lang>/` title + contents · `/<lang>/<n>-<slug>.html` one poem.

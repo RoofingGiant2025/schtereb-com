@@ -179,8 +179,21 @@ def build():
     write(os.path.join(SITE, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(os.path.join(SITE, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://schtereb.com/sitemap.xml\n")
-    write(os.path.join(SITE, "CNAME"), "schtereb.com\n")
-    write(os.path.join(SITE, ".nojekyll"), "")
+    write(os.path.join(SITE, ".htaccess"), """AddDefaultCharset UTF-8
+DirectoryIndex index.html
+Options -Indexes
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  <FilesMatch "\\.(css|js|svg|json)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+  <FilesMatch "\\.html$">
+    Header set Cache-Control "public, max-age=600"
+  </FilesMatch>
+</IfModule>
+ErrorDocument 404 /index.html
+""")
     print("site built:", len(urls), "urls")
 
 if __name__ == "__main__":

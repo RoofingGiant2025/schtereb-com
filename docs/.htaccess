@@ -1,0 +1,14 @@
+AddDefaultCharset UTF-8
+DirectoryIndex index.html
+Options -Indexes
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  <FilesMatch "\.(css|js|svg|json)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=600"
+  </FilesMatch>
+</IfModule>
+ErrorDocument 404 /index.html
