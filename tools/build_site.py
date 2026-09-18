@@ -332,6 +332,17 @@ def build():
             src = MAN["poems"].get(str(p["n"]), {})
             p["ms"] = {"pages": m["pages"], "date": src.get("date", ""), "medium": src.get("medium", {}), "note": src.get("note", {})}
     D["art"] = {k: v for k, v in MF["art"].items() if os.path.exists(os.path.join(SITE, v["src"]))}
+    # codex cuts: docs/assets/codex/manifest.json is written by tools/codex.py — the ink lifted off each sheet,
+    # to be laid on the leaf (mix-blend-mode: multiply) instead of the photo; the photo stays for the lightbox
+    cx_path = os.path.join(SITE, "assets", "codex", "manifest.json")
+    CX = json.load(open(cx_path, encoding="utf-8")) if os.path.exists(cx_path) else {"poems": {}, "art": {}}
+    for p in D["poems"]:
+        c = CX["poems"].get(str(p["n"]))
+        if p.get("ms") and c and os.path.exists(os.path.join(SITE, c["main"]["src"])):
+            p["ms"]["codex"] = {k: v for k, v in c.items() if k != "detail" or os.path.exists(os.path.join(SITE, v["src"]))}
+    for k, a in D["art"].items():
+        c = CX["art"].get(k)
+        if c and os.path.exists(os.path.join(SITE, c["src"])): a["codex"] = c
     # author portrait spread (before the colophon) — only when the photo exists; tools/img/author.jpg → /assets/img/author.jpg
     if os.path.exists(os.path.join(ROOT, "tools", "img", "author.jpg")): D["portrait"] = "assets/img/author.jpg"
     blob = json.dumps(D, ensure_ascii=False, separators=(",", ":"))
