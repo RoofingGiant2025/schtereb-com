@@ -82,6 +82,18 @@ def main():
     def words(t): return set(w for w in re.findall(r"[a-zа-яіїєґё']+", t.lower()) if len(w) > 3)
     poem_words = [(p["n"], words("\n".join(p["texts"]["en"]["body"] + p["texts"][p["orig"]]["body"]))) for p in poems]
     song_lines = []
+    # verse translations of the songs: content/songs/tr/<lang>.md, "## <apple_id> · Title" blocks, body line-for-line with the original
+    SONG_TR = {}
+    for l in ("uk", "ru", "en", "es"):
+        fp = os.path.join(songs_dir, "tr", f"{l}.md"); SONG_TR[l] = {}
+        if not os.path.exists(fp): continue
+        for blk in re.split(r"^## ", open(fp, encoding="utf-8").read(), flags=re.M)[1:]:
+            head, _, rest = blk.partition("\n")
+            aid = head.split("·")[0].strip()
+            body = rest.strip("\n").split("\n")
+            body = [x.rstrip() for x in body]
+            while body and not body[-1].strip(): body.pop()
+            if body: SONG_TR[l][aid] = body
     for i, sg in enumerate(catalog, start=1):
         lyr = os.path.join(songs_dir, "lyrics", f'{sg["apple_id"]}.md')       # author's / proofread sheet wins
         trn = os.path.join(songs_dir, "transcripts", f'{sg["apple_id"]}.json')
@@ -116,11 +128,16 @@ def main():
             if best[0] >= 0.22: src = best[1]
         title = sg["clean_title"]
         texts = {l: {"title": title, "body": body} for l in ("uk", "ru", "en", "es")}
+        tr_langs = []
+        for l in ("uk", "ru", "en", "es"):
+            tb = SONG_TR[l].get(str(sg["apple_id"]))
+            if tb and l != lang_key and status != "pending":
+                texts[l] = {"title": title, "body": tb}; tr_langs.append(l)
         meta_note = {"uk": f"Сингл, виданий {sg['released']}." + (" Текст — розшифровка запису, до вичитки автором." if status == "transcribed" else " Текст автора." if status == "author" else " Текст ще не додано."),
                      "ru": f"Сингл, выпущен {sg['released']}." + (" Текст — расшифровка записи, до вычитки автором." if status == "transcribed" else " Авторский текст." if status == "author" else " Текст ещё не добавлен."),
                      "en": f"Single released {sg['released']}." + (" Words transcribed from the recording — awaiting the author's proofreading." if status == "transcribed" else " The author's lyric sheet." if status == "author" else " Lyrics not yet added."),
                      "es": f"Sencillo publicado el {sg['released']}." + (" Letra transcrita de la grabación, pendiente de revisión del autor." if status == "transcribed" else " Letra del autor." if status == "author" else " Letra aún no añadida.")}
-        poems.append({"n": 1000 + i, "section": "Пісні", "orig": lang_key, "texts": texts, "roman": roman(i), "part": "songs", "single": True, "note": meta_note,
+        poems.append({"n": 1000 + i, "section": "Пісні", "orig": lang_key, "texts": texts, "roman": roman(i), "part": "songs", "single": not tr_langs, "tr": tr_langs, "note": meta_note,
                       "song": {"released": sg["released"], "apple_url": sg["apple_url"], "spotify": sg["spotify_search"], "preview": sg["preview"],
                                "artwork": sg["artwork"], "seconds": sg["seconds"], "status": status, "lang": lang, "explicit": sg["explicit"],
                                "source_poem": src, "apple_id": sg["apple_id"]}})
@@ -146,7 +163,7 @@ def main():
             "parts": {"before": {"uk": "До", "ru": "До", "en": "Before", "es": "Antes"},
                       "after": {"uk": "Після", "ru": "После", "en": "After", "es": "Después"},
                       "songs": {"uk": "Пісні", "ru": "Песни", "en": "Songs", "es": "Canciones"}},
-            "poems": [{"n": p["n"], "roman": p["roman"], "part": p["part"], "section": p["section"], "orig": p["orig"], **({"single": True, "song": p["song"]} if p.get("song") else {}), "note": p["note"],
+            "poems": [{"n": p["n"], "roman": p["roman"], "part": p["part"], "section": p["section"], "orig": p["orig"], **({"single": p["single"], "tr": p["tr"], "song": p["song"]} if p.get("song") else {}), "note": p["note"],
                        "texts": {l: {"title": t["title"], "text": "\n".join(t["body"])} for l, t in p["texts"].items()}}
                       for p in poems]}
     json.dump(data, open(os.path.join(ROOT, "docs", "data", "poems.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)

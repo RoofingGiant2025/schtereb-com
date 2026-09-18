@@ -145,15 +145,25 @@ def stanzas(text):
     if cur: out.append(cur)
     return out
 def plan(orig_stanzas):
-    units = []
-    for si, st in enumerate(orig_stanzas):
-        n = len(st)
-        for i in range(0, n, MAX_LINES): units.append((si, i, min(n, i + MAX_LINES)))
+    """Pages of at most MAX_LINES lines. A stanza that fits on a page is never split; a stanza longer than a page
+    (song lyrics, mostly) fills the room left on the current page and runs on, cut so that no page ends up with a
+    stub shorter than MIN_RUN lines."""
+    MIN_RUN = 6
     groups, cur, cnt = [], [], 0
-    for u in units:
-        ln = u[2] - u[1]; add = ln + (1 if cnt else 0)
-        if cur and cnt + add > MAX_LINES: groups.append(cur); cur = [u]; cnt = ln
-        else: cur.append(u); cnt += add
+    def newpage():
+        nonlocal cur, cnt
+        if cur: groups.append(cur)
+        cur, cnt = [], 0
+    for si, st in enumerate(orig_stanzas):
+        a, n = 0, len(st)
+        while a < n:
+            room = MAX_LINES - cnt - (1 if cnt else 0)
+            rest = n - a
+            if rest <= room: cur.append((si, a, n)); cnt += rest + (1 if cnt else 0); break
+            if rest <= MAX_LINES: newpage(); continue            # a whole stanza on a fresh page
+            if room < MIN_RUN: newpage(); continue               # too little room to start a run here
+            take = room if rest - room >= MIN_RUN else max(MIN_RUN, min(room, rest - MIN_RUN))
+            cur.append((si, a, a + take)); a += take; newpage()
     if cur: groups.append(cur)
     return groups or [[]]
 def apply(target_stanzas, spans):
@@ -339,7 +349,7 @@ def build():
     for p in D["poems"]:
         c = CX["poems"].get(str(p["n"]))
         if p.get("ms") and c and os.path.exists(os.path.join(SITE, c["main"]["src"])):
-            p["ms"]["codex"] = {k: v for k, v in c.items() if k != "detail" or os.path.exists(os.path.join(SITE, v["src"]))}
+            p["ms"]["codex"] = c
     for k, a in D["art"].items():
         c = CX["art"].get(k)
         if c and os.path.exists(os.path.join(SITE, c["src"])): a["codex"] = c
@@ -369,7 +379,7 @@ def build():
         urls.append(f"https://schtereb.com/{lang}/")
         for p in poems:
             t = p["texts"][lang]; o = p["texts"][p["orig"]]
-            if lang == p["orig"] or p.get("single"):   # (an autograph, when there is one, faces the title plate on the spread before — as the reader lays it out)
+            if lang == p["orig"] or p.get("single") or (p.get("tr") is not None and lang not in p["tr"]):   # (an autograph, when there is one, faces the title plate on the spread before — as the reader lays it out)
                 left = leaf(poem_block(t["title"], t["chunks"][0], "", True, p["n"], lang, ui["listen"], p["note"][lang]), "left", 1, lang, D)
                 right = leaf(poem_block(t["title"], t["chunks"][1], ui["continued"], False), "right", 2, lang, D) if len(t["chunks"]) > 1 else leaf('<div style="height:100%"></div>', "right", 2, lang, D)
             else:

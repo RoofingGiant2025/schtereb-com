@@ -366,6 +366,7 @@ body.lb-open{overflow:hidden}
 .plate-page .plate-num{margin-top:1rem}
 .plate-page .plate-title{margin-top:.75rem;font-size:2.2rem}
 .plate-orig{margin-top:.4rem;font-family:var(--display);font-style:italic;font-size:1.1rem;color:var(--ink-soft)}
+.plate-tools{margin:1rem 0 0}
 .plate-page .orn.rule{margin-top:.9rem}
 .plate-kick{margin-top:.7rem;letter-spacing:.24em}
 .plate-note{margin:.5rem 0 0;max-width:48ch;text-align:left;font-family:var(--display);font-style:italic;font-size:1.04rem;line-height:1.45;color:var(--ink-soft);hyphens:auto}
@@ -388,21 +389,19 @@ body.lb-open{overflow:hidden}
 .cx-ink{display:block;mix-blend-mode:multiply;max-width:100%;max-height:100%;width:auto;height:auto}
 .leaf.plate::before,.leaf.study::before,.leaf.codex-plate::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:6;mix-blend-mode:multiply;
   background:
-    radial-gradient(circle at 17% 74%,rgb(150 105 55/.14) 0,rgb(150 105 55/0) 3.2%),
-    radial-gradient(circle at 81% 21%,rgb(150 105 55/.12) 0,rgb(150 105 55/0) 2.4%),
-    radial-gradient(circle at 63% 88%,rgb(150 105 55/.10) 0,rgb(150 105 55/0) 2%),
-    radial-gradient(circle at 28% 12%,rgb(150 105 55/.08) 0,rgb(150 105 55/0) 4%),
+    radial-gradient(circle at 17% 74%,rgb(150 105 55/.09) 0,rgb(150 105 55/0) 1.4%),
+    radial-gradient(circle at 81% 21%,rgb(150 105 55/.08) 0,rgb(150 105 55/0) 1.1%),
+    radial-gradient(circle at 63% 88%,rgb(150 105 55/.07) 0,rgb(150 105 55/0) .9%),
+    radial-gradient(circle at 28% 12%,rgb(150 105 55/.06) 0,rgb(150 105 55/0) 1.6%),
     radial-gradient(ellipse at 50% 42%,rgb(255 250 240/0) 58%,rgb(135 100 55/.09) 100%),
     url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='g' color-interpolation-filters='sRGB'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' seed='11' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/><feColorMatrix values='.06 0 0 0 .94 0 .06 0 0 .94 0 0 .06 0 .94 0 0 0 0 1'/></filter><rect width='240' height='240' filter='url(%23g)'/></svg>");
   background-size:auto,auto,auto,auto,auto,240px 240px}
 /* the manuscript leaf */
 .ms.codex{position:relative}
-.ms.codex .ms-sheet{padding:0;transform:rotate(var(--rot,0deg));overflow:visible}
+/* no transform / opacity / z-index between .leaf and .cx-ink — each would isolate the image and break the multiply blend */
+.ms.codex .ms-sheet{padding:0}
 .ms.codex .ms-sheet img,.ms.codex .ms-sheet:hover img{box-shadow:none;transform:none;transition:opacity var(--fast) var(--ease)}
 .ms.codex .ms-sheet:hover .cx-main{opacity:.86}
-.ms.codex .cx-detail{position:absolute;right:-3%;bottom:-3%;width:42%;transform:rotate(var(--drot,3deg));padding:5% 4%;
-  background:radial-gradient(ellipse at 50% 50%,var(--paper) 50%,rgb(244 234 214/.9) 64%,rgb(244 234 214/0) 80%)}
-.ms.codex .cx-detail img{width:100%;height:auto;max-height:none}
 .ms.codex .ms-more{right:auto;left:.35rem;bottom:.35rem}
 .cx-mark{position:absolute;left:0;top:0;z-index:2;display:flex;align-items:center;gap:.35rem;color:var(--sang);opacity:.7;pointer-events:none;
   font-family:var(--display);font-size:.7rem;letter-spacing:.2em}
@@ -410,13 +409,13 @@ body.lb-open{overflow:hidden}
 .mirror{margin:0;font-family:var(--display);font-style:italic;font-weight:400;color:var(--sepia);opacity:.42;transform:scaleX(-1);
   white-space:pre-line;line-height:1.3;pointer-events:none;user-select:none}
 .ms-mirror{position:absolute;right:0;top:.15rem;z-index:2;max-width:70%;font-size:.95rem;text-align:left;opacity:.34}
-.ms.codex figcaption{position:relative;z-index:2;background:linear-gradient(180deg,rgb(244 234 214/0),var(--paper) 35%)}
+.ms.codex figcaption{position:relative;z-index:2}
 /* the drawings facing the part and section plates */
-.ms.art.codex .ms-sheet{padding:.5rem 0 0;position:relative;z-index:1}
+.ms.art.codex .ms-sheet{padding:.5rem 0 0}
 .ms.art.codex .ms-sheet img{max-height:100%}
-.cx-study{position:absolute;pointer-events:none;color:var(--sang);opacity:.24;z-index:0}
+.cx-study{position:absolute;pointer-events:none;color:var(--sang);opacity:.24}
 .cx-study svg{display:block;width:100%;height:100%}
-.art-study{right:-6%;bottom:9%;width:36%;aspect-ratio:1;opacity:.2;transform:rotate(-6deg)}
+.art-study{right:-5%;top:1%;width:34%;aspect-ratio:1;opacity:.18;transform:rotate(-6deg)}
 .art-mirror{position:absolute;left:0;top:0;z-index:2;font-size:.95rem;text-align:left;opacity:.3}
 .ms.art.codex figcaption{position:relative;z-index:2}
 /* the recto plates of parts and sections: a study low on the page, under the title */
@@ -433,3 +432,8 @@ body.lb-open{overflow:hidden}
 @media(max-width:767px){.study-page .mirror{font-size:1.05rem}.ms-mirror{font-size:.85rem}.art-study{width:40%}}
 @media(max-height:700px) and (max-width:767px){.ms.codex .cx-detail{width:42%}}
 @media(prefers-reduced-motion:reduce){.ms.codex .ms-sheet{transform:none}}
+
+/* vignettes: a small drawing on the verso before a poem's title plate — not a full-page plate; it sits centred with air around it */
+.ms.art.vig .ms-sheet img{max-width:82%;max-height:78%}
+.ms.art.vig figcaption{margin-top:.8rem}
+@media(max-width:767px){.ms.art.vig .ms-sheet img{max-width:90%;max-height:84%}}

@@ -307,7 +307,7 @@ def process_poem(n, entry, debug):
         lx0, ly0, lx1, ly1 = last.box
         dbox = (int(lx0 + det[0] * (lx1 - lx0)), int(ly0 + det[1] * (ly1 - ly0)), int(lx0 + det[2] * (lx1 - lx0)), int(ly0 + det[3] * (ly1 - ly0)))
     lbw = last.box[2] - last.box[0]
-    if dbox and det == "auto" and (dbox[2] - dbox[0]) > 0.62 * lbw: dbox = None      # a full line of verse, not a signature
+    if dbox and det == "auto" and (dbox[2] - dbox[0]) > 0.75 * lbw: dbox = None      # a full line of verse, not a signature
     if dbox is None and "cut" not in cfg: cy0, cy1 = 0.0, 1.0                            # nothing to carry the ending: show the whole sheet
     my0, my1 = int(y0 + cy0 * bh), int(y0 + cy1 * bh)
     rng = np.random.default_rng(int(n) * 10)
@@ -316,7 +316,7 @@ def process_poem(n, entry, debug):
         dx0, dy0, dx1, dy1 = dbox
         d = last.cut(dx0, dy0, dx1, dy1, seed=int(n) * 10 + 7, feather_frac=0.07, amp_frac=0.045)
         # the scrap: about half the width of the main cut, magnified up to 1.35x
-        target = min(0.55 * main.shape[1], 1.35 * (dx1 - dx0) * main.shape[1] / max(x1 - x0, 1))
+        target = min(0.8 * main.shape[1], max(0.45 * main.shape[1], 1.3 * (dx1 - dx0) * main.shape[1] / max(x1 - x0, 1)))
         sc = target / d.shape[1]; d = cv2.resize(d, (int(d.shape[1] * sc), int(d.shape[0] * sc)), interpolation=cv2.INTER_AREA)
         main = lay_detail(main, d, int(n) * 10 + 3)
         out["detail"] = {"page": len(sheets)}

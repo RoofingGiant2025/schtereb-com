@@ -660,6 +660,226 @@
     "en": "ballpoint, signed O★Rich",
     "es": "bolígrafo, firmado O★Rich"
    }
+  },
+  "v-stamp": {
+   "w": 1000,
+   "h": 708,
+   "zw": 2000,
+   "zh": 1416,
+   "src": "assets/art/v-stamp.jpg",
+   "title": {
+    "uk": "Штамп O★Rich",
+    "ru": "Штамп O★Rich",
+    "en": "O★Rich stamp",
+    "es": "Sello O★Rich"
+   },
+   "note": {
+    "uk": "кулькова ручка, жовтий олівець; з аркуша вірша «Я вірю»",
+    "ru": "шариковая ручка, жёлтый карандаш; с листа стихотворения «Я верю»",
+    "en": "ballpoint and yellow pencil; from the sheet of “I Believe”",
+    "es": "bolígrafo y lápiz amarillo; de la hoja de «Yo creo»"
+   },
+   "poem": 58
+  },
+  "v-room": {
+   "w": 1000,
+   "h": 662,
+   "zw": 2000,
+   "zh": 1324,
+   "src": "assets/art/v-room.jpg",
+   "title": {
+    "uk": "Кімната з оком",
+    "ru": "Комната с глазом",
+    "en": "The Room with an Eye",
+    "es": "La habitación con un ojo"
+   },
+   "note": {
+    "uk": "кулькова ручка, підпис O★Rich; на аркуші зі шкільним завданням",
+    "ru": "шариковая ручка, подпись O★Rich; на листе со школьным заданием",
+    "en": "ballpoint, signed O★Rich; on a sheet with a school assignment",
+    "es": "bolígrafo, firmado O★Rich; en una hoja con una tarea escolar"
+   },
+   "poem": 24
+  },
+  "v-malo": {
+   "w": 728,
+   "h": 1000,
+   "zw": 1456,
+   "zh": 2000,
+   "src": "assets/art/v-malo.jpg",
+   "title": {
+    "uk": "МАЛО???",
+    "ru": "МАЛО???",
+    "en": "МАЛО??? (Too Few???)",
+    "es": "МАЛО??? (¿¿¿Pocos???)"
+   },
+   "note": {
+    "uk": "кулькова ручка; плакат про куріння, алкоголь і наркотики",
+    "ru": "шариковая ручка; плакат о курении, алкоголе и наркотиках",
+    "en": "ballpoint; a poster against smoking, drink and drugs",
+    "es": "bolígrafo; cartel contra el tabaco, el alcohol y las drogas"
+   },
+   "poem": 53
+  },
+  "v-triptych": {
+   "w": 412,
+   "h": 1000,
+   "zw": 735,
+   "zh": 1783,
+   "src": "assets/art/v-triptych.jpg",
+   "title": {
+    "uk": "Три віньєтки",
+    "ru": "Три виньетки",
+    "en": "Three Vignettes",
+    "es": "Tres viñetas"
+   },
+   "note": {
+    "uk": "фіолетова кулькова ручка",
+    "ru": "фиолетовая шариковая ручка",
+    "en": "violet ballpoint",
+    "es": "bolígrafo violeta"
+   },
+   "poem": 50
+  },
+  "v-spiral": {
+   "w": 618,
+   "h": 576,
+   "zw": 618,
+   "zh": 576,
+   "src": "assets/art/v-spiral.jpg",
+   "title": {
+    "uk": "Спіраль",
+    "ru": "Спираль",
+    "en": "Spiral",
+    "es": "Espiral"
+   },
+   "note": {
+    "uk": "фіолетова кулькова ручка",
+    "ru": "фиолетовая шариковая ручка",
+    "en": "violet ballpoint",
+    "es": "bolígrafo violeta"
+   },
+   "poem": 32
+  },
+  "v-signboard": {
+   "w": 1000,
+   "h": 659,
+   "zw": 2000,
+   "zh": 1317,
+   "src": "assets/art/v-signboard.jpg",
+   "title": {
+    "uk": "Вивіска",
+    "ru": "Вывеска",
+    "en": "The Signboard",
+    "es": "El letrero"
+   },
+   "note": {
+    "uk": "кулькова ручка; на аркуші письмової роботи",
+    "ru": "шариковая ручка; на листе письменной работы",
+    "en": "ballpoint; on a sheet of a written assignment",
+    "es": "bolígrafo; en una hoja de un trabajo escrito"
+   },
+   "poem": 20
+  },
+  "v-notebook": {
+   "w": 741,
+   "h": 1000,
+   "zw": 1482,
+   "zh": 2000,
+   "src": "assets/art/v-notebook.jpg",
+   "title": {
+    "uk": "Блокнот, 1996–2000",
+    "ru": "Блокнот, 1996–2000",
+    "en": "The Notebook, 1996–2000",
+    "es": "El cuaderno, 1996–2000"
+   },
+   "note": {
+    "uk": "картонна обкладинка з дописами автора; підпис O.Rich, 11-А",
+    "ru": "картонная обложка с записями автора; подпись O.Rich, 11-А",
+    "en": "cardboard cover with the author's additions; signed O.Rich, class 11-A",
+    "es": "cubierta de cartón con anotaciones del autor; firmado O.Rich, clase 11-A"
+   },
+   "poem": 2
+  },
+  "v-bear": {
+   "w": 766,
+   "h": 1000,
+   "zw": 1532,
+   "zh": 2000,
+   "src": "assets/art/v-bear.jpg",
+   "title": {
+    "uk": "Ведмедик з візком",
+    "ru": "Медвежонок с тележкой",
+    "en": "Bear with a Cart",
+    "es": "Osito con carro"
+   },
+   "note": {
+    "uk": "кулькова ручка, сторінка блокнота",
+    "ru": "шариковая ручка, страница блокнота",
+    "en": "ballpoint, a notebook page",
+    "es": "bolígrafo, página del cuaderno"
+   },
+   "poem": 21
+  },
+  "v-window": {
+   "w": 928,
+   "h": 1000,
+   "zw": 1525,
+   "zh": 1643,
+   "src": "assets/art/v-window.jpg",
+   "title": {
+    "uk": "Вікно з ґратами",
+    "ru": "Окно с решёткой",
+    "en": "Barred Window",
+    "es": "Ventana con rejas"
+   },
+   "note": {
+    "uk": "фіолетова кулькова ручка; з аркуша «Вся суть не в том…»",
+    "ru": "фиолетовая шариковая ручка; с листа «Вся суть не в том…»",
+    "en": "violet ballpoint; from the sheet of “The whole point is not…”",
+    "es": "bolígrafo violeta; de la hoja de «Lo esencial no es…»"
+   },
+   "poem": 33
+  },
+  "v-road": {
+   "w": 1000,
+   "h": 910,
+   "zw": 2000,
+   "zh": 1819,
+   "src": "assets/art/v-road.jpg",
+   "title": {
+    "uk": "Дорога",
+    "ru": "Дорога",
+    "en": "The Road",
+    "es": "El camino"
+   },
+   "note": {
+    "uk": "фіолетова кулькова ручка; з аркуша «Вся суть не в том…»",
+    "ru": "фиолетовая шариковая ручка; с листа «Вся суть не в том…»",
+    "en": "violet ballpoint; from the sheet of “The whole point is not…”",
+    "es": "bolígrafo violeta; de la hoja de «Lo esencial no es…»"
+   },
+   "poem": 36
+  },
+  "v-christmas": {
+   "w": 818,
+   "h": 1000,
+   "zw": 1637,
+   "zh": 2000,
+   "src": "assets/art/v-christmas.jpg",
+   "title": {
+    "uk": "Біля ялинки",
+    "ru": "У ёлки",
+    "en": "By the Christmas Tree",
+    "es": "Junto al árbol de Navidad"
+   },
+   "note": {
+    "uk": "гуаш, дитячий малюнок",
+    "ru": "гуашь, детский рисунок",
+    "en": "gouache, a childhood painting",
+    "es": "gouache, pintura de la infancia"
+   },
+   "poem": 12
   }
  }
 }

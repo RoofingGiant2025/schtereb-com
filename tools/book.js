@@ -30,8 +30,6 @@
   var STUDY_KEYS = ["proportion", "spiral", "icosa", "vortex", "wing", "dodeca", "lily"];
   var PLATE_STUDY = { "part-before": "proportion", "sec-1": "spiral", "sec-2": "vortex", "sec-3": "dodeca", "part-after": "wing", "colophon": "lily", "frontispiece": "icosa" };
   function studyFor(n) { return STUDY[STUDY_KEYS[n % STUDY_KEYS.length]]; }
-  /* a deterministic little tilt per page, so the fragments do not all lie square */
-  function tiltOf(n, spread) { var x = Math.sin(n * 12.9898) * 43758.5453; x -= Math.floor(x); return ((x * 2 - 1) * spread).toFixed(2); }
   function mirrorHTML(text, cls) { return text ? '<p class="mirror' + (cls ? " " + cls : "") + '" aria-hidden="true">' + esc(text) + "</p>" : ""; }
   function firstLines(p, lang, k) { var out = [], ch = p.texts[lang].chunks[0] || []; for (var i = 0; i < ch.length && out.length < k; i++) { var l = ch[i].trim(); if (l && !/^\*.*\*$/.test(l)) out.push(l); } return out; }
 
@@ -64,6 +62,9 @@
     var rightHand = function () { if (pages.length % 2 === 0) pages.push({ t: "blank" }); };
     var leftHand = function () { if (pages.length % 2 === 1) pages.push({ t: "blank" }); };
     var art = D.art || {};
+    /* vignettes: the author's small drawings (manuscripts.json "vignettes", art keys "v-…" with a poem number) —
+       each takes the blank verso before that poem's title plate, ahead of the generic study */
+    var VIG = {}; Object.keys(art).forEach(function (k) { if (art[k].poem) VIG[art[k].poem] = k; });
     /* a drawing from the author's archive on the verso, facing a part or section plate on the recto */
     var plateWithArt = function (page, key) { if (art[key]) { leftHand(); pages.push({ t: "art", key: key }); } else rightHand(); pages.push(page); };
     plateWithArt({ t: "part", id: "before" }, "part-before");
@@ -75,9 +76,9 @@
       var chunks = p.texts[p.orig].chunks.length;
       /* every poem, in every language: [autograph or blank | title plate with the headnote], then the text —
          the original alone, or original | translation */
-      if (p.ms) { leftHand(); pages.push({ t: "ms", n: p.n }); } else if (pages.length % 2 === 0) pages.push({ t: "blank", study: p.n });   /* the empty verso: a study in the margin */
+      if (p.ms) { leftHand(); pages.push({ t: "ms", n: p.n }); } else if (VIG[p.n]) { leftHand(); pages.push({ t: "art", key: VIG[p.n] }); } else if (pages.length % 2 === 0) pages.push({ t: "blank", study: p.n });   /* the empty verso: a drawing, else a study in the margin */
       pages.push({ t: "plate", n: p.n });
-      if (lang === p.orig || p.single) { for (var c = 0; c < chunks; c++) pages.push({ t: "poem", n: p.n, c: c }); }
+      if (solo(p, lang)) { for (var c = 0; c < chunks; c++) pages.push({ t: "poem", n: p.n, c: c }); }
       else { for (var c2 = 0; c2 < chunks; c2++) { pages.push({ t: "orig", n: p.n, c: c2 }); pages.push({ t: "poem", n: p.n, c: c2 }); } }
     });
     if (D.portrait) { if (pages.length % 2 === 1) pages.push({ t: "blank" }); pages.push({ t: "author-plate" }); pages.push({ t: "author" }); }
@@ -86,6 +87,9 @@
     pages.push({ t: "endpaper" });
     return pages;
   }
+  /* one leaf (the text alone) or a facing spread original | translation: a song reads alone in its own language
+     and in any language it has not been translated into yet */
+  function solo(p, lang) { return lang === p.orig || !!p.single || (p.tr && p.tr.indexOf(lang) < 0); }
   function sectionIndex(id) { for (var i = 0; i < state.data.sections.length; i++) if (state.data.sections[i].key === id) return i; return 0; }
   function artHTML(a, key, lang) {
     var t = (a.title || {})[lang] || "", n = (a.note || {})[lang] || "", c = a.codex;
@@ -93,7 +97,7 @@
     var img = c ? '<img class="cx-ink" src="' + BASE + c.src + '?v=' + VER + '" alt="' + esc(t) + '" width="' + c.w + '" height="' + c.h + '" decoding="async">'
                 : '<img src="' + BASE + a.src + '?v=' + VER + '" alt="' + esc(t) + '" width="' + a.w + '" height="' + a.h + '" decoding="async">';
     var study = c && PLATE_STUDY[key] ? '<span class="cx-study art-study" aria-hidden="true">' + STUDY[PLATE_STUDY[key]] + "</span>" : "";
-    return '<figure class="ms art' + (c ? " codex" : "") + '" data-art="' + key + '"' + (c ? ' style="--rot:' + tiltOf(key.length * 7 + key.charCodeAt(0), 1.2) + 'deg"' : "") + '>' + study + (c ? mirrorHTML(t, "art-mirror") : "") +
+    return '<figure class="ms art' + (c ? " codex" : "") + (a.poem ? " vig" : "") + '" data-art="' + key + '">' + study + (c ? mirrorHTML(t, "art-mirror") : "") +
       '<button type="button" class="ms-sheet" aria-label="' + esc(t) + '">' + img + "</button>" +
       '<figcaption><span class="c">' + esc(t) + (n ? ' · ' + esc(n) : "") + "</span></figcaption></figure>";
   }
@@ -106,11 +110,10 @@
       '<figcaption><span class="r">' + p.roman + '</span><span class="c">' + esc(cap) + (note ? '<br>' + esc(note) : "") + "</span></figcaption></figure>";
     /* codex: the hand lifted off the sheet — the opening of the poem as the main cut, the signature and date as a detail
        laid over its torn foot; the whole photographed sheet opens in the lightbox */
-    var det = c.detail ? '<span class="cx-detail" style="--drot:' + tiltOf(p.n * 3 + 1, 4) + 'deg"><img class="cx-ink" src="' + BASE + c.detail.src + '?v=' + VER + '" alt="" width="' + c.detail.w + '" height="' + c.detail.h + '" decoding="async"></span>' : "";
     var ot = p.texts[p.orig].title; if (ot === "* * *") ot = firstLines(p, p.orig, 1)[0] || "";
-    return '<figure class="ms codex" data-n="' + p.n + '" style="--rot:' + tiltOf(p.n, 0.9) + 'deg">' +
+    return '<figure class="ms codex" data-n="' + p.n + '">' +
       '<span class="cx-mark" aria-hidden="true"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="15" stroke="currentColor" stroke-width=".8"/><path d="M20 3v5M20 32v5M3 20h5M32 20h5" stroke="currentColor" stroke-width=".8"/><circle cx="20" cy="20" r="1.2" fill="currentColor"/></svg><b>' + p.roman + "</b></span>" + mirrorHTML(ot, "ms-mirror") +
-      '<button type="button" class="ms-sheet" aria-label="' + esc(ui.zoom) + '"><img class="cx-ink cx-main" src="' + BASE + c.main.src + '?v=' + VER + '" alt="' + alt + '" width="' + c.main.w + '" height="' + c.main.h + '" decoding="async">' + det + more + "</button>" +
+      '<button type="button" class="ms-sheet" aria-label="' + esc(ui.zoom) + '"><img class="cx-ink cx-main" src="' + BASE + c.main.src + '?v=' + VER + '" alt="' + alt + '" width="' + c.main.w + '" height="' + c.main.h + '" decoding="async">' + more + "</button>" +
       '<figcaption><span class="r">' + p.roman + '</span><span class="c">' + esc(cap) + (note ? '<br>' + esc(note) : "") + "</span></figcaption></figure>";
   }
   var byN = null;   /* n → poem (songs and poems are not one contiguous run) */
@@ -143,9 +146,9 @@
   }
   var LISTEN_SVG = '<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M3 7.5v5h3l4 3.5v-12l-4 3.5H3z" fill="currentColor"/><path d="M12.5 6.5a4.5 4.5 0 0 1 0 7M14.5 4a8 8 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>';
   var ABOUT_SVG = '<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><circle cx="10" cy="10" r="7.25" fill="none" stroke="currentColor" stroke-width="1.3"/><path d="M10 9v5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="6.4" r=".9" fill="currentColor"/></svg>';
-  function listenBtn(n, lang) {   /* same recording as the leaf; class/label are kept in sync by setBtn for every copy of the button */
-    var ui = state.data.ui[lang], on = player.key === lang + "/" + n;
-    return '<button class="listen' + (on ? " playing" : "") + '" type="button" data-n="' + n + '" data-lang="' + lang + '" aria-label="' + esc(ui.listen) + '">' + LISTEN_SVG + "<span>" + esc(on ? ui.stop : ui.listen) + "</span></button>";
+  function listenBtn(n, lang, kind) {   /* kind "note" = the headnote (ПРО ВІРШ), otherwise the poem; every button with the same key is one control (setBtn) */
+    var ui = state.data.ui[lang], key = (kind === "note" ? "note:" : "") + lang + "/" + n, on = player.key === key;
+    return '<button class="listen' + (on ? " playing" : "") + '" type="button" data-n="' + n + '" data-lang="' + lang + '" data-key="' + key + '"' + (kind === "note" ? ' data-kind="note"' : "") + ' aria-label="' + esc(ui.listen) + '">' + LISTEN_SVG + "<span>" + esc(on ? ui.stop : ui.listen) + "</span></button>";
   }
   function poemBlock(title, lines, kicker, drop, cont, n, lang) {
     var ui = state.data.ui[lang || state.lang];
@@ -209,16 +212,17 @@
         var sg = p.song ? '<p class="plate-song">' + esc(ui.single) + " · " + esc(p.song.released) + (p.song.explicit ? " · E" : "") + '</p><p class="plate-links"><a href="' + esc(p.song.apple_url) + '" target="_blank" rel="noopener">Apple Music ↗</a> · <a href="' + esc(p.song.spotify) + '" target="_blank" rel="noopener">Spotify ↗</a>' + (p.song.source_poem ? ' · <a href="#" data-n="' + p.song.source_poem + '" class="src-poem">' + esc(ui.from_poem) + " " + (poem(p.song.source_poem).part === "after" ? esc(state.data.parts.after[lang]) + " " : "") + poem(p.song.source_poem).roman + "</a>" : "") + "</p>" : "";
         return { body: '<div class="center plate-page">' + mark + '<p class="plate-num">' + (p.song ? esc(ui.song) + " " : "") + p.roman + '</p><h2 class="plate-title">' + esc(pt) + "</h2>" + sg +
           (lang !== p.orig && ot !== pt ? '<p class="plate-orig">' + esc(ot) + "</p>" : "") +
-          (note ? ORN.rule + '<p class="kick plate-kick">' + esc(ui.about_poem) + '</p><p class="plate-note">' + em(note) + "</p>" : "") + "</div>" };
+          (note ? ORN.rule + '<p class="kick plate-kick">' + esc(ui.about_poem) + '</p><p class="plate-tools">' + listenBtn(p.n, lang, "note") + '</p><p class="plate-note">' + em(note) + "</p>" : "") + "</div>" };   /* Listen here reads the headnote */
       }
       case "orig": {
         var po = poem(page.n), to = po.texts[po.orig];
         return { body: poemBlock(to.title, to.chunks[page.c], page.c === 0 ? ui.original : ui.continued, false, page.c > 0, po.n, po.orig) };
       }
       case "poem": {
-        var pp = poem(page.n), tp = pp.texts[lang], isO = lang === pp.orig || !!pp.single;
+        var pp = poem(page.n), tp = pp.texts[lang], isO = solo(pp, lang);
         if (pp.song) { var st = pp.song.status === "author" ? ui.lyrics_author : pp.song.status === "transcribed" ? ui.lyrics_transcribed : ui.lyrics_pending;
-          return { body: poemBlock(tp.title, tp.chunks[page.c], page.c === 0 ? st : ui.continued, page.c === 0, page.c > 0, pp.n, lang) }; }
+          /* the lyric sheet's status labels the original; a translated leaf is labelled as a translation, like a poem's */
+          return { body: poemBlock(tp.title, tp.chunks[page.c], page.c > 0 ? ui.continued : isO ? st : ui.translation, page.c === 0, page.c > 0, pp.n, lang) }; }
         return { body: poemBlock(tp.title, tp.chunks[page.c], isO ? (page.c > 0 ? ui.continued : "") : (page.c === 0 ? ui.translation : ui.continued), page.c === 0, page.c > 0, pp.n, lang) };
       }
       case "author-plate": return { body: '<figure class="portrait"><img src="' + BASE + D.portrait + '?v=' + (root.dataset.v || "0") + '" alt="' + esc(D.author[lang]) + '" width="960" height="1440" loading="lazy"><figcaption>' + esc(ui.about_caption) + "</figcaption></figure>" };
@@ -325,7 +329,7 @@
     var D = state.data, ui = D.ui[state.lang], p = poem(n), ot = p.texts[p.orig].title, pt = p.texts[state.lang].title;
     el.sheet.innerHTML = '<button class="close" type="button">' + esc(ui.close) + '</button><p class="kick">' + esc(ui.about_poem) + " · " + p.roman + '</p><h2>' + esc(tocTitle(p, state.lang)) + "</h2>" +
       (state.lang !== p.orig && ot !== pt ? '<p class="sheet-orig">' + esc(ot) + "</p>" : "") +
-      '<p class="sheet-tools">' + listenBtn(n, state.lang) + "</p>" +
+      '<p class="sheet-tools">' + listenBtn(n, state.lang, "note") + "</p>" +
       '<p class="sheet-note">' + em((p.note || {})[state.lang] || "") + "</p>" +
       '<div class="fm"><a href="#" data-toc="1">' + esc(ui.contents) + "</a></div>";
     el.overlay.hidden = false; var c = el.sheet.querySelector(".close"); if (c) c.focus();
@@ -410,12 +414,12 @@
   document.addEventListener("click", function (e) { var b = e.target.closest("button.ms-sheet"); if (b && state.data) { e.preventDefault(); openLightbox(b.closest("figure.ms")); } });
 
   /* ---------- listening: recorded file first, device speech as fallback ---------- */
-  var player = { audio: null, key: null, manifest: null, utter: null };   /* key = "<lang>/<n>" of what is playing */
+  var player = { audio: null, key: null, manifest: null, utter: null };   /* key = "<lang>/<n>" (poem) or "note:<lang>/<n>" (headnote) of what is playing */
   var SPEECH_LANG = { uk: "uk-UA", ru: "ru-RU", en: "en-US", es: "es-ES" };
   function setBtn(key, playing) {   /* every Listen button for this poem+language: on the leaf and in the About sheet */
     if (!key) return;
-    var lang = key.split("/")[0], n = key.split("/")[1], ui = state.data.ui[lang] || state.data.ui[state.lang];
-    document.querySelectorAll('button.listen[data-n="' + n + '"][data-lang="' + lang + '"]').forEach(function (btn) {
+    var lang = key.replace(/^note:/, "").split("/")[0], ui = state.data.ui[lang] || state.data.ui[state.lang];
+    document.querySelectorAll('button.listen[data-key="' + key + '"]').forEach(function (btn) {
       btn.classList.toggle("playing", playing);
       btn.querySelector("span").textContent = playing ? ui.stop : ui.listen;
     });
@@ -428,7 +432,7 @@
   function speakable(p, lang) {
     var t = p.texts[lang], parts = [];
     if (t.title !== "* * *") parts.push(t.title);
-    t.chunks.forEach(function (c) { c.forEach(function (l) { if (l.trim() && !/^\*.+\*$/.test(l.trim())) parts.push(l.trim()); else if (!l.trim()) parts.push(""); }); });
+    (t.chunks || [(t.text || "").split("\n")]).forEach(function (c) { c.forEach(function (l) { if (l.trim() && !/^\*.+\*$/.test(l.trim())) parts.push(l.trim()); else if (!l.trim()) parts.push(""); }); });
     return parts;
   }
   function speakFallback(p, lang, key) {
@@ -436,22 +440,23 @@
     var voices = speechSynthesis.getVoices(), want = SPEECH_LANG[lang], pick = null;
     voices.forEach(function (v) { if (v.lang.replace("_", "-").toLowerCase().indexOf(want.slice(0, 2)) === 0 && (!pick || /premium|enhanced|natural/i.test(v.name))) pick = v; });
     var lines = speakable(p, lang), text = lines.map(function (l) { return l === "" ? "\n" : l; }).join(",\n");
+    if (key.indexOf("note:") === 0) text = ((p.note || {})[lang] || "").replace(/\*([^*]+)\*/g, "$1");   /* the headnote, italics markers dropped */
     var u = new SpeechSynthesisUtterance(text); u.lang = want; u.rate = 0.88; if (pick) u.voice = pick;
     u.onend = u.onerror = function () { if (player.key === key) { setBtn(key, false); player.key = null; } };
     player.utter = u; speechSynthesis.speak(u);
   }
   function listen(btn) {
-    var n = +btn.dataset.n, lang = btn.dataset.lang, p = poem(n), key = lang + "/" + n;
+    var n = +btn.dataset.n, lang = btn.dataset.lang, p = poem(n), isNote = btn.dataset.kind === "note", key = (isNote ? "note:" : "") + lang + "/" + n;
     if (player.key === key) { stopAll(); return; }
     stopAll(); player.key = key; setBtn(key, true);
-    var has = player.manifest && player.manifest[lang] && player.manifest[lang][String(n)];
-    if (p.song && p.song.preview) {
+    var m = player.manifest || {}, has = isNote ? (m.notes && m.notes[lang] && m.notes[lang][String(n)]) : (m[lang] && m[lang][String(n)]);
+    if (p.song && p.song.preview && !isNote) {
       var pa = new Audio(p.song.preview); player.audio = pa;
       pa.onended = function () { if (player.audio === pa) { setBtn(key, false); player.key = null; player.audio = null; } };
       pa.onerror = function () { if (player.audio === pa) { setBtn(key, false); player.key = null; player.audio = null; } };
       pa.play().catch(function () { setBtn(key, false); player.key = null; player.audio = null; });
     } else if (has) {
-      var a = new Audio(BASE + "audio/" + lang + "/" + n + ".m4a?v=" + (has.v || VER)); player.audio = a;   /* versioned: m4a is cached 7 days */
+      var a = new Audio(BASE + "audio/" + lang + "/" + n + (isNote ? "-note" : "") + ".m4a?v=" + (has.v || VER)); player.audio = a;   /* versioned: m4a is cached 7 days */
       a.onended = function () { if (player.audio === a) { setBtn(key, false); player.key = null; player.audio = null; } };
       a.onerror = function () { if (player.audio === a) { player.audio = null; speakFallback(p, lang, key); } };
       a.play().catch(function () { player.audio = null; speakFallback(p, lang, key); });
