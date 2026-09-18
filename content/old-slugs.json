@@ -41,5 +41,15 @@
   "38": [
    "atormentada-esta-mi-razon-hasta-el-delirio"
   ]
+ },
+ "_paths": {
+  "/uk/81-yaskrave-svitlo.html": "/uk/s61-bright-light.html",
+  "/uk/82-leti-miy-meteliku.html": "/uk/s03-fly-my-butterfly.html",
+  "/ru/81-yarkiy-svet.html": "/ru/s61-bright-light.html",
+  "/ru/82-leti-moya-babochka.html": "/ru/s03-fly-my-butterfly.html",
+  "/en/81-bright-light.html": "/en/s61-bright-light.html",
+  "/en/82-fly-my-butterfly.html": "/en/s03-fly-my-butterfly.html",
+  "/es/81-luz-brillante.html": "/es/s61-bright-light.html",
+  "/es/82-vuela-mi-mariposa.html": "/es/s03-fly-my-butterfly.html"
  }
 }

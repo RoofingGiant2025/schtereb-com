@@ -240,9 +240,3 @@ A testimony in a conversational key: “You know…? I love God.” Disappointme
 
 ## 80. To All Poets
 The envoi of *Before*. “Poets, tell us please, if it isn’t hard, how to become a poet.” How to put thoughts in “a poetic form, simple and usual for you”; how to convey beauty, desire, joy and freedom in verse; how to drive “life’s discord” from the soul; how thoughts “flew up into the sky with the birds” — the transparent boundlessness of *The Bird and the Birds* again. Tercets, modest and a little mischievous: “tell us without arrogance, dear poets — well, at least a stanza each.” An apprentice’s petition, placed at the end of eighty poems that have already answered it.
-
-## 81. Bright Light
-The first of two poems written later, in English, under the heading *After*. To some the speaker says good morning, to some goodnight, to some goodbye — “no drama, no one traumatized.” To some it is a beginning, to some the end, “a stillness shaped like knowing, too close to comprehend.” Who speaks — light, presence, a person passing through other lives — is never settled, and the ballad quatrains keep their calm to the end: something in them changes, “though none recall my name.” After eighty poems of *Before*, a voice without urgency.
-
-## 82. Fly My Butterfly
-The book closes by the ocean. “You decide to fly” — like a butterfly, “flattered to flutter,” shy; the stars are in your eyes and you are one of them. The speaker goes “deeper into stunning art, deeper in your heart,” and finds the butterfly there: “the butterfly is love,” once wandering the world, now settled. The last quatrain is a blessing and a summary of the whole collection’s arc — from infatuation through drama to truth: “True love is you, never stopped by mind.” The mind that troubled so many earlier poems is, at last, not in charge.

@@ -91,7 +91,7 @@ I'm alive
 In you
 
 ## Fly My Butterfly
-*2026-01-17 · author · from poem 82*
+*2026-01-17 · author*
 
 Walking by the ocean,
 You decide to fly.
@@ -2058,3 +2058,41 @@ It's enough, no one else I need to be
 Here and now, here
 Still breathing, still becoming
 This is mine
+
+## Bright Light
+*unreleased · author*
+
+To some I say good morning,
+My breath before the sun.
+The feeling, not so boring,
+Before the day’s begun.
+
+To some I say goodnight,
+As light begins to fade.
+Let’s listen to the silence
+Where memory is made.
+
+To some I say goodbye—
+No drama, no one traumatized.
+Just a vision in the silence
+That lingers in my heart.
+
+To some I am beginning.
+To some I am the end.
+A stillness shaped like knowing,
+Too close to comprehend.
+
+To some I say good morning.
+To some I say goodnight.
+To some I say goodbye,
+And appear a bright light.
+
+To some I say all three—
+Good morning, night, goodbye.
+The shadow of the memory,
+The light we can’t deny.
+
+To some I stay forever.
+To some I never came.
+But something in them changes,
+Though none recall my name.

@@ -240,9 +240,3 @@ Un testimonio en clave conversacional: «¿Sabes…? Amo a Dios». Por eso el de
 
 ## 80. A todos los poetas
 El envío de *Antes*. «Poetas, díganos por favor, si no es molestia, cómo llegar a ser poeta». Cómo poner los pensamientos en «una forma poética, simple y habitual para ustedes»; cómo transmitir en verso la belleza, el deseo, la alegría y la libertad; cómo expulsar del alma «la discordia de la vida»; cómo los pensamientos «volaron al cielo con los pájaros», otra vez la transparente inmensidad de *El ave y las aves*. Tercetos modestos y un poco traviesos: «díganlo sin arrogancia, queridos poetas; bueno, al menos una estrofa cada uno». La petición de un aprendiz, colocada al final de ochenta poemas que ya la han respondido.
-
-## 81. Luz brillante
-El primero de dos poemas escritos más tarde, en inglés, bajo el encabezado *Después*. A unos el que habla les dice buenos días, a otros buenas noches, a otros adiós: «sin drama, nadie traumatizado». Para unos es el comienzo, para otros el final, «una quietud con forma de saber, demasiado cercana para comprenderla». Quién habla —la luz, una presencia, una persona que pasa por otras vidas— nunca se resuelve, y las cuartetas de balada mantienen la calma hasta el final: algo en ellos cambia, «aunque ninguno recuerde mi nombre». Tras ochenta poemas de *Antes*, una voz sin urgencia.
-
-## 82. Vuela, mi mariposa
-El libro se cierra junto al océano. «Decides volar», como una mariposa, «halagada de aletear», tímida; las estrellas están en tus ojos y tú eres una de ellas. El que habla va «más hondo en el arte asombroso, más hondo en tu corazón», y encuentra allí la mariposa: «la mariposa es el amor», que antes vagaba por el mundo y ahora se ha posado. La última cuarteta es una bendición y un resumen del arco entero de la colección —del enamoramiento, por el drama, a la verdad—: «El amor verdadero eres tú, nunca detenido por la mente». La mente que inquietó tantos poemas anteriores, al fin, no manda.

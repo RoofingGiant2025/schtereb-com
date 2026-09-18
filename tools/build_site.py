@@ -25,7 +25,7 @@ EDITION_UI = {
             plus="плюс доставка", ship="Друкує й надсилає Lulu — зі США, Великої Британії, Євросоюзу чи Австралії, звідки ближче до вас. Доставка приблизно два–три тижні; є швидші варіанти.",
             specs_h="Видання", specs=[("Палітурка", "Тверда, тканинна (чорний льон), корінець із золотим тисненням"), ("Суперобкладинка", "Друкована, з клапанами, матова"),
                                       ("Папір", "Кремовий, некрейдований, ≈ 90 г/м²"), ("Формат", "152 × 229 мм (6 × 9″) · {pages} сторінки"),
-                                      ("Усередині", "82 вірші — кожен мовою оригіналу та у віршованих перекладах: українською, російською, англійською, іспанською. Сторінка видання для номера примірника й підпису автора."),
+                                      ("Усередині", "80 віршів і 61 пісня — кожен вірш мовою оригіналу та у віршованих перекладах: українською, російською, англійською, іспанською. Сторінка видання для номера примірника й підпису автора."),
                                       ("Видання", "Перше, 2026 · друк на замовлення, по одному примірнику")],
             jacket="Суперобкладинка: задній клапан, задня сторона, корінець, передня сторона, передній клапан.", jacket_alt="Розгорнута суперобкладинка книжки"),
  "ru": dict(kick="Первое издание · Твёрдый переплёт",
@@ -33,7 +33,7 @@ EDITION_UI = {
             plus="плюс доставка", ship="Печатает и отправляет Lulu — из США, Великобритании, Евросоюза или Австралии, откуда ближе к вам. Доставка примерно две–три недели; есть варианты быстрее.",
             specs_h="Издание", specs=[("Переплёт", "Твёрдый, тканевый (чёрный лён), корешок с золотым тиснением"), ("Суперобложка", "Печатная, с клапанами, матовая"),
                                       ("Бумага", "Кремовая, немелованная, ≈ 90 г/м²"), ("Формат", "152 × 229 мм (6 × 9″) · {pages} страницы"),
-                                      ("Внутри", "82 стихотворения — каждое на языке оригинала и в стихотворных переводах: украинском, русском, английском, испанском. Страница издания для номера экземпляра и подписи автора."),
+                                      ("Внутри", "80 стихотворений и 61 песня — каждое стихотворение на языке оригинала и в стихотворных переводах: украинском, русском, английском, испанском. Страница издания для номера экземпляра и подписи автора."),
                                       ("Издание", "Первое, 2026 · печать под заказ, по одному экземпляру")],
             jacket="Суперобложка: задний клапан, задняя сторона, корешок, передняя сторона, передний клапан.", jacket_alt="Развёрнутая суперобложка книги"),
  "en": dict(kick="First edition · Hardcover",
@@ -41,7 +41,7 @@ EDITION_UI = {
             plus="plus shipping", ship="Printed and shipped by Lulu from the United States, the United Kingdom, the European Union or Australia — whichever is nearest to you. Delivery in about two to three weeks; faster options exist.",
             specs_h="The edition", specs=[("Binding", "Cloth-bound hardcover, black linen, spine stamped in gold foil"), ("Jacket", "Printed dust jacket with flaps, matte"),
                                           ("Paper", "Cream, uncoated, 60 lb"), ("Format", "6 × 9 in (152 × 229 mm) · {pages} pages"),
-                                          ("Inside", "82 poems, each in its original language and in verse translation — Ukrainian, Russian, English, Spanish. An edition page for the author's number and signature."),
+                                          ("Inside", "80 poems and 61 songs — each poem in its original language and in verse translation — Ukrainian, Russian, English, Spanish. An edition page for the author's number and signature."),
                                           ("Edition", "First edition, 2026 · printed to order, one copy at a time")],
             jacket="The dust jacket: back flap, back, spine, front, front flap.", jacket_alt="The book's dust jacket, opened flat"),
  "es": dict(kick="Primera edición · Tapa dura",
@@ -49,7 +49,7 @@ EDITION_UI = {
             plus="más envío", ship="Lulu imprime y envía desde Estados Unidos, el Reino Unido, la Unión Europea o Australia, según lo que le quede más cerca. Entrega en unas dos o tres semanas; hay opciones más rápidas.",
             specs_h="La edición", specs=[("Encuadernación", "Tapa dura entelada (lino negro), lomo estampado en oro"), ("Sobrecubierta", "Impresa, con solapas, mate"),
                                          ("Papel", "Crema, no estucado, ≈ 90 g/m²"), ("Formato", "15,2 × 22,9 cm (6 × 9″) · {pages} páginas"),
-                                         ("Contenido", "82 poemas, cada uno en su lengua original y en traducción en verso: ucraniano, ruso, inglés, español. Una página de edición para el número del ejemplar y la firma del autor."),
+                                         ("Contenido", "80 poemas y 61 canciones — cada poema en su lengua original y en traducción en verso: ucraniano, ruso, inglés, español. Una página de edición para el número del ejemplar y la firma del autor."),
                                          ("Edición", "Primera, 2026 · impresa bajo pedido, ejemplar a ejemplar")],
             jacket="La sobrecubierta: solapa trasera, contraportada, lomo, portada, solapa delantera.", jacket_alt="La sobrecubierta del libro, extendida"),
 }
@@ -57,8 +57,8 @@ EDITION_UI = {
 UI = {
  "uk": dict(manuscript="Рукопис", autograph="Автограф", zoom="Розглянути", of_pages="з", ms_close="Закрити", ms_hint="Торкніться аркуша, щоб роздивитися",
             listen="Слухати", stop="Зупинити", order="Друкована книжка", order_btn="Замовити книжку", order_soon="Друковане видання готується — незабаром тут з’явиться кнопка замовлення.",
-            order_text="Паперове видання: м’яка обкладинка, 152 × 229 мм (6 × 9″), 422 сторінки, кремовий папір. Усі 82 вірші мовою оригіналу та в перекладах — українською, російською, англійською, іспанською. Друкується на замовлення й надсилається поштою в будь-яку країну.",
-            main="Ноти життя", sub="до і після", first="Перша збірка", count="Вірші I–LXXX · Після I–II", open="Відкрити книжку",
+            order_text="Паперове видання: м’яка обкладинка, 152 × 229 мм (6 × 9″), 422 сторінки, кремовий папір. Усі 80 віршів мовою оригіналу та в перекладах — українською, російською, англійською, іспанською. Друкується на замовлення й надсилається поштою в будь-яку країну.",
+            main="Ноти життя", sub="до і після", first="Перша збірка", count="Вірші I–LXXX · Пісні I–LXI", open="Відкрити книжку",
             contents="Зміст", close="Закрити", original="Оригінал", translation="Переклад", continued="продовження",
             edition="Перше видання", house="Штереб", rights="Усі права застережено.", published="Видано на schtereb.com",
             epigraph="Мистецтво не знає мов", dedication="Тим, хто живе мрією", epigraph_short="Епіграф", titlepage="Титул", colophon_short="Колофон",
@@ -69,8 +69,8 @@ UI = {
             colophon="Набрано гарнітурами Cormorant Garamond і Source Serif. Зроблено як книжку для читання, а не сторінку для гортання. Оригінали вперше оприлюднено на shtereb.com (2019). Дім Штереба."),
  "ru": dict(manuscript="Рукопись", autograph="Автограф", zoom="Рассмотреть", of_pages="из", ms_close="Закрыть", ms_hint="Коснитесь листа, чтобы рассмотреть",
             listen="Слушать", stop="Остановить", order="Печатная книга", order_btn="Заказать книгу", order_soon="Печатное издание готовится — скоро здесь появится кнопка заказа.",
-            order_text="Бумажное издание: мягкая обложка, 152 × 229 мм (6 × 9″), 422 страницы, кремовая бумага. Все 82 стихотворения на языке оригинала и в переводах — украинском, русском, английском, испанском. Печатается под заказ и отправляется почтой в любую страну.",
-            main="Ноты жизни", sub="до и после", first="Первый сборник", count="Стихи I–LXXX · После I–II", open="Открыть книгу",
+            order_text="Бумажное издание: мягкая обложка, 152 × 229 мм (6 × 9″), 422 страницы, кремовая бумага. Все 80 стихотворений на языке оригинала и в переводах — украинском, русском, английском, испанском. Печатается под заказ и отправляется почтой в любую страну.",
+            main="Ноты жизни", sub="до и после", first="Первый сборник", count="Стихи I–LXXX · Песни I–LXI", open="Открыть книгу",
             contents="Содержание", close="Закрыть", original="Оригинал", translation="Перевод", continued="продолжение",
             edition="Первое издание", house="Штереб", rights="Все права защищены.", published="Издано на schtereb.com",
             epigraph="Искусство не знает языков", dedication="Тем, кто живёт мечтой", epigraph_short="Эпиграф", titlepage="Титул", colophon_short="Колофон",
@@ -81,8 +81,8 @@ UI = {
             colophon="Набрано гарнитурами Cormorant Garamond и Source Serif. Сделано как книга для чтения, а не страница для прокрутки. Оригиналы впервые опубликованы на shtereb.com (2019). Дом Штереба."),
  "en": dict(manuscript="Manuscript", autograph="Autograph", zoom="Look closer", of_pages="of", ms_close="Close", ms_hint="Tap the sheet to look closer",
             listen="Listen", stop="Stop", order="The printed book", order_btn="Order the book", order_soon="The printed edition is being prepared — the order button will appear here soon.",
-            order_text="Paperback, 6 × 9 in (152 × 229 mm), 422 pages, cream paper. All 82 poems in their original language and in verse translation — Ukrainian, Russian, English, Spanish. Printed on demand and shipped to any country.",
-            main="Notes of Life", sub="Before and After", first="A first collection", count="Poems I–LXXX · After I–II", open="Open the book",
+            order_text="Paperback, 6 × 9 in (152 × 229 mm), 422 pages, cream paper. All 80 poems in their original language and in verse translation — Ukrainian, Russian, English, Spanish. Printed on demand and shipped to any country.",
+            main="Notes of Life", sub="Before and After", first="A first collection", count="Poems I–LXXX · Songs I–LXI", open="Open the book",
             contents="Contents", close="Close", original="Original", translation="Translation", continued="continued",
             edition="First edition", house="Schtereb", rights="All rights reserved.", published="Published at schtereb.com",
             epigraph="Art Knows No Languages", dedication="To Those Who Are Living the Dream", epigraph_short="Epigraph", titlepage="Title page", colophon_short="Colophon",
@@ -93,8 +93,8 @@ UI = {
             colophon="Set in Cormorant Garamond and Source Serif. Designed as a book to be read, not a page to be scrolled. Originals first published at shtereb.com (2019). The house of Schtereb."),
  "es": dict(manuscript="Manuscrito", autograph="Autógrafo", zoom="Ver de cerca", of_pages="de", ms_close="Cerrar", ms_hint="Toca la hoja para verla de cerca",
             listen="Escuchar", stop="Detener", order="El libro impreso", order_btn="Pedir el libro", order_soon="La edición impresa se está preparando — pronto aparecerá aquí el botón de pedido.",
-            order_text="Tapa blanda, 15,2 × 22,9 cm (6 × 9″), 422 páginas, papel crema. Los 82 poemas en su lengua original y en traducción en verso — ucraniano, ruso, inglés, español. Impreso bajo demanda y enviado a cualquier país.",
-            main="Notas de la vida", sub="antes y después", first="Primera colección", count="Poemas I–LXXX · Después I–II", open="Abrir el libro",
+            order_text="Tapa blanda, 15,2 × 22,9 cm (6 × 9″), 422 páginas, papel crema. Los 80 poemas en su lengua original y en traducción en verso — ucraniano, ruso, inglés, español. Impreso bajo demanda y enviado a cualquier país.",
+            main="Notas de la vida", sub="antes y después", first="Primera colección", count="Poemas I–LXXX · Canciones I–LXI", open="Abrir el libro",
             contents="Índice", close="Cerrar", original="Original", translation="Traducción", continued="continúa",
             edition="Primera edición", house="Schtereb", rights="Todos los derechos reservados.", published="Publicado en schtereb.com",
             epigraph="El arte no conoce idiomas", dedication="A quienes viven el sueño", epigraph_short="Epígrafe", titlepage="Portada", colophon_short="Colofón",
@@ -106,10 +106,10 @@ UI = {
 }
 
 SONG_UI = {
- "uk": dict(song="Пісня", single="Сингл", from_poem="з вірша", lyrics_author="Текст автора", lyrics_transcribed="Розшифровка запису · до вичитки", lyrics_pending="Текст ще не додано", preview="Фрагмент 30 с"),
- "ru": dict(song="Песня", single="Сингл", from_poem="из стихотворения", lyrics_author="Авторский текст", lyrics_transcribed="Расшифровка записи · до вычитки", lyrics_pending="Текст ещё не добавлен", preview="Фрагмент 30 с"),
- "en": dict(song="Song", single="Single", from_poem="from poem", lyrics_author="The author's lyric sheet", lyrics_transcribed="Transcribed from the recording · unproofed", lyrics_pending="Lyrics not yet added", preview="30-second preview"),
- "es": dict(song="Canción", single="Sencillo", from_poem="del poema", lyrics_author="Letra del autor", lyrics_transcribed="Transcrita de la grabación · sin revisar", lyrics_pending="Letra aún no añadida", preview="Fragmento de 30 s"),
+ "uk": dict(song="Пісня", single="Сингл", unreleased="Ще не видана", from_poem="з вірша", lyrics_author="Текст автора", lyrics_transcribed="Розшифровка запису · до вичитки", lyrics_pending="Текст ще не додано", preview="Фрагмент 30 с"),
+ "ru": dict(song="Песня", single="Сингл", unreleased="Ещё не издана", from_poem="из стихотворения", lyrics_author="Авторский текст", lyrics_transcribed="Расшифровка записи · до вычитки", lyrics_pending="Текст ещё не добавлен", preview="Фрагмент 30 с"),
+ "en": dict(song="Song", single="Single", unreleased="Unreleased", from_poem="from poem", lyrics_author="The author's lyric sheet", lyrics_transcribed="Transcribed from the recording · unproofed", lyrics_pending="Lyrics not yet added", preview="30-second preview"),
+ "es": dict(song="Canción", single="Sencillo", unreleased="Inédita", from_poem="del poema", lyrics_author="Letra del autor", lyrics_transcribed="Transcrita de la grabación · sin revisar", lyrics_pending="Letra aún no añadida", preview="Fragmento de 30 s"),
 }
 for _l in SONG_UI: UI[_l].update(SONG_UI[_l])
 
@@ -127,6 +127,8 @@ def old_slug_redirects(poems):
     reg = json.load(open(path, encoding="utf-8"))
     by_n = {p["n"]: p for p in poems}
     out = []
+    for old, target in reg.pop("_paths", {}).items():          # "/en/81-bright-light.html": "/en/s61-bright-light.html"
+        out.append(f"RedirectPermanent {old} https://schtereb.com{target}")
     for lang, d in reg.items():
         for n, olds in d.items():
             cur = by_n[int(n)]["slug"][lang]

@@ -418,6 +418,7 @@ body.lb-open{overflow:hidden}
 .art-study{right:-5%;top:1%;width:34%;aspect-ratio:1;opacity:.18;transform:rotate(-6deg)}
 .art-mirror{position:absolute;left:0;top:0;z-index:2;font-size:.95rem;text-align:left;opacity:.3}
 .ms.art.codex figcaption{position:relative;z-index:2}
+.ms.art.codex.sketch .ms-sheet{display:flex;justify-content:center;max-width:22rem;margin:0 auto;padding:1.5rem 0 .5rem;cursor:default}
 /* the recto plates of parts and sections: a study low on the page, under the title */
 .sec-study{right:5%;bottom:10%;width:38%;aspect-ratio:1;opacity:.22}
 .leaf.codex-plate .center{position:relative;z-index:1}

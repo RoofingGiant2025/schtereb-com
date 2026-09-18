@@ -60,7 +60,7 @@ def main():
     en = parse(os.path.join(ROOT, "content", "en.md"))
     tr = {l: parse_numbered(os.path.join(ROOT, "content", "tr", f"{l}.md")) for l in ("uk", "ru", "es")}
     notes = {l: parse_numbered(os.path.join(ROOT, "content", "notes", f"{l}.md")) for l in ("uk", "ru", "en", "es")}
-    assert len(originals) == len(en) == 82, (len(originals), len(en))
+    assert len(originals) == len(en) == N_BEFORE, (len(originals), len(en))
     poems = []
     for i, (o, e) in enumerate(zip(originals, en), start=1):
         texts = {o["lang"]: {"title": o["title"], "body": o["body"]},
@@ -79,6 +79,8 @@ def main():
     # ---- songs (Dr. O Schtereb releases): catalog + transcripts / author lyric sheets → part "songs"
     songs_dir = os.path.join(ROOT, "content", "songs")
     catalog = json.load(open(os.path.join(songs_dir, "apple-catalog.json"), encoding="utf-8"))
+    unrel = os.path.join(songs_dir, "unreleased.json")          # songs not (yet) on Apple Music: same fields, released/apple_* = null
+    if os.path.exists(unrel): catalog = catalog + json.load(open(unrel, encoding="utf-8"))
     def words(t): return set(w for w in re.findall(r"[a-zа-яіїєґё']+", t.lower()) if len(w) > 3)
     poem_words = [(p["n"], words("\n".join(p["texts"]["en"]["body"] + p["texts"][p["orig"]]["body"]))) for p in poems]
     song_lines = []
@@ -133,15 +135,15 @@ def main():
             tb = SONG_TR[l].get(str(sg["apple_id"]))
             if tb and l != lang_key and status != "pending":
                 texts[l] = {"title": title, "body": tb}; tr_langs.append(l)
-        meta_note = {"uk": f"Сингл, виданий {sg['released']}." + (" Текст — розшифровка запису, до вичитки автором." if status == "transcribed" else " Текст автора." if status == "author" else " Текст ще не додано."),
-                     "ru": f"Сингл, выпущен {sg['released']}." + (" Текст — расшифровка записи, до вычитки автором." if status == "transcribed" else " Авторский текст." if status == "author" else " Текст ещё не добавлен."),
-                     "en": f"Single released {sg['released']}." + (" Words transcribed from the recording — awaiting the author's proofreading." if status == "transcribed" else " The author's lyric sheet." if status == "author" else " Lyrics not yet added."),
-                     "es": f"Sencillo publicado el {sg['released']}." + (" Letra transcrita de la grabación, pendiente de revisión del autor." if status == "transcribed" else " Letra del autor." if status == "author" else " Letra aún no añadida.")}
+        meta_note = {"uk": (f"Сингл, виданий {sg['released']}." if sg["released"] else "Пісня, ще не видана.") + (" Текст — розшифровка запису, до вичитки автором." if status == "transcribed" else " Текст автора." if status == "author" else " Текст ще не додано."),
+                     "ru": (f"Сингл, выпущен {sg['released']}." if sg["released"] else "Песня, ещё не изданная.") + (" Текст — расшифровка записи, до вычитки автором." if status == "transcribed" else " Авторский текст." if status == "author" else " Текст ещё не добавлен."),
+                     "en": (f"Single released {sg['released']}." if sg["released"] else "An unreleased song.") + (" Words transcribed from the recording — awaiting the author's proofreading." if status == "transcribed" else " The author's lyric sheet." if status == "author" else " Lyrics not yet added."),
+                     "es": (f"Sencillo publicado el {sg['released']}." if sg["released"] else "Canción aún inédita.") + (" Letra transcrita de la grabación, pendiente de revisión del autor." if status == "transcribed" else " Letra del autor." if status == "author" else " Letra aún no añadida.")}
         poems.append({"n": 1000 + i, "section": "Пісні", "orig": lang_key, "texts": texts, "roman": roman(i), "part": "songs", "single": not tr_langs, "tr": tr_langs, "note": meta_note,
                       "song": {"released": sg["released"], "apple_url": sg["apple_url"], "spotify": sg["spotify_search"], "preview": sg["preview"],
                                "artwork": sg["artwork"], "seconds": sg["seconds"], "status": status, "lang": lang, "explicit": sg["explicit"],
                                "source_poem": src, "apple_id": sg["apple_id"]}})
-        song_lines += [f"## {title}", f"*{sg['released']} · {status}" + (f" · from poem {src}" if src else "") + "*", ""] + body + [""]
+        song_lines += [f"## {title}", f"*{sg['released'] or 'unreleased'} · {status}" + (f" · from poem {src}" if src else "") + "*", ""] + body + [""]
     open(os.path.join(ROOT, "content", "songs.md"), "w", encoding="utf-8").write("# Пісні · Songs\n\n" + "\n".join(song_lines))
     n_songs = len(catalog); n_lyrics = sum(1 for p in poems if p.get("song") and p["song"]["status"] != "pending")
     # per-language markdown files (same format as en.md)
@@ -161,13 +163,12 @@ def main():
             "epigraph": "Art Knows No Languages",
             "sections": [{"key": k, **v} for k, v in SECTIONS.items()],
             "parts": {"before": {"uk": "До", "ru": "До", "en": "Before", "es": "Antes"},
-                      "after": {"uk": "Після", "ru": "После", "en": "After", "es": "Después"},
-                      "songs": {"uk": "Пісні", "ru": "Песни", "en": "Songs", "es": "Canciones"}},
+                      "songs": {"uk": "Після · Пісні", "ru": "После · Песни", "en": "After · Songs", "es": "Después · Canciones"}},
             "poems": [{"n": p["n"], "roman": p["roman"], "part": p["part"], "section": p["section"], "orig": p["orig"], **({"single": p["single"], "tr": p["tr"], "song": p["song"]} if p.get("song") else {}), "note": p["note"],
                        "texts": {l: {"title": t["title"], "text": "\n".join(t["body"])} for l, t in p["texts"].items()}}
                       for p in poems]}
     json.dump(data, open(os.path.join(ROOT, "docs", "data", "poems.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print(f"ok: 82 poems x 4 languages + {n_songs} songs ({n_lyrics} with lyrics); wrote content/uk.md ru.md es.md, content/songs.md, docs/data/poems.json")
+    print(f"ok: {N_BEFORE} poems x 4 languages + {n_songs} songs ({n_lyrics} with lyrics); wrote content/uk.md ru.md es.md, content/songs.md, docs/data/poems.json")
 
 if __name__ == "__main__":
     main()

@@ -137,7 +137,8 @@
   function verse(lines, drop) {
     return '<div class="verse">' + stanzasOf(lines).map(function (st, i) {
       var f0 = st[0].trim().charAt(0); var isLetter = f0 && f0.toLowerCase() !== f0.toUpperCase();
-      var cls = "stanza" + (drop && i === 0 && isLetter ? " drop" : "");
+      var shaped = /^\s/.test(st[0]);   /* a first line the author indented or centred keeps its shape — no drop cap */
+      var cls = "stanza" + (drop && i === 0 && isLetter && !shaped ? " drop" : "");
       return '<p class="' + cls + '">' + st.map(function (l) {
         var m = /^\*(.+)\*$/.exec(l.trim());
         return m ? '<span class="note">' + esc(m[1]) + '</span>' : '<span class="l">' + esc(l) + '</span>';
@@ -183,7 +184,10 @@
   function render(page, lang) {
     var D = state.data, ui = D.ui[lang];
     switch (page.t) {
-      case "endpaper": return D.art && D.art.endpaper ? { cls: "endpaper folder", body: '<img src="' + BASE + D.art.endpaper.src + '?v=' + VER + '" alt="">' } : { cls: "endpaper", body: '<img src="' + BASE + 'assets/img/endpaper.jpg" alt="">' };
+      case "endpaper": /* the folder: its emblem and lettering lifted off the photo as a graphite sketch (codex) — the photograph itself is not shown */
+        if (D.art && D.art.endpaper && D.art.endpaper.codex) { var ep = D.art.endpaper, ec = ep.codex, et = (ep.title || {})[lang] || "", en = (ep.note || {})[lang] || "";
+          return { cls: "plate art", body: '<figure class="ms art codex sketch" data-art="endpaper"><div class="ms-sheet"><img class="cx-ink" src="' + BASE + ec.src + '?v=' + VER + '" alt="' + esc(et) + '" width="' + ec.w + '" height="' + ec.h + '" decoding="async"></div><figcaption><span class="c">' + esc(et) + (en ? ' · ' + esc(en) : "") + "</span></figcaption></figure>" }; }
+        return D.art && D.art.endpaper ? { cls: "endpaper folder", body: '<img src="' + BASE + D.art.endpaper.src + '?v=' + VER + '" alt="">' } : { cls: "endpaper", body: '<img src="' + BASE + 'assets/img/endpaper.jpg" alt="">' };
       case "art": return { cls: "plate art", body: artHTML(D.art[page.key], page.key, lang) };
       case "ms": return { cls: "plate", body: msHTML(poem(page.n), lang) };
       case "blank": {
@@ -209,7 +213,7 @@
       case "plate": {
         var p = poem(page.n), mark = p.n === 81 ? ORN.light : p.n === 82 ? ORN.bfly : ORN.staff;
         var note = (p.note || {})[lang] || "", ot = p.texts[p.orig].title, pt = p.texts[lang].title;
-        var sg = p.song ? '<p class="plate-song">' + esc(ui.single) + " · " + esc(p.song.released) + (p.song.explicit ? " · E" : "") + '</p><p class="plate-links"><a href="' + esc(p.song.apple_url) + '" target="_blank" rel="noopener">Apple Music ↗</a> · <a href="' + esc(p.song.spotify) + '" target="_blank" rel="noopener">Spotify ↗</a>' + (p.song.source_poem ? ' · <a href="#" data-n="' + p.song.source_poem + '" class="src-poem">' + esc(ui.from_poem) + " " + (poem(p.song.source_poem).part === "after" ? esc(state.data.parts.after[lang]) + " " : "") + poem(p.song.source_poem).roman + "</a>" : "") + "</p>" : "";
+        var sg = p.song ? '<p class="plate-song">' + (p.song.released ? esc(ui.single) + " · " + esc(p.song.released) : esc(ui.song) + " · " + esc(ui.unreleased)) + (p.song.explicit ? " · E" : "") + '</p><p class="plate-links">' + (p.song.apple_url ? '<a href="' + esc(p.song.apple_url) + '" target="_blank" rel="noopener">Apple Music ↗</a> · <a href="' + esc(p.song.spotify) + '" target="_blank" rel="noopener">Spotify ↗</a>' : "") + (p.song.source_poem ? ' · <a href="#" data-n="' + p.song.source_poem + '" class="src-poem">' + esc(ui.from_poem) + " " + poem(p.song.source_poem).roman + "</a>" : "") + "</p>" : "";
         return { body: '<div class="center plate-page">' + mark + '<p class="plate-num">' + (p.song ? esc(ui.song) + " " : "") + p.roman + '</p><h2 class="plate-title">' + esc(pt) + "</h2>" + sg +
           (lang !== p.orig && ot !== pt ? '<p class="plate-orig">' + esc(ot) + "</p>" : "") +
           (note ? ORN.rule + '<p class="kick plate-kick">' + esc(ui.about_poem) + '</p><p class="plate-tools">' + listenBtn(p.n, lang, "note") + '</p><p class="plate-note">' + em(note) + "</p>" : "") + "</div>" };   /* Listen here reads the headnote */

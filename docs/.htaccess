@@ -10,6 +10,14 @@ RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 RewriteCond %{HTTP_HOST} ^www\.schtereb\.com$ [NC]
 RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 # former poem URLs (content/old-slugs.json; a slug follows the title / first line, so a retranslation can move a page)
+RedirectPermanent /uk/81-yaskrave-svitlo.html https://schtereb.com/uk/s61-bright-light.html
+RedirectPermanent /uk/82-leti-miy-meteliku.html https://schtereb.com/uk/s03-fly-my-butterfly.html
+RedirectPermanent /ru/81-yarkiy-svet.html https://schtereb.com/ru/s61-bright-light.html
+RedirectPermanent /ru/82-leti-moya-babochka.html https://schtereb.com/ru/s03-fly-my-butterfly.html
+RedirectPermanent /en/81-bright-light.html https://schtereb.com/en/s61-bright-light.html
+RedirectPermanent /en/82-fly-my-butterfly.html https://schtereb.com/en/s03-fly-my-butterfly.html
+RedirectPermanent /es/81-luz-brillante.html https://schtereb.com/es/s61-bright-light.html
+RedirectPermanent /es/82-vuela-mi-mariposa.html https://schtereb.com/es/s03-fly-my-butterfly.html
 RedirectPermanent /en/4-i-love-to-live-i-do.html https://schtereb.com/en/4-the-reflection-of-the-sun.html
 RedirectPermanent /en/4-the-image-of-the-sun.html https://schtereb.com/en/4-the-reflection-of-the-sun.html
 RedirectPermanent /en/7-i-love-to-live-i-do.html https://schtereb.com/en/7-perhaps-the-name-of-this-is-love.html

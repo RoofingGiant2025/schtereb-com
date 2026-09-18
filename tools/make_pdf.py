@@ -194,7 +194,7 @@ def build(out_path, texts):
     """texts: dict lang -> list of 80 parsed poems; texts['orig'] = originals (with sections)."""
     originals = texts["orig"]
     for l in LANG_ORDER:
-        assert len(texts[l]) == 82, (l, len(texts[l]))
+        assert len(texts[l]) == 80, (l, len(texts[l]))
     doc = Book(out_path, title="Ноти життя: до і після — Notes of Life: Before and After", author="Oleg Schtereb",
                subject="First collection, four languages: Ukrainian, Russian, English, Spanish")
     st = []
@@ -305,12 +305,12 @@ def build(out_path, texts):
         songs = parse(songs_md)
         if songs:
             st.append(Spacer(1, 2.8 * inch))
-            h = Paragraph("Пісні", S["section"]); h._toc = (1, "Пісні · Songs")
+            h = Paragraph("Після · Пісні", S["section"]); h._toc = (1, "Після · Пісні · After · Songs")
             st.append(h); st.append(Spacer(1, 8))
-            st.append(Paragraph("Песни<br/>Songs<br/>Canciones", S["section_sub"]))
+            st.append(Paragraph("После · Песни<br/>After · Songs<br/>Después · Canciones", S["section_sub"]))
             st.append(Spacer(1, 18))
-            st.append(Paragraph("Шістдесят синглів Dr. O Schtereb (Apple Music, Spotify, 2025–2026). Слова подано мовою запису; де текст розшифровано із запису, це позначено — до вичитки автором. · "
-                                "Sixty singles by Dr. O Schtereb. Words in the language of the recording; where they were transcribed from the audio this is marked — awaiting the author's proofreading.",
+            st.append(Paragraph("Шістдесят синглів Dr. O Schtereb (Apple Music, Spotify, 2025–2026) і одна ще не видана пісня. Слова подано мовою запису; де текст розшифровано із запису, це позначено — до вичитки автором. · "
+                                "Sixty singles by Dr. O Schtereb and one unreleased song. Words in the language of the recording; where they were transcribed from the audio this is marked — awaiting the author's proofreading.",
                                 ParagraphStyle("sn", parent=S["front"], fontSize=9, leading=13)))
             st.append(PageBreak())
             for k, sg in enumerate(songs, start=1):

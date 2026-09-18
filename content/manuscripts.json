@@ -1074,7 +1074,20 @@
      0.99
     ]
    ],
-   "codex": false
+   "codex": {
+    "mode": "ink",
+    "tone": "graphite",
+    "texture": 0,
+    "lo": 0.14,
+    "hi": 0.55,
+    "deblob": true,
+    "box": [
+     0.06,
+     0.12,
+     0.805,
+     0.665
+    ]
+   }
   },
   "part-before": {
    "img": "4768",

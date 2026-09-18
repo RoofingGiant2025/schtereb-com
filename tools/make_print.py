@@ -81,10 +81,10 @@ def main():
     spec = {"pages": n, "trim_in": [6, 9], "spine_in": spine_pb, "paperback": {"spine_in": spine_pb},
             "hardcover": {"binding": "linen wrap + dust jacket", "spine_in": spine_hc, "board_in": [6.25, 9.25],
                           "pod_package_id": "0600X0900.BW.STD.LW.060UC444.M??",   # ?? = linen colour + foil colour codes chosen on Lulu
-                          "jacket": {"sheet_in": [21.0, 9.75], "bleed_in": 0.25, "flap_in": 3.25, "fold_tolerance_in": 0.125,
+                          "jacket": {"sheet_in": [round(2 * 0.25 + 2 * (3.25 + 0.125) + 2 * 6.25 + spine_hc, 3), 9.75], "bleed_in": 0.25, "flap_in": 3.25, "fold_tolerance_in": 0.125,
                                      "flap_live_in": [2.25, 8.25], "cover_live_in": [5.125, 8.25], "safety_in": 0.5,
                                      "barcode_in": [3.625, 1.25]}}}
-    print(f"{out}: {n} pages; paperback spine {spine_pb} in; hardcover spine {spine_hc} in (jacket sheet 21 × 9.75 in)")
+    print(f"{out}: {n} pages; paperback spine {spine_pb} in; hardcover spine {spine_hc} in (jacket sheet {round(2 * 0.25 + 2 * (3.25 + 0.125) + 2 * 6.25 + spine_hc, 3)} × 9.75 in)")
     json.dump(spec, open(os.path.join(M.ROOT, "print", "spec.json"), "w"), indent=1, ensure_ascii=False)
 
 def hardcover_spine(pages):

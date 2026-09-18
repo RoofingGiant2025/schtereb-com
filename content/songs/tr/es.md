@@ -1787,3 +1787,40 @@ Es suficiente, no necesito ser nadie más
 Aquí y ahora, aquí
 Aún respiro, aún me hago
 Esto es mío
+
+## bright-light · Bright Light
+
+A unos les digo «buenos días»,
+mi aliento antes que el sol.
+La sensación, no tan aburrida,
+antes de que empiece el día.
+
+A otros les digo «buenas noches»,
+cuando la luz empieza a apagarse.
+Escuchemos el silencio
+donde se hace la memoria.
+
+A alguien le digo «adiós» —
+sin drama, sin que nadie quede herido.
+Solo una visión en el silencio
+que perdura en mi corazón.
+
+Para unos soy el comienzo.
+Para otros soy el final.
+Una quietud con forma de saber,
+demasiado cercana para comprenderla.
+
+A unos les digo «buenos días».
+A otros les digo «buenas noches».
+A alguien le digo «adiós»,
+y aparezco como una luz brillante.
+
+A alguien le digo las tres —
+buenos días, buenas noches, adiós.
+La sombra del recuerdo,
+la luz que no podemos negar.
+
+Con unos me quedo para siempre.
+A otros nunca llegué.
+Pero algo en ellos cambia,
+aunque nadie recuerde mi nombre.

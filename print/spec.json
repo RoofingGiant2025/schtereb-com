@@ -1,12 +1,12 @@
 {
- "pages": 522,
+ "pages": 506,
  "trim_in": [
   6,
   9
  ],
- "spine_in": 1.2357,
+ "spine_in": 1.1996,
  "paperback": {
-  "spine_in": 1.2357
+  "spine_in": 1.1996
  },
  "hardcover": {
   "binding": "linen wrap + dust jacket",
@@ -18,7 +18,7 @@
   "pod_package_id": "0600X0900.BW.STD.LW.060UC444.M??",
   "jacket": {
    "sheet_in": [
-    21.0,
+    21.188,
     9.75
    ],
    "bleed_in": 0.25,
