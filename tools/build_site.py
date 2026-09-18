@@ -17,7 +17,7 @@ MAX_LINES = 16
 ORDER_URL = ""   # Lulu bookstore URL of the printed edition; empty = "coming soon"
 
 UI = {
- "uk": dict(order="Друкована книжка", order_btn="Замовити книжку", order_soon="Друковане видання готується — незабаром тут з’явиться кнопка замовлення.",
+ "uk": dict(listen="Слухати", stop="Зупинити", order="Друкована книжка", order_btn="Замовити книжку", order_soon="Друковане видання готується — незабаром тут з’явиться кнопка замовлення.",
             order_text="Паперове видання: м’яка обкладинка, 152 × 229 мм (6 × 9″), 422 сторінки, кремовий папір. Усі 82 вірші мовою оригіналу та в перекладах — українською, російською, англійською, іспанською. Друкується на замовлення й надсилається поштою в будь-яку країну.",
             main="Ноти життя", sub="до і після", first="Перша збірка", count="Вірші I–LXXX · Після I–II", open="Відкрити книжку",
             contents="Зміст", close="Закрити", original="Оригінал", translation="Переклад", continued="продовження",
@@ -26,7 +26,7 @@ UI = {
             facing="Оригінал ліворуч, переклад праворуч.",
             note="У частині «До» кожен вірш надруковано спершу мовою оригіналу — українською або російською: правопис, пунктуація й окремі англійські слова лишені так, як написав автор. Українська, російська, англійська та іспанська версії — віршовані переклади 2026 року. Два вірші «Після» написані англійською.",
             colophon="Набрано гарнітурами Cormorant Garamond і Source Serif. Зроблено як книжку для читання, а не сторінку для гортання. Оригінали вперше оприлюднено на shtereb.com (2019). Дім Штереба."),
- "ru": dict(order="Печатная книга", order_btn="Заказать книгу", order_soon="Печатное издание готовится — скоро здесь появится кнопка заказа.",
+ "ru": dict(listen="Слушать", stop="Остановить", order="Печатная книга", order_btn="Заказать книгу", order_soon="Печатное издание готовится — скоро здесь появится кнопка заказа.",
             order_text="Бумажное издание: мягкая обложка, 152 × 229 мм (6 × 9″), 422 страницы, кремовая бумага. Все 82 стихотворения на языке оригинала и в переводах — украинском, русском, английском, испанском. Печатается под заказ и отправляется почтой в любую страну.",
             main="Ноты жизни", sub="до и после", first="Первый сборник", count="Стихи I–LXXX · После I–II", open="Открыть книгу",
             contents="Содержание", close="Закрыть", original="Оригинал", translation="Перевод", continued="продолжение",
@@ -35,7 +35,7 @@ UI = {
             facing="Оригинал слева, перевод справа.",
             note="В части «До» каждое стихотворение напечатано сначала на языке оригинала — украинском или русском: орфография, пунктуация и отдельные английские слова оставлены так, как написал автор. Украинская, русская, английская и испанская версии — стихотворные переводы 2026 года. Два стихотворения «После» написаны по-английски.",
             colophon="Набрано гарнитурами Cormorant Garamond и Source Serif. Сделано как книга для чтения, а не страница для прокрутки. Оригиналы впервые опубликованы на shtereb.com (2019). Дом Штереба."),
- "en": dict(order="The printed book", order_btn="Order the book", order_soon="The printed edition is being prepared — the order button will appear here soon.",
+ "en": dict(listen="Listen", stop="Stop", order="The printed book", order_btn="Order the book", order_soon="The printed edition is being prepared — the order button will appear here soon.",
             order_text="Paperback, 6 × 9 in (152 × 229 mm), 422 pages, cream paper. All 82 poems in their original language and in verse translation — Ukrainian, Russian, English, Spanish. Printed on demand and shipped to any country.",
             main="Notes of Life", sub="Before and After", first="A first collection", count="Poems I–LXXX · After I–II", open="Open the book",
             contents="Contents", close="Close", original="Original", translation="Translation", continued="continued",
@@ -44,7 +44,7 @@ UI = {
             facing="Original on the left, translation on the right.",
             note="In Before, each poem is printed first in its original Ukrainian or Russian — spelling, punctuation and the occasional English word left as the author wrote them. The Ukrainian, Russian, English and Spanish versions are verse translations made in 2026. The two poems of After were written in English.",
             colophon="Set in Cormorant Garamond and Source Serif. Designed as a book to be read, not a page to be scrolled. Originals first published at shtereb.com (2019). The house of Shtereb."),
- "es": dict(order="El libro impreso", order_btn="Pedir el libro", order_soon="La edición impresa se está preparando — pronto aparecerá aquí el botón de pedido.",
+ "es": dict(listen="Escuchar", stop="Detener", order="El libro impreso", order_btn="Pedir el libro", order_soon="La edición impresa se está preparando — pronto aparecerá aquí el botón de pedido.",
             order_text="Tapa blanda, 15,2 × 22,9 cm (6 × 9″), 422 páginas, papel crema. Los 82 poemas en su lengua original y en traducción en verso — ucraniano, ruso, inglés, español. Impreso bajo demanda y enviado a cualquier país.",
             main="Notas de la vida", sub="antes y después", first="Primera colección", count="Poemas I–LXXX · Después I–II", open="Abrir el libro",
             contents="Índice", close="Cerrar", original="Original", translation="Traducción", continued="continúa",
@@ -109,8 +109,10 @@ def verse_html(lines, drop):
             spans.append(f'<span class="note">{esc(m.group(1))}</span>' if m else f'<span class="l">{esc(l)}</span>')
         out.append(f'<p class="{cls}">' + "".join(spans) + "</p>")
     return '<div class="verse">' + "".join(out) + "</div>"
-def poem_block(title, lines, kicker, drop):
-    return '<div class="poem">' + (f'<p class="kick">{esc(kicker)}</p>' if kicker else "") + f"<h2>{esc(title)}</h2>{ORN_RULE}{verse_html(lines, drop)}</div>"
+LISTEN_SVG = '<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M3 7.5v5h3l4 3.5v-12l-4 3.5H3z" fill="currentColor"/><path d="M12.5 6.5a4.5 4.5 0 0 1 0 7M14.5 4a8 8 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>'
+def poem_block(title, lines, kicker, drop, n=None, lang=None, listen=""):
+    btn = f'<button class="listen" type="button" data-n="{n}" data-lang="{lang}" data-listen="{esc(listen)}" data-stop="" aria-label="{esc(listen)}">{LISTEN_SVG}<span>{esc(listen)}</span></button>' if n else ""
+    return '<div class="poem"><div class="poem-head">' + (f'<p class="kick">{esc(kicker)}</p>' if kicker else "<p></p>") + btn + "</div>" + f"<h2>{esc(title)}</h2>{ORN_RULE}{verse_html(lines, drop)}</div>"
 def leaf(body, side, folio, lang, D):
     ui = UI[lang]
     foot = f'<span class="n">{folio}</span><span>{esc(D["author"][lang])}</span>' if side == "left" else f'<span>{esc(ui["main"])}</span><span class="n">{folio}</span>'
@@ -224,11 +226,11 @@ def build():
         for p in poems:
             t = p["texts"][lang]; o = p["texts"][p["orig"]]
             if lang == p["orig"]:
-                left = leaf(poem_block(t["title"], t["chunks"][0], "", True), "left", 1, lang, D)
+                left = leaf(poem_block(t["title"], t["chunks"][0], "", True, p["n"], lang, ui["listen"]), "left", 1, lang, D)
                 right = leaf(poem_block(t["title"], t["chunks"][1], ui["continued"], False), "right", 2, lang, D) if len(t["chunks"]) > 1 else leaf('<div style="height:100%"></div>', "right", 2, lang, D)
             else:
-                left = leaf(poem_block(o["title"], o["chunks"][0], ui["original"], False), "left", 1, lang, D)
-                right = leaf(poem_block(t["title"], t["chunks"][0], ui["translation"], True), "right", 2, lang, D)
+                left = leaf(poem_block(o["title"], o["chunks"][0], ui["original"], False, p["n"], p["orig"], UI[p["orig"]]["listen"]), "left", 1, lang, D)
+                right = leaf(poem_block(t["title"], t["chunks"][0], ui["translation"], True, p["n"], lang, ui["listen"]), "right", 2, lang, D)
             ptitle = t["title"] if t["title"] != "* * *" else "* * * " + next(x for x in t["chunks"][0] if x.strip()).strip()
             first_lines = " / ".join(x.strip() for x in t["chunks"][0] if x.strip())[:150]
             alts = {l: p["slug"][l] + ".html" for l in LANGS}

@@ -198,3 +198,13 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;font-weight:500}
 .order-back{margin-top:2rem;font-family:var(--display);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
 .order-back a{color:var(--fg-muted)}.order-back a:hover{color:var(--gilt)}
 @media(max-width:480px){.order-link{display:none}}
+
+/* listen */
+.poem-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;min-height:1.6rem}
+.poem-head p{margin:0}
+.listen{position:relative;z-index:25;display:inline-flex;align-items:center;gap:.4rem;padding:.25rem .6rem;border:1px solid var(--rule);border-radius:999px;
+  font-family:var(--display);font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);background:transparent;transition:color var(--quick),border-color var(--quick),background-color var(--quick)}
+.listen:hover{color:var(--oxblood);border-color:var(--oxblood)}
+.listen.playing{background:var(--oxblood);border-color:var(--oxblood);color:var(--paper)}
+.listen.playing svg{animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}

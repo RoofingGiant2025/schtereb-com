@@ -42,3 +42,7 @@ Keys ← → (and swipe) move between poems; the language pills keep the poem; "
 - `python3 tools/make_cover.py` → `print/cover-6x9-paperback.pdf` (bleed + back + spine + front + bleed; barcode area bottom-right of the back left clear for Lulu's ISBN barcode).
 - Rebuild the interior first whenever the text changes; the cover reads the page count from `spec.json`.
 - Site: `ORDER_URL` in `tools/build_site.py` = the Lulu bookstore link; while empty, `/<lang>/order.html` shows "coming soon".
+
+## Audio (listen button)
+- `python3 tools/make_audio.py [lang ...]` records every poem with macOS voices (Lesya uk, Milena ru, Samantha en, Mónica es) into `docs/audio/<lang>/<n>.m4a` and writes `docs/audio/manifest.json`. Files whose text is unchanged are skipped (`.sha` sidecars). Re-run after editing poems.
+- The page plays the file when the manifest lists it; otherwise it falls back to the browser's own speech synthesis in the poem's language.

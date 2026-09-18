@@ -74,8 +74,7 @@
     c = c || 0;
     for (var i = 0; i < pages.length; i++) {
       var p = pages[i];
-      if (p.n === n && (p.t === "orig" || p.t === "poem") && p.c === c) return i;
-      if (p.n === n && p.t === "plate" && c === 0) return i;
+      if (p.n === n && (p.t === "orig" || p.t === "poem") && p.c === c) return i;   // the text itself, never the plate
     }
     return 0;
   }
@@ -95,8 +94,11 @@
       }).join("") + "</p>";
     }).join("") + "</div>";
   }
-  function poemBlock(title, lines, kicker, drop, cont) {
-    return '<div class="poem">' + (kicker ? '<p class="kick">' + esc(kicker) + '</p>' : "") +
+  var LISTEN_SVG = '<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true"><path d="M3 7.5v5h3l4 3.5v-12l-4 3.5H3z" fill="currentColor"/><path d="M12.5 6.5a4.5 4.5 0 0 1 0 7M14.5 4a8 8 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>';
+  function poemBlock(title, lines, kicker, drop, cont, n, lang) {
+    var ui = state.data.ui[lang || state.lang];
+    var btn = (n && !cont) ? '<button class="listen" type="button" data-n="' + n + '" data-lang="' + lang + '" aria-label="' + esc(ui.listen) + '">' + LISTEN_SVG + "<span>" + esc(ui.listen) + "</span></button>" : "";
+    return '<div class="poem"><div class="poem-head">' + (kicker ? '<p class="kick">' + esc(kicker) + '</p>' : "<p></p>") + btn + "</div>" +
       '<h2 class="' + (cont ? "cont" : "") + '">' + esc(title) + "</h2>" + ORN.rule + verse(lines, drop) + "</div>";
   }
   function sectionName(id, lang) {
@@ -143,11 +145,11 @@
       }
       case "orig": {
         var po = poem(page.n), to = po.texts[po.orig];
-        return { body: poemBlock(to.title, to.chunks[page.c], page.c === 0 ? ui.original : ui.continued, false, page.c > 0) };
+        return { body: poemBlock(to.title, to.chunks[page.c], page.c === 0 ? ui.original : ui.continued, false, page.c > 0, po.n, po.orig) };
       }
       case "poem": {
         var pp = poem(page.n), tp = pp.texts[lang], isO = lang === pp.orig;
-        return { body: poemBlock(tp.title, tp.chunks[page.c], isO ? (page.c > 0 ? ui.continued : "") : (page.c === 0 ? ui.translation : ui.continued), page.c === 0, page.c > 0) };
+        return { body: poemBlock(tp.title, tp.chunks[page.c], isO ? (page.c > 0 ? ui.continued : "") : (page.c === 0 ? ui.translation : ui.continued), page.c === 0, page.c > 0, pp.n, lang) };
       }
       case "colophon": return { body: '<div class="center">' + ORN.rule + '<p class="colo">' + esc(ui.colophon) + '</p><p class="colo-house">' + esc(ui.house) + " · " + esc(ui.published) + "</p>" + ORN.rule + "</div>" };
     }
@@ -196,6 +198,7 @@
   }
   function turn(dir, n) {
     if (!state.open) return;
+    stopAll();
     var target = dir > 0 ? Math.min(state.pages.length - 1, state.page + n) : Math.max(0, state.page - n);
     if (target === state.page) return;
     state.page = target;
@@ -203,7 +206,7 @@
     clearTimeout(turn.timer);
     turn.timer = setTimeout(function () { el.book.classList.remove("turning"); el.book.dataset.dir = "none"; draw(); }, 170);
   }
-  function goToPoem(n, c) { state.page = firstPageOf(state.pages, n, c || 0); state.open = true; draw(); }
+  function goToPoem(n, c) { stopAll(); state.page = firstPageOf(state.pages, n, c || 0); state.open = true; draw(); }
   function setLang(lang) {
     if (lang === state.lang) return;
     var cp = currentPoem(), oldPage = state.page;
@@ -220,6 +223,51 @@
       contentsList(D, state.lang, contentsEntries(D), function (p) { return poemHref(p, state.lang); });
   }
   function showSheet(on) { el.overlay.hidden = !on; if (on) { var c = el.sheet.querySelector(".close"); if (c) c.focus(); } }
+
+  /* ---------- listening: recorded file first, device speech as fallback ---------- */
+  var player = { audio: null, btn: null, manifest: null, utter: null };
+  var SPEECH_LANG = { uk: "uk-UA", ru: "ru-RU", en: "en-US", es: "es-ES" };
+  function setBtn(btn, playing) {
+    if (!btn) return;
+    var ui = state.data.ui[btn.dataset.lang] || state.data.ui[state.lang];
+    btn.classList.toggle("playing", playing);
+    btn.querySelector("span").textContent = playing ? ui.stop : ui.listen;
+  }
+  function stopAll() {
+    if (player.audio) { player.audio.pause(); player.audio = null; }
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    setBtn(player.btn, false); player.btn = null;
+  }
+  function speakable(p, lang) {
+    var t = p.texts[lang], parts = [];
+    if (t.title !== "* * *") parts.push(t.title);
+    t.chunks.forEach(function (c) { c.forEach(function (l) { if (l.trim() && !/^\*.+\*$/.test(l.trim())) parts.push(l.trim()); else if (!l.trim()) parts.push(""); }); });
+    return parts;
+  }
+  function speakFallback(p, lang, btn) {
+    if (!window.speechSynthesis) return;
+    var voices = speechSynthesis.getVoices(), want = SPEECH_LANG[lang], pick = null;
+    voices.forEach(function (v) { if (v.lang.replace("_", "-").toLowerCase().indexOf(want.slice(0, 2)) === 0 && (!pick || /premium|enhanced|natural/i.test(v.name))) pick = v; });
+    var lines = speakable(p, lang), text = lines.map(function (l) { return l === "" ? "\n" : l; }).join(",\n");
+    var u = new SpeechSynthesisUtterance(text); u.lang = want; u.rate = 0.88; if (pick) u.voice = pick;
+    u.onend = u.onerror = function () { if (player.btn === btn) setBtn(btn, false), player.btn = null; };
+    player.utter = u; speechSynthesis.speak(u);
+  }
+  function listen(btn) {
+    var n = +btn.dataset.n, lang = btn.dataset.lang, p = poem(n);
+    if (player.btn === btn) { stopAll(); return; }
+    stopAll(); player.btn = btn; setBtn(btn, true);
+    var has = player.manifest && player.manifest[lang] && player.manifest[lang][String(n)];
+    if (has) {
+      var a = new Audio(BASE + "audio/" + lang + "/" + n + ".m4a"); player.audio = a;
+      a.onended = function () { if (player.audio === a) { setBtn(btn, false); player.btn = null; player.audio = null; } };
+      a.onerror = function () { if (player.audio === a) { player.audio = null; speakFallback(p, lang, btn); } };
+      a.play().catch(function () { player.audio = null; speakFallback(p, lang, btn); });
+    } else speakFallback(p, lang, btn);
+  }
+  fetch(BASE + "audio/manifest.json").then(function (r) { return r.ok ? r.json() : {}; }).then(function (m) { player.manifest = m; }).catch(function () { player.manifest = {}; });
+  if (window.speechSynthesis) speechSynthesis.getVoices();
+  document.addEventListener("click", function (e) { var b = e.target.closest("button.listen"); if (b && state.data) { e.preventDefault(); listen(b); } });
 
   /* ---------- wiring ---------- */
   function init(D) {
