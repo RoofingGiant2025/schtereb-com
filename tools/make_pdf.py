@@ -156,6 +156,8 @@ class Book(BaseDocTemplate):
             level, text = fl._toc
             self.notify("TOCEntry", (level, text, self.page))
 
+from reportlab.pdfgen.canvas import Canvas
+CANVAS_MAKER = Canvas
 LANG_ORDER = ["uk", "ru", "en", "es"]
 TITLE = {"uk": "Ноти життя: до і після", "ru": "Ноты жизни: до и после",
          "en": "Notes of Life: Before and After", "es": "Notas de la vida: antes y después"}
@@ -264,7 +266,7 @@ def build(out_path, texts):
                  "Переклади українською, російською, англійською та іспанською — 2026.",
                  "Set in Georgia · 6 × 9 in"]:
         st.append(Paragraph(line, S["colophon"]))
-    doc.multiBuild(st)
+    doc.multiBuild(st, canvasmaker=CANVAS_MAKER)
 
 if __name__ == "__main__":
     texts = {"orig": parse(os.path.join(ROOT, "content", "originals.md"))}

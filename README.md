@@ -36,3 +36,9 @@ then turn on **Force HTTPS** in hPanel, or add the redirect to the `.htaccess` b
 ## Site URLs
 `/` epigraph + language choice · `/<lang>/` title + contents · `/<lang>/<n>-<slug>.html` one poem.
 Keys ← → (and swipe) move between poems; the language pills keep the poem; "Beside the original" shows the original next to a translation.
+
+## Printed edition (print-on-demand)
+- `python3 tools/make_print.py` → `print/interior-6x9.pdf` (US Trade 6×9, mirrored margins, even page count, all fonts embedded) + `print/spec.json` (page count, Lulu spine width = pages/444 + 0.06 in).
+- `python3 tools/make_cover.py` → `print/cover-6x9-paperback.pdf` (bleed + back + spine + front + bleed; barcode area bottom-right of the back left clear for Lulu's ISBN barcode).
+- Rebuild the interior first whenever the text changes; the cover reads the page count from `spec.json`.
+- Site: `ORDER_URL` in `tools/build_site.py` = the Lulu bookstore link; while empty, `/<lang>/order.html` shows "coming soon".

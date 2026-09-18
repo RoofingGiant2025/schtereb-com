@@ -14,30 +14,39 @@ LANGS = ["uk", "ru", "en", "es"]
 LSHORT = {"uk": "УК", "ru": "РУ", "en": "EN", "es": "ES"}
 LNAME = {"uk": "Українська", "ru": "Русский", "en": "English", "es": "Español"}
 MAX_LINES = 16
+ORDER_URL = ""   # Lulu bookstore URL of the printed edition; empty = "coming soon"
 
 UI = {
- "uk": dict(main="Ноти життя", sub="до і після", first="Перша збірка", count="Вірші I–LXXX · Після I–II", open="Відкрити книжку",
+ "uk": dict(order="Друкована книжка", order_btn="Замовити книжку", order_soon="Друковане видання готується — незабаром тут з’явиться кнопка замовлення.",
+            order_text="Паперове видання: м’яка обкладинка, 152 × 229 мм (6 × 9″), 422 сторінки, кремовий папір. Усі 82 вірші мовою оригіналу та в перекладах — українською, російською, англійською, іспанською. Друкується на замовлення й надсилається поштою в будь-яку країну.",
+            main="Ноти життя", sub="до і після", first="Перша збірка", count="Вірші I–LXXX · Після I–II", open="Відкрити книжку",
             contents="Зміст", close="Закрити", original="Оригінал", translation="Переклад", continued="продовження",
             edition="Перше видання", house="Штереб", rights="Усі права застережено.", published="Видано на schtereb.com",
             epigraph="Мистецтво не знає мов", dedication="Тим, хто живе мрією", epigraph_short="Епіграф", titlepage="Титул", colophon_short="Колофон",
             facing="Оригінал ліворуч, переклад праворуч.",
             note="У частині «До» кожен вірш надруковано спершу мовою оригіналу — українською або російською: правопис, пунктуація й окремі англійські слова лишені так, як написав автор. Українська, російська, англійська та іспанська версії — віршовані переклади 2026 року. Два вірші «Після» написані англійською.",
             colophon="Набрано гарнітурами Cormorant Garamond і Source Serif. Зроблено як книжку для читання, а не сторінку для гортання. Оригінали вперше оприлюднено на shtereb.com (2019). Дім Штереба."),
- "ru": dict(main="Ноты жизни", sub="до и после", first="Первый сборник", count="Стихи I–LXXX · После I–II", open="Открыть книгу",
+ "ru": dict(order="Печатная книга", order_btn="Заказать книгу", order_soon="Печатное издание готовится — скоро здесь появится кнопка заказа.",
+            order_text="Бумажное издание: мягкая обложка, 152 × 229 мм (6 × 9″), 422 страницы, кремовая бумага. Все 82 стихотворения на языке оригинала и в переводах — украинском, русском, английском, испанском. Печатается под заказ и отправляется почтой в любую страну.",
+            main="Ноты жизни", sub="до и после", first="Первый сборник", count="Стихи I–LXXX · После I–II", open="Открыть книгу",
             contents="Содержание", close="Закрыть", original="Оригинал", translation="Перевод", continued="продолжение",
             edition="Первое издание", house="Штереб", rights="Все права защищены.", published="Издано на schtereb.com",
             epigraph="Искусство не знает языков", dedication="Тем, кто живёт мечтой", epigraph_short="Эпиграф", titlepage="Титул", colophon_short="Колофон",
             facing="Оригинал слева, перевод справа.",
             note="В части «До» каждое стихотворение напечатано сначала на языке оригинала — украинском или русском: орфография, пунктуация и отдельные английские слова оставлены так, как написал автор. Украинская, русская, английская и испанская версии — стихотворные переводы 2026 года. Два стихотворения «После» написаны по-английски.",
             colophon="Набрано гарнитурами Cormorant Garamond и Source Serif. Сделано как книга для чтения, а не страница для прокрутки. Оригиналы впервые опубликованы на shtereb.com (2019). Дом Штереба."),
- "en": dict(main="Notes of Life", sub="Before and After", first="A first collection", count="Poems I–LXXX · After I–II", open="Open the book",
+ "en": dict(order="The printed book", order_btn="Order the book", order_soon="The printed edition is being prepared — the order button will appear here soon.",
+            order_text="Paperback, 6 × 9 in (152 × 229 mm), 422 pages, cream paper. All 82 poems in their original language and in verse translation — Ukrainian, Russian, English, Spanish. Printed on demand and shipped to any country.",
+            main="Notes of Life", sub="Before and After", first="A first collection", count="Poems I–LXXX · After I–II", open="Open the book",
             contents="Contents", close="Close", original="Original", translation="Translation", continued="continued",
             edition="First edition", house="Shtereb", rights="All rights reserved.", published="Published at schtereb.com",
             epigraph="Art Knows No Languages", dedication="To Those Who Are Living the Dream", epigraph_short="Epigraph", titlepage="Title page", colophon_short="Colophon",
             facing="Original on the left, translation on the right.",
             note="In Before, each poem is printed first in its original Ukrainian or Russian — spelling, punctuation and the occasional English word left as the author wrote them. The Ukrainian, Russian, English and Spanish versions are verse translations made in 2026. The two poems of After were written in English.",
             colophon="Set in Cormorant Garamond and Source Serif. Designed as a book to be read, not a page to be scrolled. Originals first published at shtereb.com (2019). The house of Shtereb."),
- "es": dict(main="Notas de la vida", sub="antes y después", first="Primera colección", count="Poemas I–LXXX · Después I–II", open="Abrir el libro",
+ "es": dict(order="El libro impreso", order_btn="Pedir el libro", order_soon="La edición impresa se está preparando — pronto aparecerá aquí el botón de pedido.",
+            order_text="Tapa blanda, 15,2 × 22,9 cm (6 × 9″), 422 páginas, papel crema. Los 82 poemas en su lengua original y en traducción en verso — ucraniano, ruso, inglés, español. Impreso bajo demanda y enviado a cualquier país.",
+            main="Notas de la vida", sub="antes y después", first="Primera colección", count="Poemas I–LXXX · Después I–II", open="Abrir el libro",
             contents="Índice", close="Cerrar", original="Original", translation="Traducción", continued="continúa",
             edition="Primera edición", house="Shtereb", rights="Todos los derechos reservados.", published="Publicado en schtereb.com",
             epigraph="El arte no conoce idiomas", dedication="A quienes viven el sueño", epigraph_short="Epígrafe", titlepage="Portada", colophon_short="Colofón",
@@ -130,7 +139,7 @@ def shell(D, lang, *, open_, left, right, title, desc, n=None, canonical="", alt
 <main class="room" id="book-root" data-lang="{lang}" data-open="{"1" if open_ else "0"}" data-base="/" data-v="{ver}"{f' data-n="{n}"' if n else ""}>
   <header class="chrome">
     <a class="wordmark" href="/">Штереб</a>
-    <nav class="langs" id="langs" aria-label="Language">{langs}</nav>
+    <div class="chrome-right"><a class="order-link" href="/{lang}/order.html">{esc(ui["order"])}</a><nav class="langs" id="langs" aria-label="Language">{langs}</nav></div>
   </header>
   <div class="stage-wrap">
     <div class="stage {"open" if open_ else "closed"}" id="stage">
@@ -226,6 +235,25 @@ def build():
             write(os.path.join(SITE, lang, p["slug"][lang] + ".html"), shell(D, lang, open_=True, left=left, right=right, n=p["n"],
                   title=f'{ptitle} — {D["title"][lang]} — {D["author"][lang]}', desc=first_lines + " …", canonical=f'/{lang}/{p["slug"][lang]}.html', alternates=alts))
             urls.append(f'https://schtereb.com/{lang}/{p["slug"][lang]}.html')
+    for lang in LANGS:
+        ui = UI[lang]
+        btn = f'<a class="btn-order" href="{ORDER_URL}" rel="noopener">{esc(ui["order_btn"])} →</a>' if ORDER_URL else f'<p class="soon">{esc(ui["order_soon"])}</p>'
+        body = f'''<main class="room order-room"><header class="chrome"><a class="wordmark" href="/">Штереб</a><nav class="langs" aria-label="Language">{"".join(f'<a href="/{l}/order.html" class="{"on" if l == lang else ""}" hreflang="{l}">{LSHORT[l]}</a>' for l in LANGS)}</nav></header>
+<section class="order">
+  <img class="order-cover" src="/assets/img/cover.jpg" alt="" width="480" height="720">
+  <div class="order-text">
+    <p class="kick" style="color:var(--fg-muted)">{esc(ui["first"])}</p>
+    <h1>{esc(D["title"][lang])}</h1>
+    <p class="order-author">{esc(D["author"][lang])}</p>
+    <p class="order-desc">{esc(ui["order_text"])}</p>
+    {btn}
+    <p class="order-back"><a href="/{lang}/">← {esc(ui["main"])}</a></p>
+  </div>
+</section></main>'''
+        html_ = shell(D, lang, open_=False, left="", right="", title=f'{ui["order"]} — {D["title"][lang]}', desc=ui["order_text"], canonical=f"/{lang}/order.html", alternates={l: "order.html" for l in LANGS})
+        html_ = html_[:html_.index('<main class="room"')] + body + '\n</body>\n</html>\n'
+        write(os.path.join(SITE, lang, "order.html"), html_)
+        urls.append(f"https://schtereb.com/{lang}/order.html")
     write(os.path.join(SITE, "sitemap.xml"), '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     write(os.path.join(SITE, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://schtereb.com/sitemap.xml\n")
     write(os.path.join(SITE, ".htaccess"), """AddDefaultCharset UTF-8
@@ -248,7 +276,7 @@ RewriteRule ^(.*)$ https://schtereb.com/$1 [R=301,L]
 </IfModule>
 """)
     for lang in LANGS:  # drop stale v1 pages
-        keep = {p["slug"][lang] + ".html" for p in poems} | {"index.html"}
+        keep = {p["slug"][lang] + ".html" for p in poems} | {"index.html", "order.html"}
         d = os.path.join(SITE, lang)
         for f in os.listdir(d):
             if f not in keep: os.remove(os.path.join(d, f))
