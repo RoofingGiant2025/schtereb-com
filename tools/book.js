@@ -340,10 +340,11 @@
     el.sheet.dataset.mode = "note";
   }
 
-  /* ---------- closed book: 3-D pose. Follows a fine pointer (walk around the book); otherwise a slow sway ---------- */
+  /* ---------- closed book: 3-D pose. Mouse follows the pointer; touch/pen can drag the book; idle devices get a slow sway. ---------- */
   var tilt = (function () {
     var tome = el.cover, REST = { ry: -26, rx: 7 }, cur = { ry: REST.ry, rx: REST.rx }, tgt = { ry: REST.ry, rx: REST.rx };
     var mx = 50, my = 32, raf = 0, ptr = false, ptrT = 0, t0 = 0, last = 0;
+    var drag = { active: false, id: null, sx: 0, sy: 0, moved: false }, suppressClickUntil = 0;
     var reduce = window.matchMedia("(prefers-reduced-motion: reduce)"), fine = window.matchMedia("(hover: hover) and (pointer: fine)");
     function set() {
       tome.style.setProperty("--ry", cur.ry.toFixed(2) + "deg"); tome.style.setProperty("--rx", cur.rx.toFixed(2) + "deg");
@@ -362,14 +363,40 @@
       cur.ry += (tgt.ry - cur.ry) * k; cur.rx += (tgt.rx - cur.rx) * k;
       set(); raf = requestAnimationFrame(frame);
     }
-    function move(e) {
-      if (!raf || !fine.matches) return;
+    function aim(clientX, clientY) {
       var r = el.stage.getBoundingClientRect();
-      var nx = (e.clientX - (r.left + r.width / 2)) / (r.width * .9), ny = (e.clientY - (r.top + r.height / 2)) / (r.height * .8);
+      var nx = (clientX - (r.left + r.width / 2)) / (r.width * .9), ny = (clientY - (r.top + r.height / 2)) / (r.height * .8);
       nx = Math.max(-1, Math.min(1, nx)); ny = Math.max(-1, Math.min(1, ny));
-      tgt.ry = REST.ry + (nx < 0 ? -nx * 60 : -nx * 16);   /* pointer left: turn to show the spine; right: more of the fore-edge */
+      tgt.ry = REST.ry + (nx < 0 ? -nx * 60 : -nx * 16);   /* left: expose the spine; right: expose the fore-edge */
       tgt.rx = REST.rx - ny * 8;
       mx = 50 + nx * 40; my = 35 + ny * 30; ptr = true; ptrT = performance.now();
+    }
+    function move(e) {
+      if (!raf || !fine.matches || drag.active) return;
+      aim(e.clientX, e.clientY);
+    }
+    function dragStart(e) {
+      if (!raf || state.open || e.pointerType === "mouse") return;
+      drag.active = true; drag.id = e.pointerId; drag.sx = e.clientX; drag.sy = e.clientY; drag.moved = false;
+      ptr = true; ptrT = performance.now();
+      try { tome.setPointerCapture(e.pointerId); } catch (_) {}
+      aim(e.clientX, e.clientY);
+    }
+    function dragMove(e) {
+      if (!drag.active || e.pointerId !== drag.id) return;
+      if (Math.hypot(e.clientX - drag.sx, e.clientY - drag.sy) > 8) drag.moved = true;
+      aim(e.clientX, e.clientY);
+      if (e.cancelable) e.preventDefault();
+    }
+    function dragEnd(e) {
+      if (!drag.active || e.pointerId !== drag.id) return;
+      if (drag.moved) suppressClickUntil = performance.now() + 500;
+      try { tome.releasePointerCapture(e.pointerId); } catch (_) {}
+      drag.active = false; drag.id = null; ptr = false; ptrT = performance.now();
+    }
+    function consumeClick() {
+      if (performance.now() < suppressClickUntil) { suppressClickUntil = 0; return true; }
+      return false;
     }
     function start() { if (!tome || state.open || reduce.matches || raf) return; t0 = 0; last = 0; raf = requestAnimationFrame(frame); }
     function stop(open) {
@@ -377,9 +404,13 @@
       if (open && tome) { tome.style.setProperty("--ry", "0deg"); tome.style.setProperty("--rx", "0deg"); }
     }
     document.addEventListener("pointermove", move, { passive: true });
+    tome.addEventListener("pointerdown", dragStart, { passive: true });
+    tome.addEventListener("pointermove", dragMove, { passive: false });
+    tome.addEventListener("pointerup", dragEnd, { passive: true });
+    tome.addEventListener("pointercancel", dragEnd, { passive: true });
     document.addEventListener("mouseleave", function () { ptr = false; });
     document.addEventListener("visibilitychange", function () { if (document.hidden) stop(false); else start(); });
-    return { start: start, stop: stop };
+    return { start: start, stop: stop, consumeClick: consumeClick };
   })();
 
   /* ---------- lightbox: the sheet at full size; tap to zoom in on that spot, ←/→ between pages ---------- */
@@ -483,7 +514,7 @@
     else if (state.open) state.page = 0;
     buildSheet(); draw();
 
-    el.coverBtn.addEventListener("click", openBook);
+    el.coverBtn.addEventListener("click", function (e) { if (tilt.consumeClick()) { e.preventDefault(); return; } openBook(); });
     if (el.cta) el.cta.addEventListener("click", openBook);
     el.prevL.addEventListener("click", function () { turn(-1, step()); });
     el.prevR.addEventListener("click", function () { turn(-1, step()); });

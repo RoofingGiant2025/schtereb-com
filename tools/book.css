@@ -44,6 +44,7 @@ h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;font-weight:500}
 .stage-wrap{--th:min(68dvh,700px);--tw:min(26rem,86vw,calc(var(--th)*2/3))}
 .stage{position:relative;margin:0 auto;perspective:2200px;transition:width var(--emph) var(--ease),height var(--emph) var(--ease),perspective var(--emph) var(--ease)}
 .stage.closed{height:var(--th);width:var(--tw);perspective:1300px}
+.stage.closed .tome{touch-action:none;-webkit-user-select:none;user-select:none}
 .stage.open{width:min(68.75rem,calc(100vw - 2rem));height:min(76vh,760px)}
 @media(max-width:767px){.stage.open{width:min(26.5rem,92vw);height:min(74dvh,700px)}}
 .book{position:relative;height:100%;width:100%;overflow:hidden;border-radius:4px;background:var(--cloth);

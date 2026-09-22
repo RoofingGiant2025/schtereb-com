@@ -367,9 +367,9 @@ def build():
         os.makedirs(os.path.dirname(path), exist_ok=True)
         open(path, "w", encoding="utf-8").write(s)
 
-    # root: closed book
-    write(os.path.join(SITE, "index.html"), shell(D, "uk", open_=False, left="", right="",
-          title="Олег Штереб — Ноти життя: до і після", desc="Oleg Schtereb — Notes of Life: Before and After. A first collection of poems in Ukrainian, Russian, English and Spanish, read as a book.",
+    # root: closed book — English is the default first experience; the language switch remains available.
+    write(os.path.join(SITE, "index.html"), shell(D, "en", open_=False, left="", right="",
+          title="Oleg Schtereb — Notes of Life: Before and After", desc="Oleg Schtereb — Notes of Life: Before and After. A first collection of poems in Ukrainian, Russian, English and Spanish, read as a book.",
           canonical="/", alternates={l: "" for l in LANGS}))
     urls = ["https://schtereb.com/"]
     for lang in LANGS:
